@@ -1,7 +1,7 @@
 # 个人网站
 
-基于 Astro 和 Cloudflare Pages Functions 的个人网站，用于展示项目、同步 GitHub 笔记和阅读每周内容。笔记内容来自 [`Sunzmo/ai-pm-wiki`](https://github.com/Sunzmo/ai-pm-wiki)。
-访问网址为：https://www.ltyqaon.com/
+基于 Astro 和 Cloudflare Workers 的个人网站，用于展示项目、同步 GitHub 笔记和阅读每周内容。笔记内容来自 [`Sunzmo/ai-pm-wiki`](https://github.com/Sunzmo/ai-pm-wiki)。
+访问网址为：https://mywebsite.858795682.workers.dev/
 
 ## 技术栈
 
@@ -24,9 +24,10 @@ npm run dev
 ```bash
 npm run check
 npm run build
+npm run cf:dev
 ```
 
-`npm run check` 执行 Astro 类型检查；`npm run build` 优化图片并生成静态站点到 `dist`。
+`npm run check` 执行 Astro 类型检查；`npm run build` 优化图片并生成静态站点到 `dist`；`npm run cf:dev` 在本地同时预览静态资源和 Worker API。
 
 ## 环境变量
 
@@ -35,9 +36,8 @@ npm run build
 - `DEEPSEEK_MODEL`：可选，网站聊天默认使用 `deepseek-v4-flash`。
 - `DEEPSEEK_BASE_URL`：可选，默认使用 `https://api.deepseek.com`。
 - `AI_SYSTEM_PROMPT`：可选，公开聊天页固定追加的系统上下文。
-- `SITE_URL`：可选，站点正式地址；默认使用 `https://mywebsite.pages.dev`。
-- `CLOUDFLARE_ACCOUNT_ID`：GitHub Actions 部署使用。
-- `CLOUDFLARE_API_TOKEN`：GitHub Actions 部署使用。
+- `SITE_URL`：可选，站点正式地址；默认使用 `https://mywebsite.858795682.workers.dev`。
+- Cloudflare Worker 通过 Git 集成自动部署，构建命令为 `npm run build`，部署命令为 `npx wrangler deploy`。
 
 本地变量应放在 `.env` 中，不要提交到 Git。
 
