@@ -88,7 +88,12 @@ function normalizeVisitorName(input: unknown) {
 }
 
 function checkRateLimit(request: Request) {
-  const ip = request.headers.get("CF-Connecting-IP") || "unknown";
+  const forwardedIp = request.headers.get("x-forwarded-for")?.split(",", 1)[0]?.trim();
+  const ip =
+    request.headers.get("CF-Connecting-IP") ||
+    forwardedIp ||
+    request.headers.get("x-real-ip") ||
+    "unknown";
   const now = Date.now();
   const current = rateLimit.get(ip);
 
