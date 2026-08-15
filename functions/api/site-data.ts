@@ -1,7 +1,8 @@
-const siteOwner = "ltyqa";
+const siteOwner = "Sunzmo";
 const notesOwner = "Sunzmo";
 const notesRepo = "ai-pm-wiki";
 const siteRepo = "MyWebsite";
+const projectRepos = new Set([siteRepo, notesRepo]);
 const apiBase = "https://api.github.com";
 const rawBase = "https://raw.githubusercontent.com";
 const ignoredNotePaths = new Set(["index.md", "log.md"]);
@@ -225,8 +226,9 @@ function repoStatus(repo: GitHubRepo) {
 }
 
 function repoDescription(repo: GitHubRepo) {
-  if (repo.description) return repo.description;
   if (repo.name === siteRepo) return "个人网站源码仓库，记录页面设计、内容同步和持续迭代";
+  if (repo.name === notesRepo) return "我的 Obsidian 笔记仓库，整理 AI 产品课程、实践记录和工具方法";
+  if (repo.description) return repo.description;
   return "公开项目仓库，保留代码、说明和持续更新的记录";
 }
 
@@ -278,14 +280,20 @@ async function loadProjects(env: Env) {
   );
 
   return repos
-    .filter((repo) => !repo.fork && repo.name !== notesRepo)
+    .filter((repo) => !repo.fork && projectRepos.has(repo.name))
     .map((repo) => ({
-      name: repo.name,
+      name: repo.name === notesRepo ? "我的笔记" : repo.name,
       description: repoDescription(repo),
-      stack: [repo.language || "Repository", ...(repo.topics || []).slice(0, 2)],
-      meta: `${repo.language || "GitHub"} / ${repo.stargazers_count} 个标星 / ${formatDate(repo.pushed_at)}`,
+      stack:
+        repo.name === notesRepo
+          ? ["Obsidian", "Markdown", "GitHub"]
+          : [repo.language || "Repository", ...(repo.topics || []).slice(0, 2)],
+      meta:
+        repo.name === notesRepo
+          ? `Obsidian / 我的笔记 / ${formatDate(repo.pushed_at)}`
+          : `${repo.language || "GitHub"} / ${repo.stargazers_count} 个标星 / ${formatDate(repo.pushed_at)}`,
       status: repoStatus(repo),
-      link: repo.html_url,
+      link: `https://github.com/${siteOwner}/${repo.name}`,
       homepage: repo.homepage,
       updatedAt: repo.pushed_at,
     }))

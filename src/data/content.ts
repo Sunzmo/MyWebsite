@@ -5,7 +5,16 @@ export const projects = [
     stack: ["Astro", "GitHub Actions", "Markdown"],
     meta: "Astro / 个人网站 / 自动同步",
     status: "维护中",
-    link: "https://github.com/ltyqa/MyWebsite",
+    link: "https://github.com/Sunzmo/MyWebsite",
+    homepage: null,
+  },
+  {
+    name: "我的笔记",
+    description: "我的 Obsidian 笔记仓库，整理 AI 产品课程、实践记录和工具方法",
+    stack: ["Obsidian", "Markdown", "GitHub"],
+    meta: "Obsidian / 我的笔记 / 自动同步",
+    status: "维护中",
+    link: "https://github.com/Sunzmo/ai-pm-wiki",
     homepage: null,
   },
 ];
