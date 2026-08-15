@@ -1,7 +1,7 @@
 import {
   onRequestGet,
   onRequestPost,
-} from "../functions/api/openclaw-chat";
+} from "../functions/api/openclaw-chat.js";
 
 export const maxDuration = 60;
 

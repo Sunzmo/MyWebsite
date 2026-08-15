@@ -1,4 +1,4 @@
-import { onRequestGet } from "../functions/api/site-data";
+import { onRequestGet } from "../functions/api/site-data.js";
 
 export const maxDuration = 60;
 
