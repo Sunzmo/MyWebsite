@@ -1,0 +1,74 @@
+---
+import "../styles/global.css";
+import DashboardSidebar from "../components/DashboardSidebar.astro";
+import PageTransitions from "../components/PageTransitions.astro";
+import { getGitHubProjects } from "../data/github";
+
+const projects = await getGitHubProjects();
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <PageTransitions />
+    <meta name="description" content="个人项目展示页，整理正在维护和打磨的作品" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23151a18'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='30' font-family='Arial,sans-serif' fill='%23fffaf0'%3E%E7%AB%99%3C/text%3E%3C/svg%3E" />
+    <title>我的项目 | 我的个人网站</title>
+    <script is:inline src="/js/live-site-data.js" defer></script>
+  </head>
+  <body class="dashboard-body projects-sketch-body">
+    <div class="app-shell">
+      <DashboardSidebar active="projects" />
+
+      <main class="dashboard-main route-main projects-sketch-main">
+      <section class="page-hero projects-sketch-hero">
+        <div class="page-shell route-hero-grid">
+          <div>
+            <span class="eyebrow">作品目录</span>
+            <h1>我的项目</h1>
+            <p class="hero-copy">
+              这里读取 GitHub 上的公开仓库，新建项目或继续提交代码后，网站会在重新构建时同步更新
+            </p>
+          </div>
+          <div class="route-hero-panel">
+            <p class="project-meta">项目统计</p>
+            <h3>{projects.length} 个项目</h3>
+            <p>{projects.filter((project) => project.status === "维护中").length} 个正在维护</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-tight projects-sketch-section">
+        <div class="page-shell project-directory">
+          {
+            projects.map((project, index) => (
+              <article class={`project-row ${index === 0 ? "featured-row" : ""}`}>
+                <div>
+                  <p class="project-meta">{project.meta}</p>
+                  <h2>{project.name}</h2>
+                  <p>{project.description}</p>
+                </div>
+                <div class="project-row-side">
+                  <span class="status-pill">{project.status}</span>
+                  <div class="tag-row">
+                    {project.stack.map((item) => <span class="tag">{item}</span>)}
+                  </div>
+                  <a class="button button-secondary" href={project.link} target="_blank" rel="noreferrer">
+                    查看仓库
+                  </a>
+                  {project.homepage && (
+                    <a class="inline-link" href={project.homepage} target="_blank" rel="noreferrer">
+                      访问页面
+                    </a>
+                  )}
+                </div>
+              </article>
+            ))
+          }
+        </div>
+      </section>
+      </main>
+    </div>
+  </body>
+</html>

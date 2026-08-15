@@ -1,0 +1,443 @@
+---
+import "../styles/global.css";
+import DashboardSidebar from "../components/DashboardSidebar.astro";
+import PageTransitions from "../components/PageTransitions.astro";
+import { siteNavigation } from "../data/navigation";
+import { aiUpdates, formatAiUpdateDate } from "../data/aiUpdates";
+import { getLatestWeeklyIssueSummary } from "../data/weekly";
+import {
+  getGitHubActivities,
+  getGitHubActivityChart,
+  getGitHubNotes,
+  getGitHubProjects,
+} from "../data/github";
+
+const projects = await getGitHubProjects();
+const notes = await getGitHubNotes();
+const activities = await getGitHubActivities();
+const activityChart = await getGitHubActivityChart();
+const latestProjects = projects.slice(0, 3);
+const latestNotes = notes.slice(0, 3);
+const latestActivity = activities[0];
+const latestAiUpdate = aiUpdates[0];
+const latestWeeklyIssue = await getLatestWeeklyIssueSummary();
+const allCategories = Array.from(new Set(notes.map((note) => note.category)));
+const categories = allCategories.slice(0, 6);
+const latestNote = latestNotes[0];
+
+function formatOverviewDate(value?: string) {
+  if (!value) return "今日";
+
+  const separatedDate = value.match(/(\d{1,2})\D+(\d{1,2})/);
+  if (separatedDate) {
+    return `${Number(separatedDate[1])} 月 ${Number(separatedDate[2])} 日`;
+  }
+
+  const compactDate = value.match(/^(\d{2})(\d{2})$/);
+  if (compactDate) {
+    return `${Number(compactDate[1])} 月 ${Number(compactDate[2])} 日`;
+  }
+
+  return value;
+}
+
+const latestActivityDate = formatOverviewDate(latestActivity?.[0]);
+const entranceNavigation = siteNavigation.filter((item) => item.key !== "home");
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <PageTransitions />
+    <meta name="description" content="由 GitHub 自动同步的个人项目、笔记和近期动态" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23faf7ef'/%3E%3Cpath d='M14 17h36v30H14z' fill='none' stroke='%231a1a1a' stroke-width='4'/%3E%3Ctext x='32' y='40' text-anchor='middle' font-size='22' font-family='Arial,sans-serif' fill='%231a1a1a'%3E站%3C/text%3E%3C/svg%3E" />
+    <title>个人博客 | 手绘房间</title>
+    <script is:inline data-astro-rerun>
+      (() => {
+        const shouldSkip =
+          new URLSearchParams(window.location.search).get("skipIntro") === "1" ||
+          sessionStorage.getItem("homeIntroSeen") === "1";
+
+        if (shouldSkip) {
+          document.documentElement.classList.add("skip-home-intro");
+        } else {
+          document.documentElement.classList.remove("skip-home-intro");
+        }
+      })();
+    </script>
+    <script is:inline src="/js/live-site-data.js" defer></script>
+  </head>
+  <body class="story-body dashboard-body">
+    <div class="handdrawn-home" data-experience>
+      <section class="paper-loader" aria-label="加载中">
+        <div class="paper-loader__half paper-loader__half--left"></div>
+        <div class="paper-loader__half paper-loader__half--right"></div>
+        <svg class="paper-loader__crack" viewBox="0 0 140 900" aria-hidden="true">
+          <path d="M72 -20 L58 82 L95 160 L46 242 L70 330 L40 412 L84 492 L64 604 L82 716 L54 804 L76 930" />
+        </svg>
+        <div class="paper-loader__progress">
+          <span data-loader-progress>0%</span>
+        </div>
+      </section>
+
+      <section class="entrance-scene" aria-label="个人网站入口">
+        <div class="sketch-brick-wall" aria-hidden="true"></div>
+        <div class="sketch-tree" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="sketch-window" aria-hidden="true"></div>
+        <div class="sketch-planter" aria-hidden="true">
+          <i></i><i></i><i></i><i></i>
+        </div>
+
+        <nav class="paper-nav" aria-label="快速导航">
+          {
+            entranceNavigation.map((item) => (
+              <a href={item.href} aria-label={`进入${item.label}页`}>{item.entranceLabel}</a>
+            ))
+          }
+        </nav>
+
+        <button
+          class="entrance-theme-toggle"
+          type="button"
+          data-entrance-theme-toggle
+          data-theme-toggle
+          aria-label="切换为夜间模式"
+          aria-pressed="false"
+        >
+          <img src="/images/theme-sun.png" alt="" width="72" height="72" data-theme-toggle-image />
+        </button>
+
+        <div class="wood-sign" data-depth="0.2">个人博客</div>
+
+        <button class="portfolio-door" type="button" data-open-door aria-label="打开门，进入个人博客房间">
+          <span class="door-leaf door-leaf--left"></span>
+          <span class="door-leaf door-leaf--right"></span>
+          <span class="door-knob door-knob--left"></span>
+          <span class="door-knob door-knob--right"></span>
+        </button>
+
+      </section>
+
+      <main class="room-scene" id="room" data-room-scene data-parallax-scene aria-label="个人博客房间">
+        <div class="app-shell room-app-shell">
+          <DashboardSidebar active="home" />
+
+          <div class="dashboard-main room-dashboard-main">
+        <div class="room-controls">
+          <button class="paper-mini-button" type="button" data-close-door aria-label="回到门口">门口</button>
+          <button
+            class="room-theme-toggle"
+            type="button"
+            data-theme-toggle
+            aria-label="切换为夜间模式"
+            aria-pressed="false"
+          >
+            <img src="/images/theme-sun.png" alt="" width="48" height="48" data-theme-toggle-image />
+          </button>
+          <a class="paper-mini-button" href="/projects/">项目</a>
+          <a class="paper-mini-button" href="/notes/">笔记</a>
+        </div>
+
+        <section class="poster-wall poster-wall--overview" aria-label="站点概览海报">
+          <p class="poster-kicker">首页概览</p>
+          <h1>近期更新</h1>
+          <div class="poster-stats">
+            <span><strong>{projects.length}</strong> 个公开项目</span>
+            <span><strong>{notes.length}</strong> 篇笔记</span>
+            <span><strong>{allCategories.length}</strong> 个内容分类</span>
+            <span><strong>{latestActivityDate}</strong> 最近更新</span>
+          </div>
+        </section>
+
+        <section class="poster-wall poster-wall--activity" aria-label="活跃记录海报">
+          <div class="poster-pin"></div>
+          <p class="poster-kicker">活跃记录</p>
+          <h2>更新记录</h2>
+          <div class="sketch-chart" aria-label="最近 21 天 GitHub 提交统计">
+            {
+              activityChart.map((day) => (
+                <span
+                  class={day.count === 0 ? "empty" : ""}
+                  style={`height:${day.height}%`}
+                  title={`${day.label}: ${day.count} 次更新，网站 ${day.website} 次，笔记 ${day.notes} 次`}
+                ></span>
+              ))
+            }
+          </div>
+          <div class="poster-feed">
+            {
+              activities.slice(0, 2).map(([time, title, body]) => (
+                <article>
+                  <time>{time}</time>
+                  <strong>{title}</strong>
+                  <p>{body}</p>
+                </article>
+              ))
+            }
+          </div>
+        </section>
+
+        <section class="poster-wall poster-wall--projects" aria-label="当前项目海报">
+          <p class="poster-kicker">项目入口</p>
+          <h2>当前项目</h2>
+          <div class="poster-list">
+            {
+              latestProjects.map((project) => (
+                <a href={project.link} target="_blank" rel="noreferrer">
+                  <span>
+                    <strong>{project.name}</strong>
+                    <small>{project.description}</small>
+                  </span>
+                  <em>{project.status} / GitHub</em>
+                </a>
+              ))
+            }
+          </div>
+          <a class="poster-link" href="/projects/">查看项目页</a>
+        </section>
+
+        <section class="poster-wall poster-wall--notes" aria-label="新近笔记海报">
+          <div class="poster-pin poster-pin--blue"></div>
+          <p class="poster-kicker">笔记阅读</p>
+          <h2>新近笔记</h2>
+          <div class="poster-note-list">
+            {
+              latestNotes.map((note) => (
+                <a href={note.link}>
+                  <strong>{note.title}</strong>
+                  <span>{note.category} / {note.meta.split("/").pop()?.trim()}</span>
+                </a>
+              ))
+            }
+          </div>
+          <div class="poster-note-actions">
+            <a
+              class="latest-note-link"
+              href={latestNote?.link || "/notes/"}
+              aria-label={latestNote ? `阅读最新笔记：${latestNote.title}` : "浏览笔记目录"}
+            >
+              <span>{latestNote ? "阅读最新笔记" : "浏览笔记目录"}</span>
+              <em aria-hidden="true">→</em>
+            </a>
+            <a class="poster-link" href="/notes/">进入笔记目录</a>
+          </div>
+        </section>
+
+        <section class="poster-wall poster-wall--categories" aria-label="笔记分类便签">
+          <p class="poster-kicker">分类</p>
+          <h2>笔记分类</h2>
+          <div class="sticky-cloud">
+            {categories.map((category) => <a href="/notes/">{category}</a>)}
+          </div>
+        </section>
+
+        <section class="poster-wall poster-wall--features" aria-labelledby="home-features-title">
+          <p class="poster-kicker">更多内容</p>
+          <h2 id="home-features-title">探索更多</h2>
+          <div class="home-feature-grid">
+            <a class="home-feature-card home-feature-card--ai" href="/ai-news/">
+              <img src="/images/icon-activity.svg" alt="" width="42" height="42" />
+              <span class="home-feature-copy">
+                <strong>AI 动态</strong>
+                <small>{latestAiUpdate ? `${formatAiUpdateDate(latestAiUpdate.publishedAt)} · ${latestAiUpdate.titleZh || latestAiUpdate.title}` : "追踪主流模型与产品更新"}</small>
+              </span>
+              <em>查看动态</em>
+            </a>
+
+            <a class="home-feature-card home-feature-card--weekly" href="/weekly/">
+              <img src="/images/icon-weekly.svg" alt="" width="42" height="42" />
+              <span class="home-feature-copy">
+                <strong>每周新闻</strong>
+                <small>第 {latestWeeklyIssue.number} 期 · {latestWeeklyIssue.title}</small>
+              </span>
+              <em>阅读本期</em>
+            </a>
+
+            <a class="home-feature-card" href="/chat/">
+              <img src="/images/icon-chat.svg" alt="" width="42" height="42" />
+              <span class="home-feature-copy">
+                <strong>AI 聊天</strong>
+                <small>和站内 AI 助手聊聊项目、笔记与网站内容</small>
+              </span>
+              <em>开始对话</em>
+            </a>
+
+            <a class="home-feature-card" href="/about/">
+              <img src="/images/icon-about.svg" alt="" width="42" height="42" />
+              <span class="home-feature-copy">
+                <strong>关于作者</strong>
+                <small>了解这个网站的作者、方向与联系方式</small>
+              </span>
+              <em>认识我</em>
+            </a>
+          </div>
+        </section>
+          </div>
+        </div>
+      </main>
+
+      <noscript>
+        <main class="noscript-fallback">
+          <h1>个人博客</h1>
+          <p>请启用 JavaScript 来进入手绘房间。你仍然可以访问项目页和笔记页。</p>
+          <a href="/projects/">项目</a>
+          <a href="/notes/">笔记</a>
+        </main>
+      </noscript>
+    </div>
+
+    <script is:inline data-astro-rerun>
+      (() => {
+        window.__homeExperienceCleanup?.();
+
+        const cleanupTasks = [];
+        window.__homeExperienceCleanup = () => {
+          cleanupTasks.splice(0).forEach((cleanup) => cleanup());
+        };
+
+        const root = document.querySelector("[data-experience]");
+        if (!root) return;
+
+        const cleanupBeforeSwap = () => window.__homeExperienceCleanup?.();
+        document.addEventListener("astro:before-swap", cleanupBeforeSwap, { once: true });
+        cleanupTasks.push(() => document.removeEventListener("astro:before-swap", cleanupBeforeSwap));
+
+        const progress = document.querySelector("[data-loader-progress]");
+        const openDoor = document.querySelector("[data-open-door]");
+        const closeDoor = document.querySelector("[data-close-door]");
+        const themeToggles = document.querySelectorAll("[data-theme-toggle]");
+        const parallaxScenes = document.querySelectorAll("[data-parallax-scene]");
+        const canUseParallax =
+          parallaxScenes.length > 0 &&
+          window.matchMedia("(pointer: fine)").matches &&
+          !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        const shouldSkipIntro =
+          document.documentElement.classList.contains("skip-home-intro") ||
+          new URLSearchParams(window.location.search).get("skipIntro") === "1";
+        const resetRoomScroll = () => {
+          const room = document.querySelector("[data-room-scene]");
+          if (room) room.scrollTop = 0;
+          window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+        };
+        const openRoomView = (delay = 0) => {
+          const roomTimer = window.setTimeout(() => {
+            const room = document.querySelector("[data-room-scene]");
+            if (!room) return;
+
+            if (window.matchMedia("(max-width: 980px)").matches) {
+              resetRoomScroll();
+              return;
+            }
+
+            room.scrollIntoView();
+          }, delay);
+
+          cleanupTasks.push(() => window.clearTimeout(roomTimer));
+        };
+        let loaded = 0;
+
+        if (shouldSkipIntro) {
+          if (progress) progress.textContent = "100%";
+          root.classList.add("is-loaded", "is-room-open");
+          sessionStorage.setItem("homeIntroSeen", "1");
+          resetRoomScroll();
+        } else {
+          const loaderTimer = window.setInterval(() => {
+            loaded = Math.min(100, loaded + Math.ceil(Math.random() * 9));
+            if (progress) progress.textContent = `${loaded}%`;
+
+            if (loaded >= 100) {
+              window.clearInterval(loaderTimer);
+              sessionStorage.setItem("homeIntroSeen", "1");
+
+              const loadedTimer = window.setTimeout(() => root.classList.add("is-loaded"), 260);
+              cleanupTasks.push(() => window.clearTimeout(loadedTimer));
+            }
+          }, 70);
+
+          cleanupTasks.push(() => window.clearInterval(loaderTimer));
+        }
+
+        const handleOpenDoor = () => {
+          root.classList.add("is-room-open");
+          sessionStorage.setItem("homeIntroSeen", "1");
+          openRoomView(120);
+        };
+        const handleCloseDoor = () => {
+          document.documentElement.classList.remove("skip-home-intro");
+          root.classList.remove("is-room-open");
+        };
+        const syncThemeToggle = () => {
+          const isInk = document.documentElement.dataset.appearance === "ink";
+          themeToggles.forEach((toggle) => {
+            toggle.setAttribute("aria-pressed", String(isInk));
+            toggle.setAttribute("aria-label", isInk ? "切换为日间模式" : "切换为夜间模式");
+            const image = toggle.querySelector("[data-theme-toggle-image]");
+            if (image) image.src = isInk ? "/images/theme-moon.png" : "/images/theme-sun.png";
+          });
+        };
+        const handleThemeToggle = () => {
+          const storageKey = "site-appearance-v1";
+          let saved = {};
+          try {
+            saved = JSON.parse(localStorage.getItem(storageKey) || "{}");
+          } catch {}
+
+          const theme = document.documentElement.dataset.appearance === "ink" ? "paper" : "ink";
+          const next = {
+            theme,
+            size: ["small", "standard", "large"].includes(saved.size) ? saved.size : "standard",
+            motion: typeof saved.motion === "boolean" ? saved.motion : true,
+          };
+          localStorage.setItem(storageKey, JSON.stringify(next));
+          document.documentElement.dataset.appearance = theme;
+          document.documentElement.style.colorScheme = theme === "ink" ? "dark" : "light";
+          window.dispatchEvent(new CustomEvent("site:appearance-change", { detail: next }));
+          syncThemeToggle();
+        };
+
+        openDoor?.addEventListener("click", handleOpenDoor);
+        closeDoor?.addEventListener("click", handleCloseDoor);
+        themeToggles.forEach((toggle) => toggle.addEventListener("click", handleThemeToggle));
+        syncThemeToggle();
+        cleanupTasks.push(() => openDoor?.removeEventListener("click", handleOpenDoor));
+        cleanupTasks.push(() => closeDoor?.removeEventListener("click", handleCloseDoor));
+        cleanupTasks.push(() => themeToggles.forEach((toggle) => toggle.removeEventListener("click", handleThemeToggle)));
+
+        if (canUseParallax) {
+          let pointerX = 0;
+          let pointerY = 0;
+          let parallaxFrame = 0;
+
+          const updateParallax = () => {
+            parallaxFrame = 0;
+            const mx = pointerX / window.innerWidth - 0.5;
+            const my = pointerY / window.innerHeight - 0.5;
+
+            parallaxScenes.forEach((scene) => {
+              scene.style.setProperty("--mx", mx.toFixed(3));
+              scene.style.setProperty("--my", my.toFixed(3));
+            });
+          };
+          const handlePointerMove = (event) => {
+            pointerX = event.clientX;
+            pointerY = event.clientY;
+
+            if (!parallaxFrame) {
+              parallaxFrame = window.requestAnimationFrame(updateParallax);
+            }
+          };
+
+          window.addEventListener("pointermove", handlePointerMove, { passive: true });
+          cleanupTasks.push(() => window.removeEventListener("pointermove", handlePointerMove));
+          cleanupTasks.push(() => {
+            if (parallaxFrame) window.cancelAnimationFrame(parallaxFrame);
+          });
+        }
+      })();
+    </script>
+  </body>
+</html>

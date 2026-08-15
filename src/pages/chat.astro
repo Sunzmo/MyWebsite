@@ -1,0 +1,452 @@
+---
+import "../styles/global.css";
+import DashboardSidebar from "../components/DashboardSidebar.astro";
+import PageTransitions from "../components/PageTransitions.astro";
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <PageTransitions />
+    <meta name="description" content="与网站的 OpenClaw AI 助手对话" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23151a18'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='30' font-family='Arial,sans-serif' fill='%23fffaf0'%3E%E7%AB%99%3C/text%3E%3C/svg%3E" />
+    <title>AI 聊天 | 我的个人网站</title>
+  </head>
+  <body class="dashboard-body notes-sketch-body chat-body">
+    <div class="app-shell">
+      <DashboardSidebar active="chat" />
+
+      <main class="dashboard-main notes-sketch-main chat-main">
+        <section class="chat-page" aria-labelledby="chat-title">
+          <header class="chat-header">
+            <div>
+              <p class="project-meta">OPENCLAW ASSISTANT</p>
+              <h1 id="chat-title">和我的 AI 聊聊</h1>
+              <p>可以从项目、笔记和网站内容开始提问。</p>
+            </div>
+            <div class="chat-header-actions">
+              <span class="chat-status is-checking" data-chat-status role="status">
+                <span aria-hidden="true"></span>正在检查
+              </span>
+              <button class="chat-clear" type="button" data-chat-clear aria-label="清空当前对话">
+                清空对话
+              </button>
+            </div>
+          </header>
+
+          <div class="chat-workspace">
+            <aside class="chat-guide" aria-label="对话建议">
+              <div>
+                <p class="project-meta">你可以这样问</p>
+                <div class="chat-prompts">
+                  <button type="button" data-chat-prompt="介绍一下这个网站的主要内容">介绍这个网站</button>
+                  <button type="button" data-chat-prompt="最近有哪些值得阅读的笔记？">推荐几篇笔记</button>
+                  <button type="button" data-chat-prompt="帮我概括作者做过的项目">看看作者的项目</button>
+                  <button type="button" data-chat-prompt="我可以前往网站的哪些页面？请提供站内导航入口。">带我逛逛网站</button>
+                </div>
+              </div>
+              <div class="chat-guide-footer">
+                <div class="chat-identity">
+                  <label for="chat-name">希望怎么称呼你</label>
+                  <input
+                    id="chat-name"
+                    name="visitorName"
+                    type="text"
+                    maxlength="24"
+                    placeholder="访客（默认）"
+                    autocomplete="nickname"
+                    data-chat-name
+                  />
+                  <span>留空时使用“访客”</span>
+                </div>
+                <p class="chat-privacy">请勿发送密码、密钥或其他敏感信息。</p>
+              </div>
+            </aside>
+
+            <section class="chat-panel" aria-label="聊天窗口">
+              <div class="chat-thread" data-chat-thread role="log" aria-live="polite" aria-relevant="additions">
+                <div class="chat-welcome" data-chat-welcome>
+                  <span class="chat-avatar" aria-hidden="true">AI</span>
+                  <div>
+                    <h2>你好，我在这里。</h2>
+                    <p>选择左侧问题，或者直接在下方输入你想了解的内容。</p>
+                  </div>
+                </div>
+              </div>
+
+              <form class="chat-composer" data-chat-form>
+                <label for="chat-input">发送消息</label>
+                <div class="chat-input-row">
+                  <textarea
+                    id="chat-input"
+                    name="message"
+                    rows="1"
+                    maxlength="4000"
+                    placeholder="输入你的问题..."
+                    autocomplete="off"
+                    required
+                    data-chat-input
+                  ></textarea>
+                  <button type="submit" data-chat-submit>发送</button>
+                </div>
+                <p class="chat-helper" data-chat-helper>按 Enter 发送，Shift + Enter 换行</p>
+              </form>
+            </section>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
+
+<script>
+  import { renderMarkdown } from "../lib/markdown";
+
+  declare global {
+    interface Window {
+      __renderChatMarkdown?: typeof renderMarkdown;
+    }
+  }
+
+  window.__renderChatMarkdown = renderMarkdown;
+  window.dispatchEvent(new CustomEvent("site:chat-markdown-ready"));
+</script>
+
+<script is:inline type="module" data-astro-rerun>
+  (() => {
+    window.__chatPageCleanup?.();
+
+    const form = document.querySelector("[data-chat-form]");
+    const input = document.querySelector("[data-chat-input]");
+    const thread = document.querySelector("[data-chat-thread]");
+    const submit = document.querySelector("[data-chat-submit]");
+    const clear = document.querySelector("[data-chat-clear]");
+    const helper = document.querySelector("[data-chat-helper]");
+    const nameInput = document.querySelector("[data-chat-name]");
+    const status = document.querySelector("[data-chat-status]");
+    const prompts = [...document.querySelectorAll("[data-chat-prompt]")];
+    if (!form || !input || !nameInput || !thread || !submit || !clear || !helper || !status) return;
+
+    const storageKey = "site-openclaw-chat-v1";
+    let messages = [];
+    let conversationId = crypto.randomUUID();
+    let pending = false;
+    let abortController;
+    let healthTimer;
+    let streamingMessage;
+    let streamingArticle;
+
+    const escapeHtml = (value) => {
+      const node = document.createElement("div");
+      node.textContent = value;
+      return node.innerHTML;
+    };
+
+    const formatText = (value) => escapeHtml(value).replace(/\n/g, "<br>");
+
+    const formatMessage = (message) => {
+      if (message.role !== "assistant" || typeof window.__renderChatMarkdown !== "function") {
+        return `<p>${formatText(message.content)}</p>`;
+      }
+
+      return `<div class="chat-markdown">${window.__renderChatMarkdown(message.content)}</div>`;
+    };
+
+    const messageActions = (message) => message.role === "assistant" ? `
+      <div class="chat-message-actions" aria-label="回答操作">
+        <button type="button" data-chat-copy="${message.id}">复制</button>
+        <button type="button" data-chat-regenerate="${message.id}">重新生成</button>
+      </div>
+    ` : "";
+
+    const save = () => {
+      sessionStorage.setItem(storageKey, JSON.stringify({
+        messages,
+        conversationId,
+        visitorName: nameInput.value.trim(),
+      }));
+    };
+
+    const scrollToLatest = () => {
+      thread.scrollTo({
+        top: thread.scrollHeight,
+        behavior: document.documentElement.dataset.motion === "reduced" ? "auto" : "smooth",
+      });
+    };
+
+    const renderMessage = (message, options = {}) => {
+      thread.querySelector("[data-chat-welcome]")?.remove();
+      message.id ||= crypto.randomUUID();
+      const article = document.createElement("article");
+      article.className = `chat-message chat-message--${message.role}${options.error ? " is-error" : ""}`;
+      article.dataset.chatMessage = "";
+      article.dataset.messageId = message.id;
+      article.innerHTML = `
+        <span class="chat-avatar" aria-hidden="true">${message.role === "user" ? "你" : "AI"}</span>
+        <div class="chat-bubble">
+          ${formatMessage(message)}
+          ${options.error ? '<button type="button" data-chat-retry>重新发送</button>' : ""}
+          ${!options.error && !options.streaming ? messageActions(message) : ""}
+        </div>
+      `;
+      thread.append(article);
+      scrollToLatest();
+      return article;
+    };
+
+    const updateStreamingMessage = (article, message, finished = false) => {
+      const bubble = article.querySelector(".chat-bubble");
+      if (!bubble) return;
+      bubble.innerHTML = `${formatMessage(message)}${finished ? messageActions(message) : ""}`;
+      scrollToLatest();
+    };
+
+    const renderPending = () => {
+      const article = document.createElement("article");
+      article.className = "chat-message chat-message--assistant chat-message--pending";
+      article.dataset.chatPending = "";
+      article.innerHTML = `
+        <span class="chat-avatar" aria-hidden="true">AI</span>
+        <div class="chat-bubble" aria-label="AI 正在思考">
+          <span></span><span></span><span></span>
+        </div>
+      `;
+      thread.append(article);
+      scrollToLatest();
+    };
+
+    const setPending = (next) => {
+      pending = next;
+      input.disabled = next;
+      nameInput.disabled = next;
+      submit.classList.toggle("is-stop", next);
+      submit.textContent = next ? "停止" : "发送";
+      helper.textContent = next ? "正在接收 OpenClaw 回复，可随时停止" : "按 Enter 发送，Shift + Enter 换行";
+    };
+
+    const resizeInput = () => {
+      input.style.height = "auto";
+      input.style.height = `${Math.min(input.scrollHeight, 144)}px`;
+    };
+
+    const send = async (text) => {
+      const content = text.trim();
+      if (!content || pending) return;
+
+      thread.querySelector(".chat-message.is-error")?.remove();
+      const userMessage = { id: crypto.randomUUID(), role: "user", content };
+      messages.push(userMessage);
+      renderMessage(userMessage);
+      input.value = "";
+      resizeInput();
+      setPending(true);
+      renderPending();
+      save();
+
+      abortController = new AbortController();
+      try {
+        const response = await fetch("/api/openclaw-chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            messages,
+            conversationId,
+            visitorName: nameInput.value.trim(),
+          }),
+          signal: abortController.signal,
+        });
+        if (!response.ok || !response.body) {
+          const data = await response.json().catch(() => ({}));
+          throw new Error(data.message || "聊天服务暂时不可用，请稍后再试。");
+        }
+
+        conversationId = response.headers.get("X-Conversation-Id") || conversationId;
+        const assistantMessage = { id: crypto.randomUUID(), role: "assistant", content: "" };
+        thread.querySelector("[data-chat-pending]")?.remove();
+        const article = renderMessage(assistantMessage, { streaming: true });
+        streamingMessage = assistantMessage;
+        streamingArticle = article;
+        const reader = response.body.getReader();
+        const decoder = new TextDecoder();
+        let buffer = "";
+
+        while (true) {
+          const { value, done } = await reader.read();
+          buffer += decoder.decode(value || new Uint8Array(), { stream: !done });
+          const lines = buffer.split("\n");
+          buffer = done ? "" : lines.pop() || "";
+
+          for (const line of lines) {
+            if (!line.startsWith("data:")) continue;
+            const data = line.slice(5).trim();
+            if (!data || data === "[DONE]") continue;
+            try {
+              const chunk = JSON.parse(data);
+              const delta = chunk.choices?.[0]?.delta?.content;
+              if (typeof delta === "string") {
+                assistantMessage.content += delta;
+                updateStreamingMessage(article, assistantMessage);
+              }
+            } catch {}
+          }
+          if (done) break;
+        }
+
+        if (!assistantMessage.content.trim()) throw new Error("OpenClaw 没有返回可显示的内容。");
+        messages.push(assistantMessage);
+        updateStreamingMessage(article, assistantMessage, true);
+        streamingMessage = undefined;
+        streamingArticle = undefined;
+        save();
+      } catch (error) {
+        thread.querySelector("[data-chat-pending]")?.remove();
+        if (error.name !== "AbortError") {
+          renderMessage(
+            { role: "assistant", content: error.message || "消息发送失败，请稍后重试。" },
+            { error: true },
+          );
+        } else {
+          const streamingArticle = thread.querySelector('.chat-message--assistant:last-of-type');
+          const partial = streamingArticle?.querySelector('.chat-markdown')?.textContent?.trim();
+          if (partial) helper.textContent = "已停止生成";
+        }
+      } finally {
+        setPending(false);
+        input.focus();
+      }
+    };
+
+    const handleSubmit = (event) => {
+      event.preventDefault();
+      if (pending) {
+        abortController?.abort();
+        return;
+      }
+      send(input.value);
+    };
+
+    const handleInputKeydown = (event) => {
+      if (event.key === "Enter" && !event.shiftKey && !event.isComposing) {
+        event.preventDefault();
+        form.requestSubmit();
+      }
+    };
+
+    const rerenderMessages = () => {
+      thread.innerHTML = "";
+      messages.forEach((message) => renderMessage(message));
+    };
+
+    const handleMarkdownReady = () => {
+      if (streamingMessage && streamingArticle?.isConnected) {
+        updateStreamingMessage(streamingArticle, streamingMessage);
+        return;
+      }
+
+      if (messages.length > 0) rerenderMessages();
+    };
+
+    const handleThreadClick = async (event) => {
+      const target = event.target.closest("button");
+      if (!target || pending) return;
+
+      if (target.matches("[data-chat-retry]")) {
+        const lastUserMessage = [...messages].reverse().find((message) => message.role === "user");
+        if (!lastUserMessage) return;
+        thread.querySelector(".chat-message.is-error")?.remove();
+        messages = messages.slice(0, messages.lastIndexOf(lastUserMessage));
+        send(lastUserMessage.content);
+        return;
+      }
+
+      if (target.matches("[data-chat-copy]")) {
+        const message = messages.find((item) => item.id === target.dataset.chatCopy);
+        if (!message) return;
+        await navigator.clipboard.writeText(message.content);
+        target.textContent = "已复制";
+        setTimeout(() => { target.textContent = "复制"; }, 1400);
+        return;
+      }
+
+      if (target.matches("[data-chat-regenerate]")) {
+        const index = messages.findIndex((item) => item.id === target.dataset.chatRegenerate);
+        const userMessage = index > 0 ? messages[index - 1] : null;
+        if (!userMessage || userMessage.role !== "user") return;
+        messages = messages.slice(0, index - 1);
+        rerenderMessages();
+        send(userMessage.content);
+        return;
+      }
+
+    };
+
+    const checkHealth = async () => {
+      status.className = "chat-status is-checking";
+      status.innerHTML = '<span aria-hidden="true"></span>正在检查';
+      try {
+        const response = await fetch("/api/openclaw-health", { cache: "no-store" });
+        if (!response.ok) throw new Error();
+        status.className = "chat-status is-online";
+        status.innerHTML = '<span aria-hidden="true"></span>助手在线';
+      } catch {
+        status.className = "chat-status is-offline";
+        status.innerHTML = '<span aria-hidden="true"></span>助手离线';
+      }
+    };
+
+    const clearConversation = () => {
+      abortController?.abort();
+      messages = [];
+      conversationId = crypto.randomUUID();
+      sessionStorage.removeItem(storageKey);
+      thread.innerHTML = `
+        <div class="chat-welcome" data-chat-welcome>
+          <span class="chat-avatar" aria-hidden="true">AI</span>
+          <div><h2>新的对话已准备好。</h2><p>从一个问题开始，我会接着聊下去。</p></div>
+        </div>
+      `;
+      setPending(false);
+      input.focus();
+    };
+
+    try {
+      localStorage.removeItem(storageKey);
+      const saved = JSON.parse(sessionStorage.getItem(storageKey) || "null");
+      if (saved && Array.isArray(saved.messages)) {
+        messages = saved.messages.filter((message) =>
+          message && ["user", "assistant"].includes(message.role) && typeof message.content === "string"
+        ).slice(-12);
+        conversationId = typeof saved.conversationId === "string" ? saved.conversationId : conversationId;
+        nameInput.value = typeof saved.visitorName === "string" ? saved.visitorName.slice(0, 24) : "";
+        messages.forEach((message) => renderMessage(message));
+      }
+    } catch {
+      sessionStorage.removeItem(storageKey);
+    }
+
+    form.addEventListener("submit", handleSubmit);
+    input.addEventListener("input", resizeInput);
+    input.addEventListener("keydown", handleInputKeydown);
+    nameInput.addEventListener("input", save);
+    clear.addEventListener("click", clearConversation);
+    thread.addEventListener("click", handleThreadClick);
+    window.addEventListener("site:chat-markdown-ready", handleMarkdownReady);
+    prompts.forEach((button) => button.addEventListener("click", () => send(button.dataset.chatPrompt || "")));
+    resizeInput();
+    checkHealth();
+    healthTimer = setInterval(checkHealth, 60_000);
+
+    window.__chatPageCleanup = () => {
+      abortController?.abort();
+      form.removeEventListener("submit", handleSubmit);
+      input.removeEventListener("input", resizeInput);
+      input.removeEventListener("keydown", handleInputKeydown);
+      nameInput.removeEventListener("input", save);
+      clear.removeEventListener("click", clearConversation);
+      thread.removeEventListener("click", handleThreadClick);
+      window.removeEventListener("site:chat-markdown-ready", handleMarkdownReady);
+      clearInterval(healthTimer);
+    };
+  })();
+</script>

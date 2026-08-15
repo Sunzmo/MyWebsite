@@ -1,0 +1,118 @@
+---
+import "../../styles/global.css";
+import DashboardSidebar from "../../components/DashboardSidebar.astro";
+import PageTransitions from "../../components/PageTransitions.astro";
+import { getGitHubNoteBySlug, getGitHubNotes } from "../../data/github";
+import { renderMarkdown } from "../../lib/markdown";
+
+export async function getStaticPaths() {
+  const notes = await getGitHubNotes();
+
+  return notes.map((note) => ({
+    params: { slug: note.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+const note = slug ? await getGitHubNoteBySlug(slug) : undefined;
+const allNotes = await getGitHubNotes();
+
+if (!note) {
+  return Astro.redirect("/notes/");
+}
+const currentNote = note;
+
+function encodePath(path: string) {
+  return path.split("/").map(encodeURIComponent).join("/");
+}
+
+function rewriteMarkdownAssets(markdown: string) {
+  const baseDir = currentNote.path.split("/").slice(0, -1).join("/");
+
+  return markdown.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (match, alt, src) => {
+    if (/^(https?:|data:|\/)/i.test(src)) return match;
+
+    const normalized = [baseDir, src]
+      .filter(Boolean)
+      .join("/")
+      .replace(/\/\.\//g, "/");
+
+    return `![${alt}](https://raw.githubusercontent.com/Sunzmo/ai-pm-wiki/main/${encodePath(normalized)})`;
+  });
+}
+
+function normalizeWikiTitle(value: string) {
+  return value
+    .trim()
+    .split("/")
+    .pop()
+    ?.replace(/\.md$/i, "")
+    .toLocaleLowerCase("zh-CN") || "";
+}
+
+const noteByTitle = new Map(
+  allNotes.map((item) => [normalizeWikiTitle(item.title), item]),
+);
+
+function rewriteWikiLinks(markdown: string) {
+  return markdown.replace(/\[\[([^\]]+)\]\]/g, (match, value, offset) => {
+    if (offset > 0 && markdown[offset - 1] === "!") return match;
+
+    const [targetWithHeading, customLabel] = String(value).split("|");
+    const [targetTitle] = targetWithHeading.split("#");
+    const target = noteByTitle.get(normalizeWikiTitle(targetTitle));
+    const label = customLabel?.trim() || targetTitle.trim();
+
+    return target ? `[${label}](${target.link})` : label;
+  });
+}
+
+const content = renderMarkdown(
+  rewriteWikiLinks(rewriteMarkdownAssets(currentNote.markdown)),
+);
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <PageTransitions />
+    <meta name="description" content={note.excerpt} />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23151a18'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='30' font-family='Arial,sans-serif' fill='%23fffaf0'%3E%E7%AB%99%3C/text%3E%3C/svg%3E" />
+    <title>{note.title} | 笔记</title>
+  </head>
+  <body class="dashboard-body notes-sketch-body">
+    <div class="app-shell">
+      <DashboardSidebar active="notes" />
+
+      <main class="dashboard-main route-main notes-sketch-main">
+      <section class="article-hero notes-sketch-article-hero">
+        <div class="page-shell article-shell">
+          <a class="inline-link" href="/notes/">返回笔记目录</a>
+          <p class="note-meta">{note.meta}</p>
+          <h1>{note.title}</h1>
+          <p class="hero-copy">{note.excerpt}</p>
+          <div class="tag-row">
+            <span class="tag">{note.category}</span>
+            <span class="tag">来自 ai-pm-wiki</span>
+          </div>
+        </div>
+      </section>
+
+      <article class="page-shell article-shell article-body notes-sketch-article" set:html={content} />
+
+      <section class="section-tight notes-sketch-section">
+        <div class="page-shell article-shell final-cta">
+          <h2>原始笔记仍保留在 GitHub。</h2>
+          <div class="hero-actions" style="justify-content: center;">
+            <a class="button button-primary" href="/notes/">继续看笔记</a>
+            <a class="button button-secondary" href={note.sourceUrl} target="_blank" rel="noreferrer">
+              查看源文件
+            </a>
+          </div>
+        </div>
+      </section>
+      </main>
+    </div>
+  </body>
+</html>
