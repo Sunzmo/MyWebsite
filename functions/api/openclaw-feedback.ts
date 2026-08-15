@@ -7,7 +7,7 @@ export async function onRequestPost({ request }: { request: Request }) {
     return Response.json({ ok: false, message: "反馈格式无效。" }, { status: 400 });
   }
 
-  console.log("openclaw-feedback", {
+  console.log("ai-assistant-feedback", {
     helpful: body.helpful,
     conversationId: typeof body.conversationId === "string" ? body.conversationId.slice(0, 80) : "unknown",
     messagePreview: typeof body.messagePreview === "string" ? body.messagePreview.slice(0, 160) : "",

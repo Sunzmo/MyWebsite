@@ -1,9 +1,8 @@
 type Env = {
-  OPENCLAW_BASE_URL?: string;
-  OPENCLAW_TOKEN?: string;
-  OPENCLAW_MODEL?: string;
-  OPENCLAW_PUBLIC_MODEL?: string;
-  OPENCLAW_SYSTEM_PROMPT?: string;
+  DEEPSEEK_API_KEY?: string;
+  DEEPSEEK_MODEL?: string;
+  DEEPSEEK_BASE_URL?: string;
+  AI_SYSTEM_PROMPT?: string;
 };
 
 type ChatMessage = {
@@ -184,8 +183,8 @@ async function loadPublicContext(request: Request, query: string) {
 }
 
 export async function onRequestPost({ request, env }: { request: Request; env: Env }) {
-  if (!env.OPENCLAW_BASE_URL || !env.OPENCLAW_TOKEN) {
-    return json({ error: "openclaw-not-configured", message: "聊天服务尚未连接 OpenClaw。" }, 503);
+  if (!env.DEEPSEEK_API_KEY) {
+    return json({ error: "deepseek-not-configured", message: "聊天服务尚未配置 DeepSeek API Key。" }, 503);
   }
 
   const limited = checkRateLimit(request);
@@ -212,7 +211,7 @@ export async function onRequestPost({ request, env }: { request: Request; env: E
     ? rawConversationId
     : crypto.randomUUID();
   const visitorName = normalizeVisitorName(body.visitorName);
-  const systemPrompt = env.OPENCLAW_SYSTEM_PROMPT?.trim().slice(0, 8000);
+  const systemPrompt = env.AI_SYSTEM_PROMPT?.trim().slice(0, 8000);
   const latestQuestion = messages.at(-1)?.content || "";
   const publicContext = await loadPublicContext(request, latestQuestion);
   const upstreamMessages: UpstreamMessage[] = [
@@ -227,18 +226,19 @@ export async function onRequestPost({ request, env }: { request: Request; env: E
     ...messages,
   ];
 
-  const baseUrl = env.OPENCLAW_BASE_URL.replace(/\/+$/, "");
+  const baseUrl = (env.DEEPSEEK_BASE_URL || "https://api.deepseek.com").replace(/\/+$/, "");
   try {
-    const upstream = await fetch(`${baseUrl}/v1/chat/completions`, {
+    const upstream = await fetch(`${baseUrl}/chat/completions`, {
       method: "POST",
       headers: {
-        Authorization: `Bearer ${env.OPENCLAW_TOKEN}`,
+        Authorization: `Bearer ${env.DEEPSEEK_API_KEY}`,
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        model: env.OPENCLAW_PUBLIC_MODEL || env.OPENCLAW_MODEL || "openclaw/default",
-        user: `website:${conversationId}`,
+        model: env.DEEPSEEK_MODEL || "deepseek-v4-flash",
         messages: upstreamMessages,
+        thinking: { type: "disabled" },
+        max_tokens: 1200,
         stream: true,
       }),
     });
@@ -246,7 +246,7 @@ export async function onRequestPost({ request, env }: { request: Request; env: E
     if (!upstream.ok || !upstream.body) {
       const payload = (await upstream.json().catch(() => null)) as { error?: { message?: string } } | null;
       return json(
-        { error: "openclaw-request-failed", message: payload?.error?.message || `OpenClaw 返回了 ${upstream.status}` },
+        { error: "deepseek-request-failed", message: payload?.error?.message || `DeepSeek 返回了 ${upstream.status}` },
         502,
       );
     }
@@ -261,7 +261,7 @@ export async function onRequestPost({ request, env }: { request: Request; env: E
       },
     });
   } catch {
-    return json({ error: "openclaw-unreachable", message: "暂时无法连接 OpenClaw，请稍后再试。" }, 502);
+    return json({ error: "deepseek-unreachable", message: "暂时无法连接 DeepSeek，请稍后再试。" }, 502);
   }
 }
 

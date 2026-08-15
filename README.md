@@ -31,13 +31,10 @@ npm run build
 ## 环境变量
 
 - `GITHUB_TOKEN`：可选，提高 GitHub API 请求额度。
-- `DEEPSEEK_API_KEY`：可选，为 AI 官方动态生成中文翻译；未配置时保留英文原文。
-- `DEEPSEEK_MODEL`：可选，默认使用 `deepseek-chat`。
-- `OPENCLAW_BASE_URL`：OpenClaw Gateway 的 HTTPS 地址，不含 `/v1`。
-- `OPENCLAW_TOKEN`：OpenClaw Gateway Token，仅配置为 Cloudflare 服务端密钥。
-- `OPENCLAW_MODEL`：可选，默认使用 `openclaw/default`。
-- `OPENCLAW_PUBLIC_MODEL`：可选，公开聊天页专用 Agent，推荐设置为 `openclaw/website`。
-- `OPENCLAW_SYSTEM_PROMPT`：可选，公开聊天页固定追加的系统上下文。
+- `DEEPSEEK_API_KEY`：DeepSeek 服务端密钥，用于网站 AI 助手和 AI 动态中文翻译；不要写入前端代码。
+- `DEEPSEEK_MODEL`：可选，网站聊天默认使用 `deepseek-v4-flash`。
+- `DEEPSEEK_BASE_URL`：可选，默认使用 `https://api.deepseek.com`。
+- `AI_SYSTEM_PROMPT`：可选，公开聊天页固定追加的系统上下文。
 - `SITE_URL`：可选，站点正式地址；默认使用 `https://mywebsite.pages.dev`。
 - `CLOUDFLARE_ACCOUNT_ID`：GitHub Actions 部署使用。
 - `CLOUDFLARE_API_TOKEN`：GitHub Actions 部署使用。
@@ -50,7 +47,7 @@ npm run build
 - `src/data`：构建阶段的 GitHub 和周刊数据读取。
 - `functions`：Cloudflare Pages Functions 运行时接口。
 - `/api/site-data`：运行时站点数据。
-- `/api/openclaw-chat`：网站聊天页使用的 OpenClaw 服务端代理。
+- `/api/openclaw-chat`：网站聊天页使用的 DeepSeek 服务端代理；为兼容现有前端保留原路径。
 - `/chat/`：AI 聊天交互页面。
 - `/notes/*`：笔记页面及动态回退。
 - `/weekly/*`：周刊页面及动态回退。

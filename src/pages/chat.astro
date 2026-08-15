@@ -9,7 +9,7 @@ import PageTransitions from "../components/PageTransitions.astro";
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <PageTransitions />
-    <meta name="description" content="与网站的 OpenClaw AI 助手对话" />
+    <meta name="description" content="与网站的 AI 助手对话" />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23151a18'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='30' font-family='Arial,sans-serif' fill='%23fffaf0'%3E%E7%AB%99%3C/text%3E%3C/svg%3E" />
     <title>AI 聊天 | 我的个人网站</title>
   </head>
@@ -21,7 +21,7 @@ import PageTransitions from "../components/PageTransitions.astro";
         <section class="chat-page" aria-labelledby="chat-title">
           <header class="chat-header">
             <div>
-              <p class="project-meta">OPENCLAW ASSISTANT</p>
+              <p class="project-meta">SUNZMO AI ASSISTANT</p>
               <h1 id="chat-title">和我的 AI 聊聊</h1>
               <p>可以从项目、笔记和网站内容开始提问。</p>
             </div>
@@ -128,7 +128,7 @@ import PageTransitions from "../components/PageTransitions.astro";
     const prompts = [...document.querySelectorAll("[data-chat-prompt]")];
     if (!form || !input || !nameInput || !thread || !submit || !clear || !helper || !status) return;
 
-    const storageKey = "site-openclaw-chat-v1";
+    const storageKey = "site-ai-chat-v1";
     let messages = [];
     let conversationId = crypto.randomUUID();
     let pending = false;
@@ -222,7 +222,7 @@ import PageTransitions from "../components/PageTransitions.astro";
       nameInput.disabled = next;
       submit.classList.toggle("is-stop", next);
       submit.textContent = next ? "停止" : "发送";
-      helper.textContent = next ? "正在接收 OpenClaw 回复，可随时停止" : "按 Enter 发送，Shift + Enter 换行";
+      helper.textContent = next ? "正在接收 AI 回复，可随时停止" : "按 Enter 发送，Shift + Enter 换行";
     };
 
     const resizeInput = () => {
@@ -293,7 +293,7 @@ import PageTransitions from "../components/PageTransitions.astro";
           if (done) break;
         }
 
-        if (!assistantMessage.content.trim()) throw new Error("OpenClaw 没有返回可显示的内容。");
+        if (!assistantMessage.content.trim()) throw new Error("AI 助手没有返回可显示的内容。");
         messages.push(assistantMessage);
         updateStreamingMessage(article, assistantMessage, true);
         streamingMessage = undefined;
