@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-30T08:55:16.954Z",
+  "updatedAt": "2026-08-31T09:20:17.746Z",
   "sources": [
     {
       "id": "openai-news",
@@ -67,7 +67,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-28T06:00:00.000Z",
       "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "collectedAt": "2026-08-30T08:55:12.475Z"
+      "collectedAt": "2026-08-31T09:20:13.136Z"
     },
     {
       "id": "3b034008653d3c2739c4",
@@ -84,7 +84,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-27T16:11:32.000Z",
       "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-      "collectedAt": "2026-08-30T08:55:14.958Z"
+      "collectedAt": "2026-08-31T09:20:15.611Z"
     },
     {
       "id": "f3885091ef8df6aaae64",
@@ -101,7 +101,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-27T09:00:00.000Z",
       "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "collectedAt": "2026-08-30T08:55:12.476Z"
+      "collectedAt": "2026-08-31T09:20:13.137Z"
     },
     {
       "id": "4707ef7564f9017d5027",
@@ -118,7 +118,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.616Z"
+      "collectedAt": "2026-08-31T09:20:14.506Z"
     },
     {
       "id": "c5289a9a45e73f8f78ee",
@@ -135,7 +135,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-30T08:55:14.448Z"
+      "collectedAt": "2026-08-31T09:20:15.256Z"
     },
     {
       "id": "038305de768a112cfa08",
@@ -152,7 +152,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-26T17:01:00.000Z",
       "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
-      "collectedAt": "2026-08-30T08:55:14.958Z"
+      "collectedAt": "2026-08-31T09:20:15.611Z"
     },
     {
       "id": "92b51a1e3a09499b97f9",
@@ -169,7 +169,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-26T10:00:00.000Z",
       "url": "https://openai.com/index/learning-never-stops",
-      "collectedAt": "2026-08-30T08:55:12.478Z"
+      "collectedAt": "2026-08-31T09:20:13.139Z"
     },
     {
       "id": "df161950e809789b055b",
@@ -186,7 +186,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-26T10:00:00.000Z",
       "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "collectedAt": "2026-08-30T08:55:12.478Z"
+      "collectedAt": "2026-08-31T09:20:13.139Z"
     },
     {
       "id": "e8e71766793d0226c88b",
@@ -203,7 +203,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "collectedAt": "2026-08-30T08:55:12.479Z"
+      "collectedAt": "2026-08-31T09:20:13.140Z"
     },
     {
       "id": "42d46e03e113f1a48a9f",
@@ -220,7 +220,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://openai.com/index/loveholidays",
-      "collectedAt": "2026-08-30T08:55:12.479Z"
+      "collectedAt": "2026-08-31T09:20:13.140Z"
     },
     {
       "id": "0e8f06023793c35c12b2",
@@ -237,7 +237,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.616Z"
+      "collectedAt": "2026-08-31T09:20:14.507Z"
     },
     {
       "id": "57792a4fc465ac9e4168",
@@ -254,7 +254,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-30T08:55:14.448Z"
+      "collectedAt": "2026-08-31T09:20:15.257Z"
     },
     {
       "id": "bdff11d888b055940269",
@@ -271,7 +271,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-25T07:05:00.000Z",
       "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "collectedAt": "2026-08-30T08:55:12.480Z"
+      "collectedAt": "2026-08-31T09:20:13.140Z"
     },
     {
       "id": "b9dd82456710ac7ff739",
@@ -288,7 +288,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-25T07:00:00.000Z",
       "url": "https://openai.com/index/jalapeno-first-results",
-      "collectedAt": "2026-08-30T08:55:12.480Z"
+      "collectedAt": "2026-08-31T09:20:13.141Z"
     },
     {
       "id": "4f3d5193843c2be21102",
@@ -305,7 +305,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-admin-plugin",
-      "collectedAt": "2026-08-30T08:55:12.481Z"
+      "collectedAt": "2026-08-31T09:20:13.142Z"
     },
     {
       "id": "98efe21910bba76ddc89",
@@ -322,7 +322,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-30T08:55:13.037Z"
+      "collectedAt": "2026-08-31T09:20:13.862Z"
     },
     {
       "id": "a3e38d1146847fcc32c5",
@@ -339,7 +339,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-24T12:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-in-kiro",
-      "collectedAt": "2026-08-30T08:55:12.482Z"
+      "collectedAt": "2026-08-31T09:20:13.143Z"
     },
     {
       "id": "fb3550ee043ce3089dfb",
@@ -356,7 +356,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-30T08:55:16.937Z"
+      "collectedAt": "2026-08-31T09:20:17.733Z"
     },
     {
       "id": "2d19306ef234ea7faec5",
@@ -373,7 +373,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "url": "https://openai.com/index/stampli",
-      "collectedAt": "2026-08-30T08:55:12.483Z"
+      "collectedAt": "2026-08-31T09:20:13.144Z"
     },
     {
       "id": "545fb287d7f850c3b01d",
@@ -390,7 +390,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.617Z"
+      "collectedAt": "2026-08-31T09:20:14.508Z"
     },
     {
       "id": "3dc55b55b1de08c817b2",
@@ -407,7 +407,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-19T19:00:00.000Z",
       "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "collectedAt": "2026-08-30T08:55:12.483Z"
+      "collectedAt": "2026-08-31T09:20:13.145Z"
     },
     {
       "id": "1e5ef4886d4750bbdc69",
@@ -424,7 +424,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-19T07:00:00.000Z",
       "url": "https://openai.com/index/replit",
-      "collectedAt": "2026-08-30T08:55:12.483Z"
+      "collectedAt": "2026-08-31T09:20:13.145Z"
     },
     {
       "id": "862a5272957677cbb451",
@@ -441,7 +441,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.618Z"
+      "collectedAt": "2026-08-31T09:20:14.508Z"
     },
     {
       "id": "dbabefb7176b8899389d",
@@ -458,7 +458,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-08-30T08:55:13.896Z"
+      "collectedAt": "2026-08-31T09:20:14.882Z"
     },
     {
       "id": "d02b32736bea62b3185d",
@@ -475,7 +475,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-18T22:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "collectedAt": "2026-08-30T08:55:12.484Z"
+      "collectedAt": "2026-08-31T09:20:13.146Z"
     },
     {
       "id": "755e4db2cccf354bd6df",
@@ -492,7 +492,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "collectedAt": "2026-08-30T08:55:12.484Z"
+      "collectedAt": "2026-08-31T09:20:13.147Z"
     },
     {
       "id": "60ed32685f2c13d2be9e",
@@ -509,7 +509,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-teens",
-      "collectedAt": "2026-08-30T08:55:12.484Z"
+      "collectedAt": "2026-08-31T09:20:13.148Z"
     },
     {
       "id": "569fdb7965461ec2bca6",
@@ -526,7 +526,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-18T07:00:00.000Z",
       "url": "https://openai.com/index/asana",
-      "collectedAt": "2026-08-30T08:55:12.485Z"
+      "collectedAt": "2026-08-31T09:20:13.148Z"
     },
     {
       "id": "cf88f2889563730674dc",
@@ -543,7 +543,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "url": "https://openai.com/index/nvidia/chatgpt-work",
-      "collectedAt": "2026-08-30T08:55:12.485Z"
+      "collectedAt": "2026-08-31T09:20:13.148Z"
     },
     {
       "id": "aa9fbf89108c624b5035",
@@ -560,7 +560,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.618Z"
+      "collectedAt": "2026-08-31T09:20:14.509Z"
     },
     {
       "id": "87f8e936f22002253f15",
@@ -577,7 +577,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-17T08:00:00.000Z",
       "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
-      "collectedAt": "2026-08-30T08:55:15.202Z"
+      "collectedAt": "2026-08-31T09:20:15.983Z"
     },
     {
       "id": "628f79672cb28599f754",
@@ -594,7 +594,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T17:04:18.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-      "collectedAt": "2026-08-30T08:55:14.958Z"
+      "collectedAt": "2026-08-31T09:20:15.611Z"
     },
     {
       "id": "8637785710012aa19327",
@@ -611,7 +611,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T11:00:00.000Z",
       "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "collectedAt": "2026-08-30T08:55:12.485Z"
+      "collectedAt": "2026-08-31T09:20:13.149Z"
     },
     {
       "id": "12d8fd2a91a610822616",
@@ -628,7 +628,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T10:00:00.000Z",
       "url": "https://openai.com/index/previewing-ultrafast",
-      "collectedAt": "2026-08-30T08:55:12.485Z"
+      "collectedAt": "2026-08-31T09:20:13.150Z"
     },
     {
       "id": "ff9329e42a201fd379a6",
@@ -645,7 +645,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-30T08:55:14.448Z"
+      "collectedAt": "2026-08-31T09:20:15.258Z"
     },
     {
       "id": "68c4c83c983d7ad01b30",
@@ -662,7 +662,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-30T08:55:16.938Z"
+      "collectedAt": "2026-08-31T09:20:17.734Z"
     },
     {
       "id": "5437747d9f7a7fa2a89b",
@@ -679,7 +679,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-12T06:00:00.000Z",
       "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "collectedAt": "2026-08-30T08:55:12.486Z"
+      "collectedAt": "2026-08-31T09:20:13.150Z"
     },
     {
       "id": "1024017ea20ba53c7f72",
@@ -696,7 +696,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "url": "https://openai.com/index/ringcentral",
-      "collectedAt": "2026-08-30T08:55:12.486Z"
+      "collectedAt": "2026-08-31T09:20:13.151Z"
     },
     {
       "id": "8825eb211c3d1692966b",
@@ -713,7 +713,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-      "collectedAt": "2026-08-30T08:55:12.486Z"
+      "collectedAt": "2026-08-31T09:20:13.151Z"
     },
     {
       "id": "d9485ecefcc38cea5418",
@@ -730,7 +730,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "collectedAt": "2026-08-30T08:55:12.486Z"
+      "collectedAt": "2026-08-31T09:20:13.151Z"
     },
     {
       "id": "e253abe92338c77fff32",
@@ -747,7 +747,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.618Z"
+      "collectedAt": "2026-08-31T09:20:14.509Z"
     },
     {
       "id": "f50ed5f93da49347ecb6",
@@ -764,7 +764,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T12:00:00.000Z",
       "url": "https://openai.com/index/model-ml",
-      "collectedAt": "2026-08-30T08:55:12.487Z"
+      "collectedAt": "2026-08-31T09:20:13.152Z"
     },
     {
       "id": "734c538c439aa3199cf2",
@@ -781,7 +781,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T10:00:00.000Z",
       "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "collectedAt": "2026-08-30T08:55:12.488Z"
+      "collectedAt": "2026-08-31T09:20:13.152Z"
     },
     {
       "id": "288f6994afc6cc6de385",
@@ -798,7 +798,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T10:00:00.000Z",
       "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
-      "collectedAt": "2026-08-30T08:55:12.488Z"
+      "collectedAt": "2026-08-31T09:20:13.153Z"
     },
     {
       "id": "2c74e7c8cea6a2ece6de",
@@ -815,7 +815,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://openai.com/index/zapier",
-      "collectedAt": "2026-08-30T08:55:12.488Z"
+      "collectedAt": "2026-08-31T09:20:13.153Z"
     },
     {
       "id": "8eb1e6a0a260fe518fb3",
@@ -832,7 +832,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
-      "collectedAt": "2026-08-30T08:55:12.488Z"
+      "collectedAt": "2026-08-31T09:20:13.153Z"
     },
     {
       "id": "02e8effaacedb8dbc2e1",
@@ -849,7 +849,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://openai.com/index/premium-seats-chatgpt-business",
-      "collectedAt": "2026-08-30T08:55:12.489Z"
+      "collectedAt": "2026-08-31T09:20:13.153Z"
     },
     {
       "id": "968261fb57a0f452cb28",
@@ -866,7 +866,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.618Z"
+      "collectedAt": "2026-08-31T09:20:14.509Z"
     },
     {
       "id": "4b892749f4ed6e711322",
@@ -883,7 +883,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-07T09:00:00.000Z",
       "url": "https://openai.com/index/hsp-gruppe",
-      "collectedAt": "2026-08-30T08:55:12.489Z"
+      "collectedAt": "2026-08-31T09:20:13.153Z"
     },
     {
       "id": "f08640315c18fbc4f31c",
@@ -900,7 +900,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.619Z"
+      "collectedAt": "2026-08-31T09:20:14.509Z"
     },
     {
       "id": "d5755c0b97cd8308ee54",
@@ -917,7 +917,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T10:00:00.000Z",
       "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "collectedAt": "2026-08-30T08:55:12.489Z"
+      "collectedAt": "2026-08-31T09:20:13.154Z"
     },
     {
       "id": "0121f2aaabdbc2fbef18",
@@ -934,7 +934,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
-      "collectedAt": "2026-08-30T08:55:12.489Z"
+      "collectedAt": "2026-08-31T09:20:13.154Z"
     },
     {
       "id": "ac5d129bc56db5435253",
@@ -951,7 +951,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-30T08:55:13.037Z"
+      "collectedAt": "2026-08-31T09:20:13.862Z"
     },
     {
       "id": "cbf5ffda58d43478b306",
@@ -968,7 +968,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.619Z"
+      "collectedAt": "2026-08-31T09:20:14.510Z"
     },
     {
       "id": "374a02a97939919169d2",
@@ -985,7 +985,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-04T19:00:00.000Z",
       "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "collectedAt": "2026-08-30T08:55:12.489Z"
+      "collectedAt": "2026-08-31T09:20:13.154Z"
     },
     {
       "id": "3feab47dffd4ec330ae5",
@@ -1002,7 +1002,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
-      "collectedAt": "2026-08-30T08:55:12.490Z"
+      "collectedAt": "2026-08-31T09:20:13.154Z"
     },
     {
       "id": "c8f43754fdafecb85e1d",
@@ -1019,7 +1019,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T07:00:00.000Z",
       "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-      "collectedAt": "2026-08-30T08:55:12.490Z"
+      "collectedAt": "2026-08-31T09:20:13.155Z"
     },
     {
       "id": "6559d98a7d1bca755c17",
@@ -1036,7 +1036,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "url": "https://openai.com/index/circles",
-      "collectedAt": "2026-08-30T08:55:12.490Z"
+      "collectedAt": "2026-08-31T09:20:13.155Z"
     },
     {
       "id": "1b43c9e867bdb362c0cc",
@@ -1053,7 +1053,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.619Z"
+      "collectedAt": "2026-08-31T09:20:14.510Z"
     },
     {
       "id": "52e0cd114c7d854c3e96",
@@ -1070,7 +1070,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.619Z"
+      "collectedAt": "2026-08-31T09:20:14.510Z"
     },
     {
       "id": "b9d4476050e5d75f1b97",
@@ -1087,7 +1087,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T07:00:00.000Z",
       "url": "https://openai.com/index/unive",
-      "collectedAt": "2026-08-30T08:55:12.490Z"
+      "collectedAt": "2026-08-31T09:20:13.155Z"
     },
     {
       "id": "45bbaccf8d941517f323",
@@ -1104,7 +1104,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-      "collectedAt": "2026-08-30T08:55:12.490Z"
+      "collectedAt": "2026-08-31T09:20:13.155Z"
     },
     {
       "id": "af15e83e5c304730063b",
@@ -1121,7 +1121,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-30T08:55:16.938Z"
+      "collectedAt": "2026-08-31T09:20:17.734Z"
     },
     {
       "id": "b1fe0fa429937e85b2ef",
@@ -1138,7 +1138,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T15:00:59.000Z",
       "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-      "collectedAt": "2026-08-30T08:55:14.958Z"
+      "collectedAt": "2026-08-31T09:20:15.611Z"
     },
     {
       "id": "56f1d8a8c0f3af9fdd08",
@@ -1155,7 +1155,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T10:00:00.000Z",
       "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-      "collectedAt": "2026-08-30T08:55:12.491Z"
+      "collectedAt": "2026-08-31T09:20:13.156Z"
     },
     {
       "id": "cfbf6b8394b6edd2d1cc",
@@ -1172,7 +1172,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "url": "https://openai.com/index/avatarin",
-      "collectedAt": "2026-08-30T08:55:12.491Z"
+      "collectedAt": "2026-08-31T09:20:13.156Z"
     },
     {
       "id": "13c5281530ee4a6f4537",
@@ -1189,7 +1189,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-30T08:55:14.449Z"
+      "collectedAt": "2026-08-31T09:20:15.258Z"
     },
     {
       "id": "8aaceda53f7fc93dbf60",
@@ -1206,7 +1206,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T15:00:00.000Z",
       "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
-      "collectedAt": "2026-08-30T08:55:12.491Z"
+      "collectedAt": "2026-08-31T09:20:13.156Z"
     },
     {
       "id": "002458279ec72570fffb",
@@ -1223,7 +1223,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T10:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-academic-researchers",
-      "collectedAt": "2026-08-30T08:55:12.491Z"
+      "collectedAt": "2026-08-31T09:20:13.156Z"
     },
     {
       "id": "4c8b6c772be707078bbd",
@@ -1240,7 +1240,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "collectedAt": "2026-08-30T08:55:12.491Z"
+      "collectedAt": "2026-08-31T09:20:13.156Z"
     },
     {
       "id": "ca98ace8cf1a2a8d7872",
@@ -1257,7 +1257,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-08-30T08:55:13.896Z"
+      "collectedAt": "2026-08-31T09:20:14.882Z"
     },
     {
       "id": "bf370c7e47952f2da5c5",
@@ -1274,7 +1274,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-28T16:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "collectedAt": "2026-08-30T08:55:15.203Z"
+      "collectedAt": "2026-08-31T09:20:15.983Z"
     },
     {
       "id": "57b8f529f115263ec820",
@@ -1291,7 +1291,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-28T13:21:37.000Z",
       "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-      "collectedAt": "2026-08-30T08:55:14.958Z"
+      "collectedAt": "2026-08-31T09:20:15.611Z"
     },
     {
       "id": "bc5ed3298105125d299c",
@@ -1308,7 +1308,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-27T03:30:00.000Z",
       "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-      "collectedAt": "2026-08-30T08:55:12.491Z"
+      "collectedAt": "2026-08-31T09:20:13.157Z"
     },
     {
       "id": "cb2584c1c5ba09bcd3a3",
@@ -1325,7 +1325,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-24T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-30T08:55:13.038Z"
+      "collectedAt": "2026-08-31T09:20:13.863Z"
     },
     {
       "id": "b363cad12be0dd76a830",
@@ -1342,7 +1342,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-24T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.619Z"
+      "collectedAt": "2026-08-31T09:20:14.510Z"
     },
     {
       "id": "c7991759e1e4a5d32f85",
@@ -1359,7 +1359,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-23T00:00:00.000Z",
       "url": "https://openai.com/index/health-in-chatgpt",
-      "collectedAt": "2026-08-30T08:55:12.492Z"
+      "collectedAt": "2026-08-31T09:20:13.157Z"
     },
     {
       "id": "6ccf2d78b5e86593806b",
@@ -1376,7 +1376,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T13:00:00.000Z",
       "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-      "collectedAt": "2026-08-30T08:55:12.492Z"
+      "collectedAt": "2026-08-31T09:20:13.157Z"
     },
     {
       "id": "658d60926ab2360afa2e",
@@ -1393,7 +1393,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T05:30:00.000Z",
       "url": "https://openai.com/index/introducing-openai-presence",
-      "collectedAt": "2026-08-30T08:55:12.492Z"
+      "collectedAt": "2026-08-31T09:20:13.157Z"
     },
     {
       "id": "c7e36c4d5f5533523bd4",
@@ -1410,7 +1410,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T00:00:00.000Z",
       "url": "https://openai.com/index/ntt-data",
-      "collectedAt": "2026-08-30T08:55:12.492Z"
+      "collectedAt": "2026-08-31T09:20:13.158Z"
     },
     {
       "id": "a300ec7a4d7064f7179d",
@@ -1427,7 +1427,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.620Z"
+      "collectedAt": "2026-08-31T09:20:14.511Z"
     },
     {
       "id": "afa41d5e8e9237f5cad2",
@@ -1444,7 +1444,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T17:00:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
-      "collectedAt": "2026-08-30T08:55:12.492Z"
+      "collectedAt": "2026-08-31T09:20:13.158Z"
     },
     {
       "id": "176c2b61d3ba4a32ae38",
@@ -1461,7 +1461,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T15:16:30.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
-      "collectedAt": "2026-08-30T08:55:14.958Z"
+      "collectedAt": "2026-08-31T09:20:15.611Z"
     },
     {
       "id": "8b4028e43de92d3eef53",
@@ -1478,7 +1478,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T07:00:00.000Z",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "collectedAt": "2026-08-30T08:55:12.493Z"
+      "collectedAt": "2026-08-31T09:20:13.158Z"
     },
     {
       "id": "9e20c4d4744505bf3590",
@@ -1495,7 +1495,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-08-30T08:55:13.897Z"
+      "collectedAt": "2026-08-31T09:20:14.883Z"
     },
     {
       "id": "7ac3cf4e7948165dd06b",
@@ -1512,7 +1512,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-30T08:55:14.449Z"
+      "collectedAt": "2026-08-31T09:20:15.259Z"
     },
     {
       "id": "5237ec62c64502e0362e",
@@ -1529,7 +1529,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-20T10:00:00.000Z",
       "url": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "collectedAt": "2026-08-30T08:55:12.493Z"
+      "collectedAt": "2026-08-31T09:20:13.159Z"
     },
     {
       "id": "6fa040e6804071ffc67f",
@@ -1546,7 +1546,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-17T15:00:11.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
-      "collectedAt": "2026-08-30T08:55:14.958Z"
+      "collectedAt": "2026-08-31T09:20:15.611Z"
     },
     {
       "id": "453be2383653038965c7",
@@ -1563,7 +1563,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-17T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.620Z"
+      "collectedAt": "2026-08-31T09:20:14.511Z"
     },
     {
       "id": "37604a6bafa43b2cef23",
@@ -1580,7 +1580,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-      "collectedAt": "2026-08-30T08:55:12.493Z"
+      "collectedAt": "2026-08-31T09:20:13.159Z"
     },
     {
       "id": "ad99c0d7682ecec8de3d",
@@ -1597,7 +1597,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-      "collectedAt": "2026-08-30T08:55:15.203Z"
+      "collectedAt": "2026-08-31T09:20:15.984Z"
     },
     {
       "id": "58b103e4e418272fdf21",
@@ -1614,7 +1614,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T07:00:00.000Z",
       "url": "https://openai.com/index/codex-collaborator-creative-team",
-      "collectedAt": "2026-08-30T08:55:12.494Z"
+      "collectedAt": "2026-08-31T09:20:13.160Z"
     },
     {
       "id": "3e27101964501d6d280e",
@@ -1631,7 +1631,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-15T10:00:00.000Z",
       "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "collectedAt": "2026-08-30T08:55:12.494Z"
+      "collectedAt": "2026-08-31T09:20:13.160Z"
     },
     {
       "id": "064bc65fa5f9349bb063",
@@ -1648,7 +1648,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-15T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.620Z"
+      "collectedAt": "2026-08-31T09:20:14.511Z"
     },
     {
       "id": "58cd43a6843f5828b315",
@@ -1665,7 +1665,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex",
-      "collectedAt": "2026-08-30T08:55:12.494Z"
+      "collectedAt": "2026-08-31T09:20:13.161Z"
     },
     {
       "id": "2a84bed91691bdac7e9f",
@@ -1682,7 +1682,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex",
-      "collectedAt": "2026-08-30T08:55:12.495Z"
+      "collectedAt": "2026-08-31T09:20:13.161Z"
     },
     {
       "id": "9ef49567f47481113df8",
@@ -1699,7 +1699,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-30T08:55:13.038Z"
+      "collectedAt": "2026-08-31T09:20:13.864Z"
     },
     {
       "id": "02a4b9621f0b60b565aa",
@@ -1716,7 +1716,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.621Z"
+      "collectedAt": "2026-08-31T09:20:14.511Z"
     },
     {
       "id": "eb3326089562a28362a2",
@@ -1733,7 +1733,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-13T12:37:28.000Z",
       "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
-      "collectedAt": "2026-08-30T08:55:14.959Z"
+      "collectedAt": "2026-08-31T09:20:15.611Z"
     },
     {
       "id": "1e5af8ca0d8bc5e26703",
@@ -1750,7 +1750,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://openai.com/academy/getting-started",
-      "collectedAt": "2026-08-30T08:55:12.495Z"
+      "collectedAt": "2026-08-31T09:20:13.162Z"
     },
     {
       "id": "7735ad0dbb31b9a6729b",
@@ -1767,7 +1767,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-30T08:55:13.038Z"
+      "collectedAt": "2026-08-31T09:20:13.864Z"
     },
     {
       "id": "3cb521040949bbeed24b",
@@ -1784,7 +1784,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.621Z"
+      "collectedAt": "2026-08-31T09:20:14.511Z"
     },
     {
       "id": "b7ede73bbb83c239838d",
@@ -1801,7 +1801,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T13:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "collectedAt": "2026-08-30T08:55:12.496Z"
+      "collectedAt": "2026-08-31T09:20:13.162Z"
     },
     {
       "id": "cd73a370d60dec12bb60",
@@ -1818,7 +1818,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "collectedAt": "2026-08-30T08:55:12.496Z"
+      "collectedAt": "2026-08-31T09:20:13.162Z"
     },
     {
       "id": "0cc76793af620f7bb10c",
@@ -1835,7 +1835,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/bio-bug-bounty",
-      "collectedAt": "2026-08-30T08:55:12.496Z"
+      "collectedAt": "2026-08-31T09:20:13.163Z"
     },
     {
       "id": "3a73e1016004964e66d6",
@@ -1852,7 +1852,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6",
-      "collectedAt": "2026-08-30T08:55:12.496Z"
+      "collectedAt": "2026-08-31T09:20:13.163Z"
     },
     {
       "id": "6756ae3b0445393cf58b",
@@ -1869,7 +1869,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-30T08:55:13.039Z"
+      "collectedAt": "2026-08-31T09:20:13.865Z"
     },
     {
       "id": "74a441f786f49a59775d",
@@ -1886,7 +1886,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T13:00:00.000Z",
       "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "collectedAt": "2026-08-30T08:55:12.496Z"
+      "collectedAt": "2026-08-31T09:20:13.164Z"
     },
     {
       "id": "4acf2eda2e0fe738f5c1",
@@ -1903,7 +1903,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-live",
-      "collectedAt": "2026-08-30T08:55:12.496Z"
+      "collectedAt": "2026-08-31T09:20:13.164Z"
     },
     {
       "id": "5432c0edbd62ccd22a23",
@@ -1920,7 +1920,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.621Z"
+      "collectedAt": "2026-08-31T09:20:14.511Z"
     },
     {
       "id": "ef10e031dc3b0f027fe5",
@@ -1937,7 +1937,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T08:54:00.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "collectedAt": "2026-08-30T08:55:15.203Z"
+      "collectedAt": "2026-08-31T09:20:15.984Z"
     },
     {
       "id": "ae43b3314d8877dd3dce",
@@ -1954,7 +1954,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://openai.com/index/australian-payments-plus",
-      "collectedAt": "2026-08-30T08:55:12.497Z"
+      "collectedAt": "2026-08-31T09:20:13.164Z"
     },
     {
       "id": "4c936674f4b219ed493a",
@@ -1971,7 +1971,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://openai.com/index/mufg",
-      "collectedAt": "2026-08-30T08:55:12.497Z"
+      "collectedAt": "2026-08-31T09:20:13.164Z"
     },
     {
       "id": "02a4337d96c12bd29af9",
@@ -1988,7 +1988,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-30T08:55:13.039Z"
+      "collectedAt": "2026-08-31T09:20:13.866Z"
     },
     {
       "id": "e31b8759deb751b7046f",
@@ -2005,7 +2005,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-06T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-30T08:55:14.449Z"
+      "collectedAt": "2026-08-31T09:20:15.259Z"
     },
     {
       "id": "d9953405a7b98f544a26",
@@ -2022,7 +2022,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-02T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.621Z"
+      "collectedAt": "2026-08-31T09:20:14.512Z"
     },
     {
       "id": "15cd354e84a42a0e6b8f",
@@ -2039,7 +2039,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-01T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-30T08:55:13.040Z"
+      "collectedAt": "2026-08-31T09:20:13.866Z"
     },
     {
       "id": "b61b2637e688ad2bd25d",
@@ -2056,7 +2056,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.621Z"
+      "collectedAt": "2026-08-31T09:20:14.512Z"
     },
     {
       "id": "746aab7bf7ed89a86fa8",
@@ -2073,7 +2073,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T16:02:40.000Z",
       "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
-      "collectedAt": "2026-08-30T08:55:14.959Z"
+      "collectedAt": "2026-08-31T09:20:15.612Z"
     },
     {
       "id": "a3f03aca463e82452f66",
@@ -2090,7 +2090,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T09:00:00.000Z",
       "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "collectedAt": "2026-08-30T08:55:12.497Z"
+      "collectedAt": "2026-08-31T09:20:13.164Z"
     },
     {
       "id": "eb22f73482b9a1f24d91",
@@ -2107,7 +2107,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-genebench-pro",
-      "collectedAt": "2026-08-30T08:55:12.497Z"
+      "collectedAt": "2026-08-31T09:20:13.165Z"
     },
     {
       "id": "fe2f0670eaeafcdb3ad2",
@@ -2124,7 +2124,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "collectedAt": "2026-08-30T08:55:12.497Z"
+      "collectedAt": "2026-08-31T09:20:13.165Z"
     },
     {
       "id": "25e6e4a270cd66f9b185",
@@ -2141,7 +2141,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-30T08:55:13.040Z"
+      "collectedAt": "2026-08-31T09:20:13.867Z"
     },
     {
       "id": "a01fc084bf5f7a63e0f5",
@@ -2158,7 +2158,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.622Z"
+      "collectedAt": "2026-08-31T09:20:14.512Z"
     },
     {
       "id": "87e0d903c3ade9f63cb9",
@@ -2175,7 +2175,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-08-30T08:55:13.897Z"
+      "collectedAt": "2026-08-31T09:20:14.883Z"
     },
     {
       "id": "88b542cd5d98fc76107a",
@@ -2192,7 +2192,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-30T08:55:14.449Z"
+      "collectedAt": "2026-08-31T09:20:15.259Z"
     },
     {
       "id": "6e59d8aafa7323d938d6",
@@ -2209,7 +2209,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-29T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.622Z"
+      "collectedAt": "2026-08-31T09:20:14.513Z"
     },
     {
       "id": "e724c51a1bdace040134",
@@ -2226,7 +2226,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-26T10:00:00.000Z",
       "url": "https://openai.com/index/previewing-gpt-5-6-sol",
-      "collectedAt": "2026-08-30T08:55:12.498Z"
+      "collectedAt": "2026-08-31T09:20:13.165Z"
     },
     {
       "id": "9f7c2a8b44846309cebe",
@@ -2243,7 +2243,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-26T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.622Z"
+      "collectedAt": "2026-08-31T09:20:14.513Z"
     },
     {
       "id": "dfb466b9c1abc7508953",
@@ -2260,7 +2260,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-25T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-30T08:55:13.040Z"
+      "collectedAt": "2026-08-31T09:20:13.867Z"
     },
     {
       "id": "f5c353fcba8d18826546",
@@ -2277,7 +2277,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-25T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.622Z"
+      "collectedAt": "2026-08-31T09:20:14.513Z"
     },
     {
       "id": "4dc045a657edc4379886",
@@ -2294,7 +2294,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-24T16:30:01.000Z",
       "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
-      "collectedAt": "2026-08-30T08:55:14.959Z"
+      "collectedAt": "2026-08-31T09:20:15.612Z"
     },
     {
       "id": "5e93061480ea98dc8eab",
@@ -2311,7 +2311,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-24T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-30T08:55:14.450Z"
+      "collectedAt": "2026-08-31T09:20:15.260Z"
     },
     {
       "id": "ac21b6b84e065abf715a",
@@ -2328,7 +2328,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-23T17:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-immunology-mystery",
-      "collectedAt": "2026-08-30T08:55:12.498Z"
+      "collectedAt": "2026-08-31T09:20:13.166Z"
     },
     {
       "id": "2beb6e83d413eee747a3",
@@ -2345,7 +2345,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-23T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-30T08:55:13.041Z"
+      "collectedAt": "2026-08-31T09:20:13.867Z"
     },
     {
       "id": "4ee0a46d008431f74c6f",
@@ -2362,7 +2362,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T10:00:00.000Z",
       "url": "https://openai.com/index/daybreak-securing-the-world",
-      "collectedAt": "2026-08-30T08:55:12.498Z"
+      "collectedAt": "2026-08-31T09:20:13.166Z"
     },
     {
       "id": "f1af487b8667894c5069",
@@ -2379,7 +2379,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T00:00:00.000Z",
       "url": "https://openai.com/index/codex-maxxing-long-running-work",
-      "collectedAt": "2026-08-30T08:55:12.498Z"
+      "collectedAt": "2026-08-31T09:20:13.166Z"
     },
     {
       "id": "ecb75c71ae3d46eb61c5",
@@ -2396,7 +2396,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.622Z"
+      "collectedAt": "2026-08-31T09:20:14.513Z"
     },
     {
       "id": "4fba785fb3527574518d",
@@ -2413,7 +2413,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-21T23:00:00.000Z",
       "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "collectedAt": "2026-08-30T08:55:12.498Z"
+      "collectedAt": "2026-08-31T09:20:13.166Z"
     },
     {
       "id": "a744e1d203989e6af98f",
@@ -2430,7 +2430,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T17:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "collectedAt": "2026-08-30T08:55:12.498Z"
+      "collectedAt": "2026-08-31T09:20:13.166Z"
     },
     {
       "id": "4451d1f4fabd696490a6",
@@ -2447,7 +2447,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T11:00:00.000Z",
       "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "collectedAt": "2026-08-30T08:55:12.499Z"
+      "collectedAt": "2026-08-31T09:20:13.166Z"
     },
     {
       "id": "1145e5f5fbfda4f778bc",
@@ -2464,7 +2464,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T08:00:00.000Z",
       "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "collectedAt": "2026-08-30T08:55:12.499Z"
+      "collectedAt": "2026-08-31T09:20:13.167Z"
     },
     {
       "id": "b360a839b1ef98e71882",
@@ -2481,7 +2481,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.631Z"
+      "collectedAt": "2026-08-31T09:20:14.523Z"
     },
     {
       "id": "1c76d41068a26bd369b1",
@@ -2498,7 +2498,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-17T10:00:00.000Z",
       "url": "https://openai.com/index/ai-chemist-improves-reaction",
-      "collectedAt": "2026-08-30T08:55:12.499Z"
+      "collectedAt": "2026-08-31T09:20:13.167Z"
     },
     {
       "id": "5da9598fb41c1ac93e58",
@@ -2515,7 +2515,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-17T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-life-sci-bench",
-      "collectedAt": "2026-08-30T08:55:12.499Z"
+      "collectedAt": "2026-08-31T09:20:13.167Z"
     },
     {
       "id": "c264a8015cf38e7b022d",
@@ -2532,7 +2532,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-17T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-30T08:55:14.450Z"
+      "collectedAt": "2026-08-31T09:20:15.260Z"
     },
     {
       "id": "463a3f23df3be39852c2",
@@ -2549,7 +2549,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-16T00:00:00.000Z",
       "url": "https://openai.com/index/deployment-simulation",
-      "collectedAt": "2026-08-30T08:55:12.499Z"
+      "collectedAt": "2026-08-31T09:20:13.167Z"
     },
     {
       "id": "c1c4940bb85560fc0599",
@@ -2566,7 +2566,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-15T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.632Z"
+      "collectedAt": "2026-08-31T09:20:14.523Z"
     },
     {
       "id": "9d55e1d372b6a64c37a3",
@@ -2583,7 +2583,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-15T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-08-30T08:55:14.451Z"
+      "collectedAt": "2026-08-31T09:20:15.261Z"
     },
     {
       "id": "ed2a24d67723105da4dc",
@@ -2600,7 +2600,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-14T17:00:00.000Z",
       "url": "https://openai.com/index/introducing-openai-partner-network",
-      "collectedAt": "2026-08-30T08:55:12.499Z"
+      "collectedAt": "2026-08-31T09:20:13.167Z"
     },
     {
       "id": "b5b7f9b007b543013769",
@@ -2617,7 +2617,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-12T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-30T08:55:13.041Z"
+      "collectedAt": "2026-08-31T09:20:13.868Z"
     },
     {
       "id": "5cf8d01eeb345b1be05a",
@@ -2634,7 +2634,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "collectedAt": "2026-08-30T08:55:12.500Z"
+      "collectedAt": "2026-08-31T09:20:13.168Z"
     },
     {
       "id": "46d6755fb18785fef07a",
@@ -2651,7 +2651,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "url": "https://openai.com/index/openai-to-acquire-ona",
-      "collectedAt": "2026-08-30T08:55:12.500Z"
+      "collectedAt": "2026-08-31T09:20:13.168Z"
     },
     {
       "id": "c24b9d70e899a62f23fe",
@@ -2668,7 +2668,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "url": "https://openai.com/index/bbva",
-      "collectedAt": "2026-08-30T08:55:12.500Z"
+      "collectedAt": "2026-08-31T09:20:13.168Z"
     },
     {
       "id": "2f865cea4009ebb80597",
@@ -2685,7 +2685,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.632Z"
+      "collectedAt": "2026-08-31T09:20:14.523Z"
     },
     {
       "id": "271132d8a2041b336c61",
@@ -2702,7 +2702,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T20:00:00.000Z",
       "url": "https://openai.com/index/openai-on-oracle-cloud",
-      "collectedAt": "2026-08-30T08:55:12.500Z"
+      "collectedAt": "2026-08-31T09:20:13.168Z"
     },
     {
       "id": "dd8ef022bc1c3f2bcd4e",
@@ -2719,7 +2719,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T16:24:11.000Z",
       "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
-      "collectedAt": "2026-08-30T08:55:14.959Z"
+      "collectedAt": "2026-08-31T09:20:15.612Z"
     },
     {
       "id": "55b4277f4767ea97239e",
@@ -2736,7 +2736,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T12:00:00.000Z",
       "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
-      "collectedAt": "2026-08-30T08:55:12.500Z"
+      "collectedAt": "2026-08-31T09:20:13.168Z"
     },
     {
       "id": "c294c90b25ad2202d7ea",
@@ -2753,7 +2753,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.632Z"
+      "collectedAt": "2026-08-31T09:20:14.523Z"
     },
     {
       "id": "3f596d04752d28827a43",
@@ -2770,7 +2770,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T15:16:25.000Z",
       "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
-      "collectedAt": "2026-08-30T08:55:14.959Z"
+      "collectedAt": "2026-08-31T09:20:15.612Z"
     },
     {
       "id": "9e66a7e36eb33f1bf16e",
@@ -2787,7 +2787,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T14:10:19.000Z",
       "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
-      "collectedAt": "2026-08-30T08:55:14.959Z"
+      "collectedAt": "2026-08-31T09:20:15.612Z"
     },
     {
       "id": "85c8f77c366cd8be2604",
@@ -2804,7 +2804,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T12:00:00.000Z",
       "url": "https://openai.com/index/nextdoor",
-      "collectedAt": "2026-08-30T08:55:12.501Z"
+      "collectedAt": "2026-08-31T09:20:13.169Z"
     },
     {
       "id": "cf7da16f8eca08cdd1c8",
@@ -2821,7 +2821,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T10:00:00.000Z",
       "url": "https://openai.com/index/notion",
-      "collectedAt": "2026-08-30T08:55:12.501Z"
+      "collectedAt": "2026-08-31T09:20:13.169Z"
     },
     {
       "id": "38f6e05061513bd3e053",
@@ -2838,7 +2838,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-30T08:55:13.041Z"
+      "collectedAt": "2026-08-31T09:20:13.868Z"
     },
     {
       "id": "ac48cd08f7d2aaf4a683",
@@ -2855,7 +2855,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.632Z"
+      "collectedAt": "2026-08-31T09:20:14.524Z"
     },
     {
       "id": "43924ddd68dd8e3d134b",
@@ -2872,7 +2872,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-08T13:04:59.000Z",
       "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
-      "collectedAt": "2026-08-30T08:55:14.959Z"
+      "collectedAt": "2026-08-31T09:20:15.612Z"
     },
     {
       "id": "68f3aa2ed2cfc2244c4a",
@@ -2889,7 +2889,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-05T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.633Z"
+      "collectedAt": "2026-08-31T09:20:14.524Z"
     },
     {
       "id": "c02a905db735d39710d2",
@@ -2906,7 +2906,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-04T12:00:00.000Z",
       "url": "https://openai.com/index/endava-frontiers",
-      "collectedAt": "2026-08-30T08:55:12.502Z"
+      "collectedAt": "2026-08-31T09:20:13.169Z"
     },
     {
       "id": "38059fa473644001da1a",
@@ -2923,7 +2923,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-04T09:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-memory-dreaming",
-      "collectedAt": "2026-08-30T08:55:12.502Z"
+      "collectedAt": "2026-08-31T09:20:13.170Z"
     },
     {
       "id": "1ff31f480209a0625382",
@@ -2940,7 +2940,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-03T13:15:00.000Z",
       "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
-      "collectedAt": "2026-08-30T08:55:12.502Z"
+      "collectedAt": "2026-08-31T09:20:13.170Z"
     },
     {
       "id": "f7ef456d13b5ed4351b1",
@@ -2957,7 +2957,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-03T12:00:00.000Z",
       "url": "https://openai.com/index/wasmer",
-      "collectedAt": "2026-08-30T08:55:12.502Z"
+      "collectedAt": "2026-08-31T09:20:13.170Z"
     },
     {
       "id": "87eb9b7def118c7239f6",
@@ -2974,92 +2974,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-02T10:00:00.000Z",
       "url": "https://openai.com/academy/chatgpt-sites",
-      "collectedAt": "2026-08-30T08:55:12.503Z"
-    },
-    {
-      "id": "e5a668bd62c058849392",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Codex for every role, tool, and workflow",
-      "summary": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
-      "content": "[Skip to main content](https://openai.com/index/codex-for-every-role-tool-workflow#main)\n\n[](https://openai.com/)\n\n*   [Research](https://openai.com/research/index/)\n*   Products\n*   [Business](https://openai.com/business/)\n*   [Developers](https://openai.com/api/)\n*   [Company](https://openai.com/about/)\n*   [Foundation(opens in a new window)](https://openaifoundation.org/)\n\nLog in[Try ChatGPT(opens in a new window)](https://chatgpt.com/?openaicom-did=2a812d51-e1aa-4501-8e75-b291b364936b&openaicom_referred=true)\n\n*   Research\n*   Products\n*   Business\n*   Developers\n*   Company\n*   [Foundation(opens in a new window)](https://openaifoundation.org/)\n\nCodex for every role, tool, and workflow | OpenAI\n\nJune 2, 2026\n\n[Product](https://openai.com/news/product-releases/)\n\n# Codex for every role, tool, and workflow\n\nNew role-specific plugins, Sites, and annotations help teams do more with Codex.\n\nListen to article 6:28\n\n[Audio 2](https://openai.com/index/codex-for-every-role-tool-workflow)\n\nShare\n\nMake Codex work the way your team does\n\n*   [Make Codex work the way your team does](https://openai.com/index/codex-for-every-role-tool-workflow#make-codex-work-the-way-your-team-does) \n*   [Share your work with sites](https://openai.com/index/codex-for-every-role-tool-workflow#share-your-work-with-sites) \n*   [Refine your work with annotations](https://openai.com/index/codex-for-every-role-tool-workflow#refine-your-work-with-annotations) \n*   [Availability and getting started](https://openai.com/index/codex-for-every-role-tool-workflow#availability-and-getting-started) \n\n*   [Make Codex work the way your team does](https://openai.com/index/codex-for-every-role-tool-workflow#make-codex-work-the-way-your-team-does) \n*   [Share your work with sites](https://openai.com/index/codex-for-every-role-tool-workflow#share-your-work-with-sites) \n*   [Refine your work with annotations](https://openai.com/index/codex-for-every-role-tool-workflow#refine-your-work-with-annotations) \n*   [Availability and getting started](https://openai.com/index/codex-for-every-role-tool-workflow#availability-and-getting-started) \n\nMore than 5 million people now use Codex every week. Codex started as a tool for software development, but it's increasingly useful for more kinds of work. Non-developers—including analysts, marketers, operators, designers, researchers, investors, and bankers—[make up about 20% of overall Codex users⁠](https://openai.com/index/codex-for-knowledge-work/) and are growing more than 3x as fast as developers.\n\nToday, we’re introducing new ways to do more of your work with Codex: plugins that adapt Codex to your role and tools, annotations that help you refine the result in place, and a preview of the ability to create interactive websites and apps you can share with your workspace using a URL.\n\nInside OpenAI, non-technical teams use Codex to build internal apps, prepare executive materials, create dashboards, and turn creative briefs into work that reflects brand and design constraints. At Zapier, teams use Codex to pull knowledge from tools like Slack, Google Docs, and Coda, then turn that context into postmortems, incident response plans, and feature tickets. At NVIDIA, researchers are using Codex to speed up experiment workflows, from finding research ideas to writing scripts for machine learning infrastructure.\n\n00:00\n\n## Make Codex work the way your team does\n\nCodex is most useful when it works the way your team does: connected to the tools you use and ready to create the materials you need.\n\nPlugins help Codex work with the tools, context, and workflows your team already uses. Today, we’re launching six new role-specific plugins that make Codex useful for more kinds of knowledge work, no coding required:\n\n*   Each [role-specific plugin⁠(opens in a new window)](https://github.com/openai/role-based-plugins) bundles the relevant apps, skills, instructions, and workflows. Together, they include 62 popular apps and 110 skills.\n*   The [**data analytics plugin**⁠(opens in a new window)](https://chatgpt.com/plugins/share/32687761205248ae9b517f3d30ad8dd1?openaicom-did=2a812d51-e1aa-4501-8e75-b291b364936b&openaicom_referred=true) helps analysts and business teams answer questions with data. They can explore product and business data, explain why key metrics changed, and create reports and dashboards using tools like Snowflake, Databricks Genie, Hex, and Tableau, with more coming soon.\n*   The [**creative production plugin**⁠(opens in a new window)](https://chatgpt.com/plugins/share/a826391706e14c90816f2ceba9cc8b49?openaicom-did=2a812d51-e1aa-4501-8e75-b291b364936b&openaicom_referred=true)helps marketing and creative teams turn a brief into assets they can review. Teams can create campaign boards, make and refine display ad variations, and produce product lifestyle shots or ecommerce-ready image sets with tools like Figma, Canva, Shutterstock, Picsart, and Fal.\n*   The [**sales plugin**⁠(opens in a new window)](https://chatgpt.com/plugins/share/22ec24462a4a410bba1c56c099f6101c?openaicom-did=2a812d51-e1aa-4501-8e75-b291b364936b&openaicom_referred=true) helps sales teams bring customer context into the work that moves deals forward. Sales teams can find high-priority accounts and signals, prepare for customer meetings, complete follow-ups, update customer records, build close plans, and review deals at risk using tools like Salesforce, HubSpot, Slack, Outreach, Clay, Rox, and Actively.\n*   The [**product design plugin**⁠(opens in a new window)](https://chatgpt.com/plugins/share/37f657dbc41f408d9b05b52d30b8b527?openaicom-did=2a812d51-e1aa-4501-8e75-b291b364936b&openaicom_referred=true) is built for turning early ideas into prototypes teams can review. Teams can explore product directions, audit user flows, prototype from a live URL, and make static screenshots interactive, with work that can be carried forward in tools like Figma and Canva.\n*   The [**public equity investing plugin**⁠(opens in a new window)](https://chatgpt.com/plugins/share/8f2f2fb7215f4688a0853afd038f2a1a?openaicom-did=2a812d51-e1aa-4501-8e75-b291b364936b&openaicom_referred=true) helps investors make sense of market and company information. They can review earnings, compare companies, track signals, and assess whether an investment thesis is strengthening or weakening using information from Moody’s, Daloopa, Datasite, FactSet, LSEG, S&P, PitchBook, and Hebbia.\n*   The [**investment banking plugin**⁠(opens in a new window)](https://chatgpt.com/plugins/share/479468a8d5224cb2976c0fe6c6e599b5?openaicom-did=2a812d51-e1aa-4501-8e75-b291b364936b&openaicom_referred=true) helps bankers turn research and diligence into client-ready materials. They can prepare pitch materials, analyze comparable companies and transactions, and turn diligence into recommendations using trusted data.\n\nData analytics Creative production Product design Sales Public equity investing\n\n00:00\n\n**Business performance analysis** with the data analytics plugin\n\nPlugins work out of the box. Teams can also adapt them to their workflows or build and share custom plugins for their own systems and processes.\n\nMore role-specific plugins are coming soon, including Corporate Finance, Private Equity Investing, Marketing Strategy, Strategy Consulting, and Legal. And this is just the start: we’re building toward an open ecosystem where partners can create and deploy their own plugins directly in Codex and ChatGPT.\n\n![Image 2](https://images.ctfassets.net/kftzwdyauwt9/4UFpCp3CX3e97raZbAktYo/d54df1fa1f816e5eeacac803b48dafe4/actively-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 3](https://images.ctfassets.net/kftzwdyauwt9/4NYFssjICleYFIAOVjC4NF/225b023c70177856ab692b1bfff55df9/Apollo-logo.png?w=3840&q=90&fm=webp)\n\n![Image 4](https://images.ctfassets.net/kftzwdyauwt9/RJ8DfEys6DtH4MzH97r33/540a8e5376d34cbbcc127865eacaa9d6/Chronograph-icon.png?w=3840&q=90&fm=webp)\n\n![Image 5](https://images.ctfassets.net/kftzwdyauwt9/29wvM1Ty8uWY4pp9lZZFqv/df7b088b4f409f67832dc18b143bc08f/Databricks-icon.png?w=3840&q=90&fm=webp)\n\n![Image 6](https://images.ctfassets.net/kftzwdyauwt9/5XaUCn4UEZhwtGxuVhqmSH/505e55af3925ff2942cb46216192ab5b/FactSet-icon.png?w=3840&q=90&fm=webp)\n\n![Image 7](https://images.ctfassets.net/kftzwdyauwt9/vcHfiQ7aAwrYmYcoQoz9J/2135045b7e7eb0de7417e5b31459f9a0/Aiera-icon.png?w=3840&q=90&fm=webp)\n\n![Image 8](https://images.ctfassets.net/kftzwdyauwt9/2baLN2AEXCHyCuaWV7Rxp1/9407ee14a5d2867c817aa5b6329305c2/Calendly-icon.png?w=3840&q=90&fm=webp)\n\n![Image 9](https://images.ctfassets.net/kftzwdyauwt9/3ttS8F0BSrbkzIPZMcNz8E/87c8289410034d5431ab2b1585ce1f3a/Clay-icon.png?w=3840&q=90&fm=webp)\n\n![Image 10](https://images.ctfassets.net/kftzwdyauwt9/5mMHXLe8l0NNPJWVGYvUqK/7be46f5ad522661f687d71c1b77e2e2a/Datasite-icon.png?w=3840&q=90&fm=webp)\n\n![Image 11](https://images.ctfassets.net/kftzwdyauwt9/35d97mMx91cfTmNZHqXoun/66fc9fa59a9df2ae812c6414272d2243/Fal-icon.png?w=3840&q=90&fm=webp)\n\n![Image 12](https://images.ctfassets.net/kftzwdyauwt9/66G2WK6ampV9jPzRa2Hvbg/886b4bd1a14e8cdfb200ab7a6dfabfe4/Alation-icon.png?w=3840&q=90&fm=webp)\n\n![Image 13](https://images.ctfassets.net/kftzwdyauwt9/5JhKRNTuJsb1YlJy2aZgGG/a550a1b7d088b8862945510d26e05306/Canva-icon.png?w=3840&q=90&fm=webp)\n\n![Image 14](https://images.ctfassets.net/kftzwdyauwt9/jzXVGEfP4mbBnldf2o8lF/3c7b92daef9d0419078c223e6facaca6/Close-icon.png?w=3840&q=90&fm=webp)\n\n![Image 15](https://images.ctfassets.net/kftzwdyauwt9/1ZrYyHKYVPXXHVMY3WllKP/590344a2803377aa54fd729c34cb14dd/Deepnote-icon.png?w=3840&q=90&fm=webp)\n\n![Image 16](https://images.ctfassets.net/kftzwdyauwt9/59QXkm38wdfWcVkARDzWjP/49a8f3d91cf9a36fae192296fb811390/Figma-icon.png?w=3840&q=90&fm=webp)\n\n![Image 17](https://images.ctfassets.net/kftzwdyauwt9/vcHfiQ7aAwrYmYcoQoz9J/2135045b7e7eb0de7417e5b31459f9a0/Aiera-icon.png?w=3840&q=90&fm=webp)\n\n![Image 18](https://images.ctfassets.net/kftzwdyauwt9/2baLN2AEXCHyCuaWV7Rxp1/9407ee14a5d2867c817aa5b6329305c2/Calendly-icon.png?w=3840&q=90&fm=webp)\n\n![Image 19](https://images.ctfassets.net/kftzwdyauwt9/3ttS8F0BSrbkzIPZMcNz8E/87c8289410034d5431ab2b1585ce1f3a/Clay-icon.png?w=3840&q=90&fm=webp)\n\n![Image 20](https://images.ctfassets.net/kftzwdyauwt9/5mMHXLe8l0NNPJWVGYvUqK/7be46f5ad522661f687d71c1b77e2e2a/Datasite-icon.png?w=3840&q=90&fm=webp)\n\n![Image 21](https://images.ctfassets.net/kftzwdyauwt9/35d97mMx91cfTmNZHqXoun/66fc9fa59a9df2ae812c6414272d2243/Fal-icon.png?w=3840&q=90&fm=webp)\n\n![Image 22](https://images.ctfassets.net/kftzwdyauwt9/66G2WK6ampV9jPzRa2Hvbg/886b4bd1a14e8cdfb200ab7a6dfabfe4/Alation-icon.png?w=3840&q=90&fm=webp)\n\n![Image 23](https://images.ctfassets.net/kftzwdyauwt9/5JhKRNTuJsb1YlJy2aZgGG/a550a1b7d088b8862945510d26e05306/Canva-icon.png?w=3840&q=90&fm=webp)\n\n![Image 24](https://images.ctfassets.net/kftzwdyauwt9/jzXVGEfP4mbBnldf2o8lF/3c7b92daef9d0419078c223e6facaca6/Close-icon.png?w=3840&q=90&fm=webp)\n\n![Image 25](https://images.ctfassets.net/kftzwdyauwt9/1ZrYyHKYVPXXHVMY3WllKP/590344a2803377aa54fd729c34cb14dd/Deepnote-icon.png?w=3840&q=90&fm=webp)\n\n![Image 26](https://images.ctfassets.net/kftzwdyauwt9/59QXkm38wdfWcVkARDzWjP/49a8f3d91cf9a36fae192296fb811390/Figma-icon.png?w=3840&q=90&fm=webp)\n\n![Image 27](https://images.ctfassets.net/kftzwdyauwt9/TxiSBzrfQ4WWAPkSMXYZt/f4d0a092e749e9b7e8caeb09a30abf5f/Amplitude-icon.png?w=3840&q=90&fm=webp)\n\n![Image 28](https://images.ctfassets.net/kftzwdyauwt9/35DM0SJOz9SUbSivrZdisO/207f6688e291b15cb477f87c9ebfda72/chrome-icon.png?w=3840&q=90&fm=webp)\n\n![Image 29](https://images.ctfassets.net/kftzwdyauwt9/7uejlwsOOL1AxOt3h3vfiz/f0e3f52be5b1bb33ff41ab197423e210/daloopa-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 30](https://images.ctfassets.net/kftzwdyauwt9/6ww6xmOFNciC74O76ZSu2g/e15dc28a080526919f1cffa851aadd95/Docusign-icon.png?w=3840&q=90&fm=webp)\n\n![Image 31](https://images.ctfassets.net/kftzwdyauwt9/3ttS8F0BSrbkzIPZMcNz8E/87c8289410034d5431ab2b1585ce1f3a/Clay-icon.png?w=3840&q=90&fm=webp)\n\n![Image 32](https://images.ctfassets.net/kftzwdyauwt9/66G2WK6ampV9jPzRa2Hvbg/886b4bd1a14e8cdfb200ab7a6dfabfe4/Alation-icon.png?w=3840&q=90&fm=webp)\n\n![Image 33](https://images.ctfassets.net/kftzwdyauwt9/5JhKRNTuJsb1YlJy2aZgGG/a550a1b7d088b8862945510d26e05306/Canva-icon.png?w=3840&q=90&fm=webp)\n\n![Image 34](https://images.ctfassets.net/kftzwdyauwt9/jzXVGEfP4mbBnldf2o8lF/3c7b92daef9d0419078c223e6facaca6/Close-icon.png?w=3840&q=90&fm=webp)\n\n![Image 35](https://images.ctfassets.net/kftzwdyauwt9/1ZrYyHKYVPXXHVMY3WllKP/590344a2803377aa54fd729c34cb14dd/Deepnote-icon.png?w=3840&q=90&fm=webp)\n\n![Image 36](https://images.ctfassets.net/kftzwdyauwt9/59QXkm38wdfWcVkARDzWjP/49a8f3d91cf9a36fae192296fb811390/Figma-icon.png?w=3840&q=90&fm=webp)\n\n![Image 37](https://images.ctfassets.net/kftzwdyauwt9/TxiSBzrfQ4WWAPkSMXYZt/f4d0a092e749e9b7e8caeb09a30abf5f/Amplitude-icon.png?w=3840&q=90&fm=webp)\n\n![Image 38](https://images.ctfassets.net/kftzwdyauwt9/35DM0SJOz9SUbSivrZdisO/207f6688e291b15cb477f87c9ebfda72/chrome-icon.png?w=3840&q=90&fm=webp)\n\n![Image 39](https://images.ctfassets.net/kftzwdyauwt9/7uejlwsOOL1AxOt3h3vfiz/f0e3f52be5b1bb33ff41ab197423e210/daloopa-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 40](https://images.ctfassets.net/kftzwdyauwt9/6ww6xmOFNciC74O76ZSu2g/e15dc28a080526919f1cffa851aadd95/Docusign-icon.png?w=3840&q=90&fm=webp)\n\n![Image 41](https://images.ctfassets.net/kftzwdyauwt9/4UFpCp3CX3e97raZbAktYo/d54df1fa1f816e5eeacac803b48dafe4/actively-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 42](https://images.ctfassets.net/kftzwdyauwt9/4NYFssjICleYFIAOVjC4NF/225b023c70177856ab692b1bfff55df9/Apollo-logo.png?w=3840&q=90&fm=webp)\n\n![Image 43](https://images.ctfassets.net/kftzwdyauwt9/RJ8DfEys6DtH4MzH97r33/540a8e5376d34cbbcc127865eacaa9d6/Chronograph-icon.png?w=3840&q=90&fm=webp)\n\n![Image 44](https://images.ctfassets.net/kftzwdyauwt9/29wvM1Ty8uWY4pp9lZZFqv/df7b088b4f409f67832dc18b143bc08f/Databricks-icon.png?w=3840&q=90&fm=webp)\n\n![Image 45](https://images.ctfassets.net/kftzwdyauwt9/5XaUCn4UEZhwtGxuVhqmSH/505e55af3925ff2942cb46216192ab5b/FactSet-icon.png?w=3840&q=90&fm=webp)\n\n![Image 46](https://images.ctfassets.net/kftzwdyauwt9/jzXVGEfP4mbBnldf2o8lF/3c7b92daef9d0419078c223e6facaca6/Close-icon.png?w=3840&q=90&fm=webp)\n\n![Image 47](https://images.ctfassets.net/kftzwdyauwt9/TxiSBzrfQ4WWAPkSMXYZt/f4d0a092e749e9b7e8caeb09a30abf5f/Amplitude-icon.png?w=3840&q=90&fm=webp)\n\n![Image 48](https://images.ctfassets.net/kftzwdyauwt9/35DM0SJOz9SUbSivrZdisO/207f6688e291b15cb477f87c9ebfda72/chrome-icon.png?w=3840&q=90&fm=webp)\n\n![Image 49](https://images.ctfassets.net/kftzwdyauwt9/7uejlwsOOL1AxOt3h3vfiz/f0e3f52be5b1bb33ff41ab197423e210/daloopa-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 50](https://images.ctfassets.net/kftzwdyauwt9/6ww6xmOFNciC74O76ZSu2g/e15dc28a080526919f1cffa851aadd95/Docusign-icon.png?w=3840&q=90&fm=webp)\n\n![Image 51](https://images.ctfassets.net/kftzwdyauwt9/4UFpCp3CX3e97raZbAktYo/d54df1fa1f816e5eeacac803b48dafe4/actively-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 52](https://images.ctfassets.net/kftzwdyauwt9/4NYFssjICleYFIAOVjC4NF/225b023c70177856ab692b1bfff55df9/Apollo-logo.png?w=3840&q=90&fm=webp)\n\n![Image 53](https://images.ctfassets.net/kftzwdyauwt9/RJ8DfEys6DtH4MzH97r33/540a8e5376d34cbbcc127865eacaa9d6/Chronograph-icon.png?w=3840&q=90&fm=webp)\n\n![Image 54](https://images.ctfassets.net/kftzwdyauwt9/29wvM1Ty8uWY4pp9lZZFqv/df7b088b4f409f67832dc18b143bc08f/Databricks-icon.png?w=3840&q=90&fm=webp)\n\n![Image 55](https://images.ctfassets.net/kftzwdyauwt9/5XaUCn4UEZhwtGxuVhqmSH/505e55af3925ff2942cb46216192ab5b/FactSet-icon.png?w=3840&q=90&fm=webp)\n\n![Image 56](https://images.ctfassets.net/kftzwdyauwt9/vcHfiQ7aAwrYmYcoQoz9J/2135045b7e7eb0de7417e5b31459f9a0/Aiera-icon.png?w=3840&q=90&fm=webp)\n\n![Image 57](https://images.ctfassets.net/kftzwdyauwt9/2baLN2AEXCHyCuaWV7Rxp1/9407ee14a5d2867c817aa5b6329305c2/Calendly-icon.png?w=3840&q=90&fm=webp)\n\n![Image 58](https://images.ctfassets.net/kftzwdyauwt9/3ttS8F0BSrbkzIPZMcNz8E/87c8289410034d5431ab2b1585ce1f3a/Clay-icon.png?w=3840&q=90&fm=webp)\n\n![Image 59](https://images.ctfassets.net/kftzwdyauwt9/5mMHXLe8l0NNPJWVGYvUqK/7be46f5ad522661f687d71c1b77e2e2a/Datasite-icon.png?w=3840&q=90&fm=webp)\n\n![Image 60](https://images.ctfassets.net/kftzwdyauwt9/35d97mMx91cfTmNZHqXoun/66fc9fa59a9df2ae812c6414272d2243/Fal-icon.png?w=3840&q=90&fm=webp)\n\n![Image 61](https://images.ctfassets.net/kftzwdyauwt9/7uejlwsOOL1AxOt3h3vfiz/f0e3f52be5b1bb33ff41ab197423e210/daloopa-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 62](https://images.ctfassets.net/kftzwdyauwt9/4UFpCp3CX3e97raZbAktYo/d54df1fa1f816e5eeacac803b48dafe4/actively-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 63](https://images.ctfassets.net/kftzwdyauwt9/2baLN2AEXCHyCuaWV7Rxp1/9407ee14a5d2867c817aa5b6329305c2/Calendly-icon.png?w=3840&q=90&fm=webp)\n\n![Image 64](https://images.ctfassets.net/kftzwdyauwt9/jzXVGEfP4mbBnldf2o8lF/3c7b92daef9d0419078c223e6facaca6/Close-icon.png?w=3840&q=90&fm=webp)\n\n![Image 65](https://images.ctfassets.net/kftzwdyauwt9/6ww6xmOFNciC74O76ZSu2g/e15dc28a080526919f1cffa851aadd95/Docusign-icon.png?w=3840&q=90&fm=webp)\n\n![Image 66](https://images.ctfassets.net/kftzwdyauwt9/vcHfiQ7aAwrYmYcoQoz9J/2135045b7e7eb0de7417e5b31459f9a0/Aiera-icon.png?w=3840&q=90&fm=webp)\n\n![Image 67](https://images.ctfassets.net/kftzwdyauwt9/5JhKRNTuJsb1YlJy2aZgGG/a550a1b7d088b8862945510d26e05306/Canva-icon.png?w=3840&q=90&fm=webp)\n\n![Image 68](https://images.ctfassets.net/kftzwdyauwt9/7uejlwsOOL1AxOt3h3vfiz/f0e3f52be5b1bb33ff41ab197423e210/daloopa-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 69](https://images.ctfassets.net/kftzwdyauwt9/5XaUCn4UEZhwtGxuVhqmSH/505e55af3925ff2942cb46216192ab5b/FactSet-icon.png?w=3840&q=90&fm=webp)\n\n![Image 70](https://images.ctfassets.net/kftzwdyauwt9/66G2WK6ampV9jPzRa2Hvbg/886b4bd1a14e8cdfb200ab7a6dfabfe4/Alation-icon.png?w=3840&q=90&fm=webp)\n\n![Image 71](https://images.ctfassets.net/kftzwdyauwt9/35DM0SJOz9SUbSivrZdisO/207f6688e291b15cb477f87c9ebfda72/chrome-icon.png?w=3840&q=90&fm=webp)\n\n![Image 72](https://images.ctfassets.net/kftzwdyauwt9/29wvM1Ty8uWY4pp9lZZFqv/df7b088b4f409f67832dc18b143bc08f/Databricks-icon.png?w=3840&q=90&fm=webp)\n\n![Image 73](https://images.ctfassets.net/kftzwdyauwt9/35d97mMx91cfTmNZHqXoun/66fc9fa59a9df2ae812c6414272d2243/Fal-icon.png?w=3840&q=90&fm=webp)\n\n![Image 74](https://images.ctfassets.net/kftzwdyauwt9/TxiSBzrfQ4WWAPkSMXYZt/f4d0a092e749e9b7e8caeb09a30abf5f/Amplitude-icon.png?w=3840&q=90&fm=webp)\n\n![Image 75](https://images.ctfassets.net/kftzwdyauwt9/RJ8DfEys6DtH4MzH97r33/540a8e5376d34cbbcc127865eacaa9d6/Chronograph-icon.png?w=3840&q=90&fm=webp)\n\n![Image 76](https://images.ctfassets.net/kftzwdyauwt9/5mMHXLe8l0NNPJWVGYvUqK/7be46f5ad522661f687d71c1b77e2e2a/Datasite-icon.png?w=3840&q=90&fm=webp)\n\n![Image 77](https://images.ctfassets.net/kftzwdyauwt9/59QXkm38wdfWcVkARDzWjP/49a8f3d91cf9a36fae192296fb811390/Figma-icon.png?w=3840&q=90&fm=webp)\n\n![Image 78](https://images.ctfassets.net/kftzwdyauwt9/4NYFssjICleYFIAOVjC4NF/225b023c70177856ab692b1bfff55df9/Apollo-logo.png?w=3840&q=90&fm=webp)\n\n![Image 79](https://images.ctfassets.net/kftzwdyauwt9/3ttS8F0BSrbkzIPZMcNz8E/87c8289410034d5431ab2b1585ce1f3a/Clay-icon.png?w=3840&q=90&fm=webp)\n\n![Image 80](https://images.ctfassets.net/kftzwdyauwt9/1ZrYyHKYVPXXHVMY3WllKP/590344a2803377aa54fd729c34cb14dd/Deepnote-icon.png?w=3840&q=90&fm=webp)\n\n![Image 81](https://images.ctfassets.net/kftzwdyauwt9/3ttS8F0BSrbkzIPZMcNz8E/87c8289410034d5431ab2b1585ce1f3a/Clay-icon.png?w=3840&q=90&fm=webp)\n\n![Image 82](https://images.ctfassets.net/kftzwdyauwt9/36l9xDur4xnSMViJMR3Ftc/fceeb0d31d628a97f64b2991eadf9f9a/Fireflies-icon.png?w=3840&q=90&fm=webp)\n\n![Image 83](https://images.ctfassets.net/kftzwdyauwt9/4JhQzAJiB6fMWaPwuQM5Yt/abd942e97c6c019fa1a353072033a1d5/GMail-icon.png?w=3840&q=90&fm=webp)\n\n![Image 84](https://images.ctfassets.net/kftzwdyauwt9/KdyhVlZgR9xnGJm1AUVpH/fb30a560aabe302a4a2f92391f002d49/Hex-icon.png?w=3840&q=90&fm=webp)\n\n![Image 85](https://images.ctfassets.net/kftzwdyauwt9/4z6061oYWaxERxRwLQm90P/92ca6b692802e71efbf3bb6aac35f15a/LSEG-icon.png?w=3840&q=90&fm=webp)\n\n![Image 86](https://images.ctfassets.net/kftzwdyauwt9/4R4D5KmFPoU4HrOFIUCZDY/f87b04aa16e82d0fb5713714244dfa8c/Monday-icon.png?w=3840&q=90&fm=webp)\n\n![Image 87](https://images.ctfassets.net/kftzwdyauwt9/36l9xDur4xnSMViJMR3Ftc/fceeb0d31d628a97f64b2991eadf9f9a/Fireflies-icon.png?w=3840&q=90&fm=webp)\n\n![Image 88](https://images.ctfassets.net/kftzwdyauwt9/4JhQzAJiB6fMWaPwuQM5Yt/abd942e97c6c019fa1a353072033a1d5/GMail-icon.png?w=3840&q=90&fm=webp)\n\n![Image 89](https://images.ctfassets.net/kftzwdyauwt9/KdyhVlZgR9xnGJm1AUVpH/fb30a560aabe302a4a2f92391f002d49/Hex-icon.png?w=3840&q=90&fm=webp)\n\n![Image 90](https://images.ctfassets.net/kftzwdyauwt9/4z6061oYWaxERxRwLQm90P/92ca6b692802e71efbf3bb6aac35f15a/LSEG-icon.png?w=3840&q=90&fm=webp)\n\n![Image 91](https://images.ctfassets.net/kftzwdyauwt9/4R4D5KmFPoU4HrOFIUCZDY/f87b04aa16e82d0fb5713714244dfa8c/Monday-icon.png?w=3840&q=90&fm=webp)\n\n![Image 92](https://images.ctfassets.net/kftzwdyauwt9/36l9xDur4xnSMViJMR3Ftc/fceeb0d31d628a97f64b2991eadf9f9a/Fireflies-icon.png?w=3840&q=90&fm=webp)\n\n![Image 93](https://images.ctfassets.net/kftzwdyauwt9/4JhQzAJiB6fMWaPwuQM5Yt/abd942e97c6c019fa1a353072033a1d5/GMail-icon.png?w=3840&q=90&fm=webp)\n\n![Image 94](https://images.ctfassets.net/kftzwdyauwt9/KdyhVlZgR9xnGJm1AUVpH/fb30a560aabe302a4a2f92391f002d49/Hex-icon.png?w=3840&q=90&fm=webp)\n\n![Image 95](https://images.ctfassets.net/kftzwdyauwt9/4z6061oYWaxERxRwLQm90P/92ca6b692802e71efbf3bb6aac35f15a/LSEG-icon.png?w=3840&q=90&fm=webp)\n\n![Image 96](https://images.ctfassets.net/kftzwdyauwt9/4R4D5KmFPoU4HrOFIUCZDY/f87b04aa16e82d0fb5713714244dfa8c/Monday-icon.png?w=3840&q=90&fm=webp)\n\n![Image 97](https://images.ctfassets.net/kftzwdyauwt9/672NKd2C5VCp4RKe9bIr92/47fb84036327badc6e88e7efbcf3170e/FiscalAI-logo.png?w=3840&q=90&fm=webp)\n\n![Image 98](https://images.ctfassets.net/kftzwdyauwt9/FIFIB7vghFJUmAhAOxIDd/b84598439db5fc04f0b688a73eb89777/GitHub-icon.png?w=3840&q=90&fm=webp)\n\n![Image 99](https://images.ctfassets.net/kftzwdyauwt9/2j4coPqbIYXH4vKYJZZx2f/ad28b0a796314f0983fb7f93b4eb4a1e/HG-icon.png?w=3840&q=90&fm=webp)\n\n![Image 100](https://images.ctfassets.net/kftzwdyauwt9/3tjviDlnTMjLAd4CGHXzDX/654b99be201dd0f5a470a11ce29bb56d/Metabase-icon.png?w=3840&q=90&fm=webp)\n\n![Image 101](https://images.ctfassets.net/kftzwdyauwt9/7hlI2Ah6VFQXc5UA4xO3dJ/1609e428e487f2dd56815e4179a44676/Moodys-icon.png?w=3840&q=90&fm=webp)\n\n![Image 102](https://images.ctfassets.net/kftzwdyauwt9/672NKd2C5VCp4RKe9bIr92/47fb84036327badc6e88e7efbcf3170e/FiscalAI-logo.png?w=3840&q=90&fm=webp)\n\n![Image 103](https://images.ctfassets.net/kftzwdyauwt9/FIFIB7vghFJUmAhAOxIDd/b84598439db5fc04f0b688a73eb89777/GitHub-icon.png?w=3840&q=90&fm=webp)\n\n![Image 104](https://images.ctfassets.net/kftzwdyauwt9/2j4coPqbIYXH4vKYJZZx2f/ad28b0a796314f0983fb7f93b4eb4a1e/HG-icon.png?w=3840&q=90&fm=webp)\n\n![Image 105](https://images.ctfassets.net/kftzwdyauwt9/3tjviDlnTMjLAd4CGHXzDX/654b99be201dd0f5a470a11ce29bb56d/Metabase-icon.png?w=3840&q=90&fm=webp)\n\n![Image 106](https://images.ctfassets.net/kftzwdyauwt9/7hlI2Ah6VFQXc5UA4xO3dJ/1609e428e487f2dd56815e4179a44676/Moodys-icon.png?w=3840&q=90&fm=webp)\n\n![Image 107](https://images.ctfassets.net/kftzwdyauwt9/672NKd2C5VCp4RKe9bIr92/47fb84036327badc6e88e7efbcf3170e/FiscalAI-logo.png?w=3840&q=90&fm=webp)\n\n![Image 108](https://images.ctfassets.net/kftzwdyauwt9/FIFIB7vghFJUmAhAOxIDd/b84598439db5fc04f0b688a73eb89777/GitHub-icon.png?w=3840&q=90&fm=webp)\n\n![Image 109](https://images.ctfassets.net/kftzwdyauwt9/2j4coPqbIYXH4vKYJZZx2f/ad28b0a796314f0983fb7f93b4eb4a1e/HG-icon.png?w=3840&q=90&fm=webp)\n\n![Image 110](https://images.ctfassets.net/kftzwdyauwt9/3tjviDlnTMjLAd4CGHXzDX/654b99be201dd0f5a470a11ce29bb56d/Metabase-icon.png?w=3840&q=90&fm=webp)\n\n![Image 111](https://images.ctfassets.net/kftzwdyauwt9/7hlI2Ah6VFQXc5UA4xO3dJ/1609e428e487f2dd56815e4179a44676/Moodys-icon.png?w=3840&q=90&fm=webp)\n\n![Image 112](https://images.ctfassets.net/kftzwdyauwt9/6CLtwn8JJJhKPRmoDvWQOY/a160c8801be097e56a83b8f53e9761b5/GCalendar-icon.png?w=3840&q=90&fm=webp)\n\n![Image 113](https://images.ctfassets.net/kftzwdyauwt9/3d4CaGZAPxpmD0iKgWzTbq/0b04b3c611b713956a974c34d1ffd9ee/Granola-icon.png?w=3840&q=90&fm=webp)\n\n![Image 114](https://images.ctfassets.net/kftzwdyauwt9/6Uxb4FbhhqBJTVDMVU6Tex/c5201911b5a952fc306ebd0c1a42b3e2/Hubspot-icon.png?w=3840&q=90&fm=webp)\n\n![Image 115](https://images.ctfassets.net/kftzwdyauwt9/YWoXPsvbPeWwJusA9p9xA/930e47f6fa5bd13891a9445d1c323bd9/Meticulate-icon.png?w=3840&q=90&fm=webp)\n\n![Image 116](https://images.ctfassets.net/kftzwdyauwt9/3WWKQXRdiC4GIyPAMKI0CM/00d0d188c0b340d674b85a1e429616ed/Morningstar-icon.png?w=3840&q=90&fm=webp)\n\n![Image 117](https://images.ctfassets.net/kftzwdyauwt9/6CLtwn8JJJhKPRmoDvWQOY/a160c8801be097e56a83b8f53e9761b5/GCalendar-icon.png?w=3840&q=90&fm=webp)\n\n![Image 118](https://images.ctfassets.net/kftzwdyauwt9/3d4CaGZAPxpmD0iKgWzTbq/0b04b3c611b713956a974c34d1ffd9ee/Granola-icon.png?w=3840&q=90&fm=webp)\n\n![Image 119](https://images.ctfassets.net/kftzwdyauwt9/6Uxb4FbhhqBJTVDMVU6Tex/c5201911b5a952fc306ebd0c1a42b3e2/Hubspot-icon.png?w=3840&q=90&fm=webp)\n\n![Image 120](https://images.ctfassets.net/kftzwdyauwt9/YWoXPsvbPeWwJusA9p9xA/930e47f6fa5bd13891a9445d1c323bd9/Meticulate-icon.png?w=3840&q=90&fm=webp)\n\n![Image 121](https://images.ctfassets.net/kftzwdyauwt9/3WWKQXRdiC4GIyPAMKI0CM/00d0d188c0b340d674b85a1e429616ed/Morningstar-icon.png?w=3840&q=90&fm=webp)\n\n![Image 122](https://images.ctfassets.net/kftzwdyauwt9/6CLtwn8JJJhKPRmoDvWQOY/a160c8801be097e56a83b8f53e9761b5/GCalendar-icon.png?w=3840&q=90&fm=webp)\n\n![Image 123](https://images.ctfassets.net/kftzwdyauwt9/3d4CaGZAPxpmD0iKgWzTbq/0b04b3c611b713956a974c34d1ffd9ee/Granola-icon.png?w=3840&q=90&fm=webp)\n\n![Image 124](https://images.ctfassets.net/kftzwdyauwt9/6Uxb4FbhhqBJTVDMVU6Tex/c5201911b5a952fc306ebd0c1a42b3e2/Hubspot-icon.png?w=3840&q=90&fm=webp)\n\n![Image 125](https://images.ctfassets.net/kftzwdyauwt9/YWoXPsvbPeWwJusA9p9xA/930e47f6fa5bd13891a9445d1c323bd9/Meticulate-icon.png?w=3840&q=90&fm=webp)\n\n![Image 126](https://images.ctfassets.net/kftzwdyauwt9/3WWKQXRdiC4GIyPAMKI0CM/00d0d188c0b340d674b85a1e429616ed/Morningstar-icon.png?w=3840&q=90&fm=webp)\n\n![Image 127](https://images.ctfassets.net/kftzwdyauwt9/496Hby7x5TQcBFFKVuAjSO/5a47e0d97db5d9bdd166ff17a99607b4/GDrive-icon.png?w=3840&q=90&fm=webp)\n\n![Image 128](https://images.ctfassets.net/kftzwdyauwt9/3oCKjYaPg9YdQ3HrkFj2a8/e0511dc4831023fafae7889ea3dd68d7/hebbia-icon.png?w=3840&q=90&fm=webp)\n\n![Image 129](https://images.ctfassets.net/kftzwdyauwt9/peeja2fizSY86INX6R14X/ea8d5713d1e0e29d5993175f39db3f55/Lovable-icon.png?w=3840&q=90&fm=webp)\n\n![Image 130](https://images.ctfassets.net/kftzwdyauwt9/77qYzlkG20niSIAzcaME2h/1966a59f59a84c92c585dc684b0fe831/Mixpanel-icon.png?w=3840&q=90&fm=webp)\n\n![Image 131](https://images.ctfassets.net/kftzwdyauwt9/2qLdRLjh0kokwm3LaqO4BP/0b100e3b97c6622665b4889d861bf019/omni-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 132](https://images.ctfassets.net/kftzwdyauwt9/496Hby7x5TQcBFFKVuAjSO/5a47e0d97db5d9bdd166ff17a99607b4/GDrive-icon.png?w=3840&q=90&fm=webp)\n\n![Image 133](https://images.ctfassets.net/kftzwdyauwt9/3oCKjYaPg9YdQ3HrkFj2a8/e0511dc4831023fafae7889ea3dd68d7/hebbia-icon.png?w=3840&q=90&fm=webp)\n\n![Image 134](https://images.ctfassets.net/kftzwdyauwt9/peeja2fizSY86INX6R14X/ea8d5713d1e0e29d5993175f39db3f55/Lovable-icon.png?w=3840&q=90&fm=webp)\n\n![Image 135](https://images.ctfassets.net/kftzwdyauwt9/77qYzlkG20niSIAzcaME2h/1966a59f59a84c92c585dc684b0fe831/Mixpanel-icon.png?w=3840&q=90&fm=webp)\n\n![Image 136](https://images.ctfassets.net/kftzwdyauwt9/2qLdRLjh0kokwm3LaqO4BP/0b100e3b97c6622665b4889d861bf019/omni-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 137](https://images.ctfassets.net/kftzwdyauwt9/496Hby7x5TQcBFFKVuAjSO/5a47e0d97db5d9bdd166ff17a99607b4/GDrive-icon.png?w=3840&q=90&fm=webp)\n\n![Image 138](https://images.ctfassets.net/kftzwdyauwt9/3oCKjYaPg9YdQ3HrkFj2a8/e0511dc4831023fafae7889ea3dd68d7/hebbia-icon.png?w=3840&q=90&fm=webp)\n\n![Image 139](https://images.ctfassets.net/kftzwdyauwt9/peeja2fizSY86INX6R14X/ea8d5713d1e0e29d5993175f39db3f55/Lovable-icon.png?w=3840&q=90&fm=webp)\n\n![Image 140](https://images.ctfassets.net/kftzwdyauwt9/77qYzlkG20niSIAzcaME2h/1966a59f59a84c92c585dc684b0fe831/Mixpanel-icon.png?w=3840&q=90&fm=webp)\n\n![Image 141](https://images.ctfassets.net/kftzwdyauwt9/2qLdRLjh0kokwm3LaqO4BP/0b100e3b97c6622665b4889d861bf019/omni-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 142](https://images.ctfassets.net/kftzwdyauwt9/36l9xDur4xnSMViJMR3Ftc/fceeb0d31d628a97f64b2991eadf9f9a/Fireflies-icon.png?w=3840&q=90&fm=webp)\n\n![Image 143](https://images.ctfassets.net/kftzwdyauwt9/FIFIB7vghFJUmAhAOxIDd/b84598439db5fc04f0b688a73eb89777/GitHub-icon.png?w=3840&q=90&fm=webp)\n\n![Image 144](https://images.ctfassets.net/kftzwdyauwt9/6Uxb4FbhhqBJTVDMVU6Tex/c5201911b5a952fc306ebd0c1a42b3e2/Hubspot-icon.png?w=3840&q=90&fm=webp)\n\n![Image 145](https://images.ctfassets.net/kftzwdyauwt9/77qYzlkG20niSIAzcaME2h/1966a59f59a84c92c585dc684b0fe831/Mixpanel-icon.png?w=3840&q=90&fm=webp)\n\n![Image 146](https://images.ctfassets.net/kftzwdyauwt9/672NKd2C5VCp4RKe9bIr92/47fb84036327badc6e88e7efbcf3170e/FiscalAI-logo.png?w=3840&q=90&fm=webp)\n\n![Image 147](https://images.ctfassets.net/kftzwdyauwt9/3d4CaGZAPxpmD0iKgWzTbq/0b04b3c611b713956a974c34d1ffd9ee/Granola-icon.png?w=3840&q=90&fm=webp)\n\n![Image 148](https://images.ctfassets.net/kftzwdyauwt9/peeja2fizSY86INX6R14X/ea8d5713d1e0e29d5993175f39db3f55/Lovable-icon.png?w=3840&q=90&fm=webp)\n\n![Image 149](https://images.ctfassets.net/kftzwdyauwt9/4R4D5KmFPoU4HrOFIUCZDY/f87b04aa16e82d0fb5713714244dfa8c/Monday-icon.png?w=3840&q=90&fm=webp)\n\n![Image 150](https://images.ctfassets.net/kftzwdyauwt9/6CLtwn8JJJhKPRmoDvWQOY/a160c8801be097e56a83b8f53e9761b5/GCalendar-icon.png?w=3840&q=90&fm=webp)\n\n![Image 151](https://images.ctfassets.net/kftzwdyauwt9/3oCKjYaPg9YdQ3HrkFj2a8/e0511dc4831023fafae7889ea3dd68d7/hebbia-icon.png?w=3840&q=90&fm=webp)\n\n![Image 152](https://images.ctfassets.net/kftzwdyauwt9/4z6061oYWaxERxRwLQm90P/92ca6b692802e71efbf3bb6aac35f15a/LSEG-icon.png?w=3840&q=90&fm=webp)\n\n![Image 153](https://images.ctfassets.net/kftzwdyauwt9/7hlI2Ah6VFQXc5UA4xO3dJ/1609e428e487f2dd56815e4179a44676/Moodys-icon.png?w=3840&q=90&fm=webp)\n\n![Image 154](https://images.ctfassets.net/kftzwdyauwt9/496Hby7x5TQcBFFKVuAjSO/5a47e0d97db5d9bdd166ff17a99607b4/GDrive-icon.png?w=3840&q=90&fm=webp)\n\n![Image 155](https://images.ctfassets.net/kftzwdyauwt9/KdyhVlZgR9xnGJm1AUVpH/fb30a560aabe302a4a2f92391f002d49/Hex-icon.png?w=3840&q=90&fm=webp)\n\n![Image 156](https://images.ctfassets.net/kftzwdyauwt9/3tjviDlnTMjLAd4CGHXzDX/654b99be201dd0f5a470a11ce29bb56d/Metabase-icon.png?w=3840&q=90&fm=webp)\n\n![Image 157](https://images.ctfassets.net/kftzwdyauwt9/3WWKQXRdiC4GIyPAMKI0CM/00d0d188c0b340d674b85a1e429616ed/Morningstar-icon.png?w=3840&q=90&fm=webp)\n\n![Image 158](https://images.ctfassets.net/kftzwdyauwt9/4JhQzAJiB6fMWaPwuQM5Yt/abd942e97c6c019fa1a353072033a1d5/GMail-icon.png?w=3840&q=90&fm=webp)\n\n![Image 159](https://images.ctfassets.net/kftzwdyauwt9/2j4coPqbIYXH4vKYJZZx2f/ad28b0a796314f0983fb7f93b4eb4a1e/HG-icon.png?w=3840&q=90&fm=webp)\n\n![Image 160](https://images.ctfassets.net/kftzwdyauwt9/YWoXPsvbPeWwJusA9p9xA/930e47f6fa5bd13891a9445d1c323bd9/Meticulate-icon.png?w=3840&q=90&fm=webp)\n\n![Image 161](https://images.ctfassets.net/kftzwdyauwt9/2qLdRLjh0kokwm3LaqO4BP/0b100e3b97c6622665b4889d861bf019/omni-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 162](https://images.ctfassets.net/kftzwdyauwt9/1tEVGmWh4hD2xAw85kY5dB/bd24a2e9c932f7cffc34580ca8f3ffa5/otterrai-icon.png?w=3840&q=90&fm=webp)\n\n![Image 163](https://images.ctfassets.net/kftzwdyauwt9/6iQe2R4MaeRvXUe84FZSvM/da4f8f0fa610646e225208dfe7af76d9/PostHog-icon.png?w=3840&q=90&fm=webp)\n\n![Image 164](https://images.ctfassets.net/kftzwdyauwt9/pZq5UI7yOhnst1FcxXeCv/5326cda021b1f2013b467624f1935f41/SP-icon.png?w=3840&q=90&fm=webp)\n\n![Image 165](https://images.ctfassets.net/kftzwdyauwt9/1wkofYPal0FOhJShWShLEr/40c51a701d01c8080760ca98bba13b40/slack-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 166](https://images.ctfassets.net/kftzwdyauwt9/4ej1LL242AmYNMh7kWacdu/34b867bc8aaa6b7d476e88e3fb35d49b/ThoughtSpot_icon2.png?w=3840&q=90&fm=webp)\n\n![Image 167](https://images.ctfassets.net/kftzwdyauwt9/1tEVGmWh4hD2xAw85kY5dB/bd24a2e9c932f7cffc34580ca8f3ffa5/otterrai-icon.png?w=3840&q=90&fm=webp)\n\n![Image 168](https://images.ctfassets.net/kftzwdyauwt9/6iQe2R4MaeRvXUe84FZSvM/da4f8f0fa610646e225208dfe7af76d9/PostHog-icon.png?w=3840&q=90&fm=webp)\n\n![Image 169](https://images.ctfassets.net/kftzwdyauwt9/pZq5UI7yOhnst1FcxXeCv/5326cda021b1f2013b467624f1935f41/SP-icon.png?w=3840&q=90&fm=webp)\n\n![Image 170](https://images.ctfassets.net/kftzwdyauwt9/1wkofYPal0FOhJShWShLEr/40c51a701d01c8080760ca98bba13b40/slack-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 171](https://images.ctfassets.net/kftzwdyauwt9/4ej1LL242AmYNMh7kWacdu/34b867bc8aaa6b7d476e88e3fb35d49b/ThoughtSpot_icon2.png?w=3840&q=90&fm=webp)\n\n![Image 172](https://images.ctfassets.net/kftzwdyauwt9/1tEVGmWh4hD2xAw85kY5dB/bd24a2e9c932f7cffc34580ca8f3ffa5/otterrai-icon.png?w=3840&q=90&fm=webp)\n\n![Image 173](https://images.ctfassets.net/kftzwdyauwt9/6iQe2R4MaeRvXUe84FZSvM/da4f8f0fa610646e225208dfe7af76d9/PostHog-icon.png?w=3840&q=90&fm=webp)\n\n![Image 174](https://images.ctfassets.net/kftzwdyauwt9/pZq5UI7yOhnst1FcxXeCv/5326cda021b1f2013b467624f1935f41/SP-icon.png?w=3840&q=90&fm=webp)\n\n![Image 175](https://images.ctfassets.net/kftzwdyauwt9/1wkofYPal0FOhJShWShLEr/40c51a701d01c8080760ca98bba13b40/slack-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 176](https://images.ctfassets.net/kftzwdyauwt9/4ej1LL242AmYNMh7kWacdu/34b867bc8aaa6b7d476e88e3fb35d49b/ThoughtSpot_icon2.png?w=3840&q=90&fm=webp)\n\n![Image 177](https://images.ctfassets.net/kftzwdyauwt9/7Kw5FaSXZ6Eq0vYydhLmly/6604c9d8b5706cb62ef17235407a8c24/Outreach-icon.png?w=3840&q=90&fm=webp)\n\n![Image 178](https://images.ctfassets.net/kftzwdyauwt9/76ksqYxVsKQnSZzktpwQ4h/2cbd51ef2fbd9025eaccd98a0c7148d2/Quartr-icon.png?w=3840&q=90&fm=webp)\n\n![Image 179](https://images.ctfassets.net/kftzwdyauwt9/1Rme9yow16GkM6J5o6Li6m/ab8f8f5a058fda75333b36360661b105/Salesforce-icon.png?w=3840&q=90&fm=webp)\n\n![Image 180](https://images.ctfassets.net/kftzwdyauwt9/2azpQpnXbwNzCOfhr3NnfZ/7b53a00c5b70b64de63ec9df7e1acf3c/Snowflake-icon.png?w=3840&q=90&fm=webp)\n\n![Image 181](https://images.ctfassets.net/kftzwdyauwt9/5PdvUhPCvI3aMIVBV5F6XR/65d38375a5aff056c3e7f586390539b6/Zoho-icon.png?w=3840&q=90&fm=webp)\n\n![Image 182](https://images.ctfassets.net/kftzwdyauwt9/7Kw5FaSXZ6Eq0vYydhLmly/6604c9d8b5706cb62ef17235407a8c24/Outreach-icon.png?w=3840&q=90&fm=webp)\n\n![Image 183](https://images.ctfassets.net/kftzwdyauwt9/76ksqYxVsKQnSZzktpwQ4h/2cbd51ef2fbd9025eaccd98a0c7148d2/Quartr-icon.png?w=3840&q=90&fm=webp)\n\n![Image 184](https://images.ctfassets.net/kftzwdyauwt9/1Rme9yow16GkM6J5o6Li6m/ab8f8f5a058fda75333b36360661b105/Salesforce-icon.png?w=3840&q=90&fm=webp)\n\n![Image 185](https://images.ctfassets.net/kftzwdyauwt9/2azpQpnXbwNzCOfhr3NnfZ/7b53a00c5b70b64de63ec9df7e1acf3c/Snowflake-icon.png?w=3840&q=90&fm=webp)\n\n![Image 186](https://images.ctfassets.net/kftzwdyauwt9/5PdvUhPCvI3aMIVBV5F6XR/65d38375a5aff056c3e7f586390539b6/Zoho-icon.png?w=3840&q=90&fm=webp)\n\n![Image 187](https://images.ctfassets.net/kftzwdyauwt9/7Kw5FaSXZ6Eq0vYydhLmly/6604c9d8b5706cb62ef17235407a8c24/Outreach-icon.png?w=3840&q=90&fm=webp)\n\n![Image 188](https://images.ctfassets.net/kftzwdyauwt9/76ksqYxVsKQnSZzktpwQ4h/2cbd51ef2fbd9025eaccd98a0c7148d2/Quartr-icon.png?w=3840&q=90&fm=webp)\n\n![Image 189](https://images.ctfassets.net/kftzwdyauwt9/1Rme9yow16GkM6J5o6Li6m/ab8f8f5a058fda75333b36360661b105/Salesforce-icon.png?w=3840&q=90&fm=webp)\n\n![Image 190](https://images.ctfassets.net/kftzwdyauwt9/2azpQpnXbwNzCOfhr3NnfZ/7b53a00c5b70b64de63ec9df7e1acf3c/Snowflake-icon.png?w=3840&q=90&fm=webp)\n\n![Image 191](https://images.ctfassets.net/kftzwdyauwt9/5PdvUhPCvI3aMIVBV5F6XR/65d38375a5aff056c3e7f586390539b6/Zoho-icon.png?w=3840&q=90&fm=webp)\n\n![Image 192](https://images.ctfassets.net/kftzwdyauwt9/4x2DXa6aOhXmne41W5j4Ul/48b5243268e0c4cbde428df7cb579efb/picsart-icon.png?w=3840&q=90&fm=webp)\n\n![Image 193](https://images.ctfassets.net/kftzwdyauwt9/QuDmbhNZUYO3XzNdI2E5H/802978d640e24228f8689c733c6815ca/Replit-icon.png?w=3840&q=90&fm=webp)\n\n![Image 194](https://images.ctfassets.net/kftzwdyauwt9/TKKVGnBmf2OMZYVajKqhr/52063feb984e4c9f4fec4c89e60f490c/Shutterstock-icon.png?w=3840&q=90&fm=webp)\n\n![Image 195](https://images.ctfassets.net/kftzwdyauwt9/7FyJaH9Sw6pgFE9Cz2THPP/3db5d81d200fe4f4e0f56df7a15df7a7/Statsig-icon.png?w=3840&q=90&fm=webp)\n\n![Image 196](https://images.ctfassets.net/kftzwdyauwt9/7qxEB5vRm1XLvgAPctRVsF/414605b475141299b48d8d2a3508f710/Zoom-icon.png?w=3840&q=90&fm=webp)\n\n![Image 197](https://images.ctfassets.net/kftzwdyauwt9/4x2DXa6aOhXmne41W5j4Ul/48b5243268e0c4cbde428df7cb579efb/picsart-icon.png?w=3840&q=90&fm=webp)\n\n![Image 198](https://images.ctfassets.net/kftzwdyauwt9/QuDmbhNZUYO3XzNdI2E5H/802978d640e24228f8689c733c6815ca/Replit-icon.png?w=3840&q=90&fm=webp)\n\n![Image 199](https://images.ctfassets.net/kftzwdyauwt9/TKKVGnBmf2OMZYVajKqhr/52063feb984e4c9f4fec4c89e60f490c/Shutterstock-icon.png?w=3840&q=90&fm=webp)\n\n![Image 200](https://images.ctfassets.net/kftzwdyauwt9/7FyJaH9Sw6pgFE9Cz2THPP/3db5d81d200fe4f4e0f56df7a15df7a7/Statsig-icon.png?w=3840&q=90&fm=webp)\n\n![Image 201](https://images.ctfassets.net/kftzwdyauwt9/7qxEB5vRm1XLvgAPctRVsF/414605b475141299b48d8d2a3508f710/Zoom-icon.png?w=3840&q=90&fm=webp)\n\n![Image 202](https://images.ctfassets.net/kftzwdyauwt9/4x2DXa6aOhXmne41W5j4Ul/48b5243268e0c4cbde428df7cb579efb/picsart-icon.png?w=3840&q=90&fm=webp)\n\n![Image 203](https://images.ctfassets.net/kftzwdyauwt9/QuDmbhNZUYO3XzNdI2E5H/802978d640e24228f8689c733c6815ca/Replit-icon.png?w=3840&q=90&fm=webp)\n\n![Image 204](https://images.ctfassets.net/kftzwdyauwt9/TKKVGnBmf2OMZYVajKqhr/52063feb984e4c9f4fec4c89e60f490c/Shutterstock-icon.png?w=3840&q=90&fm=webp)\n\n![Image 205](https://images.ctfassets.net/kftzwdyauwt9/7FyJaH9Sw6pgFE9Cz2THPP/3db5d81d200fe4f4e0f56df7a15df7a7/Statsig-icon.png?w=3840&q=90&fm=webp)\n\n![Image 206](https://images.ctfassets.net/kftzwdyauwt9/7qxEB5vRm1XLvgAPctRVsF/414605b475141299b48d8d2a3508f710/Zoom-icon.png?w=3840&q=90&fm=webp)\n\n![Image 207](https://images.ctfassets.net/kftzwdyauwt9/Cc5YnzUz1qG4xoapuaEDh/b5079940cedc27151fe937277c1cd827/PitchBook-icon.png?w=3840&q=90&fm=webp)\n\n![Image 208](https://images.ctfassets.net/kftzwdyauwt9/rpfNur7jRm4PcqE6KP2kq/102b71a6feb823c2536004cbe5fbda9e/Rox-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 209](https://images.ctfassets.net/kftzwdyauwt9/J3WgRb8CkUgwhLwQc9SoM/3db2abfe24c3c4243aa5246a16ec307b/Similarweb-icon.png?w=3840&q=90&fm=webp)\n\n![Image 210](https://images.ctfassets.net/kftzwdyauwt9/4wh0eK535qKyCPNItikyJy/e9922e1c398d42950db3a489bfd8aacd/Third_Bridge-icon.png?w=3840&q=90&fm=webp)\n\n![Image 211](https://images.ctfassets.net/kftzwdyauwt9/5GaQjl3CPOkkDWHfA9HwMf/cc6fd5a48f2596d1d5a4b38569ae27f2/ZoomInfo-icon.png?w=3840&q=90&fm=webp)\n\n![Image 212](https://images.ctfassets.net/kftzwdyauwt9/Cc5YnzUz1qG4xoapuaEDh/b5079940cedc27151fe937277c1cd827/PitchBook-icon.png?w=3840&q=90&fm=webp)\n\n![Image 213](https://images.ctfassets.net/kftzwdyauwt9/rpfNur7jRm4PcqE6KP2kq/102b71a6feb823c2536004cbe5fbda9e/Rox-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 214](https://images.ctfassets.net/kftzwdyauwt9/J3WgRb8CkUgwhLwQc9SoM/3db2abfe24c3c4243aa5246a16ec307b/Similarweb-icon.png?w=3840&q=90&fm=webp)\n\n![Image 215](https://images.ctfassets.net/kftzwdyauwt9/4wh0eK535qKyCPNItikyJy/e9922e1c398d42950db3a489bfd8aacd/Third_Bridge-icon.png?w=3840&q=90&fm=webp)\n\n![Image 216](https://images.ctfassets.net/kftzwdyauwt9/5GaQjl3CPOkkDWHfA9HwMf/cc6fd5a48f2596d1d5a4b38569ae27f2/ZoomInfo-icon.png?w=3840&q=90&fm=webp)\n\n![Image 217](https://images.ctfassets.net/kftzwdyauwt9/Cc5YnzUz1qG4xoapuaEDh/b5079940cedc27151fe937277c1cd827/PitchBook-icon.png?w=3840&q=90&fm=webp)\n\n![Image 218](https://images.ctfassets.net/kftzwdyauwt9/rpfNur7jRm4PcqE6KP2kq/102b71a6feb823c2536004cbe5fbda9e/Rox-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 219](https://images.ctfassets.net/kftzwdyauwt9/J3WgRb8CkUgwhLwQc9SoM/3db2abfe24c3c4243aa5246a16ec307b/Similarweb-icon.png?w=3840&q=90&fm=webp)\n\n![Image 220](https://images.ctfassets.net/kftzwdyauwt9/4wh0eK535qKyCPNItikyJy/e9922e1c398d42950db3a489bfd8aacd/Third_Bridge-icon.png?w=3840&q=90&fm=webp)\n\n![Image 221](https://images.ctfassets.net/kftzwdyauwt9/5GaQjl3CPOkkDWHfA9HwMf/cc6fd5a48f2596d1d5a4b38569ae27f2/ZoomInfo-icon.png?w=3840&q=90&fm=webp)\n\n![Image 222](https://images.ctfassets.net/kftzwdyauwt9/1tEVGmWh4hD2xAw85kY5dB/bd24a2e9c932f7cffc34580ca8f3ffa5/otterrai-icon.png?w=3840&q=90&fm=webp)\n\n![Image 223](https://images.ctfassets.net/kftzwdyauwt9/76ksqYxVsKQnSZzktpwQ4h/2cbd51ef2fbd9025eaccd98a0c7148d2/Quartr-icon.png?w=3840&q=90&fm=webp)\n\n![Image 224](https://images.ctfassets.net/kftzwdyauwt9/TKKVGnBmf2OMZYVajKqhr/52063feb984e4c9f4fec4c89e60f490c/Shutterstock-icon.png?w=3840&q=90&fm=webp)\n\n![Image 225](https://images.ctfassets.net/kftzwdyauwt9/4wh0eK535qKyCPNItikyJy/e9922e1c398d42950db3a489bfd8aacd/Third_Bridge-icon.png?w=3840&q=90&fm=webp)\n\n![Image 226](https://images.ctfassets.net/kftzwdyauwt9/7Kw5FaSXZ6Eq0vYydhLmly/6604c9d8b5706cb62ef17235407a8c24/Outreach-icon.png?w=3840&q=90&fm=webp)\n\n![Image 227](https://images.ctfassets.net/kftzwdyauwt9/QuDmbhNZUYO3XzNdI2E5H/802978d640e24228f8689c733c6815ca/Replit-icon.png?w=3840&q=90&fm=webp)\n\n![Image 228](https://images.ctfassets.net/kftzwdyauwt9/J3WgRb8CkUgwhLwQc9SoM/3db2abfe24c3c4243aa5246a16ec307b/Similarweb-icon.png?w=3840&q=90&fm=webp)\n\n![Image 229](https://images.ctfassets.net/kftzwdyauwt9/4ej1LL242AmYNMh7kWacdu/34b867bc8aaa6b7d476e88e3fb35d49b/ThoughtSpot_icon2.png?w=3840&q=90&fm=webp)\n\n![Image 230](https://images.ctfassets.net/kftzwdyauwt9/4x2DXa6aOhXmne41W5j4Ul/48b5243268e0c4cbde428df7cb579efb/picsart-icon.png?w=3840&q=90&fm=webp)\n\n![Image 231](https://images.ctfassets.net/kftzwdyauwt9/rpfNur7jRm4PcqE6KP2kq/102b71a6feb823c2536004cbe5fbda9e/Rox-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 232](https://images.ctfassets.net/kftzwdyauwt9/1wkofYPal0FOhJShWShLEr/40c51a701d01c8080760ca98bba13b40/slack-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 233](https://images.ctfassets.net/kftzwdyauwt9/5PdvUhPCvI3aMIVBV5F6XR/65d38375a5aff056c3e7f586390539b6/Zoho-icon.png?w=3840&q=90&fm=webp)\n\n![Image 234](https://images.ctfassets.net/kftzwdyauwt9/Cc5YnzUz1qG4xoapuaEDh/b5079940cedc27151fe937277c1cd827/PitchBook-icon.png?w=3840&q=90&fm=webp)\n\n![Image 235](https://images.ctfassets.net/kftzwdyauwt9/pZq5UI7yOhnst1FcxXeCv/5326cda021b1f2013b467624f1935f41/SP-icon.png?w=3840&q=90&fm=webp)\n\n![Image 236](https://images.ctfassets.net/kftzwdyauwt9/2azpQpnXbwNzCOfhr3NnfZ/7b53a00c5b70b64de63ec9df7e1acf3c/Snowflake-icon.png?w=3840&q=90&fm=webp)\n\n![Image 237](https://images.ctfassets.net/kftzwdyauwt9/7qxEB5vRm1XLvgAPctRVsF/414605b475141299b48d8d2a3508f710/Zoom-icon.png?w=3840&q=90&fm=webp)\n\n![Image 238](https://images.ctfassets.net/kftzwdyauwt9/6iQe2R4MaeRvXUe84FZSvM/da4f8f0fa610646e225208dfe7af76d9/PostHog-icon.png?w=3840&q=90&fm=webp)\n\n![Image 239](https://images.ctfassets.net/kftzwdyauwt9/1Rme9yow16GkM6J5o6Li6m/ab8f8f5a058fda75333b36360661b105/Salesforce-icon.png?w=3840&q=90&fm=webp)\n\n![Image 240](https://images.ctfassets.net/kftzwdyauwt9/7FyJaH9Sw6pgFE9Cz2THPP/3db5d81d200fe4f4e0f56df7a15df7a7/Statsig-icon.png?w=3840&q=90&fm=webp)\n\n![Image 241](https://images.ctfassets.net/kftzwdyauwt9/5GaQjl3CPOkkDWHfA9HwMf/cc6fd5a48f2596d1d5a4b38569ae27f2/ZoomInfo-icon.png?w=3840&q=90&fm=webp)\n\n## Share your work with sites\n\nStarting in preview for business and enterprise customers, Codex can now create and share interactive, hosted websites and apps.\n\nSites are a new kind of canvas for your ideas. Codex can take your ideas, analysis, and plans and turn them into dashboards, planners, review workspaces, project boards, galleries, and lightweight tools. Today, sites can be shared with anyone in your workspace via URL, giving teams a shared place to explore work, contribute input, track progress, and make decisions together.\n\nAsk Codex to create a site for an upcoming customer review, and it’ll generate an interactive webpage with the relevant product updates, open questions, usage trends, and next steps for that account. Ask it to build a scenario planner from a financial model, so leaders can compare assumptions instead of reading through tabs in a doc. Ask it to turn launch materials into a living hub where teams can find the latest messaging, milestones, owners, and decisions. Then ask Codex to keep the site up to date as details change.\n\nInstead of adapting work to the limits of a single tool or file, teams can create sites that fit the work. And sites aren’t static. They can also help track progress for a major project, help guide customer service reps, or act as a repository for your team’s creative briefs.\n\nRevenue forecast planner Event operations dashboard Product launch hub\n\n![Image 242: \"\"](https://images.ctfassets.net/kftzwdyauwt9/5G0zHEnIZRLg0EWpZV602t/47c3851dd1f1cfbdf42d5f630fd36241/blossom-bank-forecasting-light-4k.png?w=3840&q=90&fm=webp)\n\nWe’re also working with early partners including Vercel, Wix, Base44, Replit, Lovable, Figma, Webflow, and Emergent as we build towards a sites partner ecosystem.\n\n## Refine your work with annotations\n\nDevelopers already use annotations in Codex to refine code, Markdown files, and websites Codex creates. With annotations, you point to the exact part you want to refine and tell Codex what needs to change. That way of working now extends to content you create, like documents, spreadsheets, and slides.\n\nSelect the navigation bar in a site and ask Codex to update the font. Highlight a claim in an investment thesis and ask Codex where it came from. Mark a chart on a slide and ask for a clearer label. Codex focuses the update on the part you selected, so you can refine your work without starting over or reworking the parts you already like. Annotations make Codex more useful after the first draft, when the work needs judgment, feedback, and iteration.\n\n00:00\n\n## Availability and getting started\n\nRole-specific plugins are rolling out in Codex in supported regions. You can install them from the Codex plugin directory and Codex will help get you set up. Codex can also help you customize a plugin. For Business and Enterprise workspaces, [admins can control⁠(opens in a new window)](https://help.openai.com/articles/20001256) underlying app permissions in workspace settings.\n\nSites are rolling out in preview for Business and Enterprise teams through the Codex app. [Enterprise admins can enable sites⁠(opens in a new window)](https://developers.openai.com/codex/sites#get-started-with-sites) in admin settings.\n\nExplore more stories about how teams use Codex, or get in touch with our team to get started.\n\n*   [2026](https://openai.com/news/?tags=2026)\n*   [Codex](https://openai.com/news/?tags=codex)\n\n## Author\n\nOpenAI\n\n## Keep reading\n\n[View all](https://openai.com/news/)\n\n![Image 243: GPT-5.6 is now the preferred model in Microsoft 365 Copilot > Cover image](https://images.ctfassets.net/kftzwdyauwt9/3MPipvFMxS8m3kTyCtwFgj/015747dcd34cb667a221688cfca64e0f/Frame.png?w=3840&q=90&fm=webp)\n\n[GPT-5.6 is now the preferred model in Microsoft 365 Copilot Product Jul 9, 2026](https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot/)\n\n[Video 2](https://videos.ctfassets.net/kftzwdyauwt9/4EpWY2r0tubXs7DCIhhWnE/77fba3d1e160789f067abc3458447603/OAI_ChatGPT_Blog_1920x1920_compressed.mp4)\n\n[ChatGPT is now a partner for your most ambitious work Product Jul 9, 2026](https://openai.com/index/chatgpt-for-your-most-ambitious-work/)\n\n![Image 244: GPT 5-6 > Card](https://images.ctfassets.net/kftzwdyauwt9/1a9IPPV5nXWydTBosgmgYI/8e03f28ca04f26edc8bc81cdba387df1/5-6.jpg?w=3840&q=90&fm=webp)\n\n[GPT-5.6: Frontier intelligence that scales with your ambition Product Jul 9, 2026](https://openai.com/index/gpt-5-6/)\n\nResearch\n*   [Research Index](https://openai.com/research/index/)\n*   [Research Overview](https://openai.com/research/)\n*   [Economic Research](https://openai.com/signals/)\n\nLatest Advancements\n*   [GPT-5.6](https://openai.com/index/gpt-5-6/)\n*   [GPT-5.5](https://openai.com/index/introducing-gpt-5-5/)\n*   [GPT-5.4](https://openai.com/index/introducing-gpt-5-4/)\n\nSafety\n*   [Safety Approach](https://openai.com/safety/)\n*   [Deployment Safety(opens in a new window)](https://deploymentsafety.openai.com/)\n*   [Security & Privacy](https://openai.com/security-and-privacy/)\n*   [Trust & Transparency](https://openai.com/trust-and-transparency/)\n\nProducts\n*   [ChatGPT(opens in a new window)](https://chatgpt.com/?openaicom-did=2a812d51-e1aa-4501-8e75-b291b364936b&openaicom_referred=true)\n*   [ChatGPT Business(opens in a new window)](https://chatgpt.com/business/?openaicom-did=2a812d51-e1aa-4501-8e75-b291b364936b&openaicom_referred=true)\n*   [ChatGPT Enterprise(opens in a new window)](https://chatgpt.com/business/enterprise/?openaicom-did=2a812d51-e1aa-4501-8e75-b291b364936b&openaicom_referred=true)\n*   [ChatGPT for Education(opens in a new window)](https://chatgpt.com/business/education/?openaicom-did=2a812d51-e1aa-4501-8e75-b291b364936b&openaicom_referred=true)\n*   [Codex](https://openai.com/codex/)\n*   [Release Notes](https://openai.com/products/release-notes/)\n\nAPI Platform\n*   [Overview](https://openai.com/api/)\n*   [API Log In(opens in a new window)](https://platform.openai.com/login)\n*   [Docs(opens in a new window)](https://developers.openai.com/api/docs)\n\nBusiness\n*   [Overview](https://openai.com/business/)\n*   [Solutions](https://openai.com/solutions/)\n*   [Resources](https://openai.com/business/learn/)\n*   [Customer Stories](https://openai.com/business/customer-stories/)\n*   [Partner Network](https://openai.com/business/partners/)\n*   [Contact Sales](https://openai.com/contact-sales/)\n\nDevelopers\n*   [Apps SDK(opens in a new window)](https://developers.openai.com/apps-sdk)\n*   [Open Models](https://openai.com/open-models/)\n*   [Docs(opens in a new window)](https://developers.openai.com/)\n*   [Resources(opens in a new window)](https://developers.openai.com/learn)\n*   [Developer Forum(opens in a new window)](https://community.openai.com/)\n\nCompany\n*   [About Us](https://openai.com/about/)\n*   [Our Charter](https://openai.com/charter/)\n*   [Careers](https://openai.com/careers/)\n*   [News](https://openai.com/news/)\n\nSupport\n*   [Help Center(opens in a new window)](https://help.openai.com/)\n\nMore\n*   [Stories](https://openai.com/stories/)\n*   [Academy](https://openai.com/academy/)\n*   [Supply Co.](https://openai.com/supply/)\n*   [Livestreams](https://openai.com/live/)\n*   [Podcast](https://openai.com/podcast/)\n*   [RSS](https://openai.com/news/rss.xml)\n\nTerms & Policies\n*   [Terms of Use](https://openai.com/policies/terms-of-use/)\n*   [Privacy Policy](https://openai.com/policies/privacy-policy/)\n*   [Other Policies](https://openai.com/policies/)\n\n[(opens in a new window)](https://x.com/OpenAI)[(opens in a new window)](https://www.youtube.com/OpenAI)[(opens in a new window)](https://www.linkedin.com/company/openai)[(opens in a new window)](https://github.com/openai)[(opens in a new window)](https://www.instagram.com/openai/)[(opens in a new window)](https://www.tiktok.com/@openai)[(opens in a new window)](https://discord.gg/openai)\n\nOpenAI © 2015–2026 Your privacy choices\n\nEnglish United States",
-      "contentZh": "[跳转到主要内容](https://openai.com/index/codex-for-every-role-tool-workflow#main)\n\n[](https://openai.com/)\n\n*   [研究](https://openai.com/research/index/)\n*   产品\n*   [商业](https://openai.com/business/)\n*   [开发者](https://openai.com/api/)\n*   [公司](https://openai.com/about/)\n*   [基金会（在新窗口中打开）](https://openaifoundation.org/)\n\n登录[尝试 ChatGPT（在新窗口中打开）](https://chatgpt.com/?openaicom-did=2a812d51-e1aa-4501-8e75-b291b364936b&openaicom_referred=true)\n\n*   研究\n*   产品\n*   商业\n*   开发者\n*   公司\n*   [基金会（在新窗口中打开）](https://openaifoundation.org/)\n\nCodex：适用于每个角色、工具和工作流程 | OpenAI\n\n2026年6月2日\n\n[产品](https://openai.com/news/product-releases/)\n\n# Codex：适用于每个角色、工具和工作流程\n\n新的角色特定插件、站点和注释帮助团队利用 Codex 完成更多工作。\n\n收听文章 6:28\n\n[音频 2](https://openai.com/index/codex-for-every-role-tool-workflow)\n\n分享\n\n让 Codex 按照您团队的方式工作\n\n*   [让 Codex 按照您团队的方式工作](https://openai.com/index/codex-for-every-role-tool-workflow#make-codex-work-the-way-your-team-does)\n*   [通过站点分享您的工作](https://openai.com/index/codex-for-every-role-tool-workflow#share-your-work-with-sites)\n*   [通过注释完善您的工作](https://openai.com/index/codex-for-every-role-tool-workflow#refine-your-work-with-annotations)\n*   [可用性和入门](https://openai.com/index/codex-for-every-role-tool-workflow#availability-and-getting-started)\n\n*   [让 Codex 按照您团队的方式工作](https://openai.com/index/codex-for-every-role-tool-workflow#make-codex-work-the-way-your-team-does)\n*   [通过站点分享您的工作](https://openai.com/index/codex-for-every-role-tool-workflow#share-your-work-with-sites)\n*   [通过注释完善您的工作](https://openai.com/index/codex-for-every-role-tool-workflow#refine-your-work-with-annotations)\n*   [可用性和入门](https://openai.com/index/codex-for-every-role-tool-workflow#availability-and-getting-started)\n\n现在每周有超过500万人使用 Codex。Codex 最初是作为软件开发工具诞生的，但它对更多类型的工作越来越有用。非开发者——包括分析师、营销人员、运营人员、设计师、研究人员、投资者和银行家——[约占 Codex 总用户的20%⁠](https://openai.com/index/codex-for-knowledge-work/)，并且增长速度是开发者的三倍以上。\n\n今天，我们推出了利用 Codex 完成更多工作的新方式：适应您角色和工具的插件、帮助您就地完善结果的注释，以及创建交互式网站和应用的预览功能，这些网站和应用可通过 URL 与您的工作空间共享。\n\n在 OpenAI 内部，非技术团队使用 Codex 构建内部应用、准备高管材料、创建仪表板，并将创意简报转化为反映品牌和设计约束的作品。在 Zapier，团队使用 Codex 从 Slack、Google Docs 和 Coda 等工具中提取知识，然后将这些背景信息转化为事后分析、事件响应计划和功能工单。在 NVIDIA，研究人员正在使用 Codex 加速实验工作流程，从寻找研究思路到为机器学习基础设施编写脚本。\n\n00:00\n\n## 让 Codex 按照您团队的方式工作\n\n当 Codex 按照您团队的方式工作时最为有用：连接到您使用的工具，并准备好创建您所需的材料。\n\n插件帮助 Codex 与您团队已使用的工具、背景信息和工作流程协同工作。今天，我们推出了六个新的角色特定插件，使 Codex 对更多类型的知识工作有用，无需编码：\n\n*   每个[角色特定插件⁠（在新窗口中打开）](https://github.com/openai/role-based-plugins)都捆绑了相关的应用、技能、指令和工作流程。它们总共包含62个热门应用和110项技能。\n*   [**数据分析插件**⁠（在新窗口中打开）](https://chatgpt.com/plugins/share/32687761205248ae9b517f3d30ad8dd1?openaicom-did=2a812d51-e1aa-4501-8e75-b291b364936b&openaicom_referred=true)帮助分析师和业务团队用数据回答问题。他们可以探索产品和业务数据，解释关键指标变化的原因，并使用 Snowflake、Databricks Genie、Hex 和 Tableau 等工具创建报告和仪表板，更多工具即将推出。\n*   [**创意制作插件**⁠（在新窗口中打开）](https://chatgpt.com/plugins/share/a826391706e14c90816f2ceba9cc8b49?openaicom-did=2a812d51-e1aa-4501-8e75-b291b364936b&openaicom_referred=true)帮助营销和创意团队将简报转化为可供审查的素材。团队可以使用 Figma、Canva、Shutterstock、Picsart 和 Fal 等工具创建活动看板，制作和优化展示广告变体，以及生成产品生活方式照片或电商就绪的图像集。\n*   [**销售插件**⁠（在新窗口中打开）](https://chatgpt.com/plugins/share/22ec24462a4a410bba1c56c099f6101c?openaicom-did=2a812d51-e1aa-4501-8e75-b291b364936b&openaicom_referred=true)帮助销售团队将客户背景信息融入推动交易进展的工作中。销售团队可以使用 Salesforce、HubSpot、Slack、Outreach、Clay、Rox 和 Actively 等工具找到高优先级客户和信号，准备客户会议，完成跟进，更新客户记录，制定成交计划，并审查有风险的交易。\n*   [**产品设计插件**⁠（在新窗口中打开）](https://chatgpt.com/plugins/share/37f657dbc41f408d9b05b52d30b8b527?openaicom-did=2a812d51-e1aa-4501-8e75-b291b364936b&openaicom_referred=true)专为将早期想法转化为可供团队审查的原型而构建。团队可以探索产品方向，审计用户流程，从实时 URL 制作原型，并使静态截图变得可交互，相关工作可在 Figma 和 Canva 等工具中继续推进。\n*   [**公开股权投资插件**⁠（在新窗口中打开）](https://chatgpt.com/plugins/share/8f2f2fb7215f4688a0853afd038f2a1a?openaicom-did=2a812d51-e1aa-4501-8e75-b291b364936b&openaicom_referred=true)帮助投资者理解市场和公司信息。他们可以使用 Moody’s、Daloopa、Datasite、FactSet、LSEG、S&P、PitchBook 和 Hebbia 的信息审查财报、比较公司、跟踪信号，并评估投资论点是在加强还是减弱。\n*   [**投资银行插件**⁠（在新窗口中打开）](https://chatgpt.com/plugins/share/479468a8d5224cb2976c0fe6c6e599b5?openaicom-did=2a812d51-e1aa-4501-8e75-b291b364936b&openaicom_referred=true)帮助银行家将研究和尽职调查转化为客户就绪的材料。他们可以使用可信数据准备推介材料，分析可比公司和交易，并将尽职调查转化为建议。\n\n数据分析 创意制作 产品设计 销售 公开股权投资\n\n00:00\n\n**使用数据分析插件进行业务绩效分析**\n\n插件开箱即用。团队也可以根据自身工作流程进行调整，或为自有系统和流程构建并分享自定义插件。\n\n更多针对特定角色的插件即将推出，包括企业金融、私募股权投资、营销策略、战略咨询和法律领域。而这仅仅是个开始：我们正在构建一个开放生态系统，让合作伙伴能够直接在 Codex 和 ChatGPT 中创建和部署自己的插件。\n\n![Image 2](https://images.ctfassets.net/kftzwdyauwt9/4UFpCp3CX3e97raZbAktYo/d54df1fa1f816e5eeacac803b48dafe4/actively-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 3](https://images.ctfassets.net/kftzwdyauwt9/4NYFssjICleYFIAOVjC4NF/225b023c70177856ab692b1bfff55df9/Apollo-logo.png?w=3840&q=90&fm=webp)\n\n![Image 4](https://images.ctfassets.net/kftzwdyauwt9/RJ8DfEys6DtH4MzH97r33/540a8e5376d34cbbcc127865eacaa9d6/Chronograph-icon.png?w=3840&q=90&fm=webp)\n\n![Image 5](https://images.ctfassets.net/kftzwdyauwt9/29wvM1Ty8uWY4pp9lZZFqv/df7b088b4f409f67832dc18b143bc08f/Databricks-icon.png?w=3840&q=90&fm=webp)\n\n![Image 6](https://images.ctfassets.net/kftzwdyauwt9/5XaUCn4UEZhwtGxuVhqmSH/505e55af3925ff2942cb46216192ab5b/FactSet-icon.png?w=3840&q=90&fm=webp)\n\n![Image 7](https://images.ctfassets.net/kftzwdyauwt9/vcHfiQ7aAwrYmYcoQoz9J/2135045b7e7eb0de7417e5b31459f9a0/Aiera-icon.png?w=3840&q=90&fm=webp)\n\n![Image 8](https://images.ctfassets.net/kftzwdyauwt9/2baLN2AEXCHyCuaWV7Rxp1/9407ee14a5d2867c817aa5b6329305c2/Calendly-icon.png?w=3840&q=90&fm=webp)\n\n![Image 9](https://images.ctfassets.net/kftzwdyauwt9/3ttS8F0BSrbkzIPZMcNz8E/87c8289410034d5431ab2b1585ce1f3a/Clay-icon.png?w=3840&q=90&fm=webp)\n\n![Image 10](https://images.ctfassets.net/kftzwdyauwt9/5mMHXLe8l0NNPJWVGYvUqK/7be46f5ad522661f687d71c1b77e2e2a/Datasite-icon.png?w=3840&q=90&fm=webp)\n\n![Image 11](https://images.ctfassets.net/kftzwdyauwt9/35d97mMx91cfTmNZHqXoun/66fc9fa59a9df2ae812c6414272d2243/Fal-icon.png?w=3840&q=90&fm=webp)\n\n![Image 12](https://images.ctfassets.net/kftzwdyauwt9/66G2WK6ampV9jPzRa2Hvbg/886b4bd1a14e8cdfb200ab7a6dfabfe4/Alation-icon.png?w=3840&q=90&fm=webp)\n\n![Image 13](https://images.ctfassets.net/kftzwdyauwt9/5JhKRNTuJsb1YlJy2aZgGG/a550a1b7d088b8862945510d26e05306/Canva-icon.png?w=3840&q=90&fm=webp)\n\n![Image 14](https://images.ctfassets.net/kftzwdyauwt9/jzXVGEfP4mbBnldf2o8lF/3c7b92daef9d0419078c223e6facaca6/Close-icon.png?w=3840&q=90&fm=webp)\n\n![Image 15](https://images.ctfassets.net/kftzwdyauwt9/1ZrYyHKYVPXXHVMY3WllKP/590344a2803377aa54fd729c34cb14dd/Deepnote-icon.png?w=3840&q=90&fm=webp)\n\n![Image 16](https://images.ctfassets.net/kftzwdyauwt9/59QXkm38wdfWcVkARDzWjP/49a8f3d91cf9a36fae192296fb811390/Figma-icon.png?w=3840&q=90&fm=webp)\n\n![Image 17](https://images.ctfassets.net/kftzwdyauwt9/vcHfiQ7aAwrYmYcoQoz9J/2135045b7e7eb0de7417e5b31459f9a0/Aiera-icon.png?w=3840&q=90&fm=webp)\n\n![Image 18](https://images.ctfassets.net/kftzwdyauwt9/2baLN2AEXCHyCuaWV7Rxp1/9407ee14a5d2867c817aa5b6329305c2/Calendly-icon.png?w=3840&q=90&fm=webp)\n\n![Image 19](https://images.ctfassets.net/kftzwdyauwt9/3ttS8F0BSrbkzIPZMcNz8E/87c8289410034d5431ab2b1585ce1f3a/Clay-icon.png?w=3840&q=90&fm=webp)\n\n![Image 20](https://images.ctfassets.net/kftzwdyauwt9/5mMHXLe8l0NNPJWVGYvUqK/7be46f5ad522661f687d71c1b77e2e2a/Datasite-icon.png?w=3840&q=90&fm=webp)\n\n![Image 21](https://images.ctfassets.net/kftzwdyauwt9/35d97mMx91cfTmNZHqXoun/66fc9fa59a9df2ae812c6414272d2243/Fal-icon.png?w=3840&q=90&fm=webp)\n\n![Image 22](https://images.ctfassets.net/kftzwdyauwt9/66G2WK6ampV9jPzRa2Hvbg/886b4bd1a14e8cdfb200ab7a6dfabfe4/Alation-icon.png?w=3840&q=90&fm=webp)\n\n![Image 23](https://images.ctfassets.net/kftzwdyauwt9/5JhKRNTuJsb1YlJy2aZgGG/a550a1b7d088b8862945510d26e05306/Canva-icon.png?w=3840&q=90&fm=webp)\n\n![Image 24](https://images.ctfassets.net/kftzwdyauwt9/jzXVGEfP4mbBnldf2o8lF/3c7b92daef9d0419078c223e6facaca6/Close-icon.png?w=3840&q=90&fm=webp)\n\n![Image 25](https://images.ctfassets.net/kftzwdyauwt9/1ZrYyHKYVPXXHVMY3WllKP/590344a2803377aa54fd729c34cb14dd/Deepnote-icon.png?w=3840&q=90&fm=webp)\n\n![Image 26](https://images.ctfassets.net/kftzwdyauwt9/59QXkm38wdfWcVkARDzWjP/49a8f3d91cf9a36fae192296fb811390/Figma-icon.png?w=3840&q=90&fm=webp)\n\n![Image 27](https://images.ctfassets.net/kftzwdyauwt9/TxiSBzrfQ4WWAPkSMXYZt/f4d0a092e749e9b7e8caeb09a30abf5f/Amplitude-icon.png?w=3840&q=90&fm=webp)\n\n![Image 28](https://images.ctfassets.net/kftzwdyauwt9/35DM0SJOz9SUbSivrZdisO/207f6688e291b15cb477f87c9ebfda72/chrome-icon.png?w=3840&q=90&fm=webp)\n\n![Image 29](https://images.ctfassets.net/kftzwdyauwt9/7uejlwsOOL1AxOt3h3vfiz/f0e3f52be5b1bb33ff41ab197423e210/daloopa-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 30](https://images.ctfassets.net/kftzwdyauwt9/6ww6xmOFNciC74O76ZSu2g/e15dc28a080526919f1cffa851aadd95/Docusign-icon.png?w=3840&q=90&fm=webp)\n\n![Image 31](https://images.ctfassets.net/kftzwdyauwt9/3ttS8F0BSrbkzIPZMcNz8E/87c8289410034d5431ab2b1585ce1f3a/Clay-icon.png?w=3840&q=90&fm=webp)\n\n![Image 32](https://images.ctfassets.net/kftzwdyauwt9/66G2WK6ampV9jPzRa2Hvbg/886b4bd1a14e8cdfb200ab7a6dfabfe4/Alation-icon.png?w=3840&q=90&fm=webp)\n\n![Image 33](https://images.ctfassets.net/kftzwdyauwt9/5JhKRNTuJsb1YlJy2aZgGG/a550a1b7d088b8862945510d26e05306/Canva-icon.png?w=3840&q=90&fm=webp)\n\n![Image 34](https://images.ctfassets.net/kftzwdyauwt9/jzXVGEfP4mbBnldf2o8lF/3c7b92daef9d0419078c223e6facaca6/Close-icon.png?w=3840&q=90&fm=webp)\n\n![Image 35](https://images.ctfassets.net/kftzwdyauwt9/1ZrYyHKYVPXXHVMY3WllKP/590344a2803377aa54fd729c34cb14dd/Deepnote-icon.png?w=3840&q=90&fm=webp)\n\n![Image 36](https://images.ctfassets.net/kftzwdyauwt9/59QXkm38wdfWcVkARDzWjP/49a8f3d91cf9a36fae192296fb811390/Figma-icon.png?w=3840&q=90&fm=webp)\n\n![Image 37](https://images.ctfassets.net/kftzwdyauwt9/TxiSBzrfQ4WWAPkSMXYZt/f4d0a092e749e9b7e8caeb09a30abf5f/Amplitude-icon.png?w=3840&q=90&fm=webp)\n\n![Image 38](https://images.ctfassets.net/kftzwdyauwt9/35DM0SJOz9SUbSivrZdisO/207f6688e291b15cb477f87c9ebfda72/chrome-icon.png?w=3840&q=90&fm=webp)\n\n![Image 39](https://images.ctfassets.net/kftzwdyauwt9/7uejlwsOOL1AxOt3h3vfiz/f0e3f52be5b1bb33ff41ab197423e210/daloopa-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 40](https://images.ctfassets.net/kftzwdyauwt9/6ww6xmOFNciC74O76ZSu2g/e15dc28a080526919f1cffa851aadd95/Docusign-icon.png?w=3840&q=90&fm=webp)\n\n![Image 41](https://images.ctfassets.net/kftzwdyauwt9/4UFpCp3CX3e97raZbAktYo/d54df1fa1f816e5eeacac803b48dafe4/actively-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 42](https://images.ctfassets.net/kftzwdyauwt9/4NYFssjICleYFIAOVjC4NF/225b023c70177856ab692b1bfff55df9/Apollo-logo.png?w=3840&q=90&fm=webp)\n\n![Image 43](https://images.ctfassets.net/kftzwdyauwt9/RJ8DfEys6DtH4MzH97r33/540a8e5376d34cbbcc127865eacaa9d6/Chronograph-icon.png?w=3840&q=90&fm=webp)\n\n![Image 44](https://images.ctfassets.net/kftzwdyauwt9/29wvM1Ty8uWY4pp9lZZFqv/df7b088b4f409f67832dc18b143bc08f/Databricks-icon.png?w=3840&q=90&fm=webp)\n\n![Image 45](https://images.ctfassets.net/kftzwdyauwt9/5XaUCn4UEZhwtGxuVhqmSH/505e55af3925ff2942cb46216192ab5b/FactSet-icon.png?w=3840&q=90&fm=webp)\n\n![Image 46](https://images.ctfassets.net/kftzwdyauwt9/jzXVGEfP4mbBnldf2o8lF/3c7b92daef9d0419078c223e6facaca6/Close-icon.png?w=3840&q=90&fm=webp)\n\n![Image 47](https://images.ctfassets.net/kftzwdyauwt9/TxiSBzrfQ4WWAPkSMXYZt/f4d0a092e749e9b7e8caeb09a30abf5f/Amplitude-icon.png?w=3840&q=90&fm=webp)\n\n![Image 48](https://images.ctfassets.net/kftzwdyauwt9/35DM0SJOz9SUbSivrZdisO/207f6688e291b15cb477f87c9ebfda72/chrome-icon.png?w=3840&q=90&fm=webp)\n\n![Image 49](https://images.ctfassets.net/kftzwdyauwt9/7uejlwsOOL1AxOt3h3vfiz/f0e3f52be5b1bb33ff41ab197423e210/daloopa-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 50](https://images.ctfassets.net/kftzwdyauwt9/6ww6xmOFNciC74O76ZSu2g/e15dc28a080526919f1cffa851aadd95/Docusign-icon.png?w=3840&q=90&fm=webp)\n\n![Image 51](https://images.ctfassets.net/kftzwdyauwt9/4UFpCp3CX3e97raZbAktYo/d54df1fa1f816e5eeacac803b48dafe4/actively-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 52](https://images.ctfassets.net/kftzwdyauwt9/4NYFssjICleYFIAOVjC4NF/225b023c70177856ab692b1bfff55df9/Apollo-logo.png?w=3840&q=90&fm=webp)\n\n![Image 53](https://images.ctfassets.net/kftzwdyauwt9/RJ8DfEys6DtH4MzH97r33/540a8e5376d34cbbcc127865eacaa9d6/Chronograph-icon.png?w=3840&q=90&fm=webp)\n\n![Image 54](https://images.ctfassets.net/kftzwdyauwt9/29wvM1Ty8uWY4pp9lZZFqv/df7b088b4f409f67832dc18b143bc08f/Databricks-icon.png?w=3840&q=90&fm=webp)\n\n![Image 55](https://images.ctfassets.net/kftzwdyauwt9/5XaUCn4UEZhwtGxuVhqmSH/505e55af3925ff2942cb46216192ab5b/FactSet-icon.png?w=3840&q=90&fm=webp)\n\n![Image 56](https://images.ctfassets.net/kftzwdyauwt9/vcHfiQ7aAwrYmYcoQoz9J/2135045b7e7eb0de7417e5b31459f9a0/Aiera-icon.png?w=3840&q=90&fm=webp)\n\n![Image 57](https://images.ctfassets.net/kftzwdyauwt9/2baLN2AEXCHyCuaWV7Rxp1/9407ee14a5d2867c817aa5b6329305c2/Calendly-icon.png?w=3840&q=90&fm=webp)\n\n![Image 58](https://images.ctfassets.net/kftzwdyauwt9/3ttS8F0BSrbkzIPZMcNz8E/87c8289410034d5431ab2b1585ce1f3a/Clay-icon.png?w=3840&q=90&fm=webp)\n\n![Image 59](https://images.ctfassets.net/kftzwdyauwt9/5mMHXLe8l0NNPJWVGYvUqK/7be46f5ad522661f687d71c1b77e2e2a/Datasite-icon.png?w=3840&q=90&fm=webp)\n\n![Image 60](https://images.ctfassets.net/kftzwdyauwt9/35d97mMx91cfTmNZHqXoun/66fc9fa59a9df2ae812c6414272d2243/Fal-icon.png?w=3840&q=90&fm=webp)\n\n![Image 61](https://images.ctfassets.net/kftzwdyauwt9/7uejlwsOOL1AxOt3h3vfiz/f0e3f52be5b1bb33ff41ab197423e210/daloopa-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 62](https://images.ctfassets.net/kftzwdyauwt9/4UFpCp3CX3e97raZbAktYo/d54df1fa1f816e5eeacac803b48dafe4/actively-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 63](https://images.ctfassets.net/kftzwdyauwt9/2baLN2AEXCHyCuaWV7Rxp1/9407ee14a5d2867c817aa5b6329305c2/Calendly-icon.png?w=3840&q=90&fm=webp)\n\n![Image 64](https://images.ctfassets.net/kftzwdyauwt9/jzXVGEfP4mbBnldf2o8lF/3c7b92daef9d0419078c223e6facaca6/Close-icon.png?w=3840&q=90&fm=webp)\n\n![Image 65](https://images.ctfassets.net/kftzwdyauwt9/6ww6xmOFNciC74O76ZSu2g/e15dc28a080526919f1cffa851aadd95/Docusign-icon.png?w=3840&q=90&fm=webp)\n\n![Image 66](https://images.ctfassets.net/kftzwdyauwt9/vcHfiQ7aAwrYmYcoQoz9J/2135045b7e7eb0de7417e5b31459f9a0/Aiera-icon.png?w=3840&q=90&fm=webp)\n\n![Image 67](https://images.ctfassets.net/kftzwdyauwt9/5JhKRNTuJsb1YlJy2aZgGG/a550a1b7d088b8862945510d26e05306/Canva-icon.png?w=3840&q=90&fm=webp)\n\n![Image 68](https://images.ctfassets.net/kftzwdyauwt9/7uejlwsOOL1AxOt3h3vfiz/f0e3f52be5b1bb33ff41ab197423e210/daloopa-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 69](https://images.ctfassets.net/kftzwdyauwt9/5XaUCn4UEZhwtGxuVhqmSH/505e55af3925ff2942cb46216192ab5b/FactSet-icon.png?w=3840&q=90&fm=webp)\n\n![Image 70](https://images.ctfassets.net/kftzwdyauwt9/66G2WK6ampV9jPzRa2Hvbg/886b4bd1a14e8cdfb200ab7a6dfabfe4/Alation-icon.png?w=3840&q=90&fm=webp)\n\n![Image 71](https://images.ctfassets.net/kftzwdyauwt9/35DM0SJOz9SUbSivrZdisO/207f6688e291b15cb477f87c9ebfda72/chrome-icon.png?w=3840&q=90&fm=webp)\n\n![Image 72](https://images.ctfassets.net/kftzwdyauwt9/29wvM1Ty8uWY4pp9lZZFqv/df7b088b4f409f67832dc18b143bc08f/Databricks-icon.png?w=3840&q=90&fm=webp)\n\n![Image 73](https://images.ctfassets.net/kftzwdyauwt9/35d97mMx91cfTmNZHqXoun/66fc9fa59a9df2ae812c6414272d2243/Fal-icon.png?w=3840&q=90&fm=webp)\n\n![Image 74](https://images.ctfassets.net/kftzwdyauwt9/TxiSBzrfQ4WWAPkSMXYZt/f4d0a092e749e9b7e8caeb09a30abf5f/Amplitude-icon.png?w=3840&q=90&fm=webp)\n\n![Image 75](https://images.ctfassets.net/kftzwdyauwt9/RJ8DfEys6DtH4MzH97r33/540a8e5376d34cbbcc127865eacaa9d6/Chronograph-icon.png?w=3840&q=90&fm=webp)\n\n![Image 76](https://images.ctfassets.net/kftzwdyauwt9/5mMHXLe8l0NNPJWVGYvUqK/7be46f5ad522661f687d71c1b77e2e2a/Datasite-icon.png?w=3840&q=90&fm=webp)\n\n![Image 77](https://images.ctfassets.net/kftzwdyauwt9/59QXkm38wdfWcVkARDzWjP/49a8f3d91cf9a36fae192296fb811390/Figma-icon.png?w=3840&q=90&fm=webp)\n\n![Image 78](https://images.ctfassets.net/kftzwdyauwt9/4NYFssjICleYFIAOVjC4NF/225b023c70177856ab692b1bfff55df9/Apollo-logo.png?w=3840&q=90&fm=webp)\n\n![Image 79](https://images.ctfassets.net/kftzwdyauwt9/3ttS8F0BSrbkzIPZMcNz8E/87c8289410034d5431ab2b1585ce1f3a/Clay-icon.png?w=3840&q=90&fm=webp)\n\n![Image 80](https://images.ctfassets.net/kftzwdyauwt9/1ZrYyHKYVPXXHVMY3WllKP/590344a2803377aa54fd729c34cb14dd/Deepnote-icon.png?w=3840&q=90&fm=webp)\n\n![Image 81](https://images.ctfassets.net/kftzwdyauwt9/3ttS8F0BSrbkzIPZMcNz8E/87c8289410034d5431ab2b1585ce1f3a/Clay-icon.png?w=3840&q=90&fm=webp)\n\n![Image 82](https://images.ctfassets.net/kftzwdyauwt9/36l9xDur4xnSMViJMR3Ftc/fceeb0d31d628a97f64b2991eadf9f9a/Fireflies-icon.png?w=3840&q=90&fm=webp)\n\n![Image 83](https://images.ctfassets.net/kftzwdyauwt9/4JhQzAJiB6fMWaPwuQM5Yt/abd942e97c6c019fa1a353072033a1d5/GMail-icon.png?w=3840&q=90&fm=webp)\n\n![Image 84](https://images.ctfassets.net/kftzwdyauwt9/KdyhVlZgR9xnGJm1AUVpH/fb30a560aabe302a4a2f92391f002d49/Hex-icon.png?w=3840&q=90&fm=webp)\n\n![Image 85](https://images.ctfassets.net/kftzwdyauwt9/4z6061oYWaxERxRwLQm90P/92ca6b692802e71efbf3bb6aac35f15a/LSEG-icon.png?w=3840&q=90&fm=webp)\n\n![Image 86](https://images.ctfassets.net/kftzwdyauwt9/4R4D5KmFPoU4HrOFIUCZDY/f87b04aa16e82d0fb5713714244dfa8c/Monday-icon.png?w=3840&q=90&fm=webp)\n\n![Image 87](https://images.ctfassets.net/kftzwdyauwt9/36l9xDur4xnSMViJMR3Ftc/fceeb0d31d628a97f64b2991eadf9f9a/Fireflies-icon.png?w=3840&q=90&fm=webp)\n\n![Image 88](https://images.ctfassets.net/kftzwdyauwt9/4JhQzAJiB6fMWaPwuQM5Yt/abd942e97c6c019fa1a353072033a1d5/GMail-icon.png?w=3840&q=90&fm=webp)\n\n![Image 89](https://images.ctfassets.net/kftzwdyauwt9/KdyhVlZgR9xnGJm1AUVpH/fb30a560aabe302a4a2f92391f002d49/Hex-icon.png?w=3840&q=90&fm=webp)\n\n![Image 90](https://images.ctfassets.net/kftzwdyauwt9/4z6061oYWaxERxRwLQm90P/92ca6b692802e71efbf3bb6aac35f15a/LSEG-icon.png?w=3840&q=90&fm=webp)\n\n![Image 91](https://images.ctfassets.net/kftzwdyauwt9/4R4D5KmFPoU4HrOFIUCZDY/f87b04aa16e82d0fb5713714244dfa8c/Monday-icon.png?w=3840&q=90&fm=webp)\n\n![Image 92](https://images.ctfassets.net/kftzwdyauwt9/36l9xDur4xnSMViJMR3Ftc/fceeb0d31d628a97f64b2991eadf9f9a/Fireflies-icon.png?w=3840&q=90&fm=webp)\n\n![Image 93](https://images.ctfassets.net/kftzwdyauwt9/4JhQzAJiB6fMWaPwuQM5Yt/abd942e97c6c019fa1a353072033a1d5/GMail-icon.png?w=3840&q=90&fm=webp)\n\n![Image 94](https://images.ctfassets.net/kftzwdyauwt9/KdyhVlZgR9xnGJm1AUVpH/fb30a560aabe302a4a2f92391f002d49/Hex-icon.png?w=3840&q=90&fm=webp)\n\n![Image 95](https://images.ctfassets.net/kftzwdyauwt9/4z6061oYWaxERxRwLQm90P/92ca6b692802e71efbf3bb6aac35f15a/LSEG-icon.png?w=3840&q=90&fm=webp)\n\n![Image 96](https://images.ctfassets.net/kftzwdyauwt9/4R4D5KmFPoU4HrOFIUCZDY/f87b04aa16e82d0fb5713714244dfa8c/Monday-icon.png?w=3840&q=90&fm=webp)\n\n![Image 97](https://images.ctfassets.net/kftzwdyauwt9/672NKd2C5VCp4RKe9bIr92/47fb84036327badc6e88e7efbcf3170e/FiscalAI-logo.png?w=3840&q=90&fm=webp)\n\n![Image 98](https://images.ctfassets.net/kftzwdyauwt9/FIFIB7vghFJUmAhAOxIDd/b84598439db5fc04f0b688a73eb89777/GitHub-icon.png?w=3840&q=90&fm=webp)\n\n![Image 99](https://images.ctfassets.net/kftzwdyauwt9/2j4coPqbIYXH4vKYJZZx2f/ad28b0a796314f0983fb7f93b4eb4a1e/HG-icon.png?w=3840&q=90&fm=webp)\n\n![Image 100](https://images.ctfassets.net/kftzwdyauwt9/3tjviDlnTMjLAd4CGHXzDX/654b99be201dd0f5a470a11ce29bb56d/Metabase-icon.png?w=3840&q=90&fm=webp)\n\n![Image 101](https://images.ctfassets.net/kftzwdyauwt9/7hlI2Ah6VFQXc5UA4xO3dJ/1609e428e487f2dd56815e4179a44676/Moodys-icon.png?w=3840&q=90&fm=webp)\n\n![Image 102](https://images.ctfassets.net/kftzwdyauwt9/672NKd2C5VCp4RKe9bIr92/47fb84036327badc6e88e7efbcf3170e/FiscalAI-logo.png?w=3840&q=90&fm=webp)\n\n![Image 103](https://images.ctfassets.net/kftzwdyauwt9/FIFIB7vghFJUmAhAOxIDd/b84598439db5fc04f0b688a73eb89777/GitHub-icon.png?w=3840&q=90&fm=webp)\n\n![Image 104](https://images.ctfassets.net/kftzwdyauwt9/2j4coPqbIYXH4vKYJZZx2f/ad28b0a796314f0983fb7f93b4eb4a1e/HG-icon.png?w=3840&q=90&fm=webp)\n\n![Image 105](https://images.ctfassets.net/kftzwdyauwt9/3tjviDlnTMjLAd4CGHXzDX/654b99be201dd0f5a470a11ce29bb56d/Metabase-icon.png?w=3840&q=90&fm=webp)\n\n![Image 106](https://images.ctfassets.net/kftzwdyauwt9/7hlI2Ah6VFQXc5UA4xO3dJ/1609e428e487f2dd56815e4179a44676/Moodys-icon.png?w=3840&q=90&fm=webp)\n\n![Image 107](https://images.ctfassets.net/kftzwdyauwt9/672NKd2C5VCp4RKe9bIr92/47fb84036327badc6e88e7efbcf3170e/FiscalAI-logo.png?w=3840&q=90&fm=webp)\n\n![Image 108](https://images.ctfassets.net/kftzwdyauwt9/FIFIB7vghFJUmAhAOxIDd/b84598439db5fc04f0b688a73eb89777/GitHub-icon.png?w=3840&q=90&fm=webp)\n\n![Image 109](https://images.ctfassets.net/kftzwdyauwt9/2j4coPqbIYXH4vKYJZZx2f/ad28b0a796314f0983fb7f93b4eb4a1e/HG-icon.png?w=3840&q=90&fm=webp)\n\n![Image 110](https://images.ctfassets.net/kftzwdyauwt9/3tjviDlnTMjLAd4CGHXzDX/654b99be201dd0f5a470a11ce29bb56d/Metabase-icon.png?w=3840&q=90&fm=webp)\n\n![Image 111](https://images.ctfassets.net/kftzwdyauwt9/7hlI2Ah6VFQXc5UA4xO3dJ/1609e428e487f2dd56815e4179a44676/Moodys-icon.png?w=3840&q=90&fm=webp)\n\n![Image 112](https://images.ctfassets.net/kftzwdyauwt9/6CLtwn8JJJhKPRmoDvWQOY/a160c8801be097e56a83b8f53e9761b5/GCalendar-icon.png?w=3840&q=90&fm=webp)\n\n![Image 113](https://images.ctfassets.net/kftzwdyauwt9/3d4CaGZAPxpmD0iKgWzTbq/0b04b3c611b713956a974c34d1ffd9ee/Granola-icon.png?w=3840&q=90&fm=webp)\n\n![Image 114](https://images.ctfassets.net/kftzwdyauwt9/6Uxb4FbhhqBJTVDMVU6Tex/c5201911b5a952fc306ebd0c1a42b3e2/Hubspot-icon.png?w=3840&q=90&fm=webp)\n\n![Image 115](https://images.ctfassets.net/kftzwdyauwt9/YWoXPsvbPeWwJusA9p9xA/930e47f6fa5bd13891a9445d1c323bd9/Meticulate-icon.png?w=3840&q=90&fm=webp)\n\n![Image 116](https://images.ctfassets.net/kftzwdyauwt9/3WWKQXRdiC4GIyPAMKI0CM/00d0d188c0b340d674b85a1e429616ed/Morningstar-icon.png?w=3840&q=90&fm=webp)\n\n![Image 117](https://images.ctfassets.net/kftzwdyauwt9/6CLtwn8JJJhKPRmoDvWQOY/a160c8801be097e56a83b8f53e9761b5/GCalendar-icon.png?w=3840&q=90&fm=webp)\n\n![Image 118](https://images.ctfassets.net/kftzwdyauwt9/3d4CaGZAPxpmD0iKgWzTbq/0b04b3c611b713956a974c34d1ffd9ee/Granola-icon.png?w=3840&q=90&fm=webp)\n\n![Image 119](https://images.ctfassets.net/kftzwdyauwt9/6Uxb4FbhhqBJTVDMVU6Tex/c5201911b5a952fc306ebd0c1a42b3e2/Hubspot-icon.png?w=3840&q=90&fm=webp)\n\n![Image 120](https://images.ctfassets.net/kftzwdyauwt9/YWoXPsvbPeWwJusA9p9xA/930e47f6fa5bd13891a9445d1c323bd9/Meticulate-icon.png?w=3840&q=90&fm=webp)\n\n![Image 121](https://images.ctfassets.net/kftzwdyauwt9/3WWKQXRdiC4GIyPAMKI0CM/00d0d188c0b340d674b85a1e429616ed/Morningstar-icon.png?w=3840&q=90&fm=webp)\n\n![Image 122](https://images.ctfassets.net/kftzwdyauwt9/6CLtwn8JJJhKPRmoDvWQOY/a160c8801be097e56a83b8f53e9761b5/GCalendar-icon.png?w=3840&q=90&fm=webp)\n\n![Image 123](https://images.ctfassets.net/kftzwdyauwt9/3d4CaGZAPxpmD0iKgWzTbq/0b04b3c611b713956a974c34d1ffd9ee/Granola-icon.png?w=3840&q=90&fm=webp)\n\n![Image 124](https://images.ctfassets.net/kftzwdyauwt9/6Uxb4FbhhqBJTVDMVU6Tex/c5201911b5a952fc306ebd0c1a42b3e2/Hubspot-icon.png?w=3840&q=90&fm=webp)\n\n![Image 125](https://images.ctfassets.net/kftzwdyauwt9/YWoXPsvbPeWwJusA9p9xA/930e47f6fa5bd13891a9445d1c323bd9/Meticulate-icon.png?w=3840&q=90&fm=webp)\n\n![Image 126](https://images.ctfassets.net/kftzwdyauwt9/3WWKQXRdiC4GIyPAMKI0CM/00d0d188c0b340d674b85a1e429616ed/Morningstar-icon.png?w=3840&q=90&fm=webp)\n\n![Image 127](https://images.ctfassets.net/kftzwdyauwt9/496Hby7x5TQcBFFKVuAjSO/5a47e0d97db5d9bdd166ff17a99607b4/GDrive-icon.png?w=3840&q=90&fm=webp)\n\n![Image 128](https://images.ctfassets.net/kftzwdyauwt9/3oCKjYaPg9YdQ3HrkFj2a8/e0511dc4831023fafae7889ea3dd68d7/hebbia-icon.png?w=3840&q=90&fm=webp)\n\n![Image 129](https://images.ctfassets.net/kftzwdyauwt9/peeja2fizSY86INX6R14X/ea8d5713d1e0e29d5993175f39db3f55/Lovable-icon.png?w=3840&q=90&fm=webp)\n\n![Image 130](https://images.ctfassets.net/kftzwdyauwt9/77qYzlkG20niSIAzcaME2h/1966a59f59a84c92c585dc684b0fe831/Mixpanel-icon.png?w=3840&q=90&fm=webp)\n\n![Image 131](https://images.ctfassets.net/kftzwdyauwt9/2qLdRLjh0kokwm3LaqO4BP/0b100e3b97c6622665b4889d861bf019/omni-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 132](https://images.ctfassets.net/kftzwdyauwt9/496Hby7x5TQcBFFKVuAjSO/5a47e0d97db5d9bdd166ff17a99607b4/GDrive-icon.png?w=3840&q=90&fm=webp)\n\n![Image 133](https://images.ctfassets.net/kftzwdyauwt9/3oCKjYaPg9YdQ3HrkFj2a8/e0511dc4831023fafae7889ea3dd68d7/hebbia-icon.png?w=3840&q=90&fm=webp)\n\n![Image 134](https://images.ctfassets.net/kftzwdyauwt9/peeja2fizSY86INX6R14X/ea8d5713d1e0e29d5993175f39db3f55/Lovable-icon.png?w=3840&q=90&fm=webp)\n\n![Image 135](https://images.ctfassets.net/kftzwdyauwt9/77qYzlkG20niSIAzcaME2h/1966a59f59a84c92c585dc684b0fe831/Mixpanel-icon.png?w=3840&q=90&fm=webp)\n\n![Image 136](https://images.ctfassets.net/kftzwdyauwt9/2qLdRLjh0kokwm3LaqO4BP/0b100e3b97c6622665b4889d861bf019/omni-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 137](https://images.ctfassets.net/kftzwdyauwt9/496Hby7x5TQcBFFKVuAjSO/5a47e0d97db5d9bdd166ff17a99607b4/GDrive-icon.png?w=3840&q=90&fm=webp)\n\n![Image 138](https://images.ctfassets.net/kftzwdyauwt9/3oCKjYaPg9YdQ3HrkFj2a8/e0511dc4831023fafae7889ea3dd68d7/hebbia-icon.png?w=3840&q=90&fm=webp)\n\n![Image 139](https://images.ctfassets.net/kftzwdyauwt9/peeja2fizSY86INX6R14X/ea8d5713d1e0e29d5993175f39db3f55/Lovable-icon.png?w=3840&q=90&fm=webp)\n\n![Image 140](https://images.ctfassets.net/kftzwdyauwt9/77qYzlkG20niSIAzcaME2h/1966a59f59a84c92c585dc684b0fe831/Mixpanel-icon.png?w=3840&q=90&fm=webp)\n\n![Image 141](https://images.ctfassets.net/kftzwdyauwt9/2qLdRLjh0kokwm3LaqO4BP/0b100e3b97c6622665b4889d861bf019/omni-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 142](https://images.ctfassets.net/kftzwdyauwt9/36l9xDur4xnSMViJMR3Ftc/fceeb0d31d628a97f64b2991eadf9f9a/Fireflies-icon.png?w=3840&q=90&fm=webp)\n\n![Image 143](https://images.ctfassets.net/kftzwdyauwt9/FIFIB7vghFJUmAhAOxIDd/b84598439db5fc04f0b688a73eb89777/GitHub-icon.png?w=3840&q=90&fm=webp)\n\n![Image 144](https://images.ctfassets.net/kftzwdyauwt9/6Uxb4FbhhqBJTVDMVU6Tex/c5201911b5a952fc306ebd0c1a42b3e2/Hubspot-icon.png?w=3840&q=90&fm=webp)\n\n![Image 145](https://images.ctfassets.net/kftzwdyauwt9/77qYzlkG20niSIAzcaME2h/1966a59f59a84c92c585dc684b0fe831/Mixpanel-icon.png?w=3840&q=90&fm=webp)\n\n![Image 146](https://images.ctfassets.net/kftzwdyauwt9/672NKd2C5VCp4RKe9bIr92/47fb84036327badc6e88e7efbcf3170e/FiscalAI-logo.png?w=3840&q=90&fm=webp)\n\n![Image 147](https://images.ctfassets.net/kftzwdyauwt9/3d4CaGZAPxpmD0iKgWzTbq/0b04b3c611b713956a974c34d1ffd9ee/Granola-icon.png?w=3840&q=90&fm=webp)\n\n![Image 148](https://images.ctfassets.net/kftzwdyauwt9/peeja2fizSY86INX6R14X/ea8d5713d1e0e29d5993175f39db3f55/Lovable-icon.png?w=3840&q=90&fm=webp)\n\n![Image 149](https://images.ctfassets.net/kftzwdyauwt9/4R4D5KmFPoU4HrOFIUCZDY/f87b04aa16e82d0fb5713714244dfa8c/Monday-icon.png?w=3840&q=90&fm=webp)\n\n![Image 150](https://images.ctfassets.net/kftzwdyauwt9/6CLtwn8JJJhKPRmoDvWQOY/a160c8801be097e56a83b8f53e9761b5/GCalendar-icon.png?w=3840&q=90&fm=webp)\n\n![Image 151](https://images.ctfassets.net/kftzwdyauwt9/3oCKjYaPg9YdQ3HrkFj2a8/e0511dc4831023fafae7889ea3dd68d7/hebbia-icon.png?w=3840&q=90&fm=webp)\n\n![Image 152](https://images.ctfassets.net/kftzwdyauwt9/4z6061oYWaxERxRwLQm90P/92ca6b692802e71efbf3bb6aac35f15a/LSEG-icon.png?w=3840&q=90&fm=webp)\n\n![Image 153](https://images.ctfassets.net/kftzwdyauwt9/7hlI2Ah6VFQXc5UA4xO3dJ/1609e428e487f2dd56815e4179a44676/Moodys-icon.png?w=3840&q=90&fm=webp)\n\n![Image 154](https://images.ctfassets.net/kftzwdyauwt9/496Hby7x5TQcBFFKVuAjSO/5a47e0d97db5d9bdd166ff17a99607b4/GDrive-icon.png?w=3840&q=90&fm=webp)\n\n![Image 155](https://images.ctfassets.net/kftzwdyauwt9/KdyhVlZgR9xnGJm1AUVpH/fb30a560aabe302a4a2f92391f002d49/Hex-icon.png?w=3840&q=90&fm=webp)\n\n![Image 156](https://images.ctfassets.net/kftzwdyauwt9/3tjviDlnTMjLAd4CGHXzDX/654b99be201dd0f5a470a11ce29bb56d/Metabase-icon.png?w=3840&q=90&fm=webp)\n\n![Image 157](https://images.ctfassets.net/kftzwdyauwt9/3WWKQXRdiC4GIyPAMKI0CM/00d0d188c0b340d674b85a1e429616ed/Morningstar-icon.png?w=3840&q=90&fm=webp)\n\n![Image 158](https://images.ctfassets.net/kftzwdyauwt9/4JhQzAJiB6fMWaPwuQM5Yt/abd942e97c6c019fa1a353072033a1d5/GMail-icon.png?w=3840&q=90&fm=webp)\n\n![Image 159](https://images.ctfassets.net/kftzwdyauwt9/2j4coPqbIYXH4vKYJZZx2f/ad28b0a796314f0983fb7f93b4eb4a1e/HG-icon.png?w=3840&q=90&fm=webp)\n\n![Image 160](https://images.ctfassets.net/kftzwdyauwt9/YWoXPsvbPeWwJusA9p9xA/930e47f6fa5bd13891a9445d1c323bd9/Meticulate-icon.png?w=3840&q=90&fm=webp)\n\n![Image 161](https://images.ctfassets.net/kftzwdyauwt9/2qLdRLjh0kokwm3LaqO4BP/0b100e3b97c6622665b4889d861bf019/omni-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 162](https://images.ctfassets.net/kftzwdyauwt9/1tEVGmWh4hD2xAw85kY5dB/bd24a2e9c932f7cffc34580ca8f3ffa5/otterrai-icon.png?w=3840&q=90&fm=webp)\n\n![Image 163](https://images.ctfassets.net/kftzwdyauwt9/6iQe2R4MaeRvXUe84FZSvM/da4f8f0fa610646e225208dfe7af76d9/PostHog-icon.png?w=3840&q=90&fm=webp)\n\n![Image 164](https://images.ctfassets.net/kftzwdyauwt9/pZq5UI7yOhnst1FcxXeCv/5326cda021b1f2013b467624f1935f41/SP-icon.png?w=3840&q=90&fm=webp)\n\n![Image 165](https://images.ctfassets.net/kftzwdyauwt9/1wkofYPal0FOhJShWShLEr/40c51a701d01c8080760ca98bba13b40/slack-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 166](https://images.ctfassets.net/kftzwdyauwt9/4ej1LL242AmYNMh7kWacdu/34b867bc8aaa6b7d476e88e3fb35d49b/ThoughtSpot_icon2.png?w=3840&q=90&fm=webp)\n\n![Image 167](https://images.ctfassets.net/kftzwdyauwt9/1tEVGmWh4hD2xAw85kY5dB/bd24a2e9c932f7cffc34580ca8f3ffa5/otterrai-icon.png?w=3840&q=90&fm=webp)\n\n![Image 168](https://images.ctfassets.net/kftzwdyauwt9/6iQe2R4MaeRvXUe84FZSvM/da4f8f0fa610646e225208dfe7af76d9/PostHog-icon.png?w=3840&q=90&fm=webp)\n\n![Image 169](https://images.ctfassets.net/kftzwdyauwt9/pZq5UI7yOhnst1FcxXeCv/5326cda021b1f2013b467624f1935f41/SP-icon.png?w=3840&q=90&fm=webp)\n\n![Image 170](https://images.ctfassets.net/kftzwdyauwt9/1wkofYPal0FOhJShWShLEr/40c51a701d01c8080760ca98bba13b40/slack-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 171](https://images.ctfassets.net/kftzwdyauwt9/4ej1LL242AmYNMh7kWacdu/34b867bc8aaa6b7d476e88e3fb35d49b/ThoughtSpot_icon2.png?w=3840&q=90&fm=webp)\n\n![Image 172](https://images.ctfassets.net/kftzwdyauwt9/1tEVGmWh4hD2xAw85kY5dB/bd24a2e9c932f7cffc34580ca8f3ffa5/otterrai-icon.png?w=3840&q=90&fm=webp)\n\n![Image 173](https://images.ctfassets.net/kftzwdyauwt9/6iQe2R4MaeRvXUe84FZSvM/da4f8f0fa610646e225208dfe7af76d9/PostHog-icon.png?w=3840&q=90&fm=webp)\n\n![Image 174](https://images.ctfassets.net/kftzwdyauwt9/pZq5UI7yOhnst1FcxXeCv/5326cda021b1f2013b467624f1935f41/SP-icon.png?w=3840&q=90&fm=webp)\n\n![Image 175](https://images.ctfassets.net/kftzwdyauwt9/1wkofYPal0FOhJShWShLEr/40c51a701d01c8080760ca98bba13b40/slack-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 176](https://images.ctfassets.net/kftzwdyauwt9/4ej1LL242AmYNMh7kWacdu/34b867bc8aaa6b7d476e88e3fb35d49b/ThoughtSpot_icon2.png?w=3840&q=90&fm=webp)\n\n![Image 177](https://images.ctfassets.net/kftzwdyauwt9/7Kw5FaSXZ6Eq0vYydhLmly/6604c9d8b5706cb62ef17235407a8c24/Outreach-icon.png?w=3840&q=90&fm=webp)\n\n![Image 178](https://images.ctfassets.net/kftzwdyauwt9/76ksqYxVsKQnSZzktpwQ4h/2cbd51ef2fbd9025eaccd98a0c7148d2/Quartr-icon.png?w=3840&q=90&fm=webp)\n\n![Image 179](https://images.ctfassets.net/kftzwdyauwt9/1Rme9yow16GkM6J5o6Li6m/ab8f8f5a058fda75333b36360661b105/Salesforce-icon.png?w=3840&q=90&fm=webp)\n\n![Image 180](https://images.ctfassets.net/kftzwdyauwt9/2azpQpnXbwNzCOfhr3NnfZ/7b53a00c5b70b64de63ec9df7e1acf3c/Snowflake-icon.png?w=3840&q=90&fm=webp)\n\n![Image 181](https://images.ctfassets.net/kftzwdyauwt9/5PdvUhPCvI3aMIVBV5F6XR/65d38375a5aff056c3e7f586390539b6/Zoho-icon.png?w=3840&q=90&fm=webp)\n\n![Image 182](https://images.ctfassets.net/kftzwdyauwt9/7Kw5FaSXZ6Eq0vYydhLmly/6604c9d8b5706cb62ef17235407a8c24/Outreach-icon.png?w=3840&q=90&fm=webp)\n\n![Image 183](https://images.ctfassets.net/kftzwdyauwt9/76ksqYxVsKQnSZzktpwQ4h/2cbd51ef2fbd9025eaccd98a0c7148d2/Quartr-icon.png?w=3840&q=90&fm=webp)\n\n![Image 184](https://images.ctfassets.net/kftzwdyauwt9/1Rme9yow16GkM6J5o6Li6m/ab8f8f5a058fda75333b36360661b105/Salesforce-icon.png?w=3840&q=90&fm=webp)\n\n![Image 185](https://images.ctfassets.net/kftzwdyauwt9/2azpQpnXbwNzCOfhr3NnfZ/7b53a00c5b70b64de63ec9df7e1acf3c/Snowflake-icon.png?w=3840&q=90&fm=webp)\n\n![Image 186](https://images.ctfassets.net/kftzwdyauwt9/5PdvUhPCvI3aMIVBV5F6XR/65d38375a5aff056c3e7f586390539b6/Zoho-icon.png?w=3840&q=90&fm=webp)\n\n![Image 187](https://images.ctfassets.net/kftzwdyauwt9/7Kw5FaSXZ6Eq0vYydhLmly/6604c9d8b5706cb62ef17235407a8c24/Outreach-icon.png?w=3840&q=90&fm=webp)\n\n![Image 188](https://images.ctfassets.net/kftzwdyauwt9/76ksqYxVsKQnSZzktpwQ4h/2cbd51ef2fbd9025eaccd98a0c7148d2/Quartr-icon.png?w=3840&q=90&fm=webp)\n\n![Image 189](https://images.ctfassets.net/kftzwdyauwt9/1Rme9yow16GkM6J5o6Li6m/ab8f8f5a058fda75333b36360661b105/Salesforce-icon.png?w=3840&q=90&fm=webp)\n\n![Image 190](https://images.ctfassets.net/kftzwdyauwt9/2azpQpnXbwNzCOfhr3NnfZ/7b53a00c5b70b64de63ec9df7e1acf3c/Snowflake-icon.png?w=3840&q=90&fm=webp)\n\n![Image 191](https://images.ctfassets.net/kftzwdyauwt9/5PdvUhPCvI3aMIVBV5F6XR/65d38375a5aff056c3e7f586390539b6/Zoho-icon.png?w=3840&q=90&fm=webp)\n\n![Image 192](https://images.ctfassets.net/kftzwdyauwt9/4x2DXa6aOhXmne41W5j4Ul/48b5243268e0c4cbde428df7cb579efb/picsart-icon.png?w=3840&q=90&fm=webp)\n\n![Image 193](https://images.ctfassets.net/kftzwdyauwt9/QuDmbhNZUYO3XzNdI2E5H/802978d640e24228f8689c733c6815ca/Replit-icon.png?w=3840&q=90&fm=webp)\n\n![Image 194](https://images.ctfassets.net/kftzwdyauwt9/TKKVGnBmf2OMZYVajKqhr/52063feb984e4c9f4fec4c89e60f490c/Shutterstock-icon.png?w=3840&q=90&fm=webp)\n\n![Image 195](https://images.ctfassets.net/kftzwdyauwt9/7FyJaH9Sw6pgFE9Cz2THPP/3db5d81d200fe4f4e0f56df7a15df7a7/Statsig-icon.png?w=3840&q=90&fm=webp)\n\n![Image 196](https://images.ctfassets.net/kftzwdyauwt9/7qxEB5vRm1XLvgAPctRVsF/414605b475141299b48d8d2a3508f710/Zoom-icon.png?w=3840&q=90&fm=webp)\n\n![Image 197](https://images.ctfassets.net/kftzwdyauwt9/4x2DXa6aOhXmne41W5j4Ul/48b5243268e0c4cbde428df7cb579efb/picsart-icon.png?w=3840&q=90&fm=webp)\n\n![Image 198](https://images.ctfassets.net/kftzwdyauwt9/QuDmbhNZUYO3XzNdI2E5H/802978d640e24228f8689c733c6815ca/Replit-icon.png?w=3840&q=90&fm=webp)\n\n![Image 199](https://images.ctfassets.net/kftzwdyauwt9/TKKVGnBmf2OMZYVajKqhr/52063feb984e4c9f4fec4c89e60f490c/Shutterstock-icon.png?w=3840&q=90&fm=webp)\n\n![Image 200](https://images.ctfassets.net/kftzwdyauwt9/7FyJaH9Sw6pgFE9Cz2THPP/3db5d81d200fe4f4e0f56df7a15df7a7/Statsig-icon.png?w=3840&q=90&fm=webp)\n\n![Image 201](https://images.ctfassets.net/kftzwdyauwt9/7qxEB5vRm1XLvgAPctRVsF/414605b475141299b48d8d2a3508f710/Zoom-icon.png?w=3840&q=90&fm=webp)\n\n![Image 202](https://images.ctfassets.net/kftzwdyauwt9/4x2DXa6aOhXmne41W5j4Ul/48b5243268e0c4cbde428df7cb579efb/picsart-icon.png?w=3840&q=90&fm=webp)\n\n![Image 203](https://images.ctfassets.net/kftzwdyauwt9/QuDmbhNZUYO3XzNdI2E5H/802978d640e24228f8689c733c6815ca/Replit-icon.png?w=3840&q=90&fm=webp)\n\n![Image 204](https://images.ctfassets.net/kftzwdyauwt9/TKKVGnBmf2OMZYVajKqhr/52063feb984e4c9f4fec4c89e60f490c/Shutterstock-icon.png?w=3840&q=90&fm=webp)\n\n![Image 205](https://images.ctfassets.net/kftzwdyauwt9/7FyJaH9Sw6pgFE9Cz2THPP/3db5d81d200fe4f4e0f56df7a15df7a7/Statsig-icon.png?w=3840&q=90&fm=webp)\n\n![Image 206](https://images.ctfassets.net/kftzwdyauwt9/7qxEB5vRm1XLvgAPctRVsF/414605b475141299b48d8d2a3508f710/Zoom-icon.png?w=3840&q=90&fm=webp)\n\n![Image 207](https://images.ctfassets.net/kftzwdyauwt9/Cc5YnzUz1qG4xoapuaEDh/b5079940cedc27151fe937277c1cd827/PitchBook-icon.png?w=3840&q=90&fm=webp)\n\n![Image 208](https://images.ctfassets.net/kftzwdyauwt9/rpfNur7jRm4PcqE6KP2kq/102b71a6feb823c2536004cbe5fbda9e/Rox-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 209](https://images.ctfassets.net/kftzwdyauwt9/J3WgRb8CkUgwhLwQc9SoM/3db2abfe24c3c4243aa5246a16ec307b/Similarweb-icon.png?w=3840&q=90&fm=webp)\n\n![Image 210](https://images.ctfassets.net/kftzwdyauwt9/4wh0eK535qKyCPNItikyJy/e9922e1c398d42950db3a489bfd8aacd/Third_Bridge-icon.png?w=3840&q=90&fm=webp)\n\n![Image 211](https://images.ctfassets.net/kftzwdyauwt9/5GaQjl3CPOkkDWHfA9HwMf/cc6fd5a48f2596d1d5a4b38569ae27f2/ZoomInfo-icon.png?w=3840&q=90&fm=webp)\n\n![Image 212](https://images.ctfassets.net/kftzwdyauwt9/Cc5YnzUz1qG4xoapuaEDh/b5079940cedc27151fe937277c1cd827/PitchBook-icon.png?w=3840&q=90&fm=webp)\n\n![Image 213](https://images.ctfassets.net/kftzwdyauwt9/rpfNur7jRm4PcqE6KP2kq/102b71a6feb823c2536004cbe5fbda9e/Rox-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 214](https://images.ctfassets.net/kftzwdyauwt9/J3WgRb8CkUgwhLwQc9SoM/3db2abfe24c3c4243aa5246a16ec307b/Similarweb-icon.png?w=3840&q=90&fm=webp)\n\n![Image 215](https://images.ctfassets.net/kftzwdyauwt9/4wh0eK535qKyCPNItikyJy/e9922e1c398d42950db3a489bfd8aacd/Third_Bridge-icon.png?w=3840&q=90&fm=webp)\n\n![Image 216](https://images.ctfassets.net/kftzwdyauwt9/5GaQjl3CPOkkDWHfA9HwMf/cc6fd5a48f2596d1d5a4b38569ae27f2/ZoomInfo-icon.png?w=3840&q=90&fm=webp)\n\n![Image 217](https://images.ctfassets.net/kftzwdyauwt9/Cc5YnzUz1qG4xoapuaEDh/b5079940cedc27151fe937277c1cd827/PitchBook-icon.png?w=3840&q=90&fm=webp)\n\n![Image 218](https://images.ctfassets.net/kftzwdyauwt9/rpfNur7jRm4PcqE6KP2kq/102b71a6feb823c2536004cbe5fbda9e/Rox-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 219](https://images.ctfassets.net/kftzwdyauwt9/J3WgRb8CkUgwhLwQc9SoM/3db2abfe24c3c4243aa5246a16ec307b/Similarweb-icon.png?w=3840&q=90&fm=webp)\n\n![Image 220](https://images.ctfassets.net/kftzwdyauwt9/4wh0eK535qKyCPNItikyJy/e9922e1c398d42950db3a489bfd8aacd/Third_Bridge-icon.png?w=3840&q=90&fm=webp)\n\n![Image 221](https://images.ctfassets.net/kftzwdyauwt9/5GaQjl3CPOkkDWHfA9HwMf/cc6fd5a48f2596d1d5a4b38569ae27f2/ZoomInfo-icon.png?w=3840&q=90&fm=webp)\n\n![Image 222](https://images.ctfassets.net/kftzwdyauwt9/1tEVGmWh4hD2xAw85kY5dB/bd24a2e9c932f7cffc34580ca8f3ffa5/otterrai-icon.png?w=3840&q=90&fm=webp)\n\n![Image 223](https://images.ctfassets.net/kftzwdyauwt9/76ksqYxVsKQnSZzktpwQ4h/2cbd51ef2fbd9025eaccd98a0c7148d2/Quartr-icon.png?w=3840&q=90&fm=webp)\n\n![Image 224](https://images.ctfassets.net/kftzwdyauwt9/TKKVGnBmf2OMZYVajKqhr/52063feb984e4c9f4fec4c89e60f490c/Shutterstock-icon.png?w=3840&q=90&fm=webp)\n\n![Image 225](https://images.ctfassets.net/kftzwdyauwt9/4wh0eK535qKyCPNItikyJy/e9922e1c398d42950db3a489bfd8aacd/Third_Bridge-icon.png?w=3840&q=90&fm=webp)\n\n![Image 226](https://images.ctfassets.net/kftzwdyauwt9/7Kw5FaSXZ6Eq0vYydhLmly/6604c9d8b5706cb62ef17235407a8c24/Outreach-icon.png?w=3840&q=90&fm=webp)\n\n![Image 227](https://images.ctfassets.net/kftzwdyauwt9/QuDmbhNZUYO3XzNdI2E5H/802978d640e24228f8689c733c6815ca/Replit-icon.png?w=3840&q=90&fm=webp)\n\n![Image 228](https://images.ctfassets.net/kftzwdyauwt9/J3WgRb8CkUgwhLwQc9SoM/3db2abfe24c3c4243aa5246a16ec307b/Similarweb-icon.png?w=3840&q=90&fm=webp)\n\n![Image 229](https://images.ctfassets.net/kftzwdyauwt9/4ej1LL242AmYNMh7kWacdu/34b867bc8aaa6b7d476e88e3fb35d49b/ThoughtSpot_icon2.png?w=3840&q=90&fm=webp)\n\n![Image 230](https://images.ctfassets.net/kftzwdyauwt9/4x2DXa6aOhXmne41W5j4Ul/48b5243268e0c4cbde428df7cb579efb/picsart-icon.png?w=3840&q=90&fm=webp)\n\n![Image 231](https://images.ctfassets.net/kftzwdyauwt9/rpfNur7jRm4PcqE6KP2kq/102b71a6feb823c2536004cbe5fbda9e/Rox-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 232](https://images.ctfassets.net/kftzwdyauwt9/1wkofYPal0FOhJShWShLEr/40c51a701d01c8080760ca98bba13b40/slack-icon2.png?w=3840&q=90&fm=webp)\n\n![Image 233](https://images.ctfassets.net/kftzwdyauwt9/5PdvUhPCvI3aMIVBV5F6XR/65d38375a5aff056c3e7f586390539b6/Zoho-icon.png?w=3840&q=90&fm=webp)\n\n![Image 234](https://images.ctfassets.net/kftzwdyauwt9/Cc5YnzUz1qG4xoapuaEDh/b5079940cedc27151fe937277c1cd827/PitchBook-icon.png?w=3840&q=90&fm=webp)\n\n![Image 235](https://images.ctfassets.net/kftzwdyauwt9/pZq5UI7yOhnst1FcxXeCv/5326cda021b1f2013b467624f1935f41/SP-icon.png?w=3840&q=90&fm=webp)\n\n![Image 236](https://images.ctfassets.net/kftzwdyauwt9/2azpQpnXbwNzCOfhr3NnfZ/7b53a00c5b70b64de63ec9df7e1acf3c/Snowflake-icon.png?w=3840&q=90&fm=webp)\n\n![Image 237](https://images.ctfassets.net/kftzwdyauwt9/7qxEB5vRm1XLvgAPctRVsF/414605b475141299b48d8d2a3508f710/Zoom-icon.png?w=3840&q=90&fm=webp)\n\n![Image 238](https://images.ctfassets.net/kftzwdyauwt9/6iQe2R4MaeRvXUe84FZSvM/da4f8f0fa610646e225208dfe7af76d9/PostHog-icon.png?w=3840&q=90&fm=webp)\n\n![Image 239](https://images.ctfassets.net/kftzwdyauwt9/1Rme9yow16GkM6J5o6Li6m/ab8f8f5a058fda75333b36360661b105/Salesforce-icon.png?w=3840&q=90&fm=webp)\n\n![Image 240](https://images.ctfassets.net/kftzwdyauwt9/7FyJaH9Sw6pgFE9Cz2THPP/3db5d81d200fe4f4e0f56df7a15df7a7/Statsig-icon.png?w=3840&q=90&fm=webp)\n\n![Image 241](https://images.ctfassets.net/kftzwdyauwt9/5GaQjl3CPOkkDWHfA9HwMf/cc6fd5a48f2596d1d5a4b38569ae27f2/ZoomInfo-icon.png?w=3840&q=90&fm=webp)\n\n## 与站点分享你的工作\n\n从面向企业和商业客户的预览版开始，Codex 现在可以创建并分享交互式、托管的网站和应用。\n\n站点是你创意的新画布。Codex 可以将你的想法、分析和计划转化为仪表盘、规划器、审查工作区、项目看板、画廊和轻量级工具。目前，站点可以通过 URL 与工作区中的任何人分享，为团队提供一个共同的空间来探索工作、贡献意见、跟踪进度并共同决策。\n\n让 Codex 为即将到来的客户审查创建一个站点，它将生成一个交互式网页，包含相关的产品更新、未解决问题、使用趋势以及该账户的下一步行动。让它根据财务模型构建一个场景规划器，这样领导者可以比较假设，而不是翻阅文档中的标签页。让它将发布材料转变为一个动态中心，团队可以在其中找到最新的消息、里程碑、负责人和决策。然后让 Codex 在细节变化时保持站点更新。\n\n团队无需将工作适应于单一工具或文件的限制，而是可以创建适合工作的站点。而且站点并非静态。它们还可以帮助跟踪重大项目的进展、指导客户服务代表，或作为团队创意简报的存储库。\n\n收入预测规划器 活动运营仪表盘 产品发布中心\n\n![Image 242: \"\"](https://images.ctfassets.net/kftzwdyauwt9/5G0zHEnIZRLg0EWpZV602t/47c3851dd1f1cfbdf42d5f630fd36241/blossom-bank-forecasting-light-4k.png?w=3840&q=90&fm=webp)\n\n我们还在与早期合作伙伴合作，包括 Vercel、Wix、Base44、Replit、Lovable、Figma、Webflow 和 Emergent，共同构建站点合作伙伴生态系统。\n\n## 使用注释优化你的工作\n\n开发者已经在 Codex 中使用注释来优化 Codex 创建的代码、Markdown 文件和网站。通过注释，你可以指向需要优化的确切部分，并告诉 Codex 需要更改什么。这种工作方式现在扩展到你创建的内容，如文档、电子表格和幻灯片。\n\n选择站点中的导航栏，让 Codex 更新字体。高亮投资论点中的一项声明，让 Codex 说明其来源。标记幻灯片上的图表，要求更清晰的标签。Codex 会将更新集中在你选择的部分，这样你就可以优化工作，而无需从头开始或重新修改你已经喜欢的部分。注释使 Codex 在初稿之后更有用，此时工作需要判断、反馈和迭代。\n\n00:00\n\n## 可用性与入门\n\n特定角色的插件正在受支持区域的 Codex 中逐步推出。你可以从 Codex 插件目录安装它们，Codex 将帮助你完成设置。Codex 还可以帮助你自定义插件。对于商业和企业工作区，[管理员可以在工作区设置中控制⁠(在新窗口中打开)](https://help.openai.com/articles/20001256)底层应用权限。\n\n站点正在通过 Codex 应用向商业和企业团队推出预览版。[企业管理员可以在管理设置中启用站点⁠(在新窗口中打开)](https://developers.openai.com/codex/sites#get-started-with-sites)。\n\n探索更多关于团队如何使用 Codex 的故事，或联系我们的团队开始使用。\n\n*   [2026](https://openai.com/news/?tags=2026)\n*   [Codex](https://openai.com/news/?tags=codex)\n\n## 作者\n\nOpenAI\n\n## 继续阅读\n\n[查看全部](https://openai.com/news/)\n\n![Image 243: GPT-5.6 现已成为 Microsoft 365 Copilot 中的首选模型 > 封面图片](https://images.ctfassets.net/kftzwdyauwt9/3MPipvFMxS8m3kTyCtwFgj/015747dcd34cb667a221688cfca64e0f/Frame.png?w=3840&q=90&fm=webp)\n\n[GPT-5.6 现已成为 Microsoft 365 Copilot 中的首选模型 产品 2026年7月9日](https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot/)\n\n[视频 2](https://videos.ctfassets.net/kftzwdyauwt9/4EpWY2r0tubXs7DCIhhWnE/77fba3d1e160789f067abc3458447603/OAI_ChatGPT_Blog_1920x1920_compressed.mp4)\n\n[ChatGPT 现已成为你最具雄心工作的合作伙伴 产品 2026年7月9日](https://openai.com/index/chatgpt-for-your-most-ambitious-work/)\n\n![Image 244: GPT 5-6 > 卡片](https://images.ctfassets.net/kftzwdyauwt9/1a9IPPV5nXWydTBosgmgYI/8e03f28ca04f26edc8bc81cdba387df1/5-6.jpg?w=3840&q=90&fm=webp)\n\n[GPT-5.6：随你雄心扩展的前沿智能 产品 2026年7月9日](https://openai.com/index/gpt-5-6/)\n\n研究\n*   [研究索引](https://openai.com/research/index/)\n*   [研究概览](https://openai.com/research/)\n*   [经济研究](https://openai.com/signals/)\n\n最新进展\n*   [GPT-5.6](https://openai.com/index/gpt-5-6/)\n*   [GPT-5.5](https://openai.com/index/introducing-gpt-5-5/)\n*   [GPT-5.4](https://openai.com/index/introducing-gpt-5-4/)\n\n安全\n*   [安全方法](https://openai.com/safety/)\n*   [部署安全(在新窗口中打开)](https://deploymentsafety.openai.com/)\n*   [安全与隐私](https://openai.com/security-and-privacy/)\n*   [信任与透明度](https://openai.com/trust-and-transparency/)\n\n产品\n*   [ChatGPT（在新窗口中打开）](https://chatgpt.com/?openaicom-did=2a812d51-e1aa-4501-8e75-b291b364936b&openaicom_referred=true)\n*   [ChatGPT Business（在新窗口中打开）](https://chatgpt.com/business/?openaicom-did=2a812d51-e1aa-4501-8e75-b291b364936b&openaicom_referred=true)\n*   [ChatGPT Enterprise（在新窗口中打开）](https://chatgpt.com/business/enterprise/?openaicom-did=2a812d51-e1aa-4501-8e75-b291b364936b&openaicom_referred=true)\n*   [ChatGPT for Education（在新窗口中打开）](https://chatgpt.com/business/education/?openaicom-did=2a812d51-e1aa-4501-8e75-b291b364936b&openaicom_referred=true)\n*   [Codex](https://openai.com/codex/)\n*   [发布说明](https://openai.com/products/release-notes/)\n\nAPI 平台\n*   [概览](https://openai.com/api/)\n*   [API 登录（在新窗口中打开）](https://platform.openai.com/login)\n*   [文档（在新窗口中打开）](https://developers.openai.com/api/docs)\n\n商业\n*   [概览](https://openai.com/business/)\n*   [解决方案](https://openai.com/solutions/)\n*   [资源](https://openai.com/business/learn/)\n*   [客户案例](https://openai.com/business/customer-stories/)\n*   [合作伙伴网络](https://openai.com/business/partners/)\n*   [联系销售](https://openai.com/contact-sales/)\n\n开发者\n*   [应用 SDK（在新窗口中打开）](https://developers.openai.com/apps-sdk)\n*   [开放模型](https://openai.com/open-models/)\n*   [文档（在新窗口中打开）](https://developers.openai.com/)\n*   [资源（在新窗口中打开）](https://developers.openai.com/learn)\n*   [开发者论坛（在新窗口中打开）](https://community.openai.com/)\n\n公司\n*   [关于我们](https://openai.com/about/)\n*   [我们的章程](https://openai.com/charter/)\n*   [招聘](https://openai.com/careers/)\n*   [新闻](https://openai.com/news/)\n\n支持\n*   [帮助中心（在新窗口中打开）](https://help.openai.com/)\n\n更多\n*   [故事](https://openai.com/stories/)\n*   [学院](https://openai.com/academy/)\n*   [周边商店](https://openai.com/supply/)\n*   [直播](https://openai.com/live/)\n*   [播客](https://openai.com/podcast/)\n*   [RSS](https://openai.com/news/rss.xml)\n\n条款与政策\n*   [使用条款](https://openai.com/policies/terms-of-use/)\n*   [隐私政策](https://openai.com/policies/privacy-policy/)\n*   [其他政策](https://openai.com/policies/)\n\n[（在新窗口中打开）](https://x.com/OpenAI)[（在新窗口中打开）](https://www.youtube.com/OpenAI)[（在新窗口中打开）](https://www.linkedin.com/company/openai)[（在新窗口中打开）](https://github.com/openai)[（在新窗口中打开）](https://www.instagram.com/openai/)[（在新窗口中打开）](https://www.tiktok.com/@openai)[（在新窗口中打开）](https://discord.gg/openai)\n\nOpenAI © 2015–2026 您的隐私选择\n\n英语 美国",
-      "titleZh": "适用于每个角色、工具和工作流的Codex",
-      "summaryZh": "发现新的Codex插件、站点和注释，帮助分析师、营销人员、设计师、投资者和其他团队通过AI完成更多工作。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-06-02T09:00:00.000Z",
-      "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
-      "collectedAt": "2026-08-30T08:55:12.503Z"
-    },
-    {
-      "id": "7ee67cf7dcc20a136696",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Codex is becoming a productivity tool for everyone",
-      "summary": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.",
-      "content": "OpenAI today released [a new report⁠(opens in a new window)](https://cdn.openai.com/pdf/the-next-era-of-knowledge-work.pdf), _The Next Era of Knowledge Work_, showing how Codex is no longer just a coding tool. Increasingly, it’s helping people across professions automate routine work, move faster, and eliminate the bottlenecks of modern knowledge work.\n\nCodex now has more than 5 million weekly active users, up more than 6x since the launch of the desktop app in February. While developers remain the largest user group, knowledge workers now represent about 20 percent of users and are growing more than three times as fast.\n\nThe data suggests a broader shift is underway. Knowledge workers primarily use Codex to create reports, spreadsheets, presentations, contracts, and other work products. They are also increasingly using it for research, data analysis, workflow automation, and building lightweight tools that previously required engineering support.\n\nThe fastest-growing knowledge-worker tasks are data analysis, research, and knowledge artifact creation. At the same time, users are increasingly running multiple Codex tasks in parallel, allowing them to investigate data, draft materials, and automate workflows simultaneously. This kind of increased velocity could reshape AI’s long-term impact on work: Codex can help people take on more ambitious projects, leading to greater scope of their roles, and potentially accelerate career advancement.\n\nAcross industries, the pattern is similar: people are using Codex to reduce the friction of modern work. It helps them find information buried across systems, coordinate work across tools and teams, produce high-quality deliverables, and move projects through review and approval processes.",
-      "contentZh": "OpenAI 今日发布[新报告⁠(在新窗口中打开)](https://cdn.openai.com/pdf/the-next-era-of-knowledge-work.pdf)《知识工作的下一个时代》，展示了 Codex 已不再仅仅是编码工具。它正日益帮助各行业从业者自动化常规工作、提升效率，并消除现代知识工作中的瓶颈。\n\nCodex 目前拥有超过 500 万周活跃用户，自 2 月桌面应用上线以来增长超过 6 倍。虽然开发者仍是最大用户群体，但知识工作者现已占用户总数的约 20%，且增速是前者的三倍以上。\n\n数据表明更广泛的变革正在发生。知识工作者主要使用 Codex 创建报告、电子表格、演示文稿、合同及其他工作成果。他们也越来越频繁地将其用于研究、数据分析、工作流自动化，以及构建此前需要工程支持才能完成的轻量级工具。\n\n增长最快的知识工作者任务包括数据分析、研究和知识成果创建。与此同时，用户正越来越多地并行运行多个 Codex 任务，使其能够同时进行数据调研、材料起草和工作流自动化。这种效率提升可能重塑 AI 对工作的长期影响：Codex 能帮助人们承担更具雄心的项目，从而拓展其职责范围，并可能加速职业发展。\n\n各行业的模式相似：人们正利用 Codex 减少现代工作中的摩擦。它帮助用户查找分散在多个系统中的信息、协调跨工具和团队的工作、产出高质量交付物，并推动项目完成审核与审批流程。",
-      "titleZh": "Codex正成为每个人的生产力工具",
-      "summaryZh": "《知识工作的下一个时代》报告探讨了Codex如何通过AI驱动的研究、数据分析、工作流自动化和内容创作来改变生产力。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-06-02T02:00:00.000Z",
-      "url": "https://openai.com/index/codex-for-knowledge-work",
-      "collectedAt": "2026-08-30T08:55:12.504Z"
-    },
-    {
-      "id": "213597c4d3ffa9f51981",
-      "sourceId": "claude-apps",
-      "company": "Anthropic",
-      "product": "Claude",
-      "kind": "product",
-      "title": "Enterprise plans can manage admin permissions with custom roles We extended the existing custom roles framework by adding admin permissions.",
-      "summary": "Enterprise plans can manage admin permissions with custom roles We extended the existing custom roles framework by adding admin permissions. Admin permissions give members access to specific administrative areas, like billing or privacy, without the need to make them Owners. For more information, see Manage custom roles on Enterprise plans.",
-      "content": "Enterprise plans can manage admin permissions with custom roles We extended the existing custom roles framework by adding admin permissions. Admin permissions give members access to specific administrative areas, like billing or privacy, without the need to make them Owners. For more information, see Manage custom roles on Enterprise plans.",
-      "contentZh": "企业版计划可通过自定义角色管理管理员权限  \n我们扩展了现有的自定义角色框架，新增了管理员权限。管理员权限允许成员访问特定管理区域（如账单或隐私设置），而无需将其设为所有者。更多信息，请参阅《企业版计划中的自定义角色管理》。",
-      "titleZh": "企业计划可通过自定义角色管理管理员权限",
-      "summaryZh": "企业计划可通过自定义角色管理管理员权限。我们扩展了现有的自定义角色框架，增加了管理员权限。管理员权限让成员能够访问特定的管理区域，如账单或隐私，而无需将其设为所有者。更多信息，请参阅企业计划中的管理自定义角色。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-06-02T00:00:00.000Z",
-      "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-08-30T08:55:13.041Z"
-    },
-    {
-      "id": "3b73a6fb9c76285ceb5c",
-      "sourceId": "claude-platform",
-      "company": "Anthropic",
-      "product": "Claude",
-      "kind": "api",
-      "title": "The advisor tool now supports a max_tokens parameter to cap the advisor model's output per call, reducing latency and output token cost for workloads that don't need full-length ad",
-      "summary": "The advisor tool now supports a max_tokens parameter to cap the advisor model's output per call, reducing latency and output token cost for workloads that don't need full-length advisor responses. Set tools[].max_tokens on the advisor tool definition; see Capping advisor output. On the Claude API, you are no longer billed for a request when it returns stop_reason: \"refusal\" without Claude having generated any output. See Streaming refusals for detecting and handling refusals.",
-      "content": "The advisor tool now supports a max_tokens parameter to cap the advisor model's output per call, reducing latency and output token cost for workloads that don't need full-length advisor responses. Set tools[].max_tokens on the advisor tool definition; see Capping advisor output. On the Claude API, you are no longer billed for a request when it returns stop_reason: \"refusal\" without Claude having generated any output. See Streaming refusals for detecting and handling refusals.",
-      "contentZh": "顾问工具现在支持`max_tokens`参数，用于限制每次调用时顾问模型的输出长度，从而减少不需要完整顾问响应的任务的延迟和输出token成本。在顾问工具定义中设置`tools[].max_tokens`；参见《限制顾问输出》。在Claude API中，当请求返回`stop_reason: \"refusal\"`且Claude未生成任何输出时，您将不再被计费。参见《流式拒绝》以检测和处理拒绝情况。",
-      "titleZh": "顾问工具现在支持max_tokens参数，用于限制每次调用时顾问模型的输出，从而减少不需要完整长度顾问响应的工作负载的延迟和输出令牌成本。",
-      "summaryZh": "顾问工具现在支持max_tokens参数，用于限制每次调用时顾问模型的输出，从而减少不需要完整长度顾问响应的工作负载的延迟和输出令牌成本。在顾问工具定义中设置tools[].max_tokens；请参阅限制顾问输出。在Claude API上，当请求返回stop_reason: \"refusal\"且Claude未生成任何输出时，您将不再被收费。请参阅流式拒绝以检测和处理拒绝。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-06-02T00:00:00.000Z",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-08-30T08:55:13.633Z"
-    },
-    {
-      "id": "3a8f7bdc5206ab63c0b4",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "OpenAI frontier models and Codex are now available on AWS",
-      "summary": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.",
-      "content": "Today, OpenAI frontier models and Codex are generally available on AWS, opening a new path for millions of AWS customers to build with OpenAI through the platform they already use to run their business.\nFor enterprises, this removes one of the biggest barriers to AI adoption: getting frontier AI into production through existing security, compliance, procurement, billing, and governance workflows.Customers can now bring OpenAI capabilities into AWS environments with the controls their teams already trust, helping them move faster from evaluation to real deployment.\n\n## Bringing OpenAI capabilities into AWS environments\n\nOpenAI on AWS gives enterprises access to OpenAI frontier capabilities, a familiar AWS operating model, and a faster path to production. They are available in two ways:\n\n[**Codex on Amazon Bedrock**⁠(opens in a new window)](https://developers.openai.com/codex/amazon-bedrock) brings OpenAI’s leading software engineering agent - used by more than 5 million people every week - into AWS, helping teams write, review, debug, and modernize code in the environments where they already build and ship.\nTogether, these offerings help customers adopt OpenAI with less friction and ship with the best models available right in AWS, in both Commercial and GovCloud regions.\n\n## Helping customers move from interest to implementation\n\nAs customers begin using these capabilities, the AWS path helps reduce friction around procurement, security review, and production readiness. By making OpenAI capabilities available within familiar AWS environments, organizations can spend less time navigating operational barriers and more time building.\n\n## What’s next, including cyber availability\n\nOpenAI on AWS is the start of a broader path for customers to bring frontier AI into the environments where they already build, govern, and ship. We’ll continue expanding the OpenAI capabilities available through AWS so teams can move from evaluation to production with less friction and more confidence.\n\nThat includes future availability for Daybreak, OpenAI’s vision for changing how software is built and defended. Daybreak, which includes cyber models and Codex Security, is designed to help cyber defenders see risk earlier, act sooner, and make software more resilient by design by bringing secure code review, threat modeling, patch validation, dependency risk analysis, detection, and remediation guidance into the everyday development loop.\n\nAs specialized capabilities like Daybreak become available to customers, AWS can provide an important path for security teams to adopt them using the security, governance, procurement, and operational frameworks they already use.\nTogether, OpenAI and AWS can help more organizations put advanced AI to work in production.",
-      "contentZh": "今天，OpenAI前沿模型和Codex已在AWS上全面可用，为数百万AWS客户开辟了一条新路径，让他们能够通过已用于运营业务的同一平台，使用OpenAI进行构建。\n\n对企业而言，这消除了AI应用的最大障碍之一：通过现有的安全、合规、采购、计费和治理工作流程，将前沿AI投入生产。客户现在可以将OpenAI能力引入AWS环境，并利用其团队已信任的控制措施，从而更快地从评估阶段过渡到实际部署。\n\n## 将OpenAI能力引入AWS环境\n\nAWS上的OpenAI让企业能够访问OpenAI前沿能力、熟悉的AWS运营模式以及更快的生产路径。它们可通过两种方式获得：\n\n[**Amazon Bedrock上的Codex**⁠(在新窗口中打开)](https://developers.openai.com/codex/amazon-bedrock)将OpenAI领先的软件工程代理（每周被超过500万人使用）引入AWS，帮助团队在已用于构建和交付的环境中编写、审查、调试和现代化代码。\n\n这些产品共同帮助客户以更少的摩擦采用OpenAI，并在AWS的商业区域和GovCloud区域中，使用最佳可用模型进行交付。\n\n## 帮助客户从兴趣走向实施\n\n随着客户开始使用这些能力，AWS路径有助于减少采购、安全审查和生产就绪方面的摩擦。通过在熟悉的AWS环境中提供OpenAI能力，组织可以减少在应对运营障碍上的时间，将更多精力用于构建。\n\n## 下一步计划，包括网络可用性\n\nAWS上的OpenAI是客户将前沿AI引入已用于构建、治理和交付环境的更广泛路径的开端。我们将继续扩展通过AWS提供的OpenAI能力，使团队能够以更少的摩擦和更高的信心从评估阶段过渡到生产阶段。\n\n这包括未来对Daybreak的可用性支持——这是OpenAI对改变软件构建和防御方式的愿景。Daybreak包含网络模型和Codex Security，旨在通过将安全代码审查、威胁建模、补丁验证、依赖风险分析、检测和修复指导纳入日常开发循环，帮助网络防御者更早发现风险、更快采取行动，并使软件在设计上更具弹性。\n\n随着Daybreak等专业能力对客户开放，AWS可以为安全团队提供一条重要路径，让他们使用已采用的安全、治理、采购和运营框架来采用这些能力。\n\nOpenAI和AWS携手，可以帮助更多组织将先进AI投入生产应用。",
-      "titleZh": "OpenAI前沿模型和Codex现已在AWS上可用",
-      "summaryZh": "OpenAI前沿模型和Codex现已在AWS上全面可用，为企业提供了一条通过其已使用的AWS环境、控制和采购工作流程来构建OpenAI的新途径。客户可以在AWS上开始使用OpenAI，并更快地从评估阶段进入生产阶段。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-06-01T10:00:00.000Z",
-      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
-      "collectedAt": "2026-08-30T08:55:12.504Z"
+      "collectedAt": "2026-08-31T09:20:13.170Z"
     },
     {
       "id": "118693cb868e1641c9c1",
@@ -3076,7 +2991,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-04-24T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-30T08:55:16.939Z"
+      "collectedAt": "2026-08-31T09:20:17.734Z"
     },
     {
       "id": "aeb9a0b6e961ddd9394e",
@@ -3093,7 +3008,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-12-01T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-30T08:55:16.939Z"
+      "collectedAt": "2026-08-31T09:20:17.735Z"
     },
     {
       "id": "f43c8f46501ee2e8d8ed",
@@ -3110,7 +3025,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-09-29T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-30T08:55:16.942Z"
+      "collectedAt": "2026-08-31T09:20:17.735Z"
     },
     {
       "id": "de42c19b7c54bb0dc7ec",
@@ -3127,7 +3042,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-09-22T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-08-30T08:55:16.942Z"
+      "collectedAt": "2026-08-31T09:20:17.735Z"
     }
   ]
 }
