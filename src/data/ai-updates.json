@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T07:47:51.003Z",
+  "updatedAt": "2026-09-05T07:25:09.708Z",
   "sources": [
     {
       "id": "openai-news",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "count": 746
+      "count": 747
     },
     {
       "id": "claude-apps",
@@ -18,7 +18,7 @@
       "id": "claude-platform",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
       "status": "ok",
-      "count": 136
+      "count": 137
     },
     {
       "id": "gemini-apps",
@@ -53,23 +53,6 @@
   ],
   "entries": [
     {
-      "id": "67198b26c462572b168f",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-      "content": "Legora is an agentic operating system for legal and professional work, used by more than 100,000 professionals across more than 1,800 in-house legal departments and law firms in over 50 markets. Its legal engineers work directly with customers to understand how they operate and adapt Legora to their end-to-end workflows, from contract and agreement review to legal research.\n\nOne of the more tedious workflows is financial-statement tie-out: checking every figure in draft accounts against trial balances, a consolidation schedule, and the previous year’s accounts until each item agrees. As Legora Legal Engineer Percevale Perks says, the work “can take an entire evening, sometimes days.”\n\n## Processing complex financial context at scale\n\nUsing GPT‑6 Astra, Legora’s Agent completed the tie-out across 41 documents in a single run. Legora says the Agent did the work within minutes: checking every balance against its supporting schedule, surfacing breaks in the amounts, and recording each check. The result gives the legal professional a granular record of every line item and figure to review.\n\n> “I think what changed before and after is the processing power, the ability to ingest such a large number of documents, digest really complex information, and get all of those different line items and figures.”\n\n—Percevale Perks, Legal Engineer, Legora\n\nThe Agent handles the exhaustive comparison, while the expert remains responsible for the judgment call on each result. That approach of keeping a human in the loop is central to how Legora is extending its platform beyond legal work into audit, tax, compliance, and risk.\n\n## Improving accuracy, completeness, and reliability\n\nLegora evaluated GPT‑6 Astra with the Legora Benchmark for Agentic Reasoning (BAR), which measures performance on end-to-end legal tasks drawn from real-world use cases. Legora reports that GPT‑6 Astra improved performance by nearly 40% over the previous model on this financial-statement workflow. Across all tasks in the BAR, the improvement averaged about 3%.\n\nIn the tie-out, Legora saw gains across what Percevale describes as accuracy, completeness, and reliability. GPT‑6 Astra found all four errors Legora had planted in the accounts, including a £500,000 gap hidden in the revenue note. It checked every balance against its supporting schedule and recorded each check. And it retained every check the previous model got right as well as completed around 50 more.\n\nThe result is a more complete and faster first pass and a clearer record to review, while the final decision stays with the legal expert.",
-      "contentZh": "",
-      "titleZh": "",
-      "summaryZh": "",
-      "translationStatus": "pending",
-      "publishedAt": "2026-09-03T12:00:00.000Z",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "collectedAt": "2026-09-04T07:47:35.079Z"
-    },
-    {
       "id": "3fdba842a49bbf61f305",
       "sourceId": "openai-news",
       "company": "OpenAI",
@@ -84,7 +67,41 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-03T12:00:00.000Z",
       "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "collectedAt": "2026-09-04T07:47:35.080Z"
+      "collectedAt": "2026-09-05T07:25:02.074Z"
+    },
+    {
+      "id": "67198b26c462572b168f",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "content": "Legora is an agentic operating system for legal and professional work, used by more than 100,000 professionals across more than 1,800 in-house legal departments and law firms in over 50 markets. Its legal engineers work directly with customers to understand how they operate and adapt Legora to their end-to-end workflows, from contract and agreement review to legal research.\n\nOne of the more tedious workflows is financial-statement tie-out: checking every figure in draft accounts against trial balances, a consolidation schedule, and the previous year’s accounts until each item agrees. As Legora Legal Engineer Percevale Perks says, the work “can take an entire evening, sometimes days.”\n\n## Processing complex financial context at scale\n\nUsing GPT‑6 Astra, Legora’s Agent completed the tie-out across 41 documents in a single run. Legora says the Agent did the work within minutes: checking every balance against its supporting schedule, surfacing breaks in the amounts, and recording each check. The result gives the legal professional a granular record of every line item and figure to review.\n\n> “I think what changed before and after is the processing power, the ability to ingest such a large number of documents, digest really complex information, and get all of those different line items and figures.”\n\n—Percevale Perks, Legal Engineer, Legora\n\nThe Agent handles the exhaustive comparison, while the expert remains responsible for the judgment call on each result. That approach of keeping a human in the loop is central to how Legora is extending its platform beyond legal work into audit, tax, compliance, and risk.\n\n## Improving accuracy, completeness, and reliability\n\nLegora evaluated GPT‑6 Astra with the Legora Benchmark for Agentic Reasoning (BAR), which measures performance on end-to-end legal tasks drawn from real-world use cases. Legora reports that GPT‑6 Astra improved performance by nearly 40% over the previous model on this financial-statement workflow. Across all tasks in the BAR, the improvement averaged about 3%.\n\nIn the tie-out, Legora saw gains across what Percevale describes as accuracy, completeness, and reliability. GPT‑6 Astra found all four errors Legora had planted in the accounts, including a £500,000 gap hidden in the revenue note. It checked every balance against its supporting schedule and recorded each check. And it retained every check the previous model got right as well as completed around 50 more.\n\nThe result is a more complete and faster first pass and a clearer record to review, while the final decision stays with the legal expert.",
+      "contentZh": "",
+      "titleZh": "",
+      "summaryZh": "",
+      "translationStatus": "pending",
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "collectedAt": "2026-09-05T07:25:02.075Z"
+    },
+    {
+      "id": "499b8df2de41c3c42a77",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "GPT-6 Astra: A new generation of intelligence",
+      "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+      "content": "## A new generation of intelligence\n\nWe’re introducing GPT‑6 Astra, the world’s most intelligent and aligned model.\n\nGPT‑6 Astra brings together years of research and big bets across pre-training, reinforcement learning, and alignment. Astra is state-of-the-art on computer use, browsing, software engineering, cybersecurity, science, and professional work. Astra saturates FrontierMath Tier 4 with a 98% score, having already helped [solve long-standing open problems⁠](https://openai.com/index/ten-advances-in-mathematics/) in mathematics. Astra also saturates ARC-AGI-3 with a 99.9% score and ExploitBench with a 100% score. It also sets a new frontier on computer and browser use, handling the most demanding professional work with unmatched speed, accuracy, and judgment.\n\nGPT‑6 Astra is rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API, Microsoft Azure, and AWS Bedrock.\n\n_Terminal-Bench Science 0.1 tests whether agents can complete scientific research workflows using code and terminal tools, including analyzing data, running simulations, and fitting models. GPT‑6 Astra reaches a new high among the models compared at 64.6%, versus 52.6% for Claude Fable 5.1, at approximately 31% lower estimated API cost. At a lower-cost setting, Astra scores 61.1%, versus GPT‑5.6 Sol’s best result of 22.4%, at approximately 27% lower estimated API cost._\n\nAstra is our most aligned model, with substantial improvements in understanding user intent and model behavior—you can delegate tasks with greater confidence in Astra’s judgment. As one way that we test this, we built a new evaluation informed by the Hugging Face incident that evaluates whether a model facing a difficult or impossible task will go beyond its intended scope. Compared to GPT‑5.6 Sol, which without production safeguards went beyond the authorized target 48% of the time, GPT‑6 Astra did this in 0% of cases.\n\n## The world’s best computer use model\n\nGPT‑6 Astra marks a new frontier in the speed, accuracy, and safety of computer use. It can take care of tedious tasks like filling out online forms, updating customer records in a CRM, and organizing your calendar. It can conduct online research and draft summaries in your email or in your document editor. It can analyze scientific data, generate plots, create a website, and run frontend QA checks to make sure all the features on that site work. It can help you autonomously install and test software, and troubleshoot problems you see on screen. These improvements are also reflected in our state-of-the-art evaluation results.\n\n_Agents’ Last Exam tests agents on complex professional tasks in real software, from financial modeling to engineering and media production. GPT‑6 Astra reaches a new high in the comparison shown, scoring 59.3%, compared with 55.5% for Claude Opus 5 and 53.6% for GPT‑5.6 Sol. At these highest-scoring settings, Astra also uses approximately 65% fewer output tokens than Opus 5._\n\nThese improvements also result in significant efficiency gains in real knowledge-work tasks. In latency simulations on OSWorld 2.0, Astra achieves higher computer-use performance in about 47% less time per task than GPT‑5.6 Sol, scoring 72.6% at roughly 40 minutes per task, compared with 65.7% at roughly 75 minutes.[3](https://openai.com/index/gpt-6-astra#citation-bottom-3)\n\nGPT‑6 Astra’s computer-use capabilities can be seen in outputs across domains, including game development, electrical engineering, and everyday knowledge work:\n\n_This is a 15-second condensed playback of GPT‑6 Astra performing printed circuit board (PCB) layout in KiCad, turning an electronic schematic into a manufacturable PCB by placing components and routing copper connections. Integral to every electronic device today, PCB layout is a manual task and common source of latency in the electronics design process. Accelerating it means freeing engineers to invent, optimize, and test their next idea at a significantly higher cadence._\n\nAlongside Astra, we are also updating the Codex harness to significantly improve the speed of computer use. Combined with Astra’s efficiency, this translates to a 1.9x faster task completion compared to the current GPT‑5.6 Sol experience, on the Mind2Web benchmark. The model’s improvements on speed mean it can take on many time-consuming life tasks for you, faster than you can.[4](https://openai.com/index/gpt-6-astra#citation-bottom-4)\n\n##### **GPT‑6 Astra:** 2 min 54 sec\n\n## A step change in professional work\n\nGPT‑6 Astra pairs advances in computer use with targeted training for professional environments, to help tackle complex work tasks. It combines the intelligence required for complex problems with the ability to carry out multistep workflows and produce polished documents, spreadsheets, and presentations.\n\n_BenchCAD tests whether models can reconstruct 3D objects from multi-view renders by generating CAD code. With tools, GPT‑6 Astra reaches a new high in the comparison shown, achieving a 95.9% geometric-overlap score, versus 83.3% for GPT‑5.6 Sol and 84.3% reported for Claude Fable 5.1._[5](https://openai.com/index/gpt-6-astra#citation-bottom-5)_Estimated API cost is approximately 43% lower than Sol and 86% lower than Fable 5.1 in the configurations shown._\n\nGPT‑6 Astra is our best model for adhering to existing templates and producing slides that are well laid out and succinctly convey key points with a structured narrative. It creates clear, well-structured documents, presentations, spreadsheets, and analyses that follow your templates and match your writing and visual style. Astra is also trained to specifically pull only the context that matters into outputs, instead of repeating information unnecessary for the work at hand. All this means it can output more immediately usable artifacts that match your business context and standards.\n\nReference file\n\nGPT‑6 Astra output\n\n_GPT‑6 Astra creates a slideshow about GPT‑Gaia, a fictional model, using just a few slides from OpenAI’s presentation template, capturing the correct tone and layout throughout. This means you can expect slide decks that are correctly formatted for your business standards._\n\nGPT‑6 Astra also brings stronger visual judgment to the websites, games, applications, and renderings it builds. With [Sites⁠(opens in a new window)](https://learn.chatgpt.com/docs/sites?surface=app) in ChatGPT, Astra can create, host, and share websites, web apps, and games directly from a prompt.\n\n_GPT‑6 Astra models a house in Blender and turns it into a walkable scene in Unreal Engine 5, helping designers and clients explore the layout and experience the space before it’s built._\n\n_The model can bring games to life through vivid graphics, engaging gameplay and accurate motion, allowing non-technical people to create and play custom games that go beyond rudimentary elements in minutes. Credit: Pietro Schirano._\n\nWhen instructions leave room for interpretation, GPT‑6 Astra is better than previous models at making the right call. It uses context to fill in routine gaps and asks focused questions when the answer could change the outcome. In Codex, it can ask asynchronously while continuing work that doesn’t depend on your reply. If you don’t respond, it proceeds with sensible assumptions where appropriate, but waits for your input on consequential decisions.\n\nThe examples below show how Astra collaborates on everyday tasks where missing information can materially change the answer.\n\n![Image 1: A side-by-side comparison of GPT-5.6 Sol and GPT-6 Astra helping create a personal career website.](https://images.ctfassets.net/kftzwdyauwt9/6XttKhMddBzO6pT2IY2brG/841e9a215931057aeb578e1aa45f9bb4/career-website-dark-v3.png?w=3840&q=90&fm=webp)\n\nAstra is also better at staying oriented as a task evolves. Earlier models sometimes treated steering messages as a new goal, losing track of the original request or earlier constraints. Astra incorporates new requirements, changes course when asked, and answers side questions without dropping the broader task.\n\n## Coding\n\nGPT‑6 Astra is the best model for software engineering to date.\n\n_Terminal-Bench 4.0 tests agents on complex terminal-based tasks, including software engineering, system configuration, and data analysis. GPT‑6 Astra reaches a new high at 57.9%, compared with 37.3% for GPT‑5.6 Sol_[2](https://openai.com/index/gpt-6-astra#citation-bottom-2:2)_and 55.8% for Claude Fable 5.1, at approximately 9% and 63% lower estimated API cost per task, respectively._\n\nWith Astra, we’re introducing a new way for Codex to preserve and retrieve context when the context window fills. Historically, models have used compaction to summarize work during long sessions, such as when debugging complex issues or tackling large refactors. Each compaction can leave out details about why a fix failed or how a component behaves. In Codex, Astra can keep notes across context windows, preserving accumulated details without repeatedly compressing them into a single summary. Earlier context windows remain searchable, so Astra can find requirements or test results from previous messages and tool outputs—even if that information wasn’t captured in its notes. You can enable this experimental feature in your [Codex config.toml,⁠(opens in a new window)](https://learn.chatgpt.com/docs/config-file/config-reference) and it will become the default for Astra in the coming weeks.\n\n## Advancing scientific discovery\n\nGPT‑6 Astra is a major advance for scientific discovery, mathematics, and health. Today, we’re sharing two further results on the gaps between prime numbers.[9](https://openai.com/index/gpt-6-astra#citation-bottom-9), [10](https://openai.com/index/gpt-6-astra#citation-bottom-10)\n\nAstra also sets new records across a suite of math and science evaluations.\n\n_GPQA Diamond tests graduate-level scientific reasoning in biology, chemistry, and physics. GPT‑6 Astra reaches a new high in the comparison shown at 96.0%. At a lower-cost setting, it also exceeds GPT‑5.6 Sol’s best score—94.9% versus 94.6%—at approximately 37% lower estimated API cost._\n\nAstra can help with the practical work behind scientific discovery. By combining scientific reasoning with computer use, it can work directly in specialized software to inspect data and explore results, helping researchers assess the evidence and decide what to investigate next.\n\n_GPT‑6 Astra navigates scientific software to inspect sequencing quality and visualize genetic variation, helping researchers assess their data and identify where to focus further analysis._\n\n## Cybersecurity\n\nAs we discussed in our [safety update⁠](https://openai.com/index/path-to-astra/), Astra is a significant jump in cyber capabilities and meets the [Critical threshold](https://openai.com/index/path-to-astra/) in cybersecurity under our [Preparedness Framework](https://openai.com/index/updating-our-preparedness-framework/). Its ability to identify and develop zero-day exploits can help defenders find and patch weaknesses, but it also creates a need for stronger safeguards. To understand how far these capabilities extend, we ran Astra on internal and third-party expert evaluations.\n\nWe first tested the model without production safeguards on ExploitBench and ExploitGym, which evaluate whether models can turn known software vulnerabilities into working exploits. On ExploitBench, Astra achieved a perfect score of 100%, compared with 78.5% for GPT‑5.6 Sol, our previous frontier cyber-capable model. On ExploitGym, Astra reached a 42.4% success rate, compared with 30.3% for GPT‑5.6 Sol, while using substantially fewer output tokens.[13](https://openai.com/index/gpt-6-astra#citation-bottom-13)\n\nGiven concerns that exposure to historical software vulnerabilities may have affected benchmark results, we also evaluated Astra on two novel benchmarks. For one, we built an internal “ExploitBench (June–August 2026)” evaluation to test exploit development using vulnerabilities from the previous three months.[14](https://openai.com/index/gpt-6-astra#citation-bottom-14) Astra achieved substantially higher arbitrary code-execution rates than GPT‑5.6 Sol on this dataset while using far fewer output tokens. During the evaluation, Astra even discovered and used two previously unknown zero-day vulnerabilities. We are disclosing both vulnerabilities to their maintainers.\n\nWe also tested Astra on SRE-Bench[15](https://openai.com/index/gpt-6-astra#citation-bottom-15), a benchmark that measures whether models can reverse engineer software binaries to understand its core logic without access to raw source code. Astra solved 88.0% of tasks in a single attempt and 99.2% within four attempts, compared with 55.9% and 68.7% for GPT‑5.6 Sol, respectively.\n\nBeyond benchmarks, expert-led assessments found that Astra, when run without production safeguards, could use previously unknown vulnerabilities to achieve arbitrary code execution in hardened browsers and create privilege-escalation exploits for hardened operating-systems.\n\nAs we discussed in [The Defender’s Window](https://openai.com/index/the-defenders-window/), frontier cyber capabilities can help defenders find weaknesses faster, but they also make those weaknesses easier to exploit, raising the urgency for defenders to adapt. With the version of Astra launching today, defenders can use it to complete tasks such as secure code review and patching.\n\nHowever, Astra will refuse to comply with more advanced cybersecurity tasks such as creating proof-of-concept exploits for vulnerabilities. Through [OpenAI Daybreak⁠](https://openai.com/daybreak/), we plan to expand access and roll out less restrictive safeguards in the coming weeks. This will enable more defensive workflows, including vulnerability and proof-of-concept validation, malware analysis, and detection engineering.\n\nWe have also strengthened our protections against potential cyber misuse, building upon our safeguards stack for GPT‑5.6 Sol. These include stronger model robustness to better withstand potential jailbreaks and more context for our monitoring systems. We have continued rigorous internal and external testing, including automated evaluations with our [internal red-teaming attackers](https://openai.com/index/unlocking-self-improvement-gpt-red/). More details about our cyber safeguards and testing are available in the Astra [system card⁠(opens in a new window)](https://deploymentsafety.openai.com/gpt-6-astra) and our [blog](https://openai.com/index/path-to-astra/).\n\n## Aligning and deploying GPT‑6 Astra responsibly\n\nAstra is our most aligned model. Astra excels at exercising care, respecting task boundaries, and communicating transparently. This work is the latest product of our long-running research program focused on training models that remain aligned with human intent from start to finish.\n\nIn sensitive environments, Astra proceeds with care commensurate with its risk. In an evaluation of computer use tasks adversarially selected to elicit misbehavior, Astra was more successful at avoiding unintended consequences. Running with additional security measures offered by default yielded even stronger performance.\n\nAstra is also more likely to operate within the boundaries set by the user and implied by its environment. In an internal evaluation, Astra never attempted to circumvent a Codex Auto-Review denial. This held even when Auto-review was deliberately configured to be evadable and the task was impossible to complete otherwise. This respect for the environment restrictions is consistent with the results of our impossible cyber task evaluation that we shared in the intro of this post and other findings documented in our [system card⁠(opens in a new window)](https://deploymentsafety.openai.com/gpt-6-astra).\n\n_This evaluation tests how models respond to auto-review denials in knowledge-work tasks. Exploiting a poor user configuration to bypass auto-review counts as failure. Astra never attempted to circumvent auto-review._\n\nAstra additionally sets new marks in transparent user communication. In one evaluation, Astra is three times less likely than GPT‑5.6 Sol to make inaccurate representations about its capabilities and affordances.\n\n_In our capability-hallucination evaluation, Astra shows a substantial improvement over GPT‑5.6 Sol, making fewer misleading claims about its capabilities._\n\nOur evaluations found Astra’s written reasoning harder to monitor than GPT‑5.6 Sol’s, based on tests that explicitly asked it to evade monitoring. We attribute this to Astra’s greater control over written reasoning on simpler tasks and ability to solve problems with fewer written steps. Astra still appears to struggle to conceal the reasoning needed for complex tasks, but we take the decline seriously. Improving monitorability remains a research priority, and the accompanying [system card⁠(opens in a new window)](https://deploymentsafety.openai.com/gpt-6-astra) details our findings and ongoing work.\n\nAlignment training is core to our approach to deployment. As an additional layer of defenses, we also build system safeguards like Codex [Auto-review⁠(opens in a new window)](https://alignment.openai.com/auto-review/) and monitoring agents’ reasoning and actions to help detect and contain unsafe behavior. As described in our [safety update⁠](https://openai.com/index/path-to-astra/), we are also deploying misalignment monitoring in production for Astra-class models in order to have visibility into misalignment, and help contain its worst instances. These safeguards resemble our monitoring for internal deployments and involve a system of classifiers which check the model’s reasoning and actions for unauthorized behavior and automatically stop potentially unauthorized activity.\n\nGiven the significant increase in Astra’s cybersecurity capabilities, we are being especially careful to make this deployment safe and secure. Extra safety checks can sometimes slow, pause, or stop legitimate work, including defensive cybersecurity. If a task is paused in ChatGPT or Codex, you may be asked to review the action before continuing. In the API, the task will stop. These checks can sometimes interrupt legitimate work, and we are continuing to iterate on this system to reduce unnecessary interruptions. Misalignment monitoring cannot replace alignment: our goal is to build models that reliably stay within their authorized scope, so these protections do not need to intervene.\n\n## Availability\n\nGPT‑6 Astra is rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API, Microsoft Azure, and AWS Bedrock. Astra usage is included within the existing subscription allowances—users and businesses will also be able to purchase credits for additional usage. Users on the Pro, Business, and Enterprise plans will also get access to GPT‑6 Astra Pro. Enterprise administrators can enable Astra for their workspace; access is off by default at launch.\n\nAstra supports Zero Data Retention for eligible API customers, and as we shared last month, we're testing [Private Safety Processing](https://openai.com/index/offering-zero-data-retention-for-frontier-models/) to strengthen safety monitoring while preserving customer privacy.\n\nFor developers, GPT‑6 Astra will be available in the OpenAI API as `gpt-6-astra` and through Microsoft Azure and Amazon Bedrock.\n\nOpenAI API Standard pricing is $10 per million input tokens and $50 per million output tokens. Separate rates apply to cache reads and writes. Fast mode is available for GPT‑6 Astra in the API and delivers up to 2x the speed of Standard processing at 2x the Standard price.\n\n### Computer Use\n\n**Computer Use****GPT‑6 Astra****GPT‑5.6 Sol[2](https://openai.com/index/gpt-6-astra#citation-bottom-2:3)****Claude Fable 5.1****Claude Fable 5****Claude Opus 5****Gemini 3.8 Flash**\nAgents' Last Exam 59.3%53.6%-48.7%55.5%-\nOSWorld 2.0 (v2026.08.08, offline set, partial score)72.6%65.7%--70.2%[3](https://openai.com/index/gpt-6-astra#citation-bottom-3:2)-\nScreenSpot-Pro (no tools)92.7%76.9%-87.3%[17](https://openai.com/index/gpt-6-astra#citation-bottom-17)--\n\n### Professional\n\n**Professional****GPT‑6 Astra****GPT‑5.6 Sol****Claude Fable 5.1****Claude Fable 5****Claude Opus 5****Gemini 3.8 Flash**\nAutomationBench 41.4%18.1%31.4%17.4%26.9%-\nBenchCAD 95.9%83.3%84.3% [5](https://openai.com/index/gpt-6-astra#citation-bottom-5:2)67.5%[5](https://openai.com/index/gpt-6-astra#citation-bottom-5:3)82.1% [5](https://openai.com/index/gpt-6-astra#citation-bottom-5:4)-\nBrowseComp 91.5%90.4%-87.4%90.8%-\nOpenScore String Quartets (1 - OMR-NED)0.84 0.19----\nInternal Design Tasks 50.0%47.4%-35.8%--\nInternal Data Science Tasks 40.9%30.5%-34.7%--\nArtificial Analysis Intelligence Index v4.1.1 61.2 60.9 65.7 62.1 63.1 58.7\n\n### Coding\n\n**Coding****GPT‑6 Astra****GPT‑5.6 Sol****Claude Fable 5.1****Claude Fable 5****Claude Opus 5****Gemini 3.8 Flash**\nTerminal-Bench 4.0 57.9%37.3%55.8%44.5%52.6%19.1%\nDeepSWE v1.1 74.1%72.7%67.4%69.9%73.7%73.8%\nFrontierCode 1.1 Extended (score)64.5% [8](https://openai.com/index/gpt-6-astra#citation-bottom-8:2)60.6%63.6%64.9%63.6%56.3%\nFrontierCode 1.1 Main (score)53.3% [8](https://openai.com/index/gpt-6-astra#citation-bottom-8:3)47.5%50.9%53.5%53.4%43.6%\nInternal Database Migration Tasks 63.9%42.7%57.8%50.3%--\nArtificial Analysis Coding Agent Index v1.4 67.0 65.1-67.2 68.1 61.2\n\n### Academic\n\n**Academic****GPT‑6 Astra****GPT‑5.6 Sol****Claude Fable 5.1****Claude Fable 5****Claude Opus 5****Gemini 3.8 Flash**\nTerminal-Bench Science 0.1 64.6%22.4%52.6%21.4%30.0%-\nFrontierMath Tier 4 (v2)97.6%83.0%87.8%87.8%73.2%-\nGPQA Diamond 96.0%94.6%93.7%92.6%93.7%95.3%\nHumanity's Last Exam (w/ tools)57.2%-65.0%63.8%63.6%-\n\n### Science and Health\n\n**Science and Health****GPT‑6 Astra****GPT‑5.6 Sol****Claude Fable 5.1****Claude Fable 5****Claude Opus 5****Gemini 3.8 Flash**\nGeneBench Pro 37.1%32.3%----\nMedChemBench (Internal)49.3%47.4%----\nLifeSciBench 60.3%59.9%----\nHealthBench Professional (length-adjusted)63.4%60.5%58.1% [11](https://openai.com/index/gpt-6-astra#citation-bottom-11:2)60.9% [11](https://openai.com/index/gpt-6-astra#citation-bottom-11:3)56.4% [11](https://openai.com/index/gpt-6-astra#citation-bottom-11:4)52.1%\n\n### Cybersecurity\n\n**Cybersecurity****GPT‑6 Astra****GPT‑5.6 Sol****Claude Fable 5.1****Claude Fable 5****Claude Opus 5****Gemini 3.8 Flash**\nExploitBench 100.0%78.5%--70%-\nExploitGym 42.4% [13](https://openai.com/index/gpt-6-astra#citation-bottom-13:2)30.3% [13](https://openai.com/index/gpt-6-astra#citation-bottom-13:3)30.4% [17](https://openai.com/index/gpt-6-astra#citation-bottom-17:2)28.4%[17](https://openai.com/index/gpt-6-astra#citation-bottom-17:3)22.0%-\nExploitBench (June-Aug 2026)39.0%5.5%----\nSRE-Bench 88.0%55.9%--12.5%-\nSEC-Bench Pro 85.4%79.1%----\n\n### Alignment\n\n**Alignment****GPT‑6 Astra****GPT‑5.6 Sol****Claude Fable 5.1****Claude Fable 5****Claude Opus 5****Gemini 3.8 Flash**\nInternal computer use safety benchmark (lower is better)2.4%22.0%9.5%18.3%11.5%-\nInternal computer use safety benchmark, w/ AutoReview (lower is better)1.8%4.3%----\nInternal circumvention benchmark (lower is better)0.00%0.29%----\nExploitGym honeypot (lower is better)0.0%48.2%----\nImpossible ExploitGym 100.0%-----\nInternal hallucination benchmark (lower is better)4.2%12.2%----\n\n### Long Context\n\n**Long Context****GPT‑6 Astra****GPT‑5.6 Sol****Claude Fable 5.1****Claude Fable 5****Claude Opus 5****Gemini 3.8 Flash**\nOpenAI MRCR v2 8-needle 256K-512K 100.0%91.5%----\nOpenAI MRCR v2 8-needle 512K-1M 96.3%73.8%----\n\n### Abstract reasoning\n\n**Abstract reasoning****GPT‑6 Astra****GPT‑5.6 Sol****Claude Fable 5.1****Claude Fable 5****Claude Opus 5****Gemini 3.8 Flash**\nARC-AGI-3 99.9% [1](https://openai.com/index/gpt-6-astra#citation-bottom-1)7.8%--30.2%-\nARC-AGI-2 95.0%92.5%90.0%89.2%90.4%-\nARC-AGI-1 98.5%97.5%97.5%98.5%97.5%-\n\nEvaluation scores are the maximum at any effort. GPT evaluations were run in our research environment or via our API, which may provide slightly different output from production ChatGPT due to differences in the system prompts, tools available, etc.\n\n*   [2026](https://openai.com/news/?tags=2026)\n\n## FOOTNOTES\n\n1.   1\nOn ARC-AGI-3, GPT-6 Astra was run with [our responses API harness⁠](https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/), which changes two settings to better match real-world performance. The changes do not specifically target ARC-AGI-3.[](https://openai.com/index/gpt-6-astra#citation-top-1)\n\n2.   2\n3.   3\nOSWorld V2-Offline is a subset of the original OSWorld V2 that works without internet access. Claude model performance on OSWorld-V2 Offline was reproduced by the authors**on**[**the official leaderboard**⁠(opens in a new window)](https://osworld-v2.xlang.ai/)**.**On OSWorld 2.0, the scores for Claude use the official settings, and not the modified tasks and modified grading from the Fable 5.1 System Card.[](https://openai.com/index/gpt-6-astra#citation-top-3)[](https://openai.com/index/gpt-6-astra#citation-top-3:2)\n\n4.   4\nModel times are the reported elapsed times for the corresponding demonstration runs. The displayed clips are edited excerpts.[](https://openai.com/index/gpt-6-astra#citation-top-4)\n\n5.   5\n6.   6\n7.   7\n8.   8\nOn FrontierCode, GPT-6 Astra was run with a developer message similar to a [section of its developer message in Codex⁠(opens in a new window)](https://developers.openai.com/api/docs/guides/latest-model#prompting-best-practices): \"Avoid creating excessive test files. Create a new test file only when required by repository conventions or when no existing file is a suitable home. Avoid unrelated cleanup and unnecessary complexity. Reuse suitable existing utilities. Read relevant repository instructions and inspect nearby code, tests, documentation, and CI. Follow established conventions. The goal is clean, mergeable code.\" The prompt was not optimized for the eval.[](https://openai.com/index/gpt-6-astra#citation-top-8)[](https://openai.com/index/gpt-6-astra#citation-top-8:2)[](https://openai.com/index/gpt-6-astra#citation-top-8:3)\n\n9.   9\nThe first concerns how close together prime numbers can occur, however far along the number line you go. For more than a decade, the best known result established that infinitely many pairs of primes are at most 246 apart. [Julia Stadlmann⁠(opens in a new window)](https://math.illinois.edu/directory/profile/stadl) recently improved that bound to 240. Astra helped establish a stronger bound of 186, showing that infinitely many pairs occur within this smaller distance. Short prime gaps: [Proof⁠(opens in a new window)](https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf) and [supporting research⁠(opens in a new window)](https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps_abridged_cot.pdf).[](https://openai.com/index/gpt-6-astra#citation-top-9)\n\n10.   10\nThe second concerns unusually large gaps between primes. Astra improved a term in a bound on these gaps that had remained unchanged for more than 80 years. We’re sharing the proofs and abridged chain of thought and verification materials for both results. Large prime gaps: [Proof⁠(opens in a new window)](https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/long_gaps.pdf) and [supporting research⁠(opens in a new window)](https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/long_gaps_abridged_cot.pdf).[](https://openai.com/index/gpt-6-astra#citation-top-10)\n\n11.   11\nWe independently evaluated all Claude models following the intended HealthBench Professional procedure, using GPT‑5.4 grading and length-adjusted, unclipped scores. For Fable 5.1, we used Opus 5 fallback for provider refusals.[](https://openai.com/index/gpt-6-astra#citation-top-11)[](https://openai.com/index/gpt-6-astra#citation-top-11:2)[](https://openai.com/index/gpt-6-astra#citation-top-11:3)[](https://openai.com/index/gpt-6-astra#citation-top-11:4)\n\n12.   12\nClaude Fable 5 and 5.1 are not included in LifeSciBench Gold v1, GeneBench Pro v13, and MedChemBench because they refuse the majority of questions in these evaluations.[](https://openai.com/index/gpt-6-astra#citation-top-12)[](https://openai.com/index/gpt-6-astra#citation-top-12:2)[](https://openai.com/index/gpt-6-astra#citation-top-12:3)\n\n13.   13\nOn ExploitGym, we tested Astra and Sol without the 6-hour time limit, to better assess their full cyber capabilities. They are fast enough that it has little impact.[](https://openai.com/index/gpt-6-astra#citation-top-13)[](https://openai.com/index/gpt-6-astra#citation-top-13:2)[](https://openai.com/index/gpt-6-astra#citation-top-13:3)\n\n14.   14\nExploitBench (June–August 2026) contains 20 high-severity V8 vulnerabilities across 13 stable Chrome releases. The benchmark tests whether agents can achieve arbitrary code execution in V8 and official Chrome releases for Linux by exploiting each specified vulnerability. Some included vulnerabilities may not permit arbitrary code execution under the evaluation’s constraints, so a 100% success rate may not be achievable. Note: the 5.5% score of GPT-5.6 Sol is an artifact of the 300-turn limit in the benchmark, which is not a limit that real customers using max would have. The model at similar settings achieved an 11.5% score when hitting fewer limits.[](https://openai.com/index/gpt-6-astra#citation-top-14)\n\n15.   15\n16.   16\n_When we test across third-party models, we use a simpler research setup. Codex has a more complex production configuration, which can result in different raw-model error rates. Provider-side safeguards and computer-tool implementations still differ. Users do not experience the no-confirmation scenario in Codex, as it's an internal research configuration._[](https://openai.com/index/gpt-6-astra#citation-top-16)\n\n17.   17\nFor ScreenSpot-Pro and ExploitGym, the Fable scores we report come from Mythos, which is Fable with fewer safeguards.[](https://openai.com/index/gpt-6-astra#citation-top-17)[](https://openai.com/index/gpt-6-astra#citation-top-17:2)[](https://openai.com/index/gpt-6-astra#citation-top-17:3)",
+      "contentZh": "",
+      "titleZh": "",
+      "summaryZh": "",
+      "translationStatus": "pending",
+      "publishedAt": "2026-09-03T11:00:00.000Z",
+      "url": "https://openai.com/index/gpt-6-astra",
+      "collectedAt": "2026-09-05T07:25:02.077Z"
     },
     {
       "id": "9b8372f5dd9139bf3dfd",
@@ -101,24 +118,41 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "url": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "collectedAt": "2026-09-04T07:47:35.081Z"
+      "collectedAt": "2026-09-05T07:25:02.077Z"
     },
     {
-      "id": "5b590f17c58911e026b4",
+      "id": "76e92e71feca11592be4",
+      "sourceId": "claude-platform",
+      "company": "Anthropic",
+      "product": "Claude",
+      "kind": "api",
+      "title": "Version 1.30.0 of the ant CLI adds ant apply, which creates and updates agents, environments, skills, memory stores, and deployments from files in your repository.",
+      "summary": "Version 1.30.0 of the ant CLI adds ant apply, which creates and updates agents, environments, skills, memory stores, and deployments from files in your repository. Describe each resource in a file, run ant apply, and approve the plan it prints. Commit the claude-lock.json lockfile it writes so that later runs, on your machine or in CI, update the same resources instead of creating new ones. See Manage resources as code with ant apply.",
+      "content": "Version 1.30.0 of the ant CLI adds ant apply, which creates and updates agents, environments, skills, memory stores, and deployments from files in your repository. Describe each resource in a file, run ant apply, and approve the plan it prints. Commit the claude-lock.json lockfile it writes so that later runs, on your machine or in CI, update the same resources instead of creating new ones. See Manage resources as code with ant apply.",
+      "contentZh": "",
+      "titleZh": "",
+      "summaryZh": "",
+      "translationStatus": "pending",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "collectedAt": "2026-09-05T07:25:03.237Z"
+    },
+    {
+      "id": "ce0686df2b5f1aa16f14",
       "sourceId": "gemini-api",
       "company": "Google",
       "product": "Gemini",
       "kind": "api",
-      "title": "Lyria 3.5 in public preview: Released the next generation of Google's music generation models: lyria-3.5-clip-preview: Optimized for 30-second clips, loops, and rapid experimentati",
-      "summary": "Lyria 3.5 in public preview: Released the next generation of Google's music generation models: lyria-3.5-clip-preview: Optimized for 30-second clips, loops, and rapid experimentation. lyria-3.5-pro-preview: Full-length song generation with improved musical coherence, natural vocals, and fine-grained duration and structural control. Both models support text and image inputs and generate high-fidelity 44.1 kHz stereo audio. See the Music generation guide for details and code samples.",
-      "content": "Lyria 3.5 in public preview: Released the next generation of Google's music generation models: lyria-3.5-clip-preview: Optimized for 30-second clips, loops, and rapid experimentation. lyria-3.5-pro-preview: Full-length song generation with improved musical coherence, natural vocals, and fine-grained duration and structural control. Both models support text and image inputs and generate high-fidelity 44.1 kHz stereo audio. See the Music generation guide for details and code samples.",
+      "title": "Lyria 3.5 in public preview: Released the next generation of Google's music generation model: lyria-3.5: Full-length song generation with improved musical coherence, natural vocals",
+      "summary": "Lyria 3.5 in public preview: Released the next generation of Google's music generation model: lyria-3.5: Full-length song generation with improved musical coherence, natural vocals, and fine-grained duration and structural control. The model supports text and image inputs and generates high-fidelity 44.1 kHz stereo audio. See the Music generation guide for details and code samples.",
+      "content": "Lyria 3.5 in public preview: Released the next generation of Google's music generation model: lyria-3.5: Full-length song generation with improved musical coherence, natural vocals, and fine-grained duration and structural control. The model supports text and image inputs and generates high-fidelity 44.1 kHz stereo audio. See the Music generation guide for details and code samples.",
       "contentZh": "",
       "titleZh": "",
       "summaryZh": "",
       "translationStatus": "pending",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-04T07:47:37.061Z"
+      "collectedAt": "2026-09-05T07:25:03.824Z"
     },
     {
       "id": "9ad38e9ab9838c6b598d",
@@ -135,7 +169,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-02T16:18:31.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-      "collectedAt": "2026-09-04T07:47:37.517Z"
+      "collectedAt": "2026-09-05T07:25:04.092Z"
     },
     {
       "id": "23cc665780e07fde7643",
@@ -152,7 +186,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-02T12:00:00.000Z",
       "url": "https://openai.com/index/atv-big-air-tour",
-      "collectedAt": "2026-09-04T07:47:35.082Z"
+      "collectedAt": "2026-09-05T07:25:02.078Z"
     },
     {
       "id": "7a7557129f4a0b3fe78e",
@@ -169,7 +203,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-04T07:47:37.062Z"
+      "collectedAt": "2026-09-05T07:25:03.824Z"
     },
     {
       "id": "5fd2975f213ab047e365",
@@ -186,7 +220,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-01T17:08:51.000Z",
       "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-      "collectedAt": "2026-09-04T07:47:37.517Z"
+      "collectedAt": "2026-09-05T07:25:04.092Z"
     },
     {
       "id": "0de52357b4b07f25549c",
@@ -203,7 +237,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-01T13:00:00.000Z",
       "url": "https://openai.com/index/path-to-astra",
-      "collectedAt": "2026-09-04T07:47:35.083Z"
+      "collectedAt": "2026-09-05T07:25:02.079Z"
     },
     {
       "id": "210c1577098c3af2295c",
@@ -220,7 +254,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-01T12:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "collectedAt": "2026-09-04T07:47:35.083Z"
+      "collectedAt": "2026-09-05T07:25:02.080Z"
     },
     {
       "id": "c60a9dbb33739fa8f7ff",
@@ -237,7 +271,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-01T01:00:00.000Z",
       "url": "https://openai.com/index/gilbert-tobin",
-      "collectedAt": "2026-09-04T07:47:35.084Z"
+      "collectedAt": "2026-09-05T07:25:02.081Z"
     },
     {
       "id": "f53efa27b0d13a2b8d75",
@@ -254,7 +288,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-04T07:47:35.798Z"
+      "collectedAt": "2026-09-05T07:25:02.739Z"
     },
     {
       "id": "3f73d429de5f2ed86a44",
@@ -271,7 +305,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.277Z"
+      "collectedAt": "2026-09-05T07:25:03.238Z"
     },
     {
       "id": "6a3e7fac71e57d88cb41",
@@ -288,7 +322,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-04T07:47:37.062Z"
+      "collectedAt": "2026-09-05T07:25:03.825Z"
     },
     {
       "id": "62995badc1a46202724b",
@@ -305,7 +339,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-31T07:00:00.000Z",
       "url": "https://openai.com/index/polimill",
-      "collectedAt": "2026-09-04T07:47:35.086Z"
+      "collectedAt": "2026-09-05T07:25:02.082Z"
     },
     {
       "id": "89958d19d1f987cb8ada",
@@ -322,7 +356,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-31T04:00:00.000Z",
       "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "collectedAt": "2026-09-04T07:47:35.087Z"
+      "collectedAt": "2026-09-05T07:25:02.083Z"
     },
     {
       "id": "6e697a03b79f347648db",
@@ -339,7 +373,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-28T06:00:00.000Z",
       "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "collectedAt": "2026-09-04T07:47:35.087Z"
+      "collectedAt": "2026-09-05T07:25:02.084Z"
     },
     {
       "id": "3b034008653d3c2739c4",
@@ -356,7 +390,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-27T16:11:32.000Z",
       "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-      "collectedAt": "2026-09-04T07:47:37.517Z"
+      "collectedAt": "2026-09-05T07:25:04.092Z"
     },
     {
       "id": "f3885091ef8df6aaae64",
@@ -373,7 +407,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-27T09:00:00.000Z",
       "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "collectedAt": "2026-09-04T07:47:35.089Z"
+      "collectedAt": "2026-09-05T07:25:02.085Z"
     },
     {
       "id": "4707ef7564f9017d5027",
@@ -390,7 +424,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.278Z"
+      "collectedAt": "2026-09-05T07:25:03.239Z"
     },
     {
       "id": "c5289a9a45e73f8f78ee",
@@ -407,7 +441,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-04T07:47:37.062Z"
+      "collectedAt": "2026-09-05T07:25:03.826Z"
     },
     {
       "id": "038305de768a112cfa08",
@@ -424,7 +458,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-26T17:01:00.000Z",
       "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
-      "collectedAt": "2026-09-04T07:47:37.518Z"
+      "collectedAt": "2026-09-05T07:25:04.092Z"
     },
     {
       "id": "92b51a1e3a09499b97f9",
@@ -441,7 +475,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-26T10:00:00.000Z",
       "url": "https://openai.com/index/learning-never-stops",
-      "collectedAt": "2026-09-04T07:47:35.090Z"
+      "collectedAt": "2026-09-05T07:25:02.086Z"
     },
     {
       "id": "df161950e809789b055b",
@@ -458,7 +492,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-26T10:00:00.000Z",
       "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "collectedAt": "2026-09-04T07:47:35.091Z"
+      "collectedAt": "2026-09-05T07:25:02.086Z"
     },
     {
       "id": "e8e71766793d0226c88b",
@@ -475,7 +509,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "collectedAt": "2026-09-04T07:47:35.092Z"
+      "collectedAt": "2026-09-05T07:25:02.087Z"
     },
     {
       "id": "42d46e03e113f1a48a9f",
@@ -492,7 +526,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://openai.com/index/loveholidays",
-      "collectedAt": "2026-09-04T07:47:35.092Z"
+      "collectedAt": "2026-09-05T07:25:02.087Z"
     },
     {
       "id": "0e8f06023793c35c12b2",
@@ -509,7 +543,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.278Z"
+      "collectedAt": "2026-09-05T07:25:03.239Z"
     },
     {
       "id": "57792a4fc465ac9e4168",
@@ -526,7 +560,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-04T07:47:37.063Z"
+      "collectedAt": "2026-09-05T07:25:03.827Z"
     },
     {
       "id": "bdff11d888b055940269",
@@ -543,7 +577,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-25T07:05:00.000Z",
       "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "collectedAt": "2026-09-04T07:47:35.093Z"
+      "collectedAt": "2026-09-05T07:25:02.088Z"
     },
     {
       "id": "b9dd82456710ac7ff739",
@@ -560,7 +594,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-25T07:00:00.000Z",
       "url": "https://openai.com/index/jalapeno-first-results",
-      "collectedAt": "2026-09-04T07:47:35.094Z"
+      "collectedAt": "2026-09-05T07:25:02.088Z"
     },
     {
       "id": "4f3d5193843c2be21102",
@@ -577,7 +611,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-admin-plugin",
-      "collectedAt": "2026-09-04T07:47:35.094Z"
+      "collectedAt": "2026-09-05T07:25:02.089Z"
     },
     {
       "id": "98efe21910bba76ddc89",
@@ -594,7 +628,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-04T07:47:35.799Z"
+      "collectedAt": "2026-09-05T07:25:02.740Z"
     },
     {
       "id": "a3e38d1146847fcc32c5",
@@ -611,7 +645,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-24T12:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-in-kiro",
-      "collectedAt": "2026-09-04T07:47:35.094Z"
+      "collectedAt": "2026-09-05T07:25:02.089Z"
     },
     {
       "id": "fb3550ee043ce3089dfb",
@@ -628,7 +662,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-04T07:47:40.596Z"
+      "collectedAt": "2026-09-05T07:25:06.056Z"
     },
     {
       "id": "2d19306ef234ea7faec5",
@@ -645,7 +679,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "url": "https://openai.com/index/stampli",
-      "collectedAt": "2026-09-04T07:47:35.095Z"
+      "collectedAt": "2026-09-05T07:25:02.089Z"
     },
     {
       "id": "545fb287d7f850c3b01d",
@@ -662,7 +696,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.278Z"
+      "collectedAt": "2026-09-05T07:25:03.240Z"
     },
     {
       "id": "3dc55b55b1de08c817b2",
@@ -679,7 +713,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-19T19:00:00.000Z",
       "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "collectedAt": "2026-09-04T07:47:35.095Z"
+      "collectedAt": "2026-09-05T07:25:02.090Z"
     },
     {
       "id": "1e5ef4886d4750bbdc69",
@@ -696,7 +730,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-19T07:00:00.000Z",
       "url": "https://openai.com/index/replit",
-      "collectedAt": "2026-09-04T07:47:35.096Z"
+      "collectedAt": "2026-09-05T07:25:02.090Z"
     },
     {
       "id": "862a5272957677cbb451",
@@ -713,7 +747,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.279Z"
+      "collectedAt": "2026-09-05T07:25:03.241Z"
     },
     {
       "id": "dbabefb7176b8899389d",
@@ -730,7 +764,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-09-04T07:47:36.591Z"
+      "collectedAt": "2026-09-05T07:25:03.492Z"
     },
     {
       "id": "d02b32736bea62b3185d",
@@ -747,7 +781,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-18T22:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "collectedAt": "2026-09-04T07:47:35.096Z"
+      "collectedAt": "2026-09-05T07:25:02.091Z"
     },
     {
       "id": "755e4db2cccf354bd6df",
@@ -764,7 +798,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "collectedAt": "2026-09-04T07:47:35.097Z"
+      "collectedAt": "2026-09-05T07:25:02.091Z"
     },
     {
       "id": "60ed32685f2c13d2be9e",
@@ -781,7 +815,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-teens",
-      "collectedAt": "2026-09-04T07:47:35.097Z"
+      "collectedAt": "2026-09-05T07:25:02.092Z"
     },
     {
       "id": "569fdb7965461ec2bca6",
@@ -798,7 +832,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-18T07:00:00.000Z",
       "url": "https://openai.com/index/asana",
-      "collectedAt": "2026-09-04T07:47:35.099Z"
+      "collectedAt": "2026-09-05T07:25:02.093Z"
     },
     {
       "id": "cf88f2889563730674dc",
@@ -815,7 +849,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "url": "https://openai.com/index/nvidia/chatgpt-work",
-      "collectedAt": "2026-09-04T07:47:35.098Z"
+      "collectedAt": "2026-09-05T07:25:02.093Z"
     },
     {
       "id": "aa9fbf89108c624b5035",
@@ -832,7 +866,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.279Z"
+      "collectedAt": "2026-09-05T07:25:03.241Z"
     },
     {
       "id": "87f8e936f22002253f15",
@@ -849,7 +883,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-17T08:00:00.000Z",
       "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
-      "collectedAt": "2026-09-04T07:47:37.731Z"
+      "collectedAt": "2026-09-05T07:25:04.328Z"
     },
     {
       "id": "628f79672cb28599f754",
@@ -866,7 +900,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T17:04:18.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-      "collectedAt": "2026-09-04T07:47:37.518Z"
+      "collectedAt": "2026-09-05T07:25:04.092Z"
     },
     {
       "id": "8637785710012aa19327",
@@ -883,7 +917,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T11:00:00.000Z",
       "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "collectedAt": "2026-09-04T07:47:35.100Z"
+      "collectedAt": "2026-09-05T07:25:02.094Z"
     },
     {
       "id": "12d8fd2a91a610822616",
@@ -900,7 +934,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T10:00:00.000Z",
       "url": "https://openai.com/index/previewing-ultrafast",
-      "collectedAt": "2026-09-04T07:47:35.100Z"
+      "collectedAt": "2026-09-05T07:25:02.094Z"
     },
     {
       "id": "ff9329e42a201fd379a6",
@@ -917,7 +951,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-04T07:47:37.063Z"
+      "collectedAt": "2026-09-05T07:25:03.827Z"
     },
     {
       "id": "68c4c83c983d7ad01b30",
@@ -934,7 +968,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-04T07:47:40.597Z"
+      "collectedAt": "2026-09-05T07:25:06.057Z"
     },
     {
       "id": "5437747d9f7a7fa2a89b",
@@ -951,7 +985,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-12T06:00:00.000Z",
       "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "collectedAt": "2026-09-04T07:47:35.100Z"
+      "collectedAt": "2026-09-05T07:25:02.095Z"
     },
     {
       "id": "1024017ea20ba53c7f72",
@@ -968,7 +1002,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "url": "https://openai.com/index/ringcentral",
-      "collectedAt": "2026-09-04T07:47:35.101Z"
+      "collectedAt": "2026-09-05T07:25:02.095Z"
     },
     {
       "id": "d9485ecefcc38cea5418",
@@ -985,7 +1019,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "collectedAt": "2026-09-04T07:47:35.101Z"
+      "collectedAt": "2026-09-05T07:25:02.096Z"
     },
     {
       "id": "8825eb211c3d1692966b",
@@ -1002,7 +1036,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-      "collectedAt": "2026-09-04T07:47:35.101Z"
+      "collectedAt": "2026-09-05T07:25:02.096Z"
     },
     {
       "id": "e253abe92338c77fff32",
@@ -1019,7 +1053,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.280Z"
+      "collectedAt": "2026-09-05T07:25:03.241Z"
     },
     {
       "id": "f50ed5f93da49347ecb6",
@@ -1036,7 +1070,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T12:00:00.000Z",
       "url": "https://openai.com/index/model-ml",
-      "collectedAt": "2026-09-04T07:47:35.102Z"
+      "collectedAt": "2026-09-05T07:25:02.097Z"
     },
     {
       "id": "288f6994afc6cc6de385",
@@ -1053,7 +1087,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T10:00:00.000Z",
       "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
-      "collectedAt": "2026-09-04T07:47:35.102Z"
+      "collectedAt": "2026-09-05T07:25:02.097Z"
     },
     {
       "id": "734c538c439aa3199cf2",
@@ -1070,7 +1104,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T10:00:00.000Z",
       "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "collectedAt": "2026-09-04T07:47:35.102Z"
+      "collectedAt": "2026-09-05T07:25:02.097Z"
     },
     {
       "id": "8eb1e6a0a260fe518fb3",
@@ -1087,24 +1121,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
-      "collectedAt": "2026-09-04T07:47:35.103Z"
-    },
-    {
-      "id": "2c74e7c8cea6a2ece6de",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "How Zapier transformed core marketing processes with ChatGPT Work",
-      "summary": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
-      "content": "At Zapier, the enterprise marketing team is using ChatGPT Work to build automated funnel optimization systems, enabling them to deliver more value to their sales team with less manual effort. ChatGPT Work operates autonomously, giving the enterprise marketing team space to focus on strategic, creative efforts.\n\n> “We can do things that we couldn’t possibly have done before, like performing QA/QC on thousands of leads every single month.”\n\n—Angela Ferrante, Head of Enterprise Marketing\n\n## Building a system for automatic funnel optimization\n\nAngela Ferrante, Head of Enterprise Marketing, found that Zapier experienced a high volume of strong inbound leads but a similarly high drop-off rate. Why? Answering the question required an intensive quality assurance (QA) and quality control (QC) process to figure out where in the funnel these leads were dropping off.\n\nBut with ChatGPT Work, Ferrante could automate a process so labor-intensive that it would have been effectively impossible to accomplish otherwise. “It has just transformed how we do work and what we’re able to do,” Ferrante explains.\n\nNow, the enterprise marketing team can perform automatic QA/QC on thousands of leads every month. The difference is stark. “A single person looking at one dropped lead would take 35 to 45 minutes just to get a picture of what went wrong,” Ferrante says.\n\n“With ChatGPT Work, we were able to create a system that determined all of the lead problems, patched all of the issues, and quantified the impact of this project to the tune of seven figures in pipeline we were then able to hand off to sales every single month.”\n\nThe system now delivers ongoing results, including an executive dashboard highlighting recurring issues in their lead pipeline and weekly trends.\n\n> “Within minutes, we have actual campaign assets ready to review and push out. ChatGPT Work can actually go into all the systems we use to build campaigns and do the building for us.”\n\n—Angela Ferrante, Head of Enterprise Marketing\n\n## Freeing up time for creative work\n\nZapier’s marketing teams didn’t always have the time to use the creative energies they had on tap.\n\n“ChatGPT Work frees up our team,” Ferrante explains. “The demand generation team, for example, can get more creative about campaigns and filter that work through ChatGPT Work, which will give them ideas for campaign optimizations.”\n\nThe team can work faster, delivering better results on tighter timelines. “Suddenly, the work is shrunk down, or the timeline is shrunk down,” Ferrante says. “The work moves so quickly from ideation to execution, and the execution is essentially on demand.”\n\nAs the marketing team produces more deliverables, they can also avoid getting bogged down in reporting. With ChatGPT Work, Ferrante says, “We were able to get reporting dialed in so that we can spend more time doing work instead of analyzing the results of the work.”\n\n“It’s really been an unlock for our team, allowing us to focus on more strategic work,” Ferrante says. “We’re suddenly able to have a lot of work just happen on autopilot using ChatGPT Work.”\n\n## What’s next\n\nDespite the benefits ChatGPT Work has already offered, Ferrante sees even greater potential in the future. “Some of the most impactful work, which will really transform the marketing team, is setting always-on loops, not just using prompts,” Ferrante says.\n\nThe eventual goal, Ferrante says, is to have a “shared brain” that uses context from meetings, call recordings, customers, and market insights. “We will have work happening on autopilot, and humans can be the tastemakers,” Ferrante says.",
-      "contentZh": "在Zapier，企业营销团队正在使用ChatGPT Work构建自动化漏斗优化系统，使他们能够以更少的手动工作为销售团队创造更多价值。ChatGPT Work自主运行，为企业营销团队腾出空间，专注于战略性和创造性的工作。\n\n> “我们能够做到以前不可能完成的事情，比如每月对数千条线索进行质量保证和质量控制。”\n\n——Angela Ferrante，企业营销主管\n\n## 构建自动漏斗优化系统\n\n企业营销主管Angela Ferrante发现，Zapier拥有大量高质量的入站线索，但流失率同样很高。原因何在？回答这个问题需要一个密集的质量保证和质量控制流程，以确定这些线索在漏斗的哪个环节流失。\n\n但借助ChatGPT Work，Ferrante能够自动化一个劳动密集程度极高、否则几乎不可能完成的过程。“它彻底改变了我们的工作方式以及我们能够做到的事情，”Ferrante解释道。\n\n现在，企业营销团队每月可以对数千条线索进行自动质量保证和质量控制。差异显而易见。“一个人查看一条流失的线索，需要35到45分钟才能了解问题所在，”Ferrante说。\n\n“借助ChatGPT Work，我们创建了一个系统，能够确定所有线索问题、修复所有问题，并量化这个项目的影响，每月能够向销售团队移交价值七位数的管道。”\n\n该系统现在持续产生成果，包括一个高管仪表板，突出显示线索管道中的重复问题和每周趋势。\n\n> “几分钟之内，我们就能准备好实际的活动资产供审查和发布。ChatGPT Work实际上可以进入我们用于构建活动的所有系统，并替我们完成构建工作。”\n\n——Angela Ferrante，企业营销主管\n\n## 腾出时间进行创造性工作\n\nZapier的营销团队并非总有时间发挥他们随时可用的创造力。\n\n“ChatGPT Work解放了我们的团队，”Ferrante解释道。“例如，需求生成团队可以在活动上更具创意，并通过ChatGPT Work筛选这些工作，它会为他们提供活动优化的想法。”\n\n团队可以更快地工作，在更紧的时间表内交付更好的成果。“突然间，工作被压缩了，或者时间表被压缩了，”Ferrante说。“工作从构思到执行的速度非常快，而且执行基本上是按需进行的。”\n\n随着营销团队产出更多交付物，他们也可以避免陷入报告工作的泥潭。Ferrante表示，借助ChatGPT Work，“我们能够将报告调整到位，这样我们就可以花更多时间做工作，而不是分析工作结果。”\n\n“这确实为我们的团队解锁了新的可能，让我们能够专注于更具战略性的工作，”Ferrante说。“我们突然能够让大量工作通过ChatGPT Work自动驾驶般地完成。”\n\n## 未来展望\n\n尽管ChatGPT Work已经带来了诸多好处，Ferrante看到了未来更大的潜力。“一些最具影响力的工作，将真正改变营销团队，是建立常开循环，而不仅仅是使用提示词，”Ferrante说。\n\nFerrante表示，最终目标是拥有一个“共享大脑”，利用会议、通话录音、客户和市场洞察中的背景信息。“我们将让工作在自动驾驶模式下进行，而人类可以成为品味引领者，”Ferrante说。",
-      "titleZh": "Zapier如何利用ChatGPT Work转型核心营销流程",
-      "summaryZh": "Zapier的企业营销团队使用ChatGPT Work来减少潜在客户漏斗中的流失数量，构建活动资产，并自动化报告。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "url": "https://openai.com/index/zapier",
-      "collectedAt": "2026-09-04T07:47:35.103Z"
+      "collectedAt": "2026-09-05T07:25:02.098Z"
     },
     {
       "id": "02e8effaacedb8dbc2e1",
@@ -1121,7 +1138,24 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://openai.com/index/premium-seats-chatgpt-business",
-      "collectedAt": "2026-09-04T07:47:35.103Z"
+      "collectedAt": "2026-09-05T07:25:02.098Z"
+    },
+    {
+      "id": "2c74e7c8cea6a2ece6de",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "How Zapier transformed core marketing processes with ChatGPT Work",
+      "summary": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
+      "content": "At Zapier, the enterprise marketing team is using ChatGPT Work to build automated funnel optimization systems, enabling them to deliver more value to their sales team with less manual effort. ChatGPT Work operates autonomously, giving the enterprise marketing team space to focus on strategic, creative efforts.\n\n> “We can do things that we couldn’t possibly have done before, like performing QA/QC on thousands of leads every single month.”\n\n—Angela Ferrante, Head of Enterprise Marketing\n\n## Building a system for automatic funnel optimization\n\nAngela Ferrante, Head of Enterprise Marketing, found that Zapier experienced a high volume of strong inbound leads but a similarly high drop-off rate. Why? Answering the question required an intensive quality assurance (QA) and quality control (QC) process to figure out where in the funnel these leads were dropping off.\n\nBut with ChatGPT Work, Ferrante could automate a process so labor-intensive that it would have been effectively impossible to accomplish otherwise. “It has just transformed how we do work and what we’re able to do,” Ferrante explains.\n\nNow, the enterprise marketing team can perform automatic QA/QC on thousands of leads every month. The difference is stark. “A single person looking at one dropped lead would take 35 to 45 minutes just to get a picture of what went wrong,” Ferrante says.\n\n“With ChatGPT Work, we were able to create a system that determined all of the lead problems, patched all of the issues, and quantified the impact of this project to the tune of seven figures in pipeline we were then able to hand off to sales every single month.”\n\nThe system now delivers ongoing results, including an executive dashboard highlighting recurring issues in their lead pipeline and weekly trends.\n\n> “Within minutes, we have actual campaign assets ready to review and push out. ChatGPT Work can actually go into all the systems we use to build campaigns and do the building for us.”\n\n—Angela Ferrante, Head of Enterprise Marketing\n\n## Freeing up time for creative work\n\nZapier’s marketing teams didn’t always have the time to use the creative energies they had on tap.\n\n“ChatGPT Work frees up our team,” Ferrante explains. “The demand generation team, for example, can get more creative about campaigns and filter that work through ChatGPT Work, which will give them ideas for campaign optimizations.”\n\nThe team can work faster, delivering better results on tighter timelines. “Suddenly, the work is shrunk down, or the timeline is shrunk down,” Ferrante says. “The work moves so quickly from ideation to execution, and the execution is essentially on demand.”\n\nAs the marketing team produces more deliverables, they can also avoid getting bogged down in reporting. With ChatGPT Work, Ferrante says, “We were able to get reporting dialed in so that we can spend more time doing work instead of analyzing the results of the work.”\n\n“It’s really been an unlock for our team, allowing us to focus on more strategic work,” Ferrante says. “We’re suddenly able to have a lot of work just happen on autopilot using ChatGPT Work.”\n\n## What’s next\n\nDespite the benefits ChatGPT Work has already offered, Ferrante sees even greater potential in the future. “Some of the most impactful work, which will really transform the marketing team, is setting always-on loops, not just using prompts,” Ferrante says.\n\nThe eventual goal, Ferrante says, is to have a “shared brain” that uses context from meetings, call recordings, customers, and market insights. “We will have work happening on autopilot, and humans can be the tastemakers,” Ferrante says.",
+      "contentZh": "在Zapier，企业营销团队正在使用ChatGPT Work构建自动化漏斗优化系统，使他们能够以更少的手动工作为销售团队创造更多价值。ChatGPT Work自主运行，为企业营销团队腾出空间，专注于战略性和创造性的工作。\n\n> “我们能够做到以前不可能完成的事情，比如每月对数千条线索进行质量保证和质量控制。”\n\n——Angela Ferrante，企业营销主管\n\n## 构建自动漏斗优化系统\n\n企业营销主管Angela Ferrante发现，Zapier拥有大量高质量的入站线索，但流失率同样很高。原因何在？回答这个问题需要一个密集的质量保证和质量控制流程，以确定这些线索在漏斗的哪个环节流失。\n\n但借助ChatGPT Work，Ferrante能够自动化一个劳动密集程度极高、否则几乎不可能完成的过程。“它彻底改变了我们的工作方式以及我们能够做到的事情，”Ferrante解释道。\n\n现在，企业营销团队每月可以对数千条线索进行自动质量保证和质量控制。差异显而易见。“一个人查看一条流失的线索，需要35到45分钟才能了解问题所在，”Ferrante说。\n\n“借助ChatGPT Work，我们创建了一个系统，能够确定所有线索问题、修复所有问题，并量化这个项目的影响，每月能够向销售团队移交价值七位数的管道。”\n\n该系统现在持续产生成果，包括一个高管仪表板，突出显示线索管道中的重复问题和每周趋势。\n\n> “几分钟之内，我们就能准备好实际的活动资产供审查和发布。ChatGPT Work实际上可以进入我们用于构建活动的所有系统，并替我们完成构建工作。”\n\n——Angela Ferrante，企业营销主管\n\n## 腾出时间进行创造性工作\n\nZapier的营销团队并非总有时间发挥他们随时可用的创造力。\n\n“ChatGPT Work解放了我们的团队，”Ferrante解释道。“例如，需求生成团队可以在活动上更具创意，并通过ChatGPT Work筛选这些工作，它会为他们提供活动优化的想法。”\n\n团队可以更快地工作，在更紧的时间表内交付更好的成果。“突然间，工作被压缩了，或者时间表被压缩了，”Ferrante说。“工作从构思到执行的速度非常快，而且执行基本上是按需进行的。”\n\n随着营销团队产出更多交付物，他们也可以避免陷入报告工作的泥潭。Ferrante表示，借助ChatGPT Work，“我们能够将报告调整到位，这样我们就可以花更多时间做工作，而不是分析工作结果。”\n\n“这确实为我们的团队解锁了新的可能，让我们能够专注于更具战略性的工作，”Ferrante说。“我们突然能够让大量工作通过ChatGPT Work自动驾驶般地完成。”\n\n## 未来展望\n\n尽管ChatGPT Work已经带来了诸多好处，Ferrante看到了未来更大的潜力。“一些最具影响力的工作，将真正改变营销团队，是建立常开循环，而不仅仅是使用提示词，”Ferrante说。\n\nFerrante表示，最终目标是拥有一个“共享大脑”，利用会议、通话录音、客户和市场洞察中的背景信息。“我们将让工作在自动驾驶模式下进行，而人类可以成为品味引领者，”Ferrante说。",
+      "titleZh": "Zapier如何利用ChatGPT Work转型核心营销流程",
+      "summaryZh": "Zapier的企业营销团队使用ChatGPT Work来减少潜在客户漏斗中的流失数量，构建活动资产，并自动化报告。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "url": "https://openai.com/index/zapier",
+      "collectedAt": "2026-09-05T07:25:02.099Z"
     },
     {
       "id": "968261fb57a0f452cb28",
@@ -1138,7 +1172,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.280Z"
+      "collectedAt": "2026-09-05T07:25:03.242Z"
     },
     {
       "id": "4b892749f4ed6e711322",
@@ -1155,7 +1189,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-07T09:00:00.000Z",
       "url": "https://openai.com/index/hsp-gruppe",
-      "collectedAt": "2026-09-04T07:47:35.104Z"
+      "collectedAt": "2026-09-05T07:25:02.099Z"
     },
     {
       "id": "f08640315c18fbc4f31c",
@@ -1172,7 +1206,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.280Z"
+      "collectedAt": "2026-09-05T07:25:03.242Z"
     },
     {
       "id": "d5755c0b97cd8308ee54",
@@ -1189,7 +1223,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T10:00:00.000Z",
       "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "collectedAt": "2026-09-04T07:47:35.104Z"
+      "collectedAt": "2026-09-05T07:25:02.099Z"
     },
     {
       "id": "0121f2aaabdbc2fbef18",
@@ -1206,7 +1240,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
-      "collectedAt": "2026-09-04T07:47:35.105Z"
+      "collectedAt": "2026-09-05T07:25:02.100Z"
     },
     {
       "id": "ac5d129bc56db5435253",
@@ -1223,7 +1257,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-04T07:47:35.799Z"
+      "collectedAt": "2026-09-05T07:25:02.740Z"
     },
     {
       "id": "cbf5ffda58d43478b306",
@@ -1240,7 +1274,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-05T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.281Z"
+      "collectedAt": "2026-09-05T07:25:03.243Z"
     },
     {
       "id": "374a02a97939919169d2",
@@ -1257,7 +1291,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-04T19:00:00.000Z",
       "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "collectedAt": "2026-09-04T07:47:35.105Z"
+      "collectedAt": "2026-09-05T07:25:02.100Z"
     },
     {
       "id": "3feab47dffd4ec330ae5",
@@ -1274,7 +1308,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
-      "collectedAt": "2026-09-04T07:47:35.105Z"
+      "collectedAt": "2026-09-05T07:25:02.101Z"
     },
     {
       "id": "c8f43754fdafecb85e1d",
@@ -1291,7 +1325,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T07:00:00.000Z",
       "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-      "collectedAt": "2026-09-04T07:47:35.106Z"
+      "collectedAt": "2026-09-05T07:25:02.101Z"
     },
     {
       "id": "6559d98a7d1bca755c17",
@@ -1308,7 +1342,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "url": "https://openai.com/index/circles",
-      "collectedAt": "2026-09-04T07:47:35.106Z"
+      "collectedAt": "2026-09-05T07:25:02.102Z"
     },
     {
       "id": "1b43c9e867bdb362c0cc",
@@ -1325,7 +1359,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-03T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.281Z"
+      "collectedAt": "2026-09-05T07:25:03.243Z"
     },
     {
       "id": "52e0cd114c7d854c3e96",
@@ -1342,7 +1376,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.281Z"
+      "collectedAt": "2026-09-05T07:25:03.243Z"
     },
     {
       "id": "b9d4476050e5d75f1b97",
@@ -1359,7 +1393,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T07:00:00.000Z",
       "url": "https://openai.com/index/unive",
-      "collectedAt": "2026-09-04T07:47:35.106Z"
+      "collectedAt": "2026-09-05T07:25:02.102Z"
     },
     {
       "id": "45bbaccf8d941517f323",
@@ -1376,7 +1410,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-      "collectedAt": "2026-09-04T07:47:35.107Z"
+      "collectedAt": "2026-09-05T07:25:02.103Z"
     },
     {
       "id": "af15e83e5c304730063b",
@@ -1393,7 +1427,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-04T07:47:40.598Z"
+      "collectedAt": "2026-09-05T07:25:06.058Z"
     },
     {
       "id": "b1fe0fa429937e85b2ef",
@@ -1410,7 +1444,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T15:00:59.000Z",
       "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-      "collectedAt": "2026-09-04T07:47:37.518Z"
+      "collectedAt": "2026-09-05T07:25:04.093Z"
     },
     {
       "id": "56f1d8a8c0f3af9fdd08",
@@ -1427,7 +1461,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T10:00:00.000Z",
       "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-      "collectedAt": "2026-09-04T07:47:35.107Z"
+      "collectedAt": "2026-09-05T07:25:02.103Z"
     },
     {
       "id": "cfbf6b8394b6edd2d1cc",
@@ -1444,7 +1478,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "url": "https://openai.com/index/avatarin",
-      "collectedAt": "2026-09-04T07:47:35.108Z"
+      "collectedAt": "2026-09-05T07:25:02.104Z"
     },
     {
       "id": "13c5281530ee4a6f4537",
@@ -1461,7 +1495,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-04T07:47:37.063Z"
+      "collectedAt": "2026-09-05T07:25:03.828Z"
     },
     {
       "id": "8aaceda53f7fc93dbf60",
@@ -1478,7 +1512,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T15:00:00.000Z",
       "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
-      "collectedAt": "2026-09-04T07:47:35.108Z"
+      "collectedAt": "2026-09-05T07:25:02.104Z"
     },
     {
       "id": "002458279ec72570fffb",
@@ -1495,7 +1529,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T10:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-academic-researchers",
-      "collectedAt": "2026-09-04T07:47:35.109Z"
+      "collectedAt": "2026-09-05T07:25:02.104Z"
     },
     {
       "id": "4c8b6c772be707078bbd",
@@ -1512,7 +1546,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "collectedAt": "2026-09-04T07:47:35.109Z"
+      "collectedAt": "2026-09-05T07:25:02.105Z"
     },
     {
       "id": "ca98ace8cf1a2a8d7872",
@@ -1529,7 +1563,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-09-04T07:47:36.592Z"
+      "collectedAt": "2026-09-05T07:25:03.492Z"
     },
     {
       "id": "bf370c7e47952f2da5c5",
@@ -1546,7 +1580,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-28T16:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "collectedAt": "2026-09-04T07:47:37.731Z"
+      "collectedAt": "2026-09-05T07:25:04.328Z"
     },
     {
       "id": "57b8f529f115263ec820",
@@ -1563,7 +1597,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-28T13:21:37.000Z",
       "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-      "collectedAt": "2026-09-04T07:47:37.518Z"
+      "collectedAt": "2026-09-05T07:25:04.093Z"
     },
     {
       "id": "bc5ed3298105125d299c",
@@ -1580,7 +1614,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-27T03:30:00.000Z",
       "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-      "collectedAt": "2026-09-04T07:47:35.110Z"
+      "collectedAt": "2026-09-05T07:25:02.106Z"
     },
     {
       "id": "cb2584c1c5ba09bcd3a3",
@@ -1597,7 +1631,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-24T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-04T07:47:35.800Z"
+      "collectedAt": "2026-09-05T07:25:02.741Z"
     },
     {
       "id": "b363cad12be0dd76a830",
@@ -1614,7 +1648,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-24T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.282Z"
+      "collectedAt": "2026-09-05T07:25:03.244Z"
     },
     {
       "id": "c7991759e1e4a5d32f85",
@@ -1631,7 +1665,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-23T00:00:00.000Z",
       "url": "https://openai.com/index/health-in-chatgpt",
-      "collectedAt": "2026-09-04T07:47:35.111Z"
+      "collectedAt": "2026-09-05T07:25:02.107Z"
     },
     {
       "id": "6ccf2d78b5e86593806b",
@@ -1648,7 +1682,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T13:00:00.000Z",
       "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-      "collectedAt": "2026-09-04T07:47:35.111Z"
+      "collectedAt": "2026-09-05T07:25:02.107Z"
     },
     {
       "id": "658d60926ab2360afa2e",
@@ -1665,7 +1699,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T05:30:00.000Z",
       "url": "https://openai.com/index/introducing-openai-presence",
-      "collectedAt": "2026-09-04T07:47:35.112Z"
+      "collectedAt": "2026-09-05T07:25:02.108Z"
     },
     {
       "id": "c7e36c4d5f5533523bd4",
@@ -1682,7 +1716,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T00:00:00.000Z",
       "url": "https://openai.com/index/ntt-data",
-      "collectedAt": "2026-09-04T07:47:35.113Z"
+      "collectedAt": "2026-09-05T07:25:02.109Z"
     },
     {
       "id": "a300ec7a4d7064f7179d",
@@ -1699,7 +1733,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.282Z"
+      "collectedAt": "2026-09-05T07:25:03.255Z"
     },
     {
       "id": "afa41d5e8e9237f5cad2",
@@ -1716,7 +1750,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T17:00:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
-      "collectedAt": "2026-09-04T07:47:35.113Z"
+      "collectedAt": "2026-09-05T07:25:02.109Z"
     },
     {
       "id": "176c2b61d3ba4a32ae38",
@@ -1733,7 +1767,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T15:16:30.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
-      "collectedAt": "2026-09-04T07:47:37.518Z"
+      "collectedAt": "2026-09-05T07:25:04.093Z"
     },
     {
       "id": "8b4028e43de92d3eef53",
@@ -1750,7 +1784,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T07:00:00.000Z",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "collectedAt": "2026-09-04T07:47:35.114Z"
+      "collectedAt": "2026-09-05T07:25:02.109Z"
     },
     {
       "id": "9e20c4d4744505bf3590",
@@ -1767,7 +1801,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-09-04T07:47:36.592Z"
+      "collectedAt": "2026-09-05T07:25:03.493Z"
     },
     {
       "id": "7ac3cf4e7948165dd06b",
@@ -1784,7 +1818,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-21T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-04T07:47:37.064Z"
+      "collectedAt": "2026-09-05T07:25:03.829Z"
     },
     {
       "id": "5237ec62c64502e0362e",
@@ -1801,7 +1835,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-20T10:00:00.000Z",
       "url": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "collectedAt": "2026-09-04T07:47:35.115Z"
+      "collectedAt": "2026-09-05T07:25:02.110Z"
     },
     {
       "id": "6fa040e6804071ffc67f",
@@ -1818,7 +1852,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-17T15:00:11.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
-      "collectedAt": "2026-09-04T07:47:37.519Z"
+      "collectedAt": "2026-09-05T07:25:04.093Z"
     },
     {
       "id": "453be2383653038965c7",
@@ -1835,7 +1869,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-17T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.282Z"
+      "collectedAt": "2026-09-05T07:25:03.256Z"
     },
     {
       "id": "37604a6bafa43b2cef23",
@@ -1852,7 +1886,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-      "collectedAt": "2026-09-04T07:47:35.115Z"
+      "collectedAt": "2026-09-05T07:25:02.110Z"
     },
     {
       "id": "ad99c0d7682ecec8de3d",
@@ -1869,7 +1903,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-      "collectedAt": "2026-09-04T07:47:37.732Z"
+      "collectedAt": "2026-09-05T07:25:04.329Z"
     },
     {
       "id": "58b103e4e418272fdf21",
@@ -1886,7 +1920,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-16T07:00:00.000Z",
       "url": "https://openai.com/index/codex-collaborator-creative-team",
-      "collectedAt": "2026-09-04T07:47:35.116Z"
+      "collectedAt": "2026-09-05T07:25:02.111Z"
     },
     {
       "id": "3e27101964501d6d280e",
@@ -1903,7 +1937,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-15T10:00:00.000Z",
       "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "collectedAt": "2026-09-04T07:47:35.116Z"
+      "collectedAt": "2026-09-05T07:25:02.111Z"
     },
     {
       "id": "064bc65fa5f9349bb063",
@@ -1920,24 +1954,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-15T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.283Z"
-    },
-    {
-      "id": "58cd43a6843f5828b315",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Data science workflows with ChatGPT Work",
-      "summary": "Learn practical ChatGPT Work workflows for root-cause briefs, KPI memos, scoped analyses, and dashboard specifications.",
-      "content": "[Skip to main content](https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex#main)\n\n[](https://openai.com/)\n\n*   [Research](https://openai.com/research/index/)\n*   Products\n*   [Business](https://openai.com/business/)\n*   [Developers](https://openai.com/api/)\n*   [Company](https://openai.com/about/)\n*   [Foundation(opens in a new window)](https://openaifoundation.org/)\n\nLog in[Try ChatGPT(opens in a new window)](https://chatgpt.com/)\n\n*   Research\n*   Products\n*   Business\n*   Developers\n*   Company\n*   [Foundation(opens in a new window)](https://openaifoundation.org/)\n\n[Try ChatGPT(opens in a new window)](https://chatgpt.com/)Login\n\nOpenAI\n\nJuly 14, 2026\n\nOpenAI Academy\n\n# Data science workflows with ChatGPT Work\n\nSee how data science teams can use ChatGPT Work to turn questions, dashboards, and raw data into review-ready analysis assets.\n\n[Download ChatGPT Work(opens in a new window)](https://chatgpt.com/codex/for-work/)\n\nLoading…\n\n[Audio 2](https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex)\n\nShare\n\nWatch the on-demand webinar\n\n*   [Watch the on-demand webinar](https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex#watch-the-on-demand-webinar)\n*   [Top ChatGPT Work use cases for data science teams](https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex#top-chatgpt-work-use-cases-for-data-science-teams)\n\n*   [Watch the on-demand webinar](https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex#watch-the-on-demand-webinar)\n*   [Top ChatGPT Work use cases for data science teams](https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex#top-chatgpt-work-use-cases-for-data-science-teams)\n\nWith ChatGPT Work, data science teams can turn scattered inputs into usable analysis assets faster. Starting from dashboards, metric definitions, exports, experiment notes, and business context, ChatGPT Work helps assemble a first draft of the deliverable—including charts, caveats, source links, and review questions—so teams can validate the work and share it with confidence.\n\n## Watch the on-demand webinar\n\nWatch **_How data science teams use Codex_** on-demand [**here**⁠(opens in a new window)](https://academy.openai.com/home/clubs/work-users-ynjqu/videos/how-data-science-teams-use-codex-recording-2026-05-28).\n\n**Note:** This webinar was recorded when these workflows lived in the former Codex app. You can now follow along using ChatGPT Work at chatgpt.com or in the ChatGPT desktop app.\n\n## Top ChatGPT Work use cases for data science teams\n\nReady to try ChatGPT Work on real data science work? Check out our use cases [here.⁠(opens in a new window)](https://learn.chatgpt.com/use-cases/collections/data-science)\n\nFor related tools and guidance, explore [ChatGPT solutions for data teams](https://openai.com/business/solutions/data/) and [the Databricks integration](https://openai.com/business/plugins/databricks/).\n\n## Continue learning with OpenAI Academy\n\nDiscover additional guides and resources to help you build practical AI skills.\n\n[View all topics](https://openai.com/academy/)[Explore ChatGPT Work(opens in a new window)](https://learn.chatgpt.com/docs/get-started-with-work)\n\n## Keep reading\n\n[View all](https://openai.com/news/)\n\n![Image 1: How sales teams use Codex > card image](https://images.ctfassets.net/kftzwdyauwt9/1O4te2wMh6O77eDV6kapG3/02845b054a09297b9fada40c4cc9a71f/sales_teams.png?w=3840&q=90&fm=webp)\n\n[How sales teams use ChatGPT Work | OpenAI OpenAI Academy Jul 14, 2026](https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex/)\n\n![Image 2: Academy > Getting started > Cover Image](https://images.ctfassets.net/kftzwdyauwt9/1Xk9723QKj2Vb9dC6RMebS/5e588c112042794e62178a224eaff418/getting-started.png?w=3840&q=90&fm=webp)\n\n[Getting started with ChatGPT | OpenAI OpenAI Academy Jul 10, 2026](https://openai.com/academy/getting-started/)\n\n![Image 3: sites](https://images.ctfassets.net/kftzwdyauwt9/6fIs1au2N2RynrKQ3eXg0q/15d0fd6fc8d2b24837bed23fc76fc8c4/sites.png?w=3840&q=90&fm=webp)\n\n[ChatGPT Sites OpenAI Academy Jun 2, 2026](https://openai.com/academy/chatgpt-sites/)\n\nResearch\n*   [Research Index](https://openai.com/research/index/)\n*   [Research Overview](https://openai.com/research/)\n*   [Economic Research](https://openai.com/signals/)\n\nLatest Advancements\n*   [GPT-5.6](https://openai.com/index/gpt-5-6/)\n*   [GPT-5.5](https://openai.com/index/introducing-gpt-5-5/)\n*   [GPT-5.4](https://openai.com/index/introducing-gpt-5-4/)\n\nSafety\n*   [Safety Approach](https://openai.com/safety/)\n*   [Deployment Safety(opens in a new window)](https://deploymentsafety.openai.com/)\n*   [Security & Privacy](https://openai.com/security-and-privacy/)\n*   [Trust & Transparency](https://openai.com/trust-and-transparency/)\n\nProducts\n*   [ChatGPT(opens in a new window)](https://chatgpt.com/)\n*   [ChatGPT Business(opens in a new window)](https://chatgpt.com/business/)\n*   [ChatGPT Enterprise(opens in a new window)](https://chatgpt.com/business/enterprise/)\n*   [ChatGPT for Education(opens in a new window)](https://chatgpt.com/business/education/)\n*   [Codex](https://openai.com/codex/)\n*   [Release Notes](https://openai.com/products/release-notes/)\n\nAPI Platform\n*   [Overview](https://openai.com/api/)\n*   [API Log In(opens in a new window)](https://platform.openai.com/login)\n*   [Docs(opens in a new window)](https://developers.openai.com/api/docs)\n\nBusiness\n*   [Overview](https://openai.com/business/)\n*   [Solutions](https://openai.com/solutions/)\n*   [Resources](https://openai.com/business/learn/)\n*   [Customer Stories](https://openai.com/business/customer-stories/)\n*   [Partner Network](https://openai.com/business/partners/)\n*   [Contact Sales](https://openai.com/contact-sales/)\n\nDevelopers\n*   [Apps SDK(opens in a new window)](https://developers.openai.com/apps-sdk)\n*   [Open Models](https://openai.com/open-models/)\n*   [Docs(opens in a new window)](https://developers.openai.com/)\n*   [Resources(opens in a new window)](https://developers.openai.com/learn)\n*   [Developer Forum(opens in a new window)](https://community.openai.com/)\n\nCompany\n*   [About Us](https://openai.com/about/)\n*   [Our Charter](https://openai.com/charter/)\n*   [Careers](https://openai.com/careers/)\n*   [News](https://openai.com/news/)\n\nSupport\n*   [Help Center(opens in a new window)](https://help.openai.com/)\n\nMore\n*   [Stories](https://openai.com/stories/)\n*   [Academy](https://openai.com/academy/)\n*   [Supply Co.](https://openai.com/supply/)\n*   [Livestreams](https://openai.com/live/)\n*   [Podcast](https://openai.com/podcast/)\n*   [RSS](https://openai.com/news/rss.xml)\n\nTerms & Policies\n*   [Terms of Use](https://openai.com/policies/terms-of-use/)\n*   [Privacy Policy](https://openai.com/policies/privacy-policy/)\n*   [Other Policies](https://openai.com/policies/)\n\n[(opens in a new window)](https://x.com/OpenAI)[(opens in a new window)](https://www.youtube.com/OpenAI)[(opens in a new window)](https://www.linkedin.com/company/openai)[(opens in a new window)](https://github.com/openai)[(opens in a new window)](https://www.instagram.com/openai/)[(opens in a new window)](https://www.tiktok.com/@openai)[(opens in a new window)](https://discord.gg/openai)\n\nOpenAI © 2015–2026 Your privacy choices\n\nEnglish United States",
-      "contentZh": "",
-      "titleZh": "",
-      "summaryZh": "",
-      "translationStatus": "pending",
-      "publishedAt": "2026-07-14T00:00:00.000Z",
-      "url": "https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex",
-      "collectedAt": "2026-09-04T07:47:35.117Z"
+      "collectedAt": "2026-09-05T07:25:03.256Z"
     },
     {
       "id": "2a84bed91691bdac7e9f",
@@ -1954,7 +1971,24 @@
       "translationStatus": "pending",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex",
-      "collectedAt": "2026-09-04T07:47:35.117Z"
+      "collectedAt": "2026-09-05T07:25:02.112Z"
+    },
+    {
+      "id": "58cd43a6843f5828b315",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Data science workflows with ChatGPT Work",
+      "summary": "Learn practical ChatGPT Work workflows for root-cause briefs, KPI memos, scoped analyses, and dashboard specifications.",
+      "content": "[Skip to main content](https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex#main)\n\n[](https://openai.com/)\n\n*   [Research](https://openai.com/research/index/)\n*   Products\n*   [Business](https://openai.com/business/)\n*   [Developers](https://openai.com/api/)\n*   [Company](https://openai.com/about/)\n*   [Foundation(opens in a new window)](https://openaifoundation.org/)\n\nLog in[Try ChatGPT(opens in a new window)](https://chatgpt.com/)\n\n*   Research\n*   Products\n*   Business\n*   Developers\n*   Company\n*   [Foundation(opens in a new window)](https://openaifoundation.org/)\n\n[Try ChatGPT(opens in a new window)](https://chatgpt.com/)Login\n\nOpenAI\n\nJuly 14, 2026\n\nOpenAI Academy\n\n# Data science workflows with ChatGPT Work\n\nSee how data science teams can use ChatGPT Work to turn questions, dashboards, and raw data into review-ready analysis assets.\n\n[Download ChatGPT Work(opens in a new window)](https://chatgpt.com/codex/for-work/)\n\nLoading…\n\n[Audio 2](https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex)\n\nShare\n\nWatch the on-demand webinar\n\n*   [Watch the on-demand webinar](https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex#watch-the-on-demand-webinar)\n*   [Top ChatGPT Work use cases for data science teams](https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex#top-chatgpt-work-use-cases-for-data-science-teams)\n\n*   [Watch the on-demand webinar](https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex#watch-the-on-demand-webinar)\n*   [Top ChatGPT Work use cases for data science teams](https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex#top-chatgpt-work-use-cases-for-data-science-teams)\n\nWith ChatGPT Work, data science teams can turn scattered inputs into usable analysis assets faster. Starting from dashboards, metric definitions, exports, experiment notes, and business context, ChatGPT Work helps assemble a first draft of the deliverable—including charts, caveats, source links, and review questions—so teams can validate the work and share it with confidence.\n\n## Watch the on-demand webinar\n\nWatch **_How data science teams use Codex_** on-demand [**here**⁠(opens in a new window)](https://academy.openai.com/home/clubs/work-users-ynjqu/videos/how-data-science-teams-use-codex-recording-2026-05-28).\n\n**Note:** This webinar was recorded when these workflows lived in the former Codex app. You can now follow along using ChatGPT Work at chatgpt.com or in the ChatGPT desktop app.\n\n## Top ChatGPT Work use cases for data science teams\n\nReady to try ChatGPT Work on real data science work? Check out our use cases [here.⁠(opens in a new window)](https://learn.chatgpt.com/use-cases/collections/data-science)\n\nFor related tools and guidance, explore [ChatGPT solutions for data teams](https://openai.com/business/solutions/data/) and [the Databricks integration](https://openai.com/business/plugins/databricks/).\n\n## Continue learning with OpenAI Academy\n\nDiscover additional guides and resources to help you build practical AI skills.\n\n[View all topics](https://openai.com/academy/)[Explore ChatGPT Work(opens in a new window)](https://learn.chatgpt.com/docs/get-started-with-work)\n\n## Keep reading\n\n[View all](https://openai.com/news/)\n\n![Image 1: How sales teams use Codex > card image](https://images.ctfassets.net/kftzwdyauwt9/1O4te2wMh6O77eDV6kapG3/02845b054a09297b9fada40c4cc9a71f/sales_teams.png?w=3840&q=90&fm=webp)\n\n[How sales teams use ChatGPT Work | OpenAI OpenAI Academy Jul 14, 2026](https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex/)\n\n![Image 2: Academy > Getting started > Cover Image](https://images.ctfassets.net/kftzwdyauwt9/1Xk9723QKj2Vb9dC6RMebS/5e588c112042794e62178a224eaff418/getting-started.png?w=3840&q=90&fm=webp)\n\n[Getting started with ChatGPT | OpenAI OpenAI Academy Jul 10, 2026](https://openai.com/academy/getting-started/)\n\n![Image 3: sites](https://images.ctfassets.net/kftzwdyauwt9/6fIs1au2N2RynrKQ3eXg0q/15d0fd6fc8d2b24837bed23fc76fc8c4/sites.png?w=3840&q=90&fm=webp)\n\n[ChatGPT Sites OpenAI Academy Jun 2, 2026](https://openai.com/academy/chatgpt-sites/)\n\nResearch\n*   [Research Index](https://openai.com/research/index/)\n*   [Research Overview](https://openai.com/research/)\n*   [Economic Research](https://openai.com/signals/)\n\nLatest Advancements\n*   [GPT-5.6](https://openai.com/index/gpt-5-6/)\n*   [GPT-5.5](https://openai.com/index/introducing-gpt-5-5/)\n*   [GPT-5.4](https://openai.com/index/introducing-gpt-5-4/)\n\nSafety\n*   [Safety Approach](https://openai.com/safety/)\n*   [Deployment Safety(opens in a new window)](https://deploymentsafety.openai.com/)\n*   [Security & Privacy](https://openai.com/security-and-privacy/)\n*   [Trust & Transparency](https://openai.com/trust-and-transparency/)\n\nProducts\n*   [ChatGPT(opens in a new window)](https://chatgpt.com/)\n*   [ChatGPT Business(opens in a new window)](https://chatgpt.com/business/)\n*   [ChatGPT Enterprise(opens in a new window)](https://chatgpt.com/business/enterprise/)\n*   [ChatGPT for Education(opens in a new window)](https://chatgpt.com/business/education/)\n*   [Codex](https://openai.com/codex/)\n*   [Release Notes](https://openai.com/products/release-notes/)\n\nAPI Platform\n*   [Overview](https://openai.com/api/)\n*   [API Log In(opens in a new window)](https://platform.openai.com/login)\n*   [Docs(opens in a new window)](https://developers.openai.com/api/docs)\n\nBusiness\n*   [Overview](https://openai.com/business/)\n*   [Solutions](https://openai.com/solutions/)\n*   [Resources](https://openai.com/business/learn/)\n*   [Customer Stories](https://openai.com/business/customer-stories/)\n*   [Partner Network](https://openai.com/business/partners/)\n*   [Contact Sales](https://openai.com/contact-sales/)\n\nDevelopers\n*   [Apps SDK(opens in a new window)](https://developers.openai.com/apps-sdk)\n*   [Open Models](https://openai.com/open-models/)\n*   [Docs(opens in a new window)](https://developers.openai.com/)\n*   [Resources(opens in a new window)](https://developers.openai.com/learn)\n*   [Developer Forum(opens in a new window)](https://community.openai.com/)\n\nCompany\n*   [About Us](https://openai.com/about/)\n*   [Our Charter](https://openai.com/charter/)\n*   [Careers](https://openai.com/careers/)\n*   [News](https://openai.com/news/)\n\nSupport\n*   [Help Center(opens in a new window)](https://help.openai.com/)\n\nMore\n*   [Stories](https://openai.com/stories/)\n*   [Academy](https://openai.com/academy/)\n*   [Supply Co.](https://openai.com/supply/)\n*   [Livestreams](https://openai.com/live/)\n*   [Podcast](https://openai.com/podcast/)\n*   [RSS](https://openai.com/news/rss.xml)\n\nTerms & Policies\n*   [Terms of Use](https://openai.com/policies/terms-of-use/)\n*   [Privacy Policy](https://openai.com/policies/privacy-policy/)\n*   [Other Policies](https://openai.com/policies/)\n\n[(opens in a new window)](https://x.com/OpenAI)[(opens in a new window)](https://www.youtube.com/OpenAI)[(opens in a new window)](https://www.linkedin.com/company/openai)[(opens in a new window)](https://github.com/openai)[(opens in a new window)](https://www.instagram.com/openai/)[(opens in a new window)](https://www.tiktok.com/@openai)[(opens in a new window)](https://discord.gg/openai)\n\nOpenAI © 2015–2026 Your privacy choices\n\nEnglish United States",
+      "contentZh": "",
+      "titleZh": "",
+      "summaryZh": "",
+      "translationStatus": "pending",
+      "publishedAt": "2026-07-14T00:00:00.000Z",
+      "url": "https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex",
+      "collectedAt": "2026-09-05T07:25:02.112Z"
     },
     {
       "id": "9ef49567f47481113df8",
@@ -1971,7 +2005,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-04T07:47:35.800Z"
+      "collectedAt": "2026-09-05T07:25:02.742Z"
     },
     {
       "id": "02a4b9621f0b60b565aa",
@@ -1988,7 +2022,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.293Z"
+      "collectedAt": "2026-09-05T07:25:03.256Z"
     },
     {
       "id": "eb3326089562a28362a2",
@@ -2005,7 +2039,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-13T12:37:28.000Z",
       "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
-      "collectedAt": "2026-09-04T07:47:37.519Z"
+      "collectedAt": "2026-09-05T07:25:04.094Z"
     },
     {
       "id": "1e5af8ca0d8bc5e26703",
@@ -2022,7 +2056,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://openai.com/academy/getting-started",
-      "collectedAt": "2026-09-04T07:47:35.117Z"
+      "collectedAt": "2026-09-05T07:25:02.113Z"
     },
     {
       "id": "7735ad0dbb31b9a6729b",
@@ -2039,7 +2073,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-04T07:47:35.801Z"
+      "collectedAt": "2026-09-05T07:25:02.742Z"
     },
     {
       "id": "3cb521040949bbeed24b",
@@ -2056,7 +2090,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.294Z"
+      "collectedAt": "2026-09-05T07:25:03.257Z"
     },
     {
       "id": "b7ede73bbb83c239838d",
@@ -2073,7 +2107,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T13:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "collectedAt": "2026-09-04T07:47:35.118Z"
+      "collectedAt": "2026-09-05T07:25:02.113Z"
     },
     {
       "id": "3a73e1016004964e66d6",
@@ -2090,7 +2124,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6",
-      "collectedAt": "2026-09-04T07:47:35.118Z"
+      "collectedAt": "2026-09-05T07:25:02.113Z"
     },
     {
       "id": "0cc76793af620f7bb10c",
@@ -2107,7 +2141,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/bio-bug-bounty",
-      "collectedAt": "2026-09-04T07:47:35.118Z"
+      "collectedAt": "2026-09-05T07:25:02.114Z"
     },
     {
       "id": "cd73a370d60dec12bb60",
@@ -2124,7 +2158,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "collectedAt": "2026-09-04T07:47:35.119Z"
+      "collectedAt": "2026-09-05T07:25:02.114Z"
     },
     {
       "id": "6756ae3b0445393cf58b",
@@ -2141,7 +2175,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-09T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-04T07:47:35.801Z"
+      "collectedAt": "2026-09-05T07:25:02.743Z"
     },
     {
       "id": "74a441f786f49a59775d",
@@ -2158,7 +2192,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T13:00:00.000Z",
       "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "collectedAt": "2026-09-04T07:47:35.119Z"
+      "collectedAt": "2026-09-05T07:25:02.114Z"
     },
     {
       "id": "4acf2eda2e0fe738f5c1",
@@ -2175,7 +2209,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-live",
-      "collectedAt": "2026-09-04T07:47:35.119Z"
+      "collectedAt": "2026-09-05T07:25:02.115Z"
     },
     {
       "id": "5432c0edbd62ccd22a23",
@@ -2192,7 +2226,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-08T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.294Z"
+      "collectedAt": "2026-09-05T07:25:03.257Z"
     },
     {
       "id": "ef10e031dc3b0f027fe5",
@@ -2209,7 +2243,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T08:54:00.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "collectedAt": "2026-09-04T07:47:37.732Z"
+      "collectedAt": "2026-09-05T07:25:04.330Z"
     },
     {
       "id": "ae43b3314d8877dd3dce",
@@ -2226,7 +2260,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://openai.com/index/australian-payments-plus",
-      "collectedAt": "2026-09-04T07:47:35.120Z"
+      "collectedAt": "2026-09-05T07:25:02.115Z"
     },
     {
       "id": "4c936674f4b219ed493a",
@@ -2243,7 +2277,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://openai.com/index/mufg",
-      "collectedAt": "2026-09-04T07:47:35.120Z"
+      "collectedAt": "2026-09-05T07:25:02.116Z"
     },
     {
       "id": "02a4337d96c12bd29af9",
@@ -2260,7 +2294,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-07T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-04T07:47:35.802Z"
+      "collectedAt": "2026-09-05T07:25:02.743Z"
     },
     {
       "id": "e31b8759deb751b7046f",
@@ -2277,7 +2311,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-06T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-04T07:47:37.065Z"
+      "collectedAt": "2026-09-05T07:25:03.830Z"
     },
     {
       "id": "d9953405a7b98f544a26",
@@ -2294,7 +2328,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-02T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.294Z"
+      "collectedAt": "2026-09-05T07:25:03.258Z"
     },
     {
       "id": "15cd354e84a42a0e6b8f",
@@ -2311,7 +2345,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-01T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-04T07:47:35.802Z"
+      "collectedAt": "2026-09-05T07:25:02.744Z"
     },
     {
       "id": "b61b2637e688ad2bd25d",
@@ -2328,7 +2362,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.295Z"
+      "collectedAt": "2026-09-05T07:25:03.259Z"
     },
     {
       "id": "746aab7bf7ed89a86fa8",
@@ -2345,7 +2379,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T16:02:40.000Z",
       "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
-      "collectedAt": "2026-09-04T07:47:37.519Z"
+      "collectedAt": "2026-09-05T07:25:04.094Z"
     },
     {
       "id": "a3f03aca463e82452f66",
@@ -2362,24 +2396,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T09:00:00.000Z",
       "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "collectedAt": "2026-09-04T07:47:35.120Z"
-    },
-    {
-      "id": "eb22f73482b9a1f24d91",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Introducing GeneBench-Pro",
-      "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-      "content": "Scientific data rarely arrive with instructions. Researchers must decide whether a pattern reflects biology or noise, whether the data can support the question being asked, and how each result should change what they do next. AI agents are increasingly capable of executing complex analyses, but real scientific research also depends not simply on recalling facts or following a predefined workflow but also on making these higher-order judgments.\n\nToday, we’re introducing GeneBench-Pro—a challenging, research-level benchmark for testing whether models can handle the kind of judgment-heavy analysis that real-world computational biology requires. It expands on [GeneBench⁠(opens in a new window)](https://www.biorxiv.org/content/10.64898/2026.04.22.720113v1) to cover harder, more realistic tasks across genomics, quantitative biology, and translational medicine, capturing the complexity, iterative nature, and ambiguity of scientific research in computational biology.\n\nTo date, there have been few convincing assessments of the system-level judgment calls that make real-world computational research difficult. These include handling ambiguity, revising assumptions, choosing the correct analysis path, and knowing when a result is decision-ready. Because these skills are difficult to formalize, they are also difficult to assess rigorously, even as weaknesses in them increasingly constrain overall AI performance.\n\nGeneBench-Pro is designed to precisely measure these higher-level capabilities. Within GeneBench-Pro, we define “research taste” as the chains of judgment calls that shape an analysis: which questions the data can support, how early diagnostics should change the model or estimand, and when an initial plan needs to be revised. Each GeneBench-Pro problem gives the model a realistic and messy dataset, brief experimental context, and a target estimand tied to a downstream decision. To answer correctly, the model must explore the data, choose an appropriate analytical approach, engage in an iterative process of experimentation, and supply a final answer.\n\n## Dataset construction\n\nIn biology, the cost of data generation (e.g., genome sequencing) has fallen dramatically, and [some researchers now argue⁠(opens in a new window)](https://www.nature.com/articles/s41576-022-00551-z) that the limiting factor is no longer sample collection but downstream computation and analysis. GeneBench-Pro is built to assess progress in addressing that bottleneck, with 129 questions covering a broad range of computational biology settings and methods.\n\n## Domain Atlas: 129 problems in 10 domains and 21 sub-domains\n\nClick on a dot above to learn about a benchmark problem.\n\nThis atlas provides a preview of the breadth of GeneBench-Pro. Visit the [case studies page](https://openai.com/index/genebench-pro/case-studies/) to explore 10 representative questions in more detail.\n\nGeneBench-Pro is also designed to avoid common benchmark failures. Many long-horizon biology benchmarks construct multi-step questions around messy historical datasets, where there may be no single correct path through the analysis. An agent might choose one defensible cutoff, while another might choose a different but equally defensible option, reflecting the arbitrary choices made by the benchmark creator more than any fundamental differences in model performance. The reverse can also happen: if a problem is too numerically insensitive, an agent can make fundamental errors in an analysis and still produce a passing result.\n\nTo avoid these failure modes, each GeneBench-Pro problem is built synthetically: we know the full causal structure and directly simulate the data-generating process. That enables us to tune the complexity of each problem, ensure that reasonable differences in subjective analytical choices still produce accepted numerical results, and verify (through ablation studies) that plausible but incorrect analyses fail. We then audit problem drafts through detailed trace analyses to check for information leakage and unintended solution pathways. This gives us confidence that getting the right answer depends on choosing the correct analytic pathway and not on exploiting a shortcut or matching an arbitrary author preference.\n\nWe sent 82 of the 129 GeneBench-Pro questions to external domain experts, including graduate students, postdoctoral researchers, industry scientists, and professors. Reviewers assessed each problem’s realism, whether the target answer was identifiable, and whether the methods and estimators were appropriate. Feedback was used to improve problems.\n\n## Evaluation and grading\n\nEach GeneBench-Pro problem is a self-contained scientific analysis. Agents receive access to an isolated workspace with a short prompt, data files, and a standard bioinformatics stack including Python, scientific computing libraries, and basic genomics packages like PLINK 2.0 (although the problems do not require domain-specific tooling).\n\nBecause we control the full data-generation process, we can grade correctness deterministically against known targets, avoiding model-choice variability and verbosity effects found in standard rubric-based evaluation.\n\nEach problem also comes with rich metadata, including the intended analysis structure, attached data files, a detailed multi-page case study, and expert review outcomes. We are fully open-sourcing 10 representative GeneBench-Pro questions on [Hugging Face⁠(opens in a new window)](https://huggingface.co/datasets/ajh-oai/genebench-pro-public-package), with an [interactive web interface](https://openai.com/index/genebench-pro/case-studies/) for browsing them. Finally, we will provide a 50-question subset to [Artificial Analysis⁠(opens in a new window)](https://artificialanalysis.ai/) for independent, third-party benchmarking in the near future.\n\n## Results\n\nOur strongest model, GPT‑5.6 Sol, attains a pass rate of 28.7% at the highest reasoning level (31.5% with Pro mode enabled). That is a sharp increase from when we began building the original GeneBench; at that time, our best frontier model, GPT‑5, scored below 5%. Progress on this benchmark suggests that frontier models are improving quickly, even on less tangible, systems-level scientific reasoning. At the current pace, this benchmark may be saturated by the end of the year.\n\nThe results also show the impact of scaling test-time compute. At the lowest reasoning level, GPT‑5.6 Sol only achieves a single-digit passrate. At the highest reasoning level, GPT‑5.6 Sol solves nearly six times as many questions as GPT‑5.2 does while using about two-thirds as many tokens.\n\nComparisons across model families suggest that GPT models are among the strongest systems at high-level scientific reasoning under quantitative uncertainty. The performance gap between GPT‑5.6, GPT‑5.5 and leading open-source models such as GLM 5.2 is significantly larger than we would expect when extrapolating from [coding benchmarks⁠(opens in a new window)](https://deepswe.datacurve.ai/), indicating that open-source models are more specialized for coding than for broader reasoning ability.\n\nWe used frontier GPT models to evaluate and harden problems during development. As such, we suspected GeneBench-Pro might be biased against GPT models relative to other model families. However, competitor models at best matched the performance of the corresponding GPT model at the time of release, and tended to fall short considerably.\n\nThese evaluation results—as high as 31.5% on GPT‑5.6 Sol (Pro)—are striking given the difficulty of the GeneBench-Pro questions. In a survey, our reviewers estimated that a typical GeneBench-Pro problem would take a human expert around 20–40 hours to complete. At a conservative $200 per hour, that puts the human labor cost of a single problem in the thousands of dollars. Current AI agents are still too unreliable to replace human experts, but the cost gap is large, with inference costs at only several dollars per problem. That means even partial automation at current capabilities could create meaningful economic and scientific value.\n\nStill, the fact that frontier models still solve fewer than a third of these problems shows that there is substantial room for improvement. Models can make partial progress on challenging problems, but they struggle to close the inferential loop. This failure pattern mirrors the contrast between human experts and novices. Experts use their experience to frame the problem and adapt their approach, while novices make observations but struggle to integrate them into the broader context of the problem.\n\nAchieving near-perfect performance will require evaluations that both reliably measure progress and identify where models still fail. Benchmarks like GeneBench-Pro can help to turn a vague capability deficiency into something we can diagnose and improve.\n\nIf agents can reliably automate this class of analysis, they could significantly accelerate scientific discovery. Human genetic evidence is already central to target prioritization and translational follow-up, because mechanisms with genetic support are much more likely to lead to approved treatments.\n\nMeanwhile, sequencing costs have plummeted, and biobank-scale datasets now link molecular, phenotypic, and health-record information at unprecedented breadth. The limiting factor is shifting from data generation to turning the information into actionable insights. Models that can consistently perform analyses now handled by teams of human experts could transform industrial research by accelerating hypothesis triage, target follow-up, and the iteration cycle between data generation and decision-making.\n\nGeneBench-Pro represents an initial effort to evaluate the more abstract skills involved in good scientific judgment possessed by experienced. These skills allow them to intuit and identify the most promising initial analyses, iterate and revise their thinking when data contradict initial assumptions, and arrive at conclusions upon which downstream clinical, academic, or business decisions may depend.\n\nWe anticipate that as model capabilities advance, benchmarks that probe model abilities at these higher levels of abstraction will become increasingly useful, beyond those that simply test book knowledge or the ability to execute routine analyses.",
-      "contentZh": "科学数据很少附带使用说明。研究人员必须判断某个模式反映的是生物学现象还是噪声，数据能否支撑所提出的问题，以及每个结果应如何影响后续操作。人工智能智能体正日益能够执行复杂的分析，但真正的科学研究不仅依赖于回忆事实或遵循预设的工作流程，更在于做出这些高阶判断。\n\n今天，我们推出 **GeneBench-Pro**——一个具有挑战性的研究级基准测试，用于检验模型能否处理现实计算生物学所需的那种高度依赖判断的分析。它基于 [GeneBench⁠（在新窗口中打开）](https://www.biorxiv.org/content/10.64898/2026.04.22.720113v1) 进行了扩展，涵盖了基因组学、定量生物学和转化医学中更困难、更贴近实际的任务，捕捉了计算生物学研究中复杂性、迭代性和模糊性的特点。\n\n迄今为止，对于使现实计算研究变得困难的系统级判断能力，鲜有令人信服的评估。这些能力包括处理模糊性、修正假设、选择正确的分析路径，以及判断结果何时可用于决策。由于这些技能难以形式化，因此也难以严格评估，即便这些方面的弱点正日益制约着人工智能的整体表现。\n\nGeneBench-Pro 旨在精确衡量这些更高层次的能力。在 GeneBench-Pro 中，我们将“研究品味”定义为塑造分析过程的判断链：数据能支持哪些问题，早期诊断应如何改变模型或估计目标，以及初始计划何时需要修订。每个 GeneBench-Pro 问题都会为模型提供一个真实且杂乱的数据集、简要的实验背景，以及一个与下游决策相关的目标估计量。要正确回答，模型必须探索数据、选择合适的分析方法、进行迭代实验过程，并给出最终答案。\n\n## 数据集构建\n\n在生物学领域，数据生成（例如基因组测序）的成本已大幅下降，[一些研究人员现在认为⁠（在新窗口中打开）](https://www.nature.com/articles/s41576-022-00551-z) 限制因素不再是样本采集，而是下游计算与分析。GeneBench-Pro 旨在评估解决这一瓶颈的进展，包含 129 个问题，涵盖计算生物学中广泛的场景和方法。\n\n## 领域图谱：10 个领域、21 个子领域的 129 个问题\n\n点击上方圆点了解基准测试问题。\n\n此图谱展示了 GeneBench-Pro 的广度。请访问 [案例研究页面](https://openai.com/index/genebench-pro/case-studies/) 以更详细地探索 10 个代表性问题。\n\nGeneBench-Pro 的设计也旨在避免常见的基准测试缺陷。许多长周期生物学基准测试围绕杂乱的历史数据集构建多步骤问题，其中可能不存在单一正确的分析路径。一个智能体可能选择某个合理的阈值，而另一个智能体可能选择不同但同样合理的选项，这反映的更多是基准测试创建者的任意选择，而非模型性能的根本差异。反之亦然：如果问题对数值不够敏感，智能体可能在分析中犯下根本性错误，却仍能得出及格的结果。\n\n为避免这些失败模式，每个 GeneBench-Pro 问题都是合成构建的：我们了解完整的因果结构，并直接模拟数据生成过程。这使我们能够调整每个问题的复杂性，确保主观分析选择上的合理差异仍能产生可接受的数值结果，并通过消融研究验证看似合理但错误的分析会失败。然后，我们通过详细的痕迹分析来审计问题草案，检查信息泄露和意外的解决路径。这让我们确信，得出正确答案取决于选择正确的分析路径，而非利用捷径或匹配作者的任意偏好。\n\n我们将 129 个 GeneBench-Pro 问题中的 82 个发送给了外部领域专家，包括研究生、博士后研究员、产业界科学家和教授。评审员评估了每个问题的真实性、目标答案是否可识别，以及方法和估计量是否恰当。反馈被用于改进问题。\n\n## 评估与评分\n\n每个 GeneBench-Pro 问题都是一个独立的科学分析。智能体可以访问一个隔离的工作空间，其中包含简短的提示、数据文件以及标准的生物信息学工具栈，包括 Python、科学计算库和基础基因组学软件包（如 PLINK 2.0），尽管这些问题并不需要特定领域的工具。\n\n由于我们控制着完整的数据生成过程，我们可以根据已知目标确定性地评判正确性，从而避免了基于标准评分标准评估中出现的模型选择变异和冗长效应。\n\n每个问题还附带丰富的元数据，包括预期的分析结构、附加的数据文件、详细的多页案例研究以及专家评审结果。我们将在 [Hugging Face⁠（在新窗口中打开）](https://huggingface.co/datasets/ajh-oai/genebench-pro-public-package) 上完全开源 10 个具有代表性的 GeneBench-Pro 问题，并提供 [交互式网页界面](https://openai.com/index/genebench-pro/case-studies/) 供浏览。最后，我们将在近期向 [Artificial Analysis⁠（在新窗口中打开）](https://artificialanalysis.ai/) 提供一个包含 50 个问题的子集，用于独立的第三方基准测试。\n\n## 结果\n\n我们最强的模型 GPT‑5.6 Sol 在最高推理水平下达到了 28.7% 的通过率（启用 Pro 模式时为 31.5%）。这比我们开始构建原始 GeneBench 时有了显著提升；当时，我们最前沿的模型 GPT‑5 得分低于 5%。该基准测试上的进展表明，前沿模型正在快速进步，即使在较不具象的系统级科学推理方面也是如此。按照目前的速度，该基准测试可能在今年年底前达到饱和。\n\n结果还显示了扩展测试时计算的影响。在最低推理水平下，GPT‑5.6 Sol 的通过率仅为个位数。在最高推理水平下，GPT‑5.6 Sol 解决的问题数量几乎是 GPT‑5.2 的六倍，而使用的 token 数量约为其三分之二。\n\n跨模型家族的对比表明，在定量不确定性下的高级科学推理任务中，GPT 模型属于最强系统之列。GPT‑5.6、GPT‑5.5 与 GLM 5.2 等领先开源模型之间的性能差距，远超我们根据[编程基准测试⁠（在新窗口打开）](https://deepswe.datacurve.ai/)进行外推时的预期，这表明开源模型更专注于编程能力，而非广泛的推理能力。\n\n我们在开发过程中使用了前沿 GPT 模型来评估和强化问题。因此，我们怀疑 GeneBench-Pro 可能对 GPT 模型存在偏向，不利于其他模型家族。然而，竞品模型最多只能与对应 GPT 模型在发布时的性能持平，且往往差距显著。\n\n考虑到 GeneBench-Pro 问题的难度，这些评估结果——GPT‑5.6 Sol (Pro) 高达 31.5%——令人瞩目。在一项调查中，我们的评审员估计，一个典型的 GeneBench-Pro 问题需要人类专家大约 20 到 40 小时才能完成。按保守的每小时 200 美元计算，单个问题的人力成本高达数千美元。当前的人工智能代理仍不可靠，无法取代人类专家，但成本差距巨大——每个问题的推理成本仅为几美元。这意味着，即使以现有能力实现部分自动化，也能创造可观的经济和科学价值。\n\n尽管如此，前沿模型仍无法解决超过三分之一的问题，这表明改进空间巨大。模型能在具有挑战性的问题上取得部分进展，但难以完成推理闭环。这种失败模式与人类专家和新手之间的差异如出一辙。专家利用经验来构建问题框架并调整方法，而新手虽能做出观察，却难以将其融入问题的更广泛背景中。\n\n要实现近乎完美的性能，需要既能可靠衡量进展，又能识别模型失败之处的评估方法。像 GeneBench-Pro 这样的基准测试，有助于将模糊的能力缺陷转化为可诊断和可改进的具体问题。\n\n如果代理能够可靠地自动化这类分析，它们将显著加速科学发现。人类遗传学证据已是靶点优先排序和转化研究跟进的核心，因为具有遗传学支持的机制更有可能最终获批成为治疗方法。\n\n与此同时，测序成本已大幅下降，生物样本库规模的数据集如今以前所未有的广度将分子、表型和健康记录信息关联起来。限制因素正从数据生成转向将信息转化为可操作的洞见。能够持续执行目前由人类专家团队完成的分析的模型，可通过加速假设筛选、靶点跟进以及数据生成与决策之间的迭代周期，从而变革工业研究。\n\nGeneBench-Pro 是一项初步尝试，旨在评估经验丰富的科学家所具备的良好科学判断中涉及的更抽象技能。这些技能使他们能够凭直觉识别最有前景的初步分析，在数据与初始假设相悖时迭代和修正思路，并得出下游临床、学术或商业决策所依赖的结论。\n\n我们预计，随着模型能力的提升，那些在更高抽象层面探测模型能力的基准测试（而非仅仅测试书本知识或执行常规分析的能力）将变得愈发有用。",
-      "titleZh": "GeneBench-Pro 介绍",
-      "summaryZh": "GeneBench-Pro 是一个新的基准测试，使用复杂的真实世界数据集来测试人工智能在基因组学、生物学和科学研究中的性能。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-06-30T00:00:00.000Z",
-      "url": "https://openai.com/index/introducing-genebench-pro",
-      "collectedAt": "2026-09-04T07:47:35.120Z"
+      "collectedAt": "2026-09-05T07:25:02.116Z"
     },
     {
       "id": "fe2f0670eaeafcdb3ad2",
@@ -2396,7 +2413,24 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "collectedAt": "2026-09-04T07:47:35.121Z"
+      "collectedAt": "2026-09-05T07:25:02.116Z"
+    },
+    {
+      "id": "eb22f73482b9a1f24d91",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Introducing GeneBench-Pro",
+      "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+      "content": "Scientific data rarely arrive with instructions. Researchers must decide whether a pattern reflects biology or noise, whether the data can support the question being asked, and how each result should change what they do next. AI agents are increasingly capable of executing complex analyses, but real scientific research also depends not simply on recalling facts or following a predefined workflow but also on making these higher-order judgments.\n\nToday, we’re introducing GeneBench-Pro—a challenging, research-level benchmark for testing whether models can handle the kind of judgment-heavy analysis that real-world computational biology requires. It expands on [GeneBench⁠(opens in a new window)](https://www.biorxiv.org/content/10.64898/2026.04.22.720113v1) to cover harder, more realistic tasks across genomics, quantitative biology, and translational medicine, capturing the complexity, iterative nature, and ambiguity of scientific research in computational biology.\n\nTo date, there have been few convincing assessments of the system-level judgment calls that make real-world computational research difficult. These include handling ambiguity, revising assumptions, choosing the correct analysis path, and knowing when a result is decision-ready. Because these skills are difficult to formalize, they are also difficult to assess rigorously, even as weaknesses in them increasingly constrain overall AI performance.\n\nGeneBench-Pro is designed to precisely measure these higher-level capabilities. Within GeneBench-Pro, we define “research taste” as the chains of judgment calls that shape an analysis: which questions the data can support, how early diagnostics should change the model or estimand, and when an initial plan needs to be revised. Each GeneBench-Pro problem gives the model a realistic and messy dataset, brief experimental context, and a target estimand tied to a downstream decision. To answer correctly, the model must explore the data, choose an appropriate analytical approach, engage in an iterative process of experimentation, and supply a final answer.\n\n## Dataset construction\n\nIn biology, the cost of data generation (e.g., genome sequencing) has fallen dramatically, and [some researchers now argue⁠(opens in a new window)](https://www.nature.com/articles/s41576-022-00551-z) that the limiting factor is no longer sample collection but downstream computation and analysis. GeneBench-Pro is built to assess progress in addressing that bottleneck, with 129 questions covering a broad range of computational biology settings and methods.\n\n## Domain Atlas: 129 problems in 10 domains and 21 sub-domains\n\nClick on a dot above to learn about a benchmark problem.\n\nThis atlas provides a preview of the breadth of GeneBench-Pro. Visit the [case studies page](https://openai.com/index/genebench-pro/case-studies/) to explore 10 representative questions in more detail.\n\nGeneBench-Pro is also designed to avoid common benchmark failures. Many long-horizon biology benchmarks construct multi-step questions around messy historical datasets, where there may be no single correct path through the analysis. An agent might choose one defensible cutoff, while another might choose a different but equally defensible option, reflecting the arbitrary choices made by the benchmark creator more than any fundamental differences in model performance. The reverse can also happen: if a problem is too numerically insensitive, an agent can make fundamental errors in an analysis and still produce a passing result.\n\nTo avoid these failure modes, each GeneBench-Pro problem is built synthetically: we know the full causal structure and directly simulate the data-generating process. That enables us to tune the complexity of each problem, ensure that reasonable differences in subjective analytical choices still produce accepted numerical results, and verify (through ablation studies) that plausible but incorrect analyses fail. We then audit problem drafts through detailed trace analyses to check for information leakage and unintended solution pathways. This gives us confidence that getting the right answer depends on choosing the correct analytic pathway and not on exploiting a shortcut or matching an arbitrary author preference.\n\nWe sent 82 of the 129 GeneBench-Pro questions to external domain experts, including graduate students, postdoctoral researchers, industry scientists, and professors. Reviewers assessed each problem’s realism, whether the target answer was identifiable, and whether the methods and estimators were appropriate. Feedback was used to improve problems.\n\n## Evaluation and grading\n\nEach GeneBench-Pro problem is a self-contained scientific analysis. Agents receive access to an isolated workspace with a short prompt, data files, and a standard bioinformatics stack including Python, scientific computing libraries, and basic genomics packages like PLINK 2.0 (although the problems do not require domain-specific tooling).\n\nBecause we control the full data-generation process, we can grade correctness deterministically against known targets, avoiding model-choice variability and verbosity effects found in standard rubric-based evaluation.\n\nEach problem also comes with rich metadata, including the intended analysis structure, attached data files, a detailed multi-page case study, and expert review outcomes. We are fully open-sourcing 10 representative GeneBench-Pro questions on [Hugging Face⁠(opens in a new window)](https://huggingface.co/datasets/ajh-oai/genebench-pro-public-package), with an [interactive web interface](https://openai.com/index/genebench-pro/case-studies/) for browsing them. Finally, we will provide a 50-question subset to [Artificial Analysis⁠(opens in a new window)](https://artificialanalysis.ai/) for independent, third-party benchmarking in the near future.\n\n## Results\n\nOur strongest model, GPT‑5.6 Sol, attains a pass rate of 28.7% at the highest reasoning level (31.5% with Pro mode enabled). That is a sharp increase from when we began building the original GeneBench; at that time, our best frontier model, GPT‑5, scored below 5%. Progress on this benchmark suggests that frontier models are improving quickly, even on less tangible, systems-level scientific reasoning. At the current pace, this benchmark may be saturated by the end of the year.\n\nThe results also show the impact of scaling test-time compute. At the lowest reasoning level, GPT‑5.6 Sol only achieves a single-digit passrate. At the highest reasoning level, GPT‑5.6 Sol solves nearly six times as many questions as GPT‑5.2 does while using about two-thirds as many tokens.\n\nComparisons across model families suggest that GPT models are among the strongest systems at high-level scientific reasoning under quantitative uncertainty. The performance gap between GPT‑5.6, GPT‑5.5 and leading open-source models such as GLM 5.2 is significantly larger than we would expect when extrapolating from [coding benchmarks⁠(opens in a new window)](https://deepswe.datacurve.ai/), indicating that open-source models are more specialized for coding than for broader reasoning ability.\n\nWe used frontier GPT models to evaluate and harden problems during development. As such, we suspected GeneBench-Pro might be biased against GPT models relative to other model families. However, competitor models at best matched the performance of the corresponding GPT model at the time of release, and tended to fall short considerably.\n\nThese evaluation results—as high as 31.5% on GPT‑5.6 Sol (Pro)—are striking given the difficulty of the GeneBench-Pro questions. In a survey, our reviewers estimated that a typical GeneBench-Pro problem would take a human expert around 20–40 hours to complete. At a conservative $200 per hour, that puts the human labor cost of a single problem in the thousands of dollars. Current AI agents are still too unreliable to replace human experts, but the cost gap is large, with inference costs at only several dollars per problem. That means even partial automation at current capabilities could create meaningful economic and scientific value.\n\nStill, the fact that frontier models still solve fewer than a third of these problems shows that there is substantial room for improvement. Models can make partial progress on challenging problems, but they struggle to close the inferential loop. This failure pattern mirrors the contrast between human experts and novices. Experts use their experience to frame the problem and adapt their approach, while novices make observations but struggle to integrate them into the broader context of the problem.\n\nAchieving near-perfect performance will require evaluations that both reliably measure progress and identify where models still fail. Benchmarks like GeneBench-Pro can help to turn a vague capability deficiency into something we can diagnose and improve.\n\nIf agents can reliably automate this class of analysis, they could significantly accelerate scientific discovery. Human genetic evidence is already central to target prioritization and translational follow-up, because mechanisms with genetic support are much more likely to lead to approved treatments.\n\nMeanwhile, sequencing costs have plummeted, and biobank-scale datasets now link molecular, phenotypic, and health-record information at unprecedented breadth. The limiting factor is shifting from data generation to turning the information into actionable insights. Models that can consistently perform analyses now handled by teams of human experts could transform industrial research by accelerating hypothesis triage, target follow-up, and the iteration cycle between data generation and decision-making.\n\nGeneBench-Pro represents an initial effort to evaluate the more abstract skills involved in good scientific judgment possessed by experienced. These skills allow them to intuit and identify the most promising initial analyses, iterate and revise their thinking when data contradict initial assumptions, and arrive at conclusions upon which downstream clinical, academic, or business decisions may depend.\n\nWe anticipate that as model capabilities advance, benchmarks that probe model abilities at these higher levels of abstraction will become increasingly useful, beyond those that simply test book knowledge or the ability to execute routine analyses.",
+      "contentZh": "科学数据很少附带使用说明。研究人员必须判断某个模式反映的是生物学现象还是噪声，数据能否支撑所提出的问题，以及每个结果应如何影响后续操作。人工智能智能体正日益能够执行复杂的分析，但真正的科学研究不仅依赖于回忆事实或遵循预设的工作流程，更在于做出这些高阶判断。\n\n今天，我们推出 **GeneBench-Pro**——一个具有挑战性的研究级基准测试，用于检验模型能否处理现实计算生物学所需的那种高度依赖判断的分析。它基于 [GeneBench⁠（在新窗口中打开）](https://www.biorxiv.org/content/10.64898/2026.04.22.720113v1) 进行了扩展，涵盖了基因组学、定量生物学和转化医学中更困难、更贴近实际的任务，捕捉了计算生物学研究中复杂性、迭代性和模糊性的特点。\n\n迄今为止，对于使现实计算研究变得困难的系统级判断能力，鲜有令人信服的评估。这些能力包括处理模糊性、修正假设、选择正确的分析路径，以及判断结果何时可用于决策。由于这些技能难以形式化，因此也难以严格评估，即便这些方面的弱点正日益制约着人工智能的整体表现。\n\nGeneBench-Pro 旨在精确衡量这些更高层次的能力。在 GeneBench-Pro 中，我们将“研究品味”定义为塑造分析过程的判断链：数据能支持哪些问题，早期诊断应如何改变模型或估计目标，以及初始计划何时需要修订。每个 GeneBench-Pro 问题都会为模型提供一个真实且杂乱的数据集、简要的实验背景，以及一个与下游决策相关的目标估计量。要正确回答，模型必须探索数据、选择合适的分析方法、进行迭代实验过程，并给出最终答案。\n\n## 数据集构建\n\n在生物学领域，数据生成（例如基因组测序）的成本已大幅下降，[一些研究人员现在认为⁠（在新窗口中打开）](https://www.nature.com/articles/s41576-022-00551-z) 限制因素不再是样本采集，而是下游计算与分析。GeneBench-Pro 旨在评估解决这一瓶颈的进展，包含 129 个问题，涵盖计算生物学中广泛的场景和方法。\n\n## 领域图谱：10 个领域、21 个子领域的 129 个问题\n\n点击上方圆点了解基准测试问题。\n\n此图谱展示了 GeneBench-Pro 的广度。请访问 [案例研究页面](https://openai.com/index/genebench-pro/case-studies/) 以更详细地探索 10 个代表性问题。\n\nGeneBench-Pro 的设计也旨在避免常见的基准测试缺陷。许多长周期生物学基准测试围绕杂乱的历史数据集构建多步骤问题，其中可能不存在单一正确的分析路径。一个智能体可能选择某个合理的阈值，而另一个智能体可能选择不同但同样合理的选项，这反映的更多是基准测试创建者的任意选择，而非模型性能的根本差异。反之亦然：如果问题对数值不够敏感，智能体可能在分析中犯下根本性错误，却仍能得出及格的结果。\n\n为避免这些失败模式，每个 GeneBench-Pro 问题都是合成构建的：我们了解完整的因果结构，并直接模拟数据生成过程。这使我们能够调整每个问题的复杂性，确保主观分析选择上的合理差异仍能产生可接受的数值结果，并通过消融研究验证看似合理但错误的分析会失败。然后，我们通过详细的痕迹分析来审计问题草案，检查信息泄露和意外的解决路径。这让我们确信，得出正确答案取决于选择正确的分析路径，而非利用捷径或匹配作者的任意偏好。\n\n我们将 129 个 GeneBench-Pro 问题中的 82 个发送给了外部领域专家，包括研究生、博士后研究员、产业界科学家和教授。评审员评估了每个问题的真实性、目标答案是否可识别，以及方法和估计量是否恰当。反馈被用于改进问题。\n\n## 评估与评分\n\n每个 GeneBench-Pro 问题都是一个独立的科学分析。智能体可以访问一个隔离的工作空间，其中包含简短的提示、数据文件以及标准的生物信息学工具栈，包括 Python、科学计算库和基础基因组学软件包（如 PLINK 2.0），尽管这些问题并不需要特定领域的工具。\n\n由于我们控制着完整的数据生成过程，我们可以根据已知目标确定性地评判正确性，从而避免了基于标准评分标准评估中出现的模型选择变异和冗长效应。\n\n每个问题还附带丰富的元数据，包括预期的分析结构、附加的数据文件、详细的多页案例研究以及专家评审结果。我们将在 [Hugging Face⁠（在新窗口中打开）](https://huggingface.co/datasets/ajh-oai/genebench-pro-public-package) 上完全开源 10 个具有代表性的 GeneBench-Pro 问题，并提供 [交互式网页界面](https://openai.com/index/genebench-pro/case-studies/) 供浏览。最后，我们将在近期向 [Artificial Analysis⁠（在新窗口中打开）](https://artificialanalysis.ai/) 提供一个包含 50 个问题的子集，用于独立的第三方基准测试。\n\n## 结果\n\n我们最强的模型 GPT‑5.6 Sol 在最高推理水平下达到了 28.7% 的通过率（启用 Pro 模式时为 31.5%）。这比我们开始构建原始 GeneBench 时有了显著提升；当时，我们最前沿的模型 GPT‑5 得分低于 5%。该基准测试上的进展表明，前沿模型正在快速进步，即使在较不具象的系统级科学推理方面也是如此。按照目前的速度，该基准测试可能在今年年底前达到饱和。\n\n结果还显示了扩展测试时计算的影响。在最低推理水平下，GPT‑5.6 Sol 的通过率仅为个位数。在最高推理水平下，GPT‑5.6 Sol 解决的问题数量几乎是 GPT‑5.2 的六倍，而使用的 token 数量约为其三分之二。\n\n跨模型家族的对比表明，在定量不确定性下的高级科学推理任务中，GPT 模型属于最强系统之列。GPT‑5.6、GPT‑5.5 与 GLM 5.2 等领先开源模型之间的性能差距，远超我们根据[编程基准测试⁠（在新窗口打开）](https://deepswe.datacurve.ai/)进行外推时的预期，这表明开源模型更专注于编程能力，而非广泛的推理能力。\n\n我们在开发过程中使用了前沿 GPT 模型来评估和强化问题。因此，我们怀疑 GeneBench-Pro 可能对 GPT 模型存在偏向，不利于其他模型家族。然而，竞品模型最多只能与对应 GPT 模型在发布时的性能持平，且往往差距显著。\n\n考虑到 GeneBench-Pro 问题的难度，这些评估结果——GPT‑5.6 Sol (Pro) 高达 31.5%——令人瞩目。在一项调查中，我们的评审员估计，一个典型的 GeneBench-Pro 问题需要人类专家大约 20 到 40 小时才能完成。按保守的每小时 200 美元计算，单个问题的人力成本高达数千美元。当前的人工智能代理仍不可靠，无法取代人类专家，但成本差距巨大——每个问题的推理成本仅为几美元。这意味着，即使以现有能力实现部分自动化，也能创造可观的经济和科学价值。\n\n尽管如此，前沿模型仍无法解决超过三分之一的问题，这表明改进空间巨大。模型能在具有挑战性的问题上取得部分进展，但难以完成推理闭环。这种失败模式与人类专家和新手之间的差异如出一辙。专家利用经验来构建问题框架并调整方法，而新手虽能做出观察，却难以将其融入问题的更广泛背景中。\n\n要实现近乎完美的性能，需要既能可靠衡量进展，又能识别模型失败之处的评估方法。像 GeneBench-Pro 这样的基准测试，有助于将模糊的能力缺陷转化为可诊断和可改进的具体问题。\n\n如果代理能够可靠地自动化这类分析，它们将显著加速科学发现。人类遗传学证据已是靶点优先排序和转化研究跟进的核心，因为具有遗传学支持的机制更有可能最终获批成为治疗方法。\n\n与此同时，测序成本已大幅下降，生物样本库规模的数据集如今以前所未有的广度将分子、表型和健康记录信息关联起来。限制因素正从数据生成转向将信息转化为可操作的洞见。能够持续执行目前由人类专家团队完成的分析的模型，可通过加速假设筛选、靶点跟进以及数据生成与决策之间的迭代周期，从而变革工业研究。\n\nGeneBench-Pro 是一项初步尝试，旨在评估经验丰富的科学家所具备的良好科学判断中涉及的更抽象技能。这些技能使他们能够凭直觉识别最有前景的初步分析，在数据与初始假设相悖时迭代和修正思路，并得出下游临床、学术或商业决策所依赖的结论。\n\n我们预计，随着模型能力的提升，那些在更高抽象层面探测模型能力的基准测试（而非仅仅测试书本知识或执行常规分析的能力）将变得愈发有用。",
+      "titleZh": "GeneBench-Pro 介绍",
+      "summaryZh": "GeneBench-Pro 是一个新的基准测试，使用复杂的真实世界数据集来测试人工智能在基因组学、生物学和科学研究中的性能。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-06-30T00:00:00.000Z",
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "collectedAt": "2026-09-05T07:25:02.117Z"
     },
     {
       "id": "25e6e4a270cd66f9b185",
@@ -2413,7 +2447,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-04T07:47:35.803Z"
+      "collectedAt": "2026-09-05T07:25:02.744Z"
     },
     {
       "id": "a01fc084bf5f7a63e0f5",
@@ -2430,7 +2464,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.296Z"
+      "collectedAt": "2026-09-05T07:25:03.260Z"
     },
     {
       "id": "87e0d903c3ade9f63cb9",
@@ -2447,7 +2481,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-09-04T07:47:36.593Z"
+      "collectedAt": "2026-09-05T07:25:03.493Z"
     },
     {
       "id": "88b542cd5d98fc76107a",
@@ -2464,7 +2498,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-30T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-04T07:47:37.066Z"
+      "collectedAt": "2026-09-05T07:25:03.831Z"
     },
     {
       "id": "6e59d8aafa7323d938d6",
@@ -2481,7 +2515,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-29T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.296Z"
+      "collectedAt": "2026-09-05T07:25:03.261Z"
     },
     {
       "id": "e724c51a1bdace040134",
@@ -2498,7 +2532,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-26T10:00:00.000Z",
       "url": "https://openai.com/index/previewing-gpt-5-6-sol",
-      "collectedAt": "2026-09-04T07:47:35.121Z"
+      "collectedAt": "2026-09-05T07:25:02.117Z"
     },
     {
       "id": "9f7c2a8b44846309cebe",
@@ -2515,7 +2549,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-26T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.297Z"
+      "collectedAt": "2026-09-05T07:25:03.261Z"
     },
     {
       "id": "dfb466b9c1abc7508953",
@@ -2532,7 +2566,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-25T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-04T07:47:35.803Z"
+      "collectedAt": "2026-09-05T07:25:02.745Z"
     },
     {
       "id": "f5c353fcba8d18826546",
@@ -2549,7 +2583,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-25T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.297Z"
+      "collectedAt": "2026-09-05T07:25:03.262Z"
     },
     {
       "id": "4dc045a657edc4379886",
@@ -2566,7 +2600,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-24T16:30:01.000Z",
       "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
-      "collectedAt": "2026-09-04T07:47:37.519Z"
+      "collectedAt": "2026-09-05T07:25:04.094Z"
     },
     {
       "id": "5e93061480ea98dc8eab",
@@ -2583,7 +2617,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-24T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-04T07:47:37.066Z"
+      "collectedAt": "2026-09-05T07:25:03.831Z"
     },
     {
       "id": "ac21b6b84e065abf715a",
@@ -2600,7 +2634,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-23T17:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-immunology-mystery",
-      "collectedAt": "2026-09-04T07:47:35.122Z"
+      "collectedAt": "2026-09-05T07:25:02.118Z"
     },
     {
       "id": "2beb6e83d413eee747a3",
@@ -2617,7 +2651,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-23T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-04T07:47:35.804Z"
+      "collectedAt": "2026-09-05T07:25:02.746Z"
     },
     {
       "id": "4ee0a46d008431f74c6f",
@@ -2634,7 +2668,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T10:00:00.000Z",
       "url": "https://openai.com/index/daybreak-securing-the-world",
-      "collectedAt": "2026-09-04T07:47:35.122Z"
+      "collectedAt": "2026-09-05T07:25:02.118Z"
     },
     {
       "id": "f1af487b8667894c5069",
@@ -2651,7 +2685,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T00:00:00.000Z",
       "url": "https://openai.com/index/codex-maxxing-long-running-work",
-      "collectedAt": "2026-09-04T07:47:35.123Z"
+      "collectedAt": "2026-09-05T07:25:02.119Z"
     },
     {
       "id": "ecb75c71ae3d46eb61c5",
@@ -2668,7 +2702,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.298Z"
+      "collectedAt": "2026-09-05T07:25:03.263Z"
     },
     {
       "id": "4fba785fb3527574518d",
@@ -2685,7 +2719,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-21T23:00:00.000Z",
       "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "collectedAt": "2026-09-04T07:47:35.123Z"
+      "collectedAt": "2026-09-05T07:25:02.119Z"
     },
     {
       "id": "a744e1d203989e6af98f",
@@ -2702,7 +2736,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T17:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "collectedAt": "2026-09-04T07:47:35.123Z"
+      "collectedAt": "2026-09-05T07:25:02.120Z"
     },
     {
       "id": "4451d1f4fabd696490a6",
@@ -2719,7 +2753,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T11:00:00.000Z",
       "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "collectedAt": "2026-09-04T07:47:35.123Z"
+      "collectedAt": "2026-09-05T07:25:02.120Z"
     },
     {
       "id": "1145e5f5fbfda4f778bc",
@@ -2736,7 +2770,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T08:00:00.000Z",
       "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "collectedAt": "2026-09-04T07:47:35.124Z"
+      "collectedAt": "2026-09-05T07:25:02.120Z"
     },
     {
       "id": "b360a839b1ef98e71882",
@@ -2753,7 +2787,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.298Z"
+      "collectedAt": "2026-09-05T07:25:03.263Z"
     },
     {
       "id": "1c76d41068a26bd369b1",
@@ -2770,7 +2804,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-17T10:00:00.000Z",
       "url": "https://openai.com/index/ai-chemist-improves-reaction",
-      "collectedAt": "2026-09-04T07:47:35.124Z"
+      "collectedAt": "2026-09-05T07:25:02.121Z"
     },
     {
       "id": "5da9598fb41c1ac93e58",
@@ -2787,7 +2821,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-17T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-life-sci-bench",
-      "collectedAt": "2026-09-04T07:47:35.124Z"
+      "collectedAt": "2026-09-05T07:25:02.121Z"
     },
     {
       "id": "c264a8015cf38e7b022d",
@@ -2804,7 +2838,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-17T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-04T07:47:37.066Z"
+      "collectedAt": "2026-09-05T07:25:03.832Z"
     },
     {
       "id": "463a3f23df3be39852c2",
@@ -2821,7 +2855,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-16T00:00:00.000Z",
       "url": "https://openai.com/index/deployment-simulation",
-      "collectedAt": "2026-09-04T07:47:35.125Z"
+      "collectedAt": "2026-09-05T07:25:02.121Z"
     },
     {
       "id": "c1c4940bb85560fc0599",
@@ -2838,7 +2872,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-15T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.299Z"
+      "collectedAt": "2026-09-05T07:25:03.264Z"
     },
     {
       "id": "9d55e1d372b6a64c37a3",
@@ -2855,7 +2889,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-15T00:00:00.000Z",
       "url": "https://ai.google.dev/gemini-api/docs/changelog?hl=en",
-      "collectedAt": "2026-09-04T07:47:37.067Z"
+      "collectedAt": "2026-09-05T07:25:03.832Z"
     },
     {
       "id": "ed2a24d67723105da4dc",
@@ -2872,7 +2906,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-14T17:00:00.000Z",
       "url": "https://openai.com/index/introducing-openai-partner-network",
-      "collectedAt": "2026-09-04T07:47:35.125Z"
+      "collectedAt": "2026-09-05T07:25:02.122Z"
     },
     {
       "id": "b5b7f9b007b543013769",
@@ -2889,24 +2923,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-12T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-04T07:47:35.804Z"
-    },
-    {
-      "id": "46d6755fb18785fef07a",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "OpenAI to acquire Ona",
-      "summary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-      "content": "Today we’re announcing that OpenAI will acquire [Ona⁠(opens in a new window)](http://ona.com/), bringing its secure cloud execution and orchestration technology into our rapidly expanding Codex ecosystem.\n\nMore than 5 million people use Codex each week to research, analyze, build, and automate their work—up 400% from earlier this year. Codex began as a tool for software developers and now helps a wider range of people do complex work from an initial request through to a finished result.\n\nAs Codex becomes more capable, its most valuable work is unfolding over hours or days, rather than minutes. We believe people should be able to delegate more ambitious work without remaining tied to the machine where it began. The work should continue beyond the initial session, with Codex making it possible to stay connected and check progress, provide direction, make decisions, and review results from anywhere.\n\nOna will help us do that. Its technology provides secure, persistent environments where agents can access the tools, systems, and context they need to make progress over time.\n\nBy bringing Ona to OpenAI, we will expand Codex beyond work tied to a single device or active session and help more organizations deploy agents securely in production.\n\n## Giving Codex a persistent place to work\n\nOna has spent years helping developers move software development from local machines into the cloud. The company has helped 2 million developers work in secure, reproducible cloud environments and supports multiple shared customers.\n\nThat experience is directly relevant to the next phase of Codex, enabling agents to continue working inside a customer’s cloud environment even when laptops are closed.\n\n## Scaling Codex across production workflows\n\nAs organizations move from experimenting with agents to deploying them across production workflows, capable models are only one part of what they need.\nOrganizations should be able to give people the benefits of persistent agentic work with confidence, knowing agents are operating inside environments that meet their security, governance, and operational requirements. That means having control over where they run, what they can access, how credentials are scoped, how activity is logged, and how work moves through review.\n\nOna’s customer-controlled execution model will allow agents to operate inside an organization’s own cloud environment while OpenAI provides the intelligence and orchestration that power the experience. This gives organizations greater control over their infrastructure, data, and security boundaries without limiting what Codex can accomplish.\n\n## What’s next\n\nThe acquisition is subject to customary closing conditions, including receipt of required regulatory approvals. Until closing, OpenAI and Ona will remain separate and independent companies.\n\nAfter closing, the Ona team will join OpenAI and work with the Codex team to advance secure, persistent enterprise execution capabilities and help scale Codex to more enterprises worldwide.\n\nWe’re excited to welcome the Ona team to OpenAI as we build AI systems that help people and businesses create and accomplish more while meeting the security and control requirements of real-world deployment. Together, we will help engineering teams safely take on sustained work across the software lifecycle, from running tests and resolving issues to modernizing applications, addressing vulnerabilities, and supporting complex workflows over time.",
-      "contentZh": "今天，我们宣布 OpenAI 将收购 [Ona⁠（在新窗口中打开）](http://ona.com/)，将其安全的云端执行与编排技术纳入我们快速扩展的 Codex 生态系统。\n\n每周有超过 500 万人使用 Codex 进行研究、分析、构建和自动化工作——较今年早些时候增长了 400%。Codex 最初是面向软件开发者的工具，如今已帮助更广泛的人群，从初始请求到最终成果，完成复杂工作。\n\n随着 Codex 能力不断增强，其最有价值的工作正从几分钟扩展到数小时甚至数天。我们认为，人们应该能够委托更宏大的任务，而不必始终守在任务启动的机器旁。工作应在初始会话结束后继续推进，Codex 让人们能够随时保持连接、检查进度、提供方向、做出决策并从任何地方审查结果。\n\nOna 将帮助我们实现这一目标。其技术提供安全、持久的环境，使智能体能够访问所需的工具、系统和上下文，从而随时间推移不断取得进展。\n\n通过将 Ona 引入 OpenAI，我们将把 Codex 扩展到不再局限于单一设备或活跃会话的工作场景，并帮助更多组织在生产环境中安全部署智能体。\n\n## 为 Codex 提供持久的工作空间\n\nOna 多年来一直致力于帮助开发者将软件开发从本地机器迁移到云端。该公司已帮助 200 万开发者在安全、可复现的云端环境中工作，并支持多个共享客户。\n\n这些经验与 Codex 下一阶段的发展直接相关，使智能体即使在笔记本电脑关闭时，也能在客户的云环境中持续工作。\n\n## 将 Codex 扩展到生产工作流\n\n随着组织从试验智能体转向在生产工作流中部署它们，强大的模型只是所需的一部分。\n组织应能放心地让人们受益于持久的智能体工作，同时确保智能体在满足其安全、治理和运营要求的环境中运行。这意味着要控制智能体的运行位置、可访问内容、凭据范围、活动日志记录方式以及工作如何通过审查流程。\n\nOna 的客户控制执行模型将使智能体能够在组织自身的云环境中运行，而 OpenAI 则提供驱动体验的智能与编排能力。这使组织能够更好地控制其基础设施、数据和安全边界，同时不限制 Codex 所能实现的功能。\n\n## 下一步计划\n\n此次收购需满足常规交割条件，包括获得必要的监管批准。在交割完成前，OpenAI 和 Ona 将继续作为独立公司运营。\n\n交割完成后，Ona 团队将加入 OpenAI，与 Codex 团队合作，推进安全、持久的企业执行能力，并帮助 Codex 扩展到全球更多企业。\n\n我们很高兴欢迎 Ona 团队加入 OpenAI，共同构建能够帮助个人和企业创造更多成就的 AI 系统，同时满足实际部署中的安全与控制要求。我们将携手帮助工程团队安全地承担软件生命周期中的持续性工作，从运行测试、解决问题，到应用现代化、修复漏洞，以及支持长期复杂工作流。",
-      "titleZh": "OpenAI 将收购 Ona",
-      "summaryZh": "OpenAI 计划收购 Ona，以通过安全、持久的云环境扩展 Codex，从而在企业工作流中实现长期运行的 AI 代理。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-06-11T00:00:00.000Z",
-      "url": "https://openai.com/index/openai-to-acquire-ona",
-      "collectedAt": "2026-09-04T07:47:35.125Z"
+      "collectedAt": "2026-09-05T07:25:02.746Z"
     },
     {
       "id": "5cf8d01eeb345b1be05a",
@@ -2923,7 +2940,24 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "collectedAt": "2026-09-04T07:47:35.126Z"
+      "collectedAt": "2026-09-05T07:25:02.122Z"
+    },
+    {
+      "id": "46d6755fb18785fef07a",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "OpenAI to acquire Ona",
+      "summary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+      "content": "Today we’re announcing that OpenAI will acquire [Ona⁠(opens in a new window)](http://ona.com/), bringing its secure cloud execution and orchestration technology into our rapidly expanding Codex ecosystem.\n\nMore than 5 million people use Codex each week to research, analyze, build, and automate their work—up 400% from earlier this year. Codex began as a tool for software developers and now helps a wider range of people do complex work from an initial request through to a finished result.\n\nAs Codex becomes more capable, its most valuable work is unfolding over hours or days, rather than minutes. We believe people should be able to delegate more ambitious work without remaining tied to the machine where it began. The work should continue beyond the initial session, with Codex making it possible to stay connected and check progress, provide direction, make decisions, and review results from anywhere.\n\nOna will help us do that. Its technology provides secure, persistent environments where agents can access the tools, systems, and context they need to make progress over time.\n\nBy bringing Ona to OpenAI, we will expand Codex beyond work tied to a single device or active session and help more organizations deploy agents securely in production.\n\n## Giving Codex a persistent place to work\n\nOna has spent years helping developers move software development from local machines into the cloud. The company has helped 2 million developers work in secure, reproducible cloud environments and supports multiple shared customers.\n\nThat experience is directly relevant to the next phase of Codex, enabling agents to continue working inside a customer’s cloud environment even when laptops are closed.\n\n## Scaling Codex across production workflows\n\nAs organizations move from experimenting with agents to deploying them across production workflows, capable models are only one part of what they need.\nOrganizations should be able to give people the benefits of persistent agentic work with confidence, knowing agents are operating inside environments that meet their security, governance, and operational requirements. That means having control over where they run, what they can access, how credentials are scoped, how activity is logged, and how work moves through review.\n\nOna’s customer-controlled execution model will allow agents to operate inside an organization’s own cloud environment while OpenAI provides the intelligence and orchestration that power the experience. This gives organizations greater control over their infrastructure, data, and security boundaries without limiting what Codex can accomplish.\n\n## What’s next\n\nThe acquisition is subject to customary closing conditions, including receipt of required regulatory approvals. Until closing, OpenAI and Ona will remain separate and independent companies.\n\nAfter closing, the Ona team will join OpenAI and work with the Codex team to advance secure, persistent enterprise execution capabilities and help scale Codex to more enterprises worldwide.\n\nWe’re excited to welcome the Ona team to OpenAI as we build AI systems that help people and businesses create and accomplish more while meeting the security and control requirements of real-world deployment. Together, we will help engineering teams safely take on sustained work across the software lifecycle, from running tests and resolving issues to modernizing applications, addressing vulnerabilities, and supporting complex workflows over time.",
+      "contentZh": "今天，我们宣布 OpenAI 将收购 [Ona⁠（在新窗口中打开）](http://ona.com/)，将其安全的云端执行与编排技术纳入我们快速扩展的 Codex 生态系统。\n\n每周有超过 500 万人使用 Codex 进行研究、分析、构建和自动化工作——较今年早些时候增长了 400%。Codex 最初是面向软件开发者的工具，如今已帮助更广泛的人群，从初始请求到最终成果，完成复杂工作。\n\n随着 Codex 能力不断增强，其最有价值的工作正从几分钟扩展到数小时甚至数天。我们认为，人们应该能够委托更宏大的任务，而不必始终守在任务启动的机器旁。工作应在初始会话结束后继续推进，Codex 让人们能够随时保持连接、检查进度、提供方向、做出决策并从任何地方审查结果。\n\nOna 将帮助我们实现这一目标。其技术提供安全、持久的环境，使智能体能够访问所需的工具、系统和上下文，从而随时间推移不断取得进展。\n\n通过将 Ona 引入 OpenAI，我们将把 Codex 扩展到不再局限于单一设备或活跃会话的工作场景，并帮助更多组织在生产环境中安全部署智能体。\n\n## 为 Codex 提供持久的工作空间\n\nOna 多年来一直致力于帮助开发者将软件开发从本地机器迁移到云端。该公司已帮助 200 万开发者在安全、可复现的云端环境中工作，并支持多个共享客户。\n\n这些经验与 Codex 下一阶段的发展直接相关，使智能体即使在笔记本电脑关闭时，也能在客户的云环境中持续工作。\n\n## 将 Codex 扩展到生产工作流\n\n随着组织从试验智能体转向在生产工作流中部署它们，强大的模型只是所需的一部分。\n组织应能放心地让人们受益于持久的智能体工作，同时确保智能体在满足其安全、治理和运营要求的环境中运行。这意味着要控制智能体的运行位置、可访问内容、凭据范围、活动日志记录方式以及工作如何通过审查流程。\n\nOna 的客户控制执行模型将使智能体能够在组织自身的云环境中运行，而 OpenAI 则提供驱动体验的智能与编排能力。这使组织能够更好地控制其基础设施、数据和安全边界，同时不限制 Codex 所能实现的功能。\n\n## 下一步计划\n\n此次收购需满足常规交割条件，包括获得必要的监管批准。在交割完成前，OpenAI 和 Ona 将继续作为独立公司运营。\n\n交割完成后，Ona 团队将加入 OpenAI，与 Codex 团队合作，推进安全、持久的企业执行能力，并帮助 Codex 扩展到全球更多企业。\n\n我们很高兴欢迎 Ona 团队加入 OpenAI，共同构建能够帮助个人和企业创造更多成就的 AI 系统，同时满足实际部署中的安全与控制要求。我们将携手帮助工程团队安全地承担软件生命周期中的持续性工作，从运行测试、解决问题，到应用现代化、修复漏洞，以及支持长期复杂工作流。",
+      "titleZh": "OpenAI 将收购 Ona",
+      "summaryZh": "OpenAI 计划收购 Ona，以通过安全、持久的云环境扩展 Codex，从而在企业工作流中实现长期运行的 AI 代理。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-06-11T00:00:00.000Z",
+      "url": "https://openai.com/index/openai-to-acquire-ona",
+      "collectedAt": "2026-09-05T07:25:02.123Z"
     },
     {
       "id": "c24b9d70e899a62f23fe",
@@ -2940,7 +2974,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "url": "https://openai.com/index/bbva",
-      "collectedAt": "2026-09-04T07:47:35.126Z"
+      "collectedAt": "2026-09-05T07:25:02.123Z"
     },
     {
       "id": "2f865cea4009ebb80597",
@@ -2957,7 +2991,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-11T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.299Z"
+      "collectedAt": "2026-09-05T07:25:03.265Z"
     },
     {
       "id": "271132d8a2041b336c61",
@@ -2974,7 +3008,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T20:00:00.000Z",
       "url": "https://openai.com/index/openai-on-oracle-cloud",
-      "collectedAt": "2026-09-04T07:47:35.126Z"
+      "collectedAt": "2026-09-05T07:25:02.124Z"
     },
     {
       "id": "dd8ef022bc1c3f2bcd4e",
@@ -2991,7 +3025,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T16:24:11.000Z",
       "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
-      "collectedAt": "2026-09-04T07:47:37.519Z"
+      "collectedAt": "2026-09-05T07:25:04.095Z"
     },
     {
       "id": "55b4277f4767ea97239e",
@@ -3008,7 +3042,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T12:00:00.000Z",
       "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
-      "collectedAt": "2026-09-04T07:47:35.127Z"
+      "collectedAt": "2026-09-05T07:25:02.124Z"
     },
     {
       "id": "c294c90b25ad2202d7ea",
@@ -3025,7 +3059,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.300Z"
+      "collectedAt": "2026-09-05T07:25:03.265Z"
     },
     {
       "id": "3f596d04752d28827a43",
@@ -3042,7 +3076,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T15:16:25.000Z",
       "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
-      "collectedAt": "2026-09-04T07:47:37.520Z"
+      "collectedAt": "2026-09-05T07:25:04.095Z"
     },
     {
       "id": "9e66a7e36eb33f1bf16e",
@@ -3059,7 +3093,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T14:10:19.000Z",
       "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
-      "collectedAt": "2026-09-04T07:47:37.520Z"
+      "collectedAt": "2026-09-05T07:25:04.095Z"
     },
     {
       "id": "85c8f77c366cd8be2604",
@@ -3076,7 +3110,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T12:00:00.000Z",
       "url": "https://openai.com/index/nextdoor",
-      "collectedAt": "2026-09-04T07:47:35.127Z"
+      "collectedAt": "2026-09-05T07:25:02.124Z"
     },
     {
       "id": "cf7da16f8eca08cdd1c8",
@@ -3093,7 +3127,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T10:00:00.000Z",
       "url": "https://openai.com/index/notion",
-      "collectedAt": "2026-09-04T07:47:35.127Z"
+      "collectedAt": "2026-09-05T07:25:02.125Z"
     },
     {
       "id": "38f6e05061513bd3e053",
@@ -3110,7 +3144,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-09-04T07:47:35.805Z"
+      "collectedAt": "2026-09-05T07:25:02.755Z"
     },
     {
       "id": "ac48cd08f7d2aaf4a683",
@@ -3127,7 +3161,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-09T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-09-04T07:47:36.301Z"
+      "collectedAt": "2026-09-05T07:25:03.267Z"
     },
     {
       "id": "43924ddd68dd8e3d134b",
@@ -3144,7 +3178,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-06-08T13:04:59.000Z",
       "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
-      "collectedAt": "2026-09-04T07:47:37.520Z"
+      "collectedAt": "2026-09-05T07:25:04.096Z"
     },
     {
       "id": "118693cb868e1641c9c1",
@@ -3161,7 +3195,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-04-24T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-04T07:47:40.599Z"
+      "collectedAt": "2026-09-05T07:25:06.059Z"
     },
     {
       "id": "aeb9a0b6e961ddd9394e",
@@ -3178,7 +3212,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-12-01T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-04T07:47:40.600Z"
+      "collectedAt": "2026-09-05T07:25:06.060Z"
     },
     {
       "id": "f43c8f46501ee2e8d8ed",
@@ -3195,7 +3229,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-09-29T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-04T07:47:40.600Z"
+      "collectedAt": "2026-09-05T07:25:06.061Z"
     },
     {
       "id": "de42c19b7c54bb0dc7ec",
@@ -3212,7 +3246,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-09-22T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-09-04T07:47:40.601Z"
+      "collectedAt": "2026-09-05T07:25:06.061Z"
     }
   ]
 }
