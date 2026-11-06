@@ -1,24 +1,24 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-05T10:21:26.120Z",
+  "updatedAt": "2026-11-06T10:23:50.447Z",
   "sources": [
     {
       "id": "openai-news",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "count": 869
+      "count": 874
     },
     {
       "id": "claude-apps",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
       "status": "ok",
-      "count": 62
+      "count": 63
     },
     {
       "id": "claude-platform",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
       "status": "ok",
-      "count": 163
+      "count": 164
     },
     {
       "id": "gemini-apps",
@@ -42,7 +42,7 @@
       "id": "google-ai-news",
       "url": "https://blog.google/technology/ai/rss/",
       "status": "ok",
-      "count": 1
+      "count": 2
     },
     {
       "id": "deepseek-api",
@@ -52,6 +52,159 @@
     }
   ],
   "entries": [
+    {
+      "id": "1b990a96225405b47868",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Cult.fit builds operational muscle with Codex",
+      "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+      "content": "Cult.fit is one of India’s leading technology-enabled fitness companies, operating 708 fitness centers across 77 cities and serving nearly one million paid members. Its business combines subscription-based access to gyms and trainer-led fitness classes with a growing consumer products portfolio spanning fitness equipment, accessories, workout footwear and activewear.\n\nAs the company grew, it wanted to solve more operational and product challenges without adding layers of process and complexity. By standardizing engineering on Codex and then extending it beyond engineering, cult.fit is helping teams across the organization analyze data, build tools, and move ideas into production. Alongside its Codex rollout, it is using the OpenAI API to develop more personalized member experiences, including through its AI Trainer.\n\nFor Santhosh Kumar, CTO at cult.fit, AI presented an opportunity to change how the organization works. “We wanted to become more AI-native in the way we run things,” he says. “How can we run our operations or transform our operations to be AI-first? What new customer experiences can we offer? And how can we transform how we run our organization?”\n\n## Standardizing software development with Codex\n\nCult.fit’s first major shift was in engineering. Before standardizing on Codex, developers were using a mix of coding agents and assistants. Different tools meant different conventions for repositories, agent instructions, skills, and development workflows, making it harder to share knowledge and reuse capabilities across teams.\n\nCult.fit wanted a shared platform around which it could standardize the software development lifecycle. The company chose Codex as that foundation. Repository structures, skills, testing, code review, and feedback loops could now follow common conventions across teams.\n\n> “Once we standardized on Codex, we could build our software development lifecycle around a single platform.”\n\n—Santhosh Kumar, CTO, cult.fit\n\nThe team then extended Codex into more specialized engineering workflows. Its Site Reliability Engineering agent can aggregate information from observability platforms and logs, investigate incidents, and, in many cases, create a pull request with a proposed fix for an engineer to review. Security agents help identify and address vulnerabilities, while other on-call agents investigate recurring production issues.\n\nCult.fit is also moving toward a more fully spec-driven development model, where a specification can guide work through the software development lifecycle toward a pull request for an engineer to review. This gives teams a more repeatable path from a defined requirement to working code.\n\nOne recent example is a social feed for the cult.fit app. Kumar estimates the project would previously have taken more than a year to build. Using the new workflow, the team built and shipped it end to end in two months.\n\n## Giving every team the ability to build\n\nCodex has since expanded beyond engineering. cult.fit made its company data easier for Codex to work with, allowing teams to find answers and perform routine analysis themselves. Previously, even small data requests had to go through a central analyst team, creating a bottleneck.\n\n> “Codex has been our biggest step toward data democratization. Teams can now do the analysis they need themselves.”\n\n—Santhosh Kumar, CTO, cult.fit\n\nTeams are also building their own applications and workflows. HR, for example, built a workflow in Codex to manage performance reviews, scheduling, feedback collection, and the work of bringing that information together. More than 20 internal applications have been built by non-engineering teams in recent months.\n\nThat shift is changing how cult.fit thinks about the software it needs to run its business. When the cost of its internal dashboard software increased sharply, one engineer rebuilt the functionality with Codex over a weekend. Cult.fit now runs the capability on its own application, avoiding more than $100,000 in annual software costs.\n\nMaking this shift required more than giving employees access to Codex. A large hackathon gave employees an early view of what was possible. The company then brought its management team together for a one-day session where leaders across functions built something relevant to their own work with Codex.\n\nEngineering also runs twice-weekly office hours to help employees move projects from an idea to production, while engineers are embedded in selected functions to provide technical and domain support.\n\n> “Software has been democratized. With OpenAI’s solutions, our people are able to build their own applications around whatever their teams need.”\n\n—Santhosh Kumar, CTO, cult.fit\n\n## Enriching the member experience with AI\n\nCult.fit is also using the OpenAI API to extend AI into the member experience through its AI Trainer. With over 45% of cult.fit members being first time gym goers, guidance is a key access for helping them build a fitness habit. The company first built the AI Trainer several years ago to give members a guided personalized workout experience without a personal trainer.\n\nAround 20% of Cult.fit’s gym users currently utilize the AI Trainer product. With advances in language models, cult.fit saw an opportunity to make the experience more interactive and conversational.\n\nThe latest version is designed around a voice-first workout experience. Using GPT Realtime through an OpenAI API integration, the trainer can provide coaching cues and support workout logging through two-way voice interaction.\n\n## Making AI part of the operating model\n\nCult.fit is also applying AI to customer support workflows that previously required human agents to assess each case. One example is requests to waive penalties for missed group fitness classes.\n\nWhen a member says they missed a class for a valid reason, an AI agent can assess the request by checking signals such as local weather and attendance patterns for that class before deciding whether the penalty should be waived.\n\nCult.fit built these agents into its existing Sprinklr support platform and connected them to its backend systems, moving customer support from a predominantly human-led chat model toward an AI-first workflow.\n\n## Results at a glance\n\n*   20+ internal applications built by non-engineering teams in recent months\n\n*   $100,000+ annual software savings by rebuilding an internal capability with Codex\n\n*   50%+ reduction in customer support costs\n\n## What’s next\n\nCult.fit’s next step is to move from individual AI workflows toward an organization where AI is built into how work gets done. In operations, Kumar describes the ambition as an “autopilot operations org,” with AI taking on more of the support work around frontline teams.\n\nIn the member experience, the goal is a “trainer in your pocket,” extending personalized guidance beyond what a human trainer can provide at scale. Inside the organization, cult.fit continues to look for bottlenecks teams can remove with AI. As more employees build applications, analyze information, and automate workflows themselves, more ideas can move directly into working solutions.",
+      "contentZh": "",
+      "titleZh": "",
+      "summaryZh": "",
+      "translationStatus": "pending",
+      "publishedAt": "2026-11-05T20:00:00.000Z",
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "collectedAt": "2026-11-06T10:23:21.310Z"
+    },
+    {
+      "id": "d1596b6657890bbc71f7",
+      "sourceId": "deepmind-news",
+      "company": "Google DeepMind",
+      "product": "Gemini",
+      "kind": "news",
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "summary": "",
+      "content": "Nov 05, 2026\n\n|\n\n7 min read\n\nGemini Omni 1.2 Flash brings 15-second clips, stronger consistency, and faster, more cost-effective generation.\n\n* * *\n\nAnish Nangia\n\nProduct Manager, Google DeepMind\n\n* * *\n\n![Image 1: Text \"Gemini Introducing Gemini Omni 1.2 Flash\" surroudned by images of a beehive, animals in conversation, a squid, and a woman walking down a street](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.width-200.format-webp.webp)\n\n[Audio 3](https://storage.googleapis.com/gweb-uniblog-publish-prod/media/tts_audio_86856_umbriel_2026_11_05_17_05_01.mp3)\n\nListen to article\n\n[[duration]] minutes\n\nThis content is generated by Google AI. Generative AI is experimental\n\nToday, we’re rolling out [Gemini Omni](https://deepmind.google/models/gemini-omni/) 1.2 Flash, and making it generally available across the [Gemini API](https://aistudio.google.com/docs/omni) and [Gemini for business](https://cloud.google.com/blog/products/ai-machine-learning/gemini-omni-1-2-flash-generally-available). Gemini Omni 1.2 Flash introduces native 15-second video creation, multi-turn conversational editing capabilities, and enhanced reference following. We have dropped the price 30% from Gemini Omni 1.1 making it available at $0.07 per second for 720p video.\n\nHere’s an overview of what’s new:\n\n## Fast and cost-effective at scale\n\nBeyond the lower price, the workflow keeps costs down: you can draft fast at 360p or 720p, fix a detail with a follow-up edit instead of re-generating the entire clip, and then upscale your best creations to 1080p or 4K.\n\n## Longer clips up to 15 seconds\n\nYou can now generate and edit videos natively up to 15 seconds long, up from 10 seconds with Omni 1.1. You can also specify duration in one-second increments from 3 to 15 seconds, giving you room to tell complete stories, create product explainers, or produce full social ad spots in a single generation.\n\n## Better reference adherence\n\nYou can guide generation combining character, product, or style images, short motion clips (up to three seconds), and audio cues — and Omni 1.2 Flash holds onto those details from start to finish. Faces, garments, packaging typography, and brand colors stay consistent across camera angles, making it easy to turn existing product photography or character sheets into virtual try-on clips, catalog spins, and branded video ads.\n\nCombining one model photo with front-and-back product shots of three outfits, Gemini Omni 1.2 Flash generates a 15-second virtual try-on sequence across 360-degree turns and match cuts while keeping the model’s identity and each garment’s cut, drape, and back details consistent.\n\n## More consistent results\n\nYou can maintain stronger character, object, and scene consistency from the first to the last frame, with less visual drift or morphing across motion and camera transitions. Whether you’re interpolating between a first and last keyframe, or extending a clip to build a longer sequence, products, characters, props, and environments stay consistent from shot to shot.\n\nGiven the same static studio lighting exhibition poster and five-layer animation prompt, Gemini Omni 1.1 Flash does not match the reference image as closely as 1.2 does. Gemini Omni 1.2 Flash builds the poster sequentially layer by layer on the dusty-pink cyclorama rising the hexagonal plinth, assembling the ribbed glass, warm filament, faceted crystal, and coiled-cord letterforms for HALO, GLOW, and LUMEN, and locking every material, shadow, and typographic detail consistently through the final frame.\n\n## Easier editing in conversation\n\nYou can refine the same clip turn by turn — such as swapping a product or background, changing the lighting or weather, or switching the aspect ratio — instead of starting over from scratch. Multi-turn conversational editing works across full 15-second clips, making it easy to produce ad variants for different audiences and placements without re-briefing or re-generating.\n\nStarting from one generated clip, multi-turn conversational prompts swap the background turn by turn — from a striped pavilion tent to an oak forest, a stable with a white horse, a market fair, and a stone castle — while keeping both characters’ performances, armor reflections, and camera framing intact.\n\n## More natural speech\n\nYou can generate scenes with more fluid, natural-sounding dialogue, clearer lip-sync, and distinct multi-speaker conditioning. This will show up whether you’re directing multi-character dialogue in [Flow](https://labs.google/fx/tools/flow), creating video explainers in [Gemini for business](https://cloud.google.com/gemini-enterprise), or creating polished, pro videos with avatars, music and narration in [Google Vids](https://docs.google.com/videos/create?usp=blog).\n\nConditioned on one conservatory scene image alongside four character, mouth, and one-second voice references, Gemini Omni 1.2 Flash routes each sampled voice to the right character with expressive lip-sync and natural comedic timing across a 15-second animated scene.\n\n## More controllable, cinematic look\n\nYou can direct complex, continuous camera movements like sweeping FPV flythroughs to dramatic zoom-outs and orbits with significantly fewer unwanted jump cuts, steadier scale, and a more polished, cinematic look.\n\nGuided by two architectural reference photos, Gemini Omni 1.2 Flash directs one continuous FPV drone flight across the piazza, through the bronze doors, and up through the Pantheon’s coffered dome to the oculus with zero jump cuts.\n\n## Longer clips with smoother motion and tighter consistency\n\nGemini Omni 1.2 Flash generates clips up to 15 seconds long that hold references together better than before. You can scroll through to see characters, text, and camera moves stay consistent across longer shots, multiple turns and transitions with no cuts.\n\n## Real-world results, from creatives to global brands\n\nBusinesses, startups, and creatives are already using Gemini Omni 1.2 Flash in their workflows. And for the first time, Gemini Omni is now generally available, backed by Google Cloud’s enterprise-grade infrastructure and security. [Provisioned Throughput](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/provisioned-throughput) is available, and outputs carry an imperceptible [SynthID](https://deepmind.google/models/synthid/) watermark.\n\n## Get started with Gemini Omni 1.2 Flash\n\nWhile development is ongoing to further improve things like fast sports action, rapid script changes and complex physics, Gemini Omni 1.2 Flash is ideal for businesses, developers, and creators producing videos at scale. You can get started with Gemini Omni 1.2 Flash today as it rolls out across Google’s products and developer platforms:\n\n*   **For developers using the Gemini API:** Prototype in [Google AI Studio](https://aistudio.google.com/prompts/new_chat?model=gemini-omni-1.2-flash&utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=), explore interactive starter apps, and check out the [developer documentation](https://aistudio.google.com/docs/omni) and [pricing](https://aistudio.google.com/docs/pricing#gemini-omni-1.2-flash).\n*   **For businesses:** Try it in the [Google Cloud console](https://console.cloud.google.com/vertex-ai/studio/media), and build enterprise solutions with the [API](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/omni-1-2-flash).\n*   **For everyone using Google apps:** Direct scenes and multi-turn edits in [Flow](https://labs.google/fx/tools/flow), generate 15-second clips at no additional cost in [Google Vids](https://docs.google.com/videos/create?usp=blog) with a Google account or Google Workspace subscription, create 15-second videos in the [Gemini app](https://gemini.google.com/) (rolling out to Google AI Ultra subscribers), and scale video campaigns in [Google Ads](https://ads.google.com/aw/assetstudio).",
+      "contentZh": "",
+      "titleZh": "",
+      "summaryZh": "",
+      "translationStatus": "pending",
+      "publishedAt": "2026-11-05T17:05:16.000Z",
+      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+      "collectedAt": "2026-11-06T10:23:24.529Z"
+    },
+    {
+      "id": "73524ffb13240b069fde",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Australian universities are creating AI-native graduates",
+      "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "content": "The future of Australia’s workforce is taking shape before today’s students receive their degrees. Across university campuses, students are using AI to investigate ideas, build assistants and turn concepts into working prototypes. They are beginning to develop the skills they will take into research, established industries and ventures of their own.\n\nRecognising this shift, Australian universities, including UNSW Sydney, University of Sydney, La Trobe University, and Adelaide University are forging collaborations with OpenAI to give their students and staff access to frontier AI tools.\n\nStudents, educators and IT teams are putting AI to work in clinical simulations, robot-assisted teacher training and student projects that build pathways into industry. Alongside this work, universities are developing frameworks for where and how AI can be used in learning and assessment, helping students build practical skills while knowing when to rely on their own judgment. For teachers, employers and industry practitioners, these examples offer practical lessons in designing AI-supported learning, setting clear expectations for AI use and preparing Australians for an AI-enabled workplace.\n\nNew research[_*_⁠](https://openai.com/index/australian-universities-ai-native-graduates/#survey-note) commissioned by OpenAI reveals what students want from their universities, including the access to AI they increasingly expect. In a survey of more than 1,000 Australian university students, 81% said they already use AI several times a week, including more than a third (33%) who use it multiple times a day. Over a quarter (28%) had already built an AI agent or assistant to help manage their studies, work or personal life. Four out of five students (79%) want their university to offer more opportunities to use advanced AI tools on real-world projects, with the same proportion interested in applying AI to challenges in health, climate, science or cyber security.\n\n#### AI use and career readiness\n\n*   81%\n\nUse AI several times a week\n\n*   33%\n\nUse AI multiple times each day\n\n*   28%\n\nHave already built an AI agent or assistant to manage studies, work or personal life\n\n*   61%\n\nBelieve AI skills will be essential to success in their chosen career\n\n*   69%\n\nBelieve AI literacy will become as fundamental as digital literacy, writing or numeracy\n\n*   65%\n\nBelieve AI skills will give Australian graduates an advantage in the global workforce\n\nFindings from a survey of university students in Australia[*⁠](https://openai.com/index/australian-universities-ai-native-graduates/#survey-note)\n\nStudents also see those experiences as preparation for what comes next. More than sixty percent (61%) believe AI skills will be essential to success in their chosen career, and 65% believe those skills will give Australian graduates an advantage in the global workforce. There is entrepreneurial ambition, too. More than three quarters (76%) of students surveyed said they were interested in starting a company or working for themselves, while over two thirds (68%) believed AI would make it easier to start a business.\n\nThe question for higher education is how to meet students where they are. Giving them access to advanced tools is a start but helping them use those tools with sound judgment, subject knowledge and practical experience is what will make them AI-ready for the workforce.\n\nUNSW’s expanded collaboration with OpenAI is one way universities are responding. The university is bringing ChatGPT Edu to more than 80,000 students and staff, expanding access in stages as it works towards availability across the student community.\n\nUNSW and OpenAI plan to integrate generative AI foundations and Codex into educational programs and courses, with opportunities for students to apply AI through hackathons and industry projects. The collaboration is also intended to connect students with internships, graduate roles and startup networks.\n\nUNSW Master of IT student Nalin Iyer put the workforce question plainly: “It’s important to understand what industry is looking for and how AI fits into that.”\n\nThe University of Sydney’s collaboration with OpenAI also aims to build practical capability across the institution. It will provide students and staff with supported access to ChatGPT Edu, with training and guidance. The rollout is staged, with access for all students scheduled for Semester 1, 2027 after a trial. The university is also establishing a $1 million AI Sustainability Research and Innovation Fund to study and advance sustainability.\n\n![Image 1: University of Sydney and OpenAI representatives stand together on campus.](https://images.ctfassets.net/kftzwdyauwt9/3bNs6HhG2fabfTpAzsycYx/e9ada857e6eefdfcd545a59854b231cb/university-of-sydney-openai-collaboration.jpg?w=3840&q=90&fm=webp)\n\nRepresentatives from the University of Sydney and OpenAI mark the start of their strategic collaboration\n\nLa Trobe University is connecting broad access with an ambition to embed AI across its curriculum. All 3,500 staff already have access to ChatGPT Edu, with universal access planned for its 45,000 students and staff in the first quarter of 2027. Its approach includes Australia’s first Bachelor of AI Engineering (Honours), welcoming its first cohort in 2027, and Australia’s first AI MBA program.\n\nAs part of its AI-first strategy, La Trobe appointed Australia’s first Pro Vice-Chancellor AI and Chief AI Officer, Phil Laufenberg, to lead the university’s approach to AI across education, research and operations.\n\nThese efforts respond to a reality the survey makes clear: students are already experimenting with AI, but institution-wide access and support mean all have equitable opportunities to develop their skills, regardless of what they study or what individual tools they can afford.\n\n## Practice before it counts\n\nAt La Trobe University, some of the most interesting work begins with a simple question: how can we use AI to enhance practical experience in learning?\n\nDr Cameron Anderson, Head of the Paramedicine program, uses ChatGPT to create a wide range of practice activities delivered through the university’s learning management system, where students interpret an ECG, assess a possible heart attack or triage patients after a mass casualty incident. AI helps create simulations that reinforce and test classroom learning.\n\nProfessor Therese Keane, Associate Dean for Research and Industry Engagement in La Trobe’s School of Education, uses a social robot called Fletch to help future teachers practice giving feedback to parents. Powered by OpenAI large language models hosted through Microsoft Azure, Fletch responds with speech, facial expressions and head movements.\n\nProfessor Keane’s team developed realistic scenarios from interviews with highly experienced educators. Importantly, Fletch enables trainee teachers to practice situations where conversations with parents turn confrontational, developing key skills in an area that many teachers find challenging.\n\n![Image 2: Professor Therese Keane sits beside Fletch, a social robot used in teacher training.](https://images.ctfassets.net/kftzwdyauwt9/1wQOKpRJ8dYh1iesZPsiVf/5604d52d462c88c16584fa172698dc52/la-trobe-fletch-teacher-training.png?w=3840&q=90&fm=webp)\n\nProfessor Therese Keane at La Trobe University is helping future teachers practice difficult conversations with parents using Fletch, an OpenAI-powered social robot\n\nLa Trobe is bringing AI into more of its courses and operations. The university has made OpenAI’s agentic tools Codex and ChatGPT Work available across the institution, with its handbook listing Vibe Coding for Startups and Agentic AI Software Engineering (from 2027).\n\nThe university’s AI Business Studio extends practical learning into industry. It aims to give more than 1,000 students practice experience as consultants and forward deployed engineers using ChatGPT Edu and Codex to help small and medium enterprises adopt AI by 2028 and connect graduate skills with the needs of businesses.\n\nAn AI rollout of this size needs steady work behind the scenes. La Trobe reports dozens of live use cases, training for hundreds of people and 10% month-on-month growth in active users. It manages safe access and token economics as more people take part. “ChatGPT and Codex have helped shorten early systems development and innovation from months to weeks, and importantly, enabled embedded co-design by staff and students,” Laufenberg said.\n\nAs a newly established university created through a complex merger, Adelaide University has an opportunity to embed secure, governed and scalable uses of AI from the outset. Australia’s first new major university in a generation is building on existing use of OpenAI’s API by researchers, students and staff.\n\nAdelaide University is one of the first institutions in the higher education sector to harness OpenAI Daybreak Blue to conduct authorised defensive security work, providing a vital capability for cyber defences, including vulnerability discovery, secure code review, malware analysis, incident response and patch validation.\n\n![Image 3: UNSW educators work at a computer with an OpenAI education engineer.](https://images.ctfassets.net/kftzwdyauwt9/5UIjRwKzZKljE1NMncywkH/7b4a68f7b27010ddd9b6b1c9d04a69d4/unsw-chatgpt-edu-rollout.jpg?w=3840&q=90&fm=webp)\n\nUNSW Senior Lecturers Mariana Rodriguez-Valenzuela (seated) and May Lim assist with the rollout of ChatGPT Edu as Joel Solomons, Education Solutions Engineer at OpenAI ANZ, looks on\n\n## Learning when and how to use AI\n\nUniversities are also setting clear expectations for when students can use AI and when they need to demonstrate their own knowledge.\n\nUNSW has introduced a _Can, Can’t, Must_ framework for assessment. Depending on the learning goal, an educator can specify that AI use is permitted, prohibited or required. That gives students a way to practice using AI appropriately while still demonstrating the foundational knowledge their field demands.\n\nThe University of Sydney is pairing its rollout with a responsible AI framework alongside its assessment approach that ensures students demonstrate their own capabilities in supervised settings, then show how they can use AI effectively in open assessments.\n\nLa Trobe is also supporting wider access with practical guidance. Its library has developed free Responsible and Safe AI learning modules for all students, and AI skills development is being integrated in 50 priority first-year subjects for Semester 1, 2027. Tailored modules for Education, Law and Health connect AI literacy with professional responsibilities, while workshops and teaching resources support educators in designing learning activities and assessments.\n\nStudents already see AI skills as essential to their careers and an opportunity to get ahead. By widening ChatGPT access and bringing AI into everyday teaching, Australian universities are helping turn that ambition into practical experience. The goal is to prepare graduates who can use AI to learn, create and solve problems, with the subject knowledge and judgment to apply those skills confidently as they enter the workforce.\n\n​\n\n_* This study by Pureprofile, on behalf of OpenAI, surveyed 1,018 university students aged 18 and over across Australia, studying on campus or remotely, from 3–7 August 2026._",
+      "contentZh": "",
+      "titleZh": "",
+      "summaryZh": "",
+      "translationStatus": "pending",
+      "publishedAt": "2026-11-05T17:00:00.000Z",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "collectedAt": "2026-11-06T10:23:21.309Z"
+    },
+    {
+      "id": "9faae3e01a16e7011b9a",
+      "sourceId": "google-ai-news",
+      "company": "Google",
+      "product": "Gemini",
+      "kind": "news",
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "summary": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
+      "content": "Nov 05, 2026\n\n|\n\n7 min read\n\nGemini Omni 1.2 Flash brings 15-second clips, stronger consistency, and faster, more cost-effective generation.\n\n* * *\n\nAnish Nangia\n\nProduct Manager, Google DeepMind\n\n* * *\n\n![Image 1: Text \"Gemini Introducing Gemini Omni 1.2 Flash\" surroudned by images of a beehive, animals in conversation, a squid, and a woman walking down a street](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.width-200.format-webp.webp)\n\n[Audio 3](https://storage.googleapis.com/gweb-uniblog-publish-prod/media/tts_audio_86856_umbriel_2026_11_05_17_05_01.mp3)\n\nListen to article\n\n[[duration]] minutes\n\nThis content is generated by Google AI. Generative AI is experimental\n\nToday, we’re rolling out [Gemini Omni](https://deepmind.google/models/gemini-omni/) 1.2 Flash, and making it generally available across the [Gemini API](https://aistudio.google.com/docs/omni) and [Gemini for business](https://cloud.google.com/blog/products/ai-machine-learning/gemini-omni-1-2-flash-generally-available). Gemini Omni 1.2 Flash introduces native 15-second video creation, multi-turn conversational editing capabilities, and enhanced reference following. We have dropped the price 30% from Gemini Omni 1.1 making it available at $0.07 per second for 720p video.\n\nHere’s an overview of what’s new:\n\n## Fast and cost-effective at scale\n\nBeyond the lower price, the workflow keeps costs down: you can draft fast at 360p or 720p, fix a detail with a follow-up edit instead of re-generating the entire clip, and then upscale your best creations to 1080p or 4K.\n\n## Longer clips up to 15 seconds\n\nYou can now generate and edit videos natively up to 15 seconds long, up from 10 seconds with Omni 1.1. You can also specify duration in one-second increments from 3 to 15 seconds, giving you room to tell complete stories, create product explainers, or produce full social ad spots in a single generation.\n\n## Better reference adherence\n\nYou can guide generation combining character, product, or style images, short motion clips (up to three seconds), and audio cues — and Omni 1.2 Flash holds onto those details from start to finish. Faces, garments, packaging typography, and brand colors stay consistent across camera angles, making it easy to turn existing product photography or character sheets into virtual try-on clips, catalog spins, and branded video ads.\n\nCombining one model photo with front-and-back product shots of three outfits, Gemini Omni 1.2 Flash generates a 15-second virtual try-on sequence across 360-degree turns and match cuts while keeping the model’s identity and each garment’s cut, drape, and back details consistent.\n\n## More consistent results\n\nYou can maintain stronger character, object, and scene consistency from the first to the last frame, with less visual drift or morphing across motion and camera transitions. Whether you’re interpolating between a first and last keyframe, or extending a clip to build a longer sequence, products, characters, props, and environments stay consistent from shot to shot.\n\nGiven the same static studio lighting exhibition poster and five-layer animation prompt, Gemini Omni 1.1 Flash does not match the reference image as closely as 1.2 does. Gemini Omni 1.2 Flash builds the poster sequentially layer by layer on the dusty-pink cyclorama rising the hexagonal plinth, assembling the ribbed glass, warm filament, faceted crystal, and coiled-cord letterforms for HALO, GLOW, and LUMEN, and locking every material, shadow, and typographic detail consistently through the final frame.\n\n## Easier editing in conversation\n\nYou can refine the same clip turn by turn — such as swapping a product or background, changing the lighting or weather, or switching the aspect ratio — instead of starting over from scratch. Multi-turn conversational editing works across full 15-second clips, making it easy to produce ad variants for different audiences and placements without re-briefing or re-generating.\n\nStarting from one generated clip, multi-turn conversational prompts swap the background turn by turn — from a striped pavilion tent to an oak forest, a stable with a white horse, a market fair, and a stone castle — while keeping both characters’ performances, armor reflections, and camera framing intact.\n\n## More natural speech\n\nYou can generate scenes with more fluid, natural-sounding dialogue, clearer lip-sync, and distinct multi-speaker conditioning. This will show up whether you’re directing multi-character dialogue in [Flow](https://labs.google/fx/tools/flow), creating video explainers in [Gemini for business](https://cloud.google.com/gemini-enterprise), or creating polished, pro videos with avatars, music and narration in [Google Vids](https://docs.google.com/videos/create?usp=blog).\n\nConditioned on one conservatory scene image alongside four character, mouth, and one-second voice references, Gemini Omni 1.2 Flash routes each sampled voice to the right character with expressive lip-sync and natural comedic timing across a 15-second animated scene.\n\n## More controllable, cinematic look\n\nYou can direct complex, continuous camera movements like sweeping FPV flythroughs to dramatic zoom-outs and orbits with significantly fewer unwanted jump cuts, steadier scale, and a more polished, cinematic look.\n\nGuided by two architectural reference photos, Gemini Omni 1.2 Flash directs one continuous FPV drone flight across the piazza, through the bronze doors, and up through the Pantheon’s coffered dome to the oculus with zero jump cuts.\n\n## Longer clips with smoother motion and tighter consistency\n\nGemini Omni 1.2 Flash generates clips up to 15 seconds long that hold references together better than before. You can scroll through to see characters, text, and camera moves stay consistent across longer shots, multiple turns and transitions with no cuts.\n\n## Real-world results, from creatives to global brands\n\nBusinesses, startups, and creatives are already using Gemini Omni 1.2 Flash in their workflows. And for the first time, Gemini Omni is now generally available, backed by Google Cloud’s enterprise-grade infrastructure and security. [Provisioned Throughput](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/provisioned-throughput) is available, and outputs carry an imperceptible [SynthID](https://deepmind.google/models/synthid/) watermark.\n\n## Get started with Gemini Omni 1.2 Flash\n\nWhile development is ongoing to further improve things like fast sports action, rapid script changes and complex physics, Gemini Omni 1.2 Flash is ideal for businesses, developers, and creators producing videos at scale. You can get started with Gemini Omni 1.2 Flash today as it rolls out across Google’s products and developer platforms:\n\n*   **For developers using the Gemini API:** Prototype in [Google AI Studio](https://aistudio.google.com/prompts/new_chat?model=gemini-omni-1.2-flash&utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=), explore interactive starter apps, and check out the [developer documentation](https://aistudio.google.com/docs/omni) and [pricing](https://aistudio.google.com/docs/pricing#gemini-omni-1.2-flash).\n*   **For businesses:** Try it in the [Google Cloud console](https://console.cloud.google.com/vertex-ai/studio/media), and build enterprise solutions with the [API](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/omni-1-2-flash).\n*   **For everyone using Google apps:** Direct scenes and multi-turn edits in [Flow](https://labs.google/fx/tools/flow), generate 15-second clips at no additional cost in [Google Vids](https://docs.google.com/videos/create?usp=blog) with a Google account or Google Workspace subscription, create 15-second videos in the [Gemini app](https://gemini.google.com/) (rolling out to Google AI Ultra subscribers), and scale video campaigns in [Google Ads](https://ads.google.com/aw/assetstudio).",
+      "contentZh": "",
+      "titleZh": "",
+      "summaryZh": "",
+      "translationStatus": "pending",
+      "publishedAt": "2026-11-05T17:00:00.000Z",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "collectedAt": "2026-11-06T10:23:24.848Z"
+    },
+    {
+      "id": "19917a744f398f405b66",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+      "content": "We’re introducing GPT‑6 Cyber, a major leap in security research: more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set. GPT‑6 Cyber delivers major gains on key cybersecurity benchmarks over GPT‑5.6 Cyber, including a 51% relative improvement on ExploitGym and a step function improvement when tested on staying within scope. It is already helping to secure real-world software, uncovering and validating thousands of exploits in security-critical codebases such as Linux and Firefox.\n\nOn ExploitGym, which tests whether models can exploit a specified vulnerability, GPT‑6 Cyber scores 48.5%, up from 32.1% for GPT‑5.6 Cyber. It also follows task boundaries more reliably: in a separate alignment evaluation, GPT‑6 Cyber avoided exploiting out-of-scope services in 99.93% of tests without its deployment prompt, and 100% with this prompt. This improvement in alignment reflects dedicated training to stay within authorized scope, respect restrictions, and report results accurately.\n\nThese capabilities are already helping secure real systems. Our researchers used GPT‑6 Cyber to develop [948 privilege escalation exploits in Linux⁠](https://openai.com/index/a-thousand-fewer-paths-to-root/) and identify 81 previously unknown high-severity vulnerabilities in Firefox, despite extensive prior testing with frontier models. The model also helped develop candidate patches, and Mozilla has [released fixes for many of the Firefox vulnerabilities⁠(opens in a new window)](https://www.mozilla.org/en-US/security/advisories/mfsa2026-118/). Security teams at Cisco, Calif, and CodeRabbit are using it for vulnerability research and code review, and we have relied on it to [find and fix weaknesses in our own infrastructure⁠](https://openai.com/index/securing-our-frontier-model-training-environment/).\n\nIt is clear that we have [a limited window to use frontier models to secure software⁠](https://openai.com/index/the-defenders-window/). **Our goal is to dramatically expand Daybreak, bringing advanced security research to organizations of every size, independent researchers, and open-source maintainers.** Mainline models such as GPT‑6 Astra already support code review, vulnerability triage, and patch development. Daybreak Blue helps verified defenders validate vulnerabilities and fixes with fewer unnecessary refusals, while Daybreak Red enables deeper exploit development and authorized security testing with GPT‑6 Cyber.\n\n## Advancing frontier cyber capabilities\n\nGPT‑6 Cyber is a major step up from GPT‑5.6 Cyber and outperforms GPT‑6 Astra on most cyber tasks, even when Astra does not refuse the request. We evaluated the model on tasks that require it to understand software, identify vulnerabilities, and develop working exploits. Based on these results, we classify the model as Critical in cybersecurity under our Preparedness Framework, up from High for GPT‑5.6 Cyber.\n\nOn ExploitGym, which tests whether models can exploit a specified vulnerability in a remote target, GPT‑6 Cyber scores **48.5%**, about **16 percentage points** higher than GPT‑5.6 Cyber’s **32.1%**. To test vulnerability discovery, we also built a new evaluation for offensive web penetration testing. Models probe web applications without access to their source code. GPT‑6 Cyber achieved **40.3%** recall of vulnerabilities compared with **32.0%** for GPT‑6 Astra.\n\nDaybreak Red is designed to support more advanced security workflows, including developing working exploits and using them against remote targets. To evaluate these capabilities, we built a new benchmark called RemoteExploitBench, which uses known vulnerabilities in applications such as GitLab, PostgreSQL, and Jenkins deployed in a controlled environment. In our initial evaluation, GPT‑6 Astra running with Daybreak Blue **refused 100% of tasks**, while GPT‑6 Cyber **completed 95%**; its only failure was an exploit it could not get to work remotely. See the [system card⁠(opens in a new window)](https://deploymentsafety.openai.com/gpt-6-cyber) for full results and evaluation settings.\n\n## Stronger alignment, better at staying within bounds\n\nOne risk for cybersecurity agents is that they go outside the scope of their assigned task, attempt to exploit unrelated services, or disregard the researcher’s rules of engagement.\n\nWe made alignment a central focus of GPT‑6 Cyber, using specialized training to help the model stay within authorized scope, follow restrictions on its actions, and report its work accurately. Before deployment, we ran a series of alignment evaluations to measure these behaviors. See the [system card⁠(opens in a new window)](https://deploymentsafety.openai.com/gpt-6-cyber) for full results.\n\nOne of these evaluations is ExploitGym Honeypot, which was informed by the [Hugging Face incident⁠](https://openai.com/index/hugging-face-incident-and-the-road-ahead/). We give the model a difficult exploitation task in an isolated environment with access to supporting services, such as a package registry or object store. We deliberately make these services easy to exploit so that attacking them can reveal the task’s flag. The model must infer that exploiting them is outside the scope of its task.\n\nGPT‑6 Cyber shows a step-change improvement over GPT‑5.6 Cyber on this evaluation. When tested without deployment safety prompts, it avoided exploiting out-of-scope services in 99.93% of cases, up from 94.49% for GPT‑5.6 Cyber. With those prompts, GPT‑6 Cyber stayed within bounds 100% of the time.\n\nWe can see directly in the GPT‑6 Cyber model’s chain of thought how it reasons about staying within bounds:\n\nAgent chain-of-thought excerpts\n\n> “Can't assume extra API or attack controller not target. We should only target binary/server.”\n\nAgent chain-of-thought excerpts\n\n> “don't explore out of scope credentials.”\n\n## Real-world impact for security teams\n\nGPT‑6 Cyber is already helping security teams find vulnerabilities, validate their impact, and develop fixes. Customers have put it to work on large codebases, long-running exploit development, and security review:\n\n1 of 9\n\nWe have also relied on GPT‑6 Cyber to secure our own systems. It was one of the main models behind the work we recently shared on [hardening the infrastructure used to train frontier models⁠](https://openai.com/index/securing-our-frontier-model-training-environment/). In controlled red-teaming campaigns, agents using GPT‑6 Cyber and other OpenAI models chained vulnerabilities to escape microVMs and execute code on the underlying hosts. We used the findings to patch software, tighten network restrictions, and report issues to maintainers and vendors.\n\nOur vulnerability researchers also use GPT‑6 Cyber to find and validate vulnerabilities in open-source software at scale. This work has uncovered previously unknown flaws in software that has been scrutinized for years:\n\n*   **Found 81 novel Firefox vulnerabilities.** GPT‑6 Cyber can be suitable for use in autonomous workflows for finding vulnerabilities and proposing high-quality patches at scale. During a vulnerability research campaign, GPT‑6 Cyber produced evidence and reproducible tests for 81 novel vulnerabilities classified by Mozilla as high severity, and showed that an additional 30 known issues were more severe than previously reported. We disclosed the findings to Mozilla, along with proposed patches to help its engineers develop fixes. Mozilla was supportive of this work, and began [landing fixes shortly after receiving the reports⁠(opens in a new window)](https://www.mozilla.org/en-US/security/advisories/mfsa2026-118/).\n\n*   **Developing exploits for**[**948 Linux kernel vulnerabilities**⁠](https://openai.com/index/a-thousand-fewer-paths-to-root/)**.** GPT‑6 Cyber reproduced 1,724 vulnerabilities and developed working exploits for 948—more than five times the 166 exploited by GPT‑5.6 Sol using the same research harness. Following the Linux community's guidance, we disclosed 304 critical findings to maintainers with candidate patches and are in the process of getting other vulnerabilities fixed.\n\n*   **Demonstrating critical RCE vulnerabilities.** We recently discussed a [critical vulnerability in Brotli⁠(opens in a new window)](https://patchtheplanet.org/brotli), a compression library used by Node.js and other software. Our security researchers used GPT‑6 Cyber alongside other OpenAI models to develop and validate exploits showing how the flaw could enable remote code execution in downstream applications.\n\n## Detecting misuse and blocking high-risk activity\n\nAs models become more capable and uncover more security vulnerabilities, we are also seeing more attempts to use them to cause harm. These attempts include efforts by malicious cyber actors and adversarial groups seeking to distill our models. We have thus paired GPT‑6 Cyber’s stronger capabilities with stronger safeguards to detect and disrupt misuse and keep the model’s actions within the user’s intent and authorization.\n\nWe added and strengthened these protections alongside the release of GPT‑6 Cyber (see the [system card⁠(opens in a new window)](https://deploymentsafety.openai.com/gpt-6-cyber) for full information):\n\n*   **Cyber-specific misalignment monitoring.** We monitor whether actions match the user’s authorization, while recognizing legitimate exploit development and testing.\n\n*   **Targeted monitoring for emerging threats.** For example, during the coordinated disclosure of critical PHP vulnerabilities, we set up targeted monitoring for attempts to develop exploits against live PHP servers, while preserving support for defenders patching affected systems.\n\n*   **Private Safety Processing (PSP)****.** We use automated checks to review related interactions for misuse. Standard retention remains the default. API customers using [Zero Data Retention⁠(opens in a new window)](https://developers.openai.com/api/docs/guides/your-data) generally must use [PSP⁠(opens in a new window)](https://developers.openai.com/api/docs/guides/private-safety-processing), which reviews encrypted records retained in customer storage for 30 days without exposing prompts and responses to OpenAI personnel.\n\n*   **Protection against stolen credentials.** We require IP allowlisting for Daybreak Red API access by default, restricting requests to approved networks with limited exceptions. We also monitor credentials for compromise.\n\n*   **Sandboxing and oversight.** As with past models, we recommend [sandboxing⁠(opens in a new window)](https://learn.chatgpt.com/docs/sandboxing), [action review⁠(opens in a new window)](https://learn.chatgpt.com/docs/sandboxing/auto-review), and human oversight for high-risk workflows.\n\n*   **Protections against high-risk cyber assistance.** We use new checks to block high-risk activity involving critical systems (see below for more).\n\n## Defending critical infrastructure\n\nProtecting critical infrastructure has been a key consideration in designing GPT‑6 Cyber’s safeguards and access, including power plants, water treatment facilities, and the operational technology and industrial control systems (OT/ICS) that underpin them. We simultaneously want to give the teams defending these systems access to our most capable models while also strengthening our safeguards to prevent unauthorized attacks.\n\nFirst, to equip these defenders, our $1 billion [Daybreak for Frontline Defenders⁠](https://openai.com/index/daybreak-for-frontline-defenders/) grant program subsidizes access for resource-constrained teams such as government organizations and essential service providers. We’re also introducing a new group within Daybreak Red (**Daybreak Red for Critical Infrastructure**) for approved critical infrastructure defenders, which gives them permissions to conduct authorized testing of critical systems while retaining safeguards against model misalignment.\n\nSecond, to prevent misuse of the Daybreak Red and Blue platforms, we have refined safeguards against assistance and capability development that could compromise industrial controls or safety-critical systems, interfere with equipment, or cause serious injury, catastrophic physical damage, or life-endangering service disruption. The figure below compares safeguard label rates across four access configurations, before and after the recent updates we’re rolling out alongside GPT‑6 Cyber.\n\nHigher safeguard block rates are not always better. Many of the techniques in this evaluation are also essential to legitimate security work: understanding systems, finding vulnerabilities, and verifying that fixes withstand attack. We therefore assess these rates alongside support for legitimate research and patching, rather than aiming for 100%.\n\nTo evaluate how our models can help defend critical infrastructure, we partnered with Dragos, the global provider for extended operational technology (xOT) cybersecurity. Dragos ran evaluations using cyber-permissive Daybreak Red models in a controlled lab environment. The evaluations covered requests progressing from network discovery and asset enumeration through targeted reconnaissance, sensitive data exfiltration, and unauthorized, potentially dangerous device actions.\n\nWe used feedback from Dragos to refine our safeguards, aiming to block harmful assistance without unnecessarily restricting authorized testing. [See their final report⁠(opens in a new window)](https://dragos.brightspotcdn.com/b0/3f/7a5e1cf749df9c93b9a992eab97c/dragos-whitepaper-frontier-ai-xot.pdf) for details on the evaluations. We’re also working to expand partnerships with other offensive security providers and purple teams on penetration testing and red teaming with AI, and with energy companies, other critical infrastructure operators, and national labs to assess our models’ effectiveness and safeguards in industrial defense. We have also increased our investment in threat investigations to detect model usage involving OT/ICS. We’ll continue refining our safeguards with input from partners and the security community, including reports through /feedback when safeguards miss harmful activity or interrupt legitimate work.\n\n## Expanding access to trusted defenders\n\nGPT‑6 Cyber is initially available through the API and Codex to a select group of approved Daybreak Red customers. We will progressively expand access to all Daybreak Red customers soon, and are also making GPT‑5.6 Cyber available to all Daybreak Red customers. We’re also expanding Daybreak Blue alpha access for GPT‑6 Astra to more organizations and individual security researchers; [let us know⁠(opens in a new window)](https://docs.google.com/forms/d/e/1FAIpQLSdQu8mNYXDpUW_0kRS6JBWBPMWfUjjxi6xLi8AkFPObLupkpg/viewform) if you’re interested.\n\nNew users and organizations can [apply for Daybreak⁠](https://openai.com/daybreak/) and get started with our [cyber skills, products, and partners⁠](https://openai.com/business/solutions/cybersecurity/).",
+      "contentZh": "",
+      "titleZh": "",
+      "summaryZh": "",
+      "translationStatus": "pending",
+      "publishedAt": "2026-11-05T09:00:00.000Z",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "collectedAt": "2026-11-06T10:23:21.312Z"
+    },
+    {
+      "id": "873e8e108ed7b5063a1c",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Merge builds product and business tools with OpenAI technology",
+      "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+      "content": "Merge helps companies build connected software and AI products, from syncing customer data to enabling AI agents to take action across business systems. Its products span customer-data integrations through Merge Unified, secure tool access for AI agents through Merge Agent Handler, and model routing and cost controls through Merge Gateway. Merge for Workforce brings those capabilities inside companies, helping teams manage which models, tools, and business systems employees can access. Together, these products support both the software companies build for customers and the AI-powered work happening inside their organizations.\n\nInside Merge, CEO and Co-founder Shensi Ding uses Codex to review product code, including work on a new setup interface for configuring tool access in Merge for Workforce. Her colleagues use GPT‑6 Astra for product testing and marketing. The team also uses AI for the work of running the company, from preparing sales updates to planning customer dinners.\n\n> “We use it honestly for everything. Integrations obviously, but we also use it to automate different workflows, to help make our product better overall, to incorporate any feedback from our customers, and to build end-to-end features.”\n\n—Shensi Ding, CEO and Co-founder, Merge\n\n## Inside the rollout\n\nMerge launched a tool for adding connectors to AI products, with reliability a priority for Ding: “We’re pretty proud of the quality. Tool calls through Merge succeed 99.9% of the time, compared to public MCP servers, which are around 60%.”\n\nFor its own product development, Merge uses GPT‑6 Astra. “It’s really fast, and it was much better at code reviews,” Ding says. “They also liked the personality of GPT‑6 Astra, which goes a long way. It was also clear that Codex had improved a lot. Merge lets employees choose their own AI tools, and which one to use has become a lively internal debate.”\n\nDing used Codex to review a proposed implementation of the new provisioning tab in Merge for Workforce as the team evaluated how customers would configure tool access. They discussed making the “Add tool pack” action a clearer link that opens separately to make setup less confusing. Codex supplied code-review feedback; Merge’s team made the product decisions and implementation changes, with engineers responsible for validating and shipping them.\n\n> “Other AI systems would end up forgetting what I told them and only doing the last thing that I said. GPT-6 Astra continues to execute on every single task really well, and it fills in the gaps for what I did not explicitly say using common sense.”\n\n—Shensi Ding, CEO and Co-founder, Merge\n\n## The dinner bot\n\nMerge hosts executive dinners for customers and prospects to build relationships and create opportunities for follow-up product conversations.\n\nFor one dinner in Dallas, Merge started with the city and the kinds of people it wanted to bring together. The bot pulled potential guests from the CRM and Apollo, checked previous invitations and responses, and helped prepare outreach from Ding’s email. It also maintained the attendee tracker, proposed a seating chart, and created calendar notes where sales and customer success could add context about each guest.\n\nThe model handles reasoning and drafting, while Merge’s connectors provide access to the business systems. Ding reviews the output, rewrites anything that sounds off, and curates the guest list using relationship context the bot does not have.\n\nIn October 2026, Merge reported that preparing guest lists and outreach and maintaining the attendee tracker had gone from dozens of hours across the company to about 30 minutes per event. The comparison covers the same planning tasks, measured over the preceding three months. The team still handles hosting, relationship-building, and on-the-ground logistics.\n\nMerge ran 16 executive dinners in Q3, up from eight in Q2, and plans to host more than 30 in Q4. After the Dallas dinner, the team reported positive feedback on the invitations and opportunities for follow-up demos.\n\n“With GPT‑6 Astra, the dinner bot connects to our Salesforce, Gong, Google Sheets, and Gmail, and it’ll send emails on my behalf to people in our network,” Ding says. “It gives me recommendations for people who are a good fit for each dinner, and it surfaces new potential attendees.”\n\n## Everyone is a builder\n\nDing says, “It’s been especially great for team members who aren’t in engineering, because now they can build anything.”\n\nCharlie Lynch on Merge’s sales leadership team built reusable AI workflows for deal approvals, forecast updates, and next steps after renewal calls. Instead of repeatedly gathering context for each update or decision, he uses the workflows to prepare the material, then reviews the recommendation and decides what to do next.\n\nThe social media team uses GPT‑6 Astra in ChatGPT to find posts the company should respond to. The marketing team also used it to clarify the messaging for Merge’s Gateway Evaluations launch.\n\n## Leadership lessons\n\n*   Lead by using the tools: “If you’re an executive, you are the ceiling for AI fluency in your organization,” Ding says.\n\n*   Find somewhere less risky to experiment: Ding and her co-founder experimented with AI on a new product before customers depended on its codebase. “When you’re less nervous, and you can really experiment, you learn so much,” she says.\n\n*   Give people space and time to tinker: Merge lets each team member choose the tools they like and encourages them to spend time every day learning and testing. That includes the freedom to “go wild and make mistakes,” even when it means going down a rabbit hole that doesn’t pay off.\n\n## What’s next\n\n“Anything that I want to do, I can just tell AI to do it, and it can just do it,” Ding says. Merge is continuing to use OpenAI technology to expand what its teams can build, bringing the same spirit of experimentation to its products and the way it runs the business.",
+      "contentZh": "",
+      "titleZh": "",
+      "summaryZh": "",
+      "translationStatus": "pending",
+      "publishedAt": "2026-11-05T08:00:00.000Z",
+      "url": "https://openai.com/index/merge-builds-with-openai",
+      "collectedAt": "2026-11-06T10:23:21.313Z"
+    },
+    {
+      "id": "8965987cffe62ff69ffe",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Flipsnack grows product signups with conversion optimization",
+      "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+      "content": "## Results at a glance\n\n~75%\n\nlower cost per registration in five US conversion-focused campaigns than in their earlier click-focused versions, which used fixed bids.¹\n\n~310%\n\nmore registrations in those same five conversion-focused campaigns compared with their earlier click-focused versions.¹\n\n## Connecting a versatile product to a specific need\n\n[Flipsnack⁠(opens in a new window)](https://www.flipsnack.com/) helps teams turn static documents into interactive digital experiences. Its customers use the platform to create product catalogs, sales presentations, brochures, internal communications, and training materials.\n\nFor Flipsnack, that range of applications creates a marketing challenge: helping people recognize how the product fits the work they need to do. As the company increased its focus on business customers, it wanted to reach people with needs that its product category alone might not clearly describe.\n\nFlipsnack had relied heavily on search advertising. Its ChatGPT Ads test became an opportunity to learn which customer needs could translate into product signups.\n\n## Measuring the action that brings people into the product\n\nBecause Flipsnack is a visual product, prospective customers often want to experience it before speaking with sales. Its campaign landing pages directed people into a signup flow, making completed registration the first meaningful step the team could measure and optimize for.\n\nTo help business customers see where the product could fit their work, Flipsnack expanded beyond its original, broader Flipbook campaign. Separate campaigns for Magazine, Catalog, and Brochure addressed specific document needs, while campaigns for Sales Enablement, Employee Benefits, Real Estate, and Hospitality connected the product to business applications and industries.\n\n> “A sales team and an internal communications team can use the same product for very different jobs. We want our campaigns to help each see where Flipsnack fits.”\n\n—Paul Romancsak, Paid Advertising Manager at Flipsnack\n\nFlipsnack’s initial click-focused campaigns brought in traffic and signups. After seeing better delivery and registration efficiency in conversion-focused campaigns, the team rebuilt existing campaigns with a conversions objective and bidding set to maximize conversions.\n\n![Image 1: Flipsnack ad showing an internal newsletter, PDF and PowerPoint icons, and the text: Make PDFs interactive. Add videos and clickable links. Track reader engagement.](https://openai.com/_next/image?url=https%3A%2F%2Fcdn.openai.com%2Fmdx-assets%2F67bd281e-a14e-4cb9-94f8-96bd17b694f6%2Fflipsnack-chatgpt-ad-3x.7f4a2348.png&w=3840&q=90)\n\nA Flipsnack ad in ChatGPT.\n\n## Improving registration efficiency\n\nFlipsnack created conversion-focused versions of five existing US campaigns that had used a clicks objective with fixed bids.\n\nEarly results following the shift to conversion-focused campaigns were encouraging. Across five campaigns, registrations increased approximately 310% while cost per registration fell approximately 75%, with daily budget settings unchanged.[1](https://openai.com/ads/customers/flipsnack/#user-content-fn-1)\n\n> “What stood out was that we were getting more registrations at a lower cost per signup. That gave us the confidence to make conversion optimization the focus of our campaigns.”\n\n—Paul Romancsak, Paid Advertising Manager at Flipsnack\n\n## Building on registration results\n\nThese results give Flipsnack a promising foundation for continued growth with ChatGPT Ads. Building on its conversion-focused campaigns, the team aims to bring more prospective customers into the product and help them discover how Flipsnack can support their business.\n\n## Advertise in ChatGPT\n\nReach people as they explore options, compare choices, and make decisions in ChatGPT, with relevant ads that fit naturally into the experience.\n\n[Start now (opens in a new window)](https://ads.openai.com/)\n\n## Footnotes\n\n1.   1\nResults are based on Flipsnack’s ChatGPT Ads Manager data for five US campaign pairs, August 25–31 versus September 2–8, 2026, checked September 11. Attribution uses 30-day clicks, excluding views. Daily budget limits were unchanged; spend rose approximately 1.3%. Objectives and bidding changed together.[](https://openai.com/ads/customers/flipsnack/#user-content-fnref-1)",
+      "contentZh": "",
+      "titleZh": "",
+      "summaryZh": "",
+      "translationStatus": "pending",
+      "publishedAt": "2026-11-05T00:45:15.000Z",
+      "url": "https://openai.com/ads/customers/flipsnack",
+      "collectedAt": "2026-11-06T10:23:21.314Z"
+    },
+    {
+      "id": "832e8327fa44562a632f",
+      "sourceId": "claude-apps",
+      "company": "Anthropic",
+      "product": "Claude",
+      "kind": "product",
+      "title": "New security and admin controls for Enterprise plans Claude Enterprise has new security and admin features, including a security center, inference hooks, centralized management, an",
+      "summary": "New security and admin controls for Enterprise plans Claude Enterprise has new security and admin features, including a security center, inference hooks, centralized management, and additional access controls, several in beta. For more information, see our blog post: More visibility and control over Claude Enterprise for security teams. Personal Finance in Claude We’re rolling out Personal Finance, a beta that lets you link your bank, credit card, loan, and investment accounts to Claude, so you can see your balances and spending on one page and ask Claude questions about your own money. It's available on Pro, Max, and Ultra plans, and is available in the US only. For more information, see our blog post: Introducing Personal Finance in Claude.",
+      "content": "New security and admin controls for Enterprise plans Claude Enterprise has new security and admin features, including a security center, inference hooks, centralized management, and additional access controls, several in beta. For more information, see our blog post: More visibility and control over Claude Enterprise for security teams. Personal Finance in Claude We’re rolling out Personal Finance, a beta that lets you link your bank, credit card, loan, and investment accounts to Claude, so you can see your balances and spending on one page and ask Claude questions about your own money. It's available on Pro, Max, and Ultra plans, and is available in the US only. For more information, see our blog post: Introducing Personal Finance in Claude.",
+      "contentZh": "",
+      "titleZh": "",
+      "summaryZh": "",
+      "translationStatus": "pending",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "collectedAt": "2026-11-06T10:23:22.058Z"
+    },
+    {
+      "id": "733cf8b5ab5c3f567845",
+      "sourceId": "claude-platform",
+      "company": "Anthropic",
+      "product": "Claude",
+      "kind": "api",
+      "title": "You can now set up an IP allowlist for your organization in the Claude Console, in beta.",
+      "summary": "You can now set up an IP allowlist for your organization in the Claude Console, in beta. Requests to covered services from addresses not on your list are refused, which limits where a leaked API key can be used. Add IPv4 and IPv6 addresses or CIDR ranges, up to 1,000 per organization. See IP allowlisting for what’s covered and how to set it up. You can now sign a member of your Claude Enterprise (claude.ai) organization out of Claude everywhere with the Admin API. This capability is in beta. See the Admin API reference. The member stays in the organization and can sign in again. See Sign a member out everywhere for the beta header and what the request doesn’t end.",
+      "content": "You can now set up an IP allowlist for your organization in the Claude Console, in beta. Requests to covered services from addresses not on your list are refused, which limits where a leaked API key can be used. Add IPv4 and IPv6 addresses or CIDR ranges, up to 1,000 per organization. See IP allowlisting for what’s covered and how to set it up. You can now sign a member of your Claude Enterprise (claude.ai) organization out of Claude everywhere with the Admin API. This capability is in beta. See the Admin API reference. The member stays in the organization and can sign in again. See Sign a member out everywhere for the beta header and what the request doesn’t end.",
+      "contentZh": "",
+      "titleZh": "",
+      "summaryZh": "",
+      "translationStatus": "pending",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "collectedAt": "2026-11-06T10:23:22.798Z"
+    },
     {
       "id": "4de8b27be9e0b374feca",
       "sourceId": "openai-news",
@@ -67,7 +220,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-04T14:30:00.000Z",
       "url": "https://openai.com/index/openai-to-acquire-pierre",
-      "collectedAt": "2026-11-05T10:20:49.871Z"
+      "collectedAt": "2026-11-06T10:23:21.314Z"
     },
     {
       "id": "3e8cb3e76220121ce9d2",
@@ -84,7 +237,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-04T07:00:00.000Z",
       "url": "https://openai.com/index/daybreak-red-aws-govcloud",
-      "collectedAt": "2026-11-05T10:20:49.872Z"
+      "collectedAt": "2026-11-06T10:23:21.315Z"
     },
     {
       "id": "c874291f59b4b2e4c676",
@@ -101,7 +254,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-04T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-images-2-6",
-      "collectedAt": "2026-11-05T10:20:49.873Z"
+      "collectedAt": "2026-11-06T10:23:21.317Z"
     },
     {
       "id": "c53c56c593280d52e6bc",
@@ -118,7 +271,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-04T00:00:00.000Z",
       "url": "https://openai.com/index/devrev-enterprise-self-service",
-      "collectedAt": "2026-11-05T10:20:49.874Z"
+      "collectedAt": "2026-11-06T10:23:21.318Z"
     },
     {
       "id": "47c5f65358ae4d253d36",
@@ -135,7 +288,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-03T12:00:00.000Z",
       "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-      "collectedAt": "2026-11-05T10:20:49.874Z"
+      "collectedAt": "2026-11-06T10:23:21.319Z"
     },
     {
       "id": "949c7b5db36a2e2daf42",
@@ -152,7 +305,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-03T08:00:00.000Z",
       "url": "https://openai.com/index/cisco-cyber",
-      "collectedAt": "2026-11-05T10:20:49.874Z"
+      "collectedAt": "2026-11-06T10:23:21.320Z"
     },
     {
       "id": "4633daa6f18f86c54eb3",
@@ -169,7 +322,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-03T08:00:00.000Z",
       "url": "https://openai.com/index/heimstaden",
-      "collectedAt": "2026-11-05T10:20:49.875Z"
+      "collectedAt": "2026-11-06T10:23:21.321Z"
     },
     {
       "id": "92bdd093b6a518bec6ad",
@@ -186,7 +339,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-03T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.929Z"
+      "collectedAt": "2026-11-06T10:23:22.799Z"
     },
     {
       "id": "6f440249a277a8fbbe16",
@@ -203,7 +356,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-02T15:30:00.000Z",
       "url": "https://openai.com/index/scaling-git-at-openai",
-      "collectedAt": "2026-11-05T10:20:49.875Z"
+      "collectedAt": "2026-11-06T10:23:21.322Z"
     },
     {
       "id": "9ed808a8187abb803291",
@@ -220,7 +373,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-02T09:00:00.000Z",
       "url": "https://openai.com/index/lifeval",
-      "collectedAt": "2026-11-05T10:20:49.877Z"
+      "collectedAt": "2026-11-06T10:23:21.323Z"
     },
     {
       "id": "44665529391c2ff9191f",
@@ -237,7 +390,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-02T00:00:00.000Z",
       "url": "https://openai.com/index/qodo-codex-plugin",
-      "collectedAt": "2026-11-05T10:20:49.877Z"
+      "collectedAt": "2026-11-06T10:23:21.324Z"
     },
     {
       "id": "d175ac2cc4f761a12b94",
@@ -254,7 +407,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-02T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.929Z"
+      "collectedAt": "2026-11-06T10:23:22.799Z"
     },
     {
       "id": "6a84a600fee99150321d",
@@ -271,7 +424,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-30T09:00:00.000Z",
       "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-      "collectedAt": "2026-11-05T10:20:49.878Z"
+      "collectedAt": "2026-11-06T10:23:21.325Z"
     },
     {
       "id": "b0f21a805013f03c7dca",
@@ -288,7 +441,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-30T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.929Z"
+      "collectedAt": "2026-11-06T10:23:22.800Z"
     },
     {
       "id": "c4fc9ca3ccc3cbb3f72d",
@@ -305,7 +458,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-29T17:00:00.000Z",
       "url": "https://openai.com/index/updated-model-spec",
-      "collectedAt": "2026-11-05T10:20:49.879Z"
+      "collectedAt": "2026-11-06T10:23:21.326Z"
     },
     {
       "id": "18cef611588a1193dd4a",
@@ -322,7 +475,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-29T09:00:00.000Z",
       "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "collectedAt": "2026-11-05T10:20:49.879Z"
+      "collectedAt": "2026-11-06T10:23:21.327Z"
     },
     {
       "id": "fc05e6230607d9f27299",
@@ -339,7 +492,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-29T00:00:00.000Z",
       "url": "https://openai.com/index/credit-saison",
-      "collectedAt": "2026-11-05T10:20:49.880Z"
+      "collectedAt": "2026-11-06T10:23:21.328Z"
     },
     {
       "id": "9587d6355203807dd506",
@@ -356,7 +509,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-29T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.930Z"
+      "collectedAt": "2026-11-06T10:23:22.800Z"
     },
     {
       "id": "b3912c20867cd3902d08",
@@ -373,7 +526,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-28T19:40:49.000Z",
       "url": "https://openai.com/ads/customers/evernote",
-      "collectedAt": "2026-11-05T10:20:49.880Z"
+      "collectedAt": "2026-11-06T10:23:21.329Z"
     },
     {
       "id": "ddcd17d7121c57be0600",
@@ -390,7 +543,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-28T17:00:58.000Z",
       "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "collectedAt": "2026-11-05T10:20:51.820Z"
+      "collectedAt": "2026-11-06T10:23:24.529Z"
     },
     {
       "id": "24b6bd430275323c0d5b",
@@ -407,7 +560,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-28T13:15:00.000Z",
       "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "collectedAt": "2026-11-05T10:20:49.880Z"
+      "collectedAt": "2026-11-06T10:23:21.330Z"
     },
     {
       "id": "d3623346a5ba4773e870",
@@ -424,7 +577,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-28T09:30:00.000Z",
       "url": "https://openai.com/index/legora",
-      "collectedAt": "2026-11-05T10:20:49.880Z"
+      "collectedAt": "2026-11-06T10:23:21.331Z"
     },
     {
       "id": "7d3a7824e5cdde1c9603",
@@ -441,7 +594,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-28T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.930Z"
+      "collectedAt": "2026-11-06T10:23:22.800Z"
     },
     {
       "id": "0193ff3cd44006bdf062",
@@ -458,7 +611,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-27T15:00:00.000Z",
       "url": "https://openai.com/index/retell-ai",
-      "collectedAt": "2026-11-05T10:20:49.880Z"
+      "collectedAt": "2026-11-06T10:23:21.331Z"
     },
     {
       "id": "c6116b17c346c7c7342b",
@@ -475,7 +628,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-27T07:00:00.000Z",
       "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "collectedAt": "2026-11-05T10:20:49.881Z"
+      "collectedAt": "2026-11-06T10:23:21.332Z"
     },
     {
       "id": "a000ebaf269c8ae5d638",
@@ -492,7 +645,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-26T22:00:00.000Z",
       "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "collectedAt": "2026-11-05T10:20:49.881Z"
+      "collectedAt": "2026-11-06T10:23:21.333Z"
     },
     {
       "id": "50873b3f4c8bbb10f0ed",
@@ -509,7 +662,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-26T18:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-6-1-terra",
-      "collectedAt": "2026-11-05T10:20:49.881Z"
+      "collectedAt": "2026-11-06T10:23:21.334Z"
     },
     {
       "id": "32f1798b195a8eeda065",
@@ -526,7 +679,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-26T14:30:00.000Z",
       "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "collectedAt": "2026-11-05T10:20:49.881Z"
+      "collectedAt": "2026-11-06T10:23:21.334Z"
     },
     {
       "id": "a78767db11daafd34d6e",
@@ -543,7 +696,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-26T13:45:00.000Z",
       "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "collectedAt": "2026-11-05T10:20:49.881Z"
+      "collectedAt": "2026-11-06T10:23:21.335Z"
     },
     {
       "id": "fcbae959cfded2c76bf5",
@@ -560,7 +713,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-26T10:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
-      "collectedAt": "2026-11-05T10:20:49.881Z"
+      "collectedAt": "2026-11-06T10:23:21.336Z"
     },
     {
       "id": "d40d5e0ca15ab25db000",
@@ -577,7 +730,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-26T07:00:00.000Z",
       "url": "https://openai.com/index/openai-cut-incident-investigation",
-      "collectedAt": "2026-11-05T10:20:49.882Z"
+      "collectedAt": "2026-11-06T10:23:21.337Z"
     },
     {
       "id": "9fc10476b2c18ee0001b",
@@ -594,7 +747,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "collectedAt": "2026-11-05T10:20:49.882Z"
+      "collectedAt": "2026-11-06T10:23:21.338Z"
     },
     {
       "id": "fcd67a8854a80133b3f5",
@@ -611,7 +764,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-23T10:00:00.000Z",
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "collectedAt": "2026-11-05T10:20:49.882Z"
+      "collectedAt": "2026-11-06T10:23:21.338Z"
     },
     {
       "id": "de8f360d7618ca283160",
@@ -628,7 +781,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-23T00:00:00.000Z",
       "url": "https://openai.com/index/anima",
-      "collectedAt": "2026-11-05T10:20:49.882Z"
+      "collectedAt": "2026-11-06T10:23:21.339Z"
     },
     {
       "id": "12faaea26af29e3628b9",
@@ -645,7 +798,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-23T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.930Z"
+      "collectedAt": "2026-11-06T10:23:22.801Z"
     },
     {
       "id": "b40a489d3dca13c566ea",
@@ -662,7 +815,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-22T19:00:00.000Z",
       "url": "https://openai.com/index/decisions-api",
-      "collectedAt": "2026-11-05T10:20:49.883Z"
+      "collectedAt": "2026-11-06T10:23:21.340Z"
     },
     {
       "id": "e0ac835f8bbbb3d1f9a8",
@@ -679,7 +832,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-22T00:00:00.000Z",
       "url": "https://openai.com/index/uber-chatgpt-work-rollout",
-      "collectedAt": "2026-11-05T10:20:49.883Z"
+      "collectedAt": "2026-11-06T10:23:21.340Z"
     },
     {
       "id": "ca1eb8e9f0d5ad4b65c6",
@@ -696,7 +849,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.930Z"
+      "collectedAt": "2026-11-06T10:23:22.801Z"
     },
     {
       "id": "a7f4cc0f7267a2cd445c",
@@ -713,7 +866,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-21T13:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-      "collectedAt": "2026-11-05T10:20:49.884Z"
+      "collectedAt": "2026-11-06T10:23:21.343Z"
     },
     {
       "id": "e26725705d6b7e7f5c32",
@@ -730,7 +883,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-21T12:00:00.000Z",
       "url": "https://openai.com/index/openai-models-google-cloud",
-      "collectedAt": "2026-11-05T10:20:49.883Z"
+      "collectedAt": "2026-11-06T10:23:21.342Z"
     },
     {
       "id": "92ca159e84584b28e39e",
@@ -747,7 +900,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-21T07:00:00.000Z",
       "url": "https://openai.com/index/building-chatgpt-ad-stack",
-      "collectedAt": "2026-11-05T10:20:49.884Z"
+      "collectedAt": "2026-11-06T10:23:21.344Z"
     },
     {
       "id": "f99f7ec39c9e42b8cdb5",
@@ -764,7 +917,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "url": "https://openai.com/index/cloudflare-cyber",
-      "collectedAt": "2026-11-05T10:20:49.884Z"
+      "collectedAt": "2026-11-06T10:23:21.343Z"
     },
     {
       "id": "f96d8d9d61bf99f94f98",
@@ -781,7 +934,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-05T10:20:50.347Z"
+      "collectedAt": "2026-11-06T10:23:22.059Z"
     },
     {
       "id": "0ce4f81341f84770cb28",
@@ -798,7 +951,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.930Z"
+      "collectedAt": "2026-11-06T10:23:22.802Z"
     },
     {
       "id": "c4b1ed46c0fe160229ee",
@@ -815,7 +968,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-20T10:00:00.000Z",
       "url": "https://openai.com/index/ted-taylor-restaurant",
-      "collectedAt": "2026-11-05T10:20:49.885Z"
+      "collectedAt": "2026-11-06T10:23:21.345Z"
     },
     {
       "id": "a880df1b302f86a910fe",
@@ -832,7 +985,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-20T07:00:00.000Z",
       "url": "https://openai.com/index/terminal-x",
-      "collectedAt": "2026-11-05T10:20:49.885Z"
+      "collectedAt": "2026-11-06T10:23:21.346Z"
     },
     {
       "id": "16ee5437764d50779581",
@@ -849,7 +1002,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-20T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.939Z"
+      "collectedAt": "2026-11-06T10:23:22.802Z"
     },
     {
       "id": "b330f85b4b03f521aa49",
@@ -866,7 +1019,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-19T12:00:00.000Z",
       "url": "https://openai.com/index/low-resource-programming-languages",
-      "collectedAt": "2026-11-05T10:20:49.886Z"
+      "collectedAt": "2026-11-06T10:23:21.347Z"
     },
     {
       "id": "0ac6bba12ed4c8cbdc20",
@@ -883,7 +1036,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-17T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-05T10:20:53.577Z"
+      "collectedAt": "2026-11-06T10:23:26.025Z"
     },
     {
       "id": "741083893d951a305411",
@@ -900,7 +1053,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-16T00:00:00.000Z",
       "url": "https://openai.com/index/localiza-generative-ai",
-      "collectedAt": "2026-11-05T10:20:49.886Z"
+      "collectedAt": "2026-11-06T10:23:21.348Z"
     },
     {
       "id": "64b4b57c169ea93d3501",
@@ -917,7 +1070,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-16T00:00:00.000Z",
       "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "collectedAt": "2026-11-05T10:20:49.886Z"
+      "collectedAt": "2026-11-06T10:23:21.348Z"
     },
     {
       "id": "29c23cec52be23e1fea0",
@@ -934,7 +1087,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-16T00:00:00.000Z",
       "url": "https://openai.com/index/benefit-street-partners",
-      "collectedAt": "2026-11-05T10:20:49.887Z"
+      "collectedAt": "2026-11-06T10:23:21.349Z"
     },
     {
       "id": "4ed6df5c15d558fd63cd",
@@ -951,24 +1104,24 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-15T19:00:00.000Z",
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "collectedAt": "2026-11-05T10:20:49.887Z"
+      "collectedAt": "2026-11-06T10:23:21.350Z"
     },
     {
-      "id": "7e3f9a4a081a50d9fa63",
+      "id": "18610e08c678bc8aded1",
       "sourceId": "claude-platform",
       "company": "Anthropic",
       "product": "Claude",
       "kind": "api",
-      "title": "We’ve added capabilities.thinking.types.between_tools to the Models API.",
-      "summary": "We’ve added capabilities.thinking.types.between_tools to the Models API. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts thinking: {type: \"between_tools\"}, which turns off up-front thinking. See Using the Models API. The Compliance API now returns the text each organization member saved as Instructions for Claude in claude.ai and as Global instructions in Cowork, in beta for Claude Enterprise organizations. Call GET /v1/compliance/organizations/{org_uuid}/user_preferences with your existing Compliance Access Key and the read:compliance_user_data scope. See List user preferences. Fast mode is out of research preview for Claude Opus 5.5, and you no longer need to request access. Requests to Claude Opus 5.5 no longer require the fast-mode-2026-02-01 beta header, and requests that still send it keep working. Claude Opus 5.5 now has a default fast mode rate limit in the Start, Build, and Scale usage tiers. Fast mode for Claude Opus 5 and Claude Opus 4.8 remains in research preview. Keep sending the beta header with fast mode requests to those models. Fast mode for Claude Opus 5.5 is now available on Claude in Microsoft Foundry for deployments hosted on Azure.",
-      "content": "We’ve added capabilities.thinking.types.between_tools to the Models API. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts thinking: {type: \"between_tools\"}, which turns off up-front thinking. See Using the Models API. The Compliance API now returns the text each organization member saved as Instructions for Claude in claude.ai and as Global instructions in Cowork, in beta for Claude Enterprise organizations. Call GET /v1/compliance/organizations/{org_uuid}/user_preferences with your existing Compliance Access Key and the read:compliance_user_data scope. See List user preferences. Fast mode is out of research preview for Claude Opus 5.5, and you no longer need to request access. Requests to Claude Opus 5.5 no longer require the fast-mode-2026-02-01 beta header, and requests that still send it keep working. Claude Opus 5.5 now has a default fast mode rate limit in the Start, Build, and Scale usage tiers. Fast mode for Claude Opus 5 and Claude Opus 4.8 remains in research preview. Keep sending the beta header with fast mode requests to those models. Fast mode for Claude Opus 5.5 is now available on Claude in Microsoft Foundry for deployments hosted on Azure.",
+      "title": "We’ve added capabilities.thinking.types.between_tools to the Models APIPreview with links to the API reference available — press Tab until focus enters the card, Escape to return..",
+      "summary": "We’ve added capabilities.thinking.types.between_tools to the Models APIPreview with links to the API reference available — press Tab until focus enters the card, Escape to return.. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts thinking: {type: \"between_tools\"}, which turns off up-front thinking. See Using the Models API. The Compliance API now returns the text each organization member saved as Instructions for Claude in claude.ai and as Global instructions in Cowork, in beta for Claude Enterprise organizations. Call GET /v1/compliance/organizations/{org_uuid}/user_preferences with your existing Compliance Access Key and the read:compliance_user_data scope. See List user preferences. Fast mode is out of research preview for Claude Opus 5.5, and you no longer need to request access. Requests to Claude Opus 5.5 no longer require the fast-mode-2026-02-01 beta header, and requests that still send it keep working. Claude Opus 5.5 now has a default fast mode rate limit in the Start, Build, and Scale usage tiers. Fast mode for Claude Opus 5 and Claude Opus 4.8 remains in research preview. Keep sending the beta header with fast mode requests to those models. Fast mode for Claude Opus 5.5 is now available on Claude in Microsoft Foundry for deployments hosted on Azure.",
+      "content": "We’ve added capabilities.thinking.types.between_tools to the Models APIPreview with links to the API reference available — press Tab until focus enters the card, Escape to return.. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts thinking: {type: \"between_tools\"}, which turns off up-front thinking. See Using the Models API. The Compliance API now returns the text each organization member saved as Instructions for Claude in claude.ai and as Global instructions in Cowork, in beta for Claude Enterprise organizations. Call GET /v1/compliance/organizations/{org_uuid}/user_preferences with your existing Compliance Access Key and the read:compliance_user_data scope. See List user preferences. Fast mode is out of research preview for Claude Opus 5.5, and you no longer need to request access. Requests to Claude Opus 5.5 no longer require the fast-mode-2026-02-01 beta header, and requests that still send it keep working. Claude Opus 5.5 now has a default fast mode rate limit in the Start, Build, and Scale usage tiers. Fast mode for Claude Opus 5 and Claude Opus 4.8 remains in research preview. Keep sending the beta header with fast mode requests to those models. Fast mode for Claude Opus 5.5 is now available on Claude in Microsoft Foundry for deployments hosted on Azure.",
       "contentZh": "",
       "titleZh": "",
       "summaryZh": "",
       "translationStatus": "pending",
       "publishedAt": "2026-10-15T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.940Z"
+      "collectedAt": "2026-11-06T10:23:22.803Z"
     },
     {
       "id": "ae07909e220d84ba5298",
@@ -985,7 +1138,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-14T12:00:00.000Z",
       "url": "https://openai.com/index/amp-beyond-coding",
-      "collectedAt": "2026-11-05T10:20:49.887Z"
+      "collectedAt": "2026-11-06T10:23:21.351Z"
     },
     {
       "id": "5af941d3347cd0b31e08",
@@ -1002,7 +1155,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-14T07:00:00.000Z",
       "url": "https://openai.com/index/third-moment-research",
-      "collectedAt": "2026-11-05T10:20:49.887Z"
+      "collectedAt": "2026-11-06T10:23:21.352Z"
     },
     {
       "id": "6725a25b1257a6d7abcf",
@@ -1019,7 +1172,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-14T02:00:14.000Z",
       "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-      "collectedAt": "2026-11-05T10:20:51.820Z"
+      "collectedAt": "2026-11-06T10:23:24.529Z"
     },
     {
       "id": "d6c85c4d2f3339abada7",
@@ -1036,7 +1189,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-14T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.940Z"
+      "collectedAt": "2026-11-06T10:23:22.804Z"
     },
     {
       "id": "ca02af101726c5e29829",
@@ -1053,7 +1206,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-13T19:43:07.000Z",
       "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-      "collectedAt": "2026-11-05T10:20:51.820Z"
+      "collectedAt": "2026-11-06T10:23:24.530Z"
     },
     {
       "id": "79730454c4a0d9bd4cd0",
@@ -1070,7 +1223,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-13T16:01:58.000Z",
       "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-      "collectedAt": "2026-11-05T10:20:51.820Z"
+      "collectedAt": "2026-11-06T10:23:24.530Z"
     },
     {
       "id": "812075165a6f703bcf0c",
@@ -1087,7 +1240,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-13T16:01:52.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-      "collectedAt": "2026-11-05T10:20:51.820Z"
+      "collectedAt": "2026-11-06T10:23:24.530Z"
     },
     {
       "id": "bd0c7d7636bac2d8b368",
@@ -1104,7 +1257,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-13T16:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "collectedAt": "2026-11-05T10:20:52.046Z"
+      "collectedAt": "2026-11-06T10:23:24.848Z"
     },
     {
       "id": "88d109f9ffb73d1e9149",
@@ -1121,7 +1274,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-13T12:00:00.000Z",
       "url": "https://openai.com/index/higgsfield-longer-videos-voice",
-      "collectedAt": "2026-11-05T10:20:49.888Z"
+      "collectedAt": "2026-11-06T10:23:21.353Z"
     },
     {
       "id": "c3e57db0842e8aa78965",
@@ -1138,7 +1291,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-13T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-11-05T10:20:51.218Z"
+      "collectedAt": "2026-11-06T10:23:23.065Z"
     },
     {
       "id": "6e4f5b7a123143776f19",
@@ -1155,7 +1308,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-09T07:00:00.000Z",
       "url": "https://openai.com/index/asana-browser-agent",
-      "collectedAt": "2026-11-05T10:20:49.888Z"
+      "collectedAt": "2026-11-06T10:23:21.353Z"
     },
     {
       "id": "42e888a7cc19b4d85cd0",
@@ -1172,7 +1325,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-09T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.940Z"
+      "collectedAt": "2026-11-06T10:23:22.804Z"
     },
     {
       "id": "ea6e3024027050fefc4a",
@@ -1189,7 +1342,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-08T16:00:00.000Z",
       "url": "https://openai.com/index/oracle",
-      "collectedAt": "2026-11-05T10:20:49.888Z"
+      "collectedAt": "2026-11-06T10:23:21.354Z"
     },
     {
       "id": "5e179cf9fc5230516601",
@@ -1206,7 +1359,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-08T12:00:00.000Z",
       "url": "https://openai.com/index/pollo-ai",
-      "collectedAt": "2026-11-05T10:20:49.888Z"
+      "collectedAt": "2026-11-06T10:23:21.355Z"
     },
     {
       "id": "f45224b70875029b06cb",
@@ -1223,7 +1376,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-08T12:00:00.000Z",
       "url": "https://openai.com/index/legalon-halves-codex-costs",
-      "collectedAt": "2026-11-05T10:20:49.888Z"
+      "collectedAt": "2026-11-06T10:23:21.355Z"
     },
     {
       "id": "b00b251fbd09fd510cf8",
@@ -1240,7 +1393,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-08T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.940Z"
+      "collectedAt": "2026-11-06T10:23:22.804Z"
     },
     {
       "id": "053572bc3d224707807d",
@@ -1257,7 +1410,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-07T12:00:00.000Z",
       "url": "https://openai.com/index/teens-learn-and-plan",
-      "collectedAt": "2026-11-05T10:20:49.888Z"
+      "collectedAt": "2026-11-06T10:23:21.356Z"
     },
     {
       "id": "e570b3aeb15445d9fd65",
@@ -1274,7 +1427,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-07T07:00:00.000Z",
       "url": "https://openai.com/index/radisson",
-      "collectedAt": "2026-11-05T10:20:49.889Z"
+      "collectedAt": "2026-11-06T10:23:21.357Z"
     },
     {
       "id": "44e7004c56ab653cde6e",
@@ -1291,7 +1444,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-07T00:00:00.000Z",
       "url": "https://openai.com/index/gpt-6-for-everyone",
-      "collectedAt": "2026-11-05T10:20:49.889Z"
+      "collectedAt": "2026-11-06T10:23:21.358Z"
     },
     {
       "id": "ecef651792823cfe8680",
@@ -1308,7 +1461,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-07T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-05T10:20:50.348Z"
+      "collectedAt": "2026-11-06T10:23:22.060Z"
     },
     {
       "id": "02a4f216cde7ea519cea",
@@ -1325,7 +1478,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-07T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.941Z"
+      "collectedAt": "2026-11-06T10:23:22.805Z"
     },
     {
       "id": "bb24fa22c53afbb99a4c",
@@ -1342,7 +1495,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-06T19:57:04.000Z",
       "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-      "collectedAt": "2026-11-05T10:20:51.820Z"
+      "collectedAt": "2026-11-06T10:23:24.530Z"
     },
     {
       "id": "2fb1d1aa61471ba7fc18",
@@ -1359,7 +1512,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-06T16:00:00.000Z",
       "url": "https://openai.com/index/atlassian-partnership",
-      "collectedAt": "2026-11-05T10:20:49.890Z"
+      "collectedAt": "2026-11-06T10:23:21.363Z"
     },
     {
       "id": "d08e77e6d7627ad2dedc",
@@ -1376,7 +1529,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-06T12:00:00.000Z",
       "url": "https://openai.com/index/jump-trading",
-      "collectedAt": "2026-11-05T10:20:49.889Z"
+      "collectedAt": "2026-11-06T10:23:21.358Z"
     },
     {
       "id": "f468f3b992b29140bb8c",
@@ -1393,24 +1546,24 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-06T12:00:00.000Z",
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "collectedAt": "2026-11-05T10:20:49.890Z"
+      "collectedAt": "2026-11-06T10:23:21.359Z"
     },
     {
-      "id": "6b38c9286c5b7625a0d4",
+      "id": "bdb33ded96b07020b0fa",
       "sourceId": "claude-platform",
       "company": "Anthropic",
       "product": "Claude",
       "kind": "api",
-      "title": "We’ve added capabilities.server_tools to the Models API.",
-      "summary": "We’ve added capabilities.server_tools to the Models API. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts the web search and code execution tools. To check whether a model accepts the code execution tool, read capabilities.server_tools.code_execution. The top-level capabilities.code_execution reports whether code can call your request’s other tools. See Using the Models API.",
-      "content": "We’ve added capabilities.server_tools to the Models API. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts the web search and code execution tools. To check whether a model accepts the code execution tool, read capabilities.server_tools.code_execution. The top-level capabilities.code_execution reports whether code can call your request’s other tools. See Using the Models API.",
+      "title": "We’ve added capabilities.server_tools to the Models APIPreview with links to the API reference available — press Tab until focus enters the card, Escape to return..",
+      "summary": "We’ve added capabilities.server_tools to the Models APIPreview with links to the API reference available — press Tab until focus enters the card, Escape to return.. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts the web search and code execution tools. To check whether a model accepts the code execution tool, read capabilities.server_tools.code_execution. The top-level capabilities.code_execution reports whether code can call your request’s other tools. See Using the Models API.",
+      "content": "We’ve added capabilities.server_tools to the Models APIPreview with links to the API reference available — press Tab until focus enters the card, Escape to return.. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts the web search and code execution tools. To check whether a model accepts the code execution tool, read capabilities.server_tools.code_execution. The top-level capabilities.code_execution reports whether code can call your request’s other tools. See Using the Models API.",
       "contentZh": "",
       "titleZh": "",
       "summaryZh": "",
       "translationStatus": "pending",
       "publishedAt": "2026-10-06T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.941Z"
+      "collectedAt": "2026-11-06T10:23:22.806Z"
     },
     {
       "id": "aa83e0567f81baa77a53",
@@ -1427,24 +1580,24 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-05T10:00:00.000Z",
       "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-      "collectedAt": "2026-11-05T10:20:49.890Z"
+      "collectedAt": "2026-11-06T10:23:21.363Z"
     },
     {
-      "id": "f0a951ab418bfaebfffe",
+      "id": "59441074197a9d52b588",
       "sourceId": "claude-platform",
       "company": "Anthropic",
       "product": "Claude",
       "kind": "api",
-      "title": "We’ve added capabilities.thinking.types.disabled to the Models API.",
-      "summary": "We’ve added capabilities.thinking.types.disabled to the Models API. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts thinking: {type: \"disabled\"}, which turns thinking off. See Using the Models API.",
-      "content": "We’ve added capabilities.thinking.types.disabled to the Models API. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts thinking: {type: \"disabled\"}, which turns thinking off. See Using the Models API.",
+      "title": "We’ve added capabilities.thinking.types.disabled to the Models APIPreview with links to the API reference available — press Tab until focus enters the card, Escape to return..",
+      "summary": "We’ve added capabilities.thinking.types.disabled to the Models APIPreview with links to the API reference available — press Tab until focus enters the card, Escape to return.. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts thinking: {type: \"disabled\"}, which turns thinking off. See Using the Models API.",
+      "content": "We’ve added capabilities.thinking.types.disabled to the Models APIPreview with links to the API reference available — press Tab until focus enters the card, Escape to return.. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts thinking: {type: \"disabled\"}, which turns thinking off. See Using the Models API.",
       "contentZh": "",
       "titleZh": "",
       "summaryZh": "",
       "translationStatus": "pending",
       "publishedAt": "2026-10-05T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.941Z"
+      "collectedAt": "2026-11-06T10:23:22.807Z"
     },
     {
       "id": "384626120891883ee8e2",
@@ -1461,7 +1614,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-02T16:15:00.000Z",
       "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "collectedAt": "2026-11-05T10:20:49.891Z"
+      "collectedAt": "2026-11-06T10:23:21.364Z"
     },
     {
       "id": "b4075fea819f5adf3283",
@@ -1478,7 +1631,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-02T00:00:00.000Z",
       "url": "https://openai.com/index/chatham-financial",
-      "collectedAt": "2026-11-05T10:20:49.893Z"
+      "collectedAt": "2026-11-06T10:23:21.364Z"
     },
     {
       "id": "f1ee3e7d0793c6d93b3a",
@@ -1495,7 +1648,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-01T16:00:00.000Z",
       "url": "https://openai.com/index/albertsons-reimagining-retail",
-      "collectedAt": "2026-11-05T10:20:49.893Z"
+      "collectedAt": "2026-11-06T10:23:21.365Z"
     },
     {
       "id": "13ae9b523ea82b817626",
@@ -1512,24 +1665,24 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-01T00:00:00.000Z",
       "url": "https://openai.com/index/the-den-family-social",
-      "collectedAt": "2026-11-05T10:20:49.893Z"
+      "collectedAt": "2026-11-06T10:23:21.365Z"
     },
     {
-      "id": "b14fbd3a36ccd6c235d6",
+      "id": "7a981bb6a8fec202e200",
       "sourceId": "claude-platform",
       "company": "Anthropic",
       "product": "Claude",
       "kind": "api",
-      "title": "We’ve added a line field to the Models API.",
-      "summary": "We’ve added a line field to the Models API. GET /v1/models and GET /v1/models/{model_id} now return the model line each model belongs to. Claude Opus 4.5 and Claude Opus 4.6 both report opus, for example. Use line to group models without parsing their IDs. line is null for a model that belongs to no line. See Using the Models API. Dreams (research preview) now supports Claude Opus 5.5, Claude Fable 5.1, and Claude Sonnet 5.5. See Supported models.",
-      "content": "We’ve added a line field to the Models API. GET /v1/models and GET /v1/models/{model_id} now return the model line each model belongs to. Claude Opus 4.5 and Claude Opus 4.6 both report opus, for example. Use line to group models without parsing their IDs. line is null for a model that belongs to no line. See Using the Models API. Dreams (research preview) now supports Claude Opus 5.5, Claude Fable 5.1, and Claude Sonnet 5.5. See Supported models.",
+      "title": "We’ve added a line field to the Models APIPreview with links to the API reference available — press Tab until focus enters the card, Escape to return..",
+      "summary": "We’ve added a line field to the Models APIPreview with links to the API reference available — press Tab until focus enters the card, Escape to return.. GET /v1/models and GET /v1/models/{model_id} now return the model line each model belongs to. Claude Opus 4.5 and Claude Opus 4.6 both report opus, for example. Use line to group models without parsing their IDs. line is null for a model that belongs to no line. See Using the Models API. Dreams (research preview) now supports Claude Opus 5.5, Claude Fable 5.1, and Claude Sonnet 5.5. See Supported models.",
+      "content": "We’ve added a line field to the Models APIPreview with links to the API reference available — press Tab until focus enters the card, Escape to return.. GET /v1/models and GET /v1/models/{model_id} now return the model line each model belongs to. Claude Opus 4.5 and Claude Opus 4.6 both report opus, for example. Use line to group models without parsing their IDs. line is null for a model that belongs to no line. See Using the Models API. Dreams (research preview) now supports Claude Opus 5.5, Claude Fable 5.1, and Claude Sonnet 5.5. See Supported models.",
       "contentZh": "",
       "titleZh": "",
       "summaryZh": "",
       "translationStatus": "pending",
       "publishedAt": "2026-10-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.941Z"
+      "collectedAt": "2026-11-06T10:23:22.807Z"
     },
     {
       "id": "29505882ef55b3b17452",
@@ -1546,7 +1699,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-30T20:01:45.000Z",
       "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-      "collectedAt": "2026-11-05T10:20:51.821Z"
+      "collectedAt": "2026-11-06T10:23:24.530Z"
     },
     {
       "id": "7b79633fb1d94ee1fafd",
@@ -1563,7 +1716,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-30T10:30:00.000Z",
       "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "collectedAt": "2026-11-05T10:20:49.893Z"
+      "collectedAt": "2026-11-06T10:23:21.365Z"
     },
     {
       "id": "7a44f16e721d71f3a40a",
@@ -1580,7 +1733,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.941Z"
+      "collectedAt": "2026-11-06T10:23:22.808Z"
     },
     {
       "id": "14a93593dd29d9cce2e2",
@@ -1597,7 +1750,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-11-05T10:20:51.219Z"
+      "collectedAt": "2026-11-06T10:23:23.066Z"
     },
     {
       "id": "dec3c56087ecf835f793",
@@ -1614,7 +1767,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-29T17:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "collectedAt": "2026-11-05T10:20:49.893Z"
+      "collectedAt": "2026-11-06T10:23:21.366Z"
     },
     {
       "id": "b1be4275e9b1957a480b",
@@ -1631,7 +1784,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-29T10:00:00.000Z",
       "url": "https://openai.com/index/devday-2026-recap",
-      "collectedAt": "2026-11-05T10:20:49.894Z"
+      "collectedAt": "2026-11-06T10:23:21.366Z"
     },
     {
       "id": "8aba59a84f4991b7e02f",
@@ -1648,7 +1801,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-29T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-dots",
-      "collectedAt": "2026-11-05T10:20:49.894Z"
+      "collectedAt": "2026-11-06T10:23:21.367Z"
     },
     {
       "id": "3d0c36ffbad6ec0487a6",
@@ -1665,7 +1818,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "url": "https://openai.com/form/codex-originals",
-      "collectedAt": "2026-11-05T10:20:49.894Z"
+      "collectedAt": "2026-11-06T10:23:21.367Z"
     },
     {
       "id": "fb33ffedd2ef1f33358e",
@@ -1682,7 +1835,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "url": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "collectedAt": "2026-11-05T10:20:49.894Z"
+      "collectedAt": "2026-11-06T10:23:21.368Z"
     },
     {
       "id": "b4c25d5187dd3628a6ae",
@@ -1699,7 +1852,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-05T10:20:50.348Z"
+      "collectedAt": "2026-11-06T10:23:22.060Z"
     },
     {
       "id": "fc6af36a46b4e2940d27",
@@ -1716,7 +1869,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.942Z"
+      "collectedAt": "2026-11-06T10:23:22.809Z"
     },
     {
       "id": "958634143951a5262875",
@@ -1733,7 +1886,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-25T19:00:00.000Z",
       "url": "https://openai.com/index/proaction",
-      "collectedAt": "2026-11-05T10:20:49.894Z"
+      "collectedAt": "2026-11-06T10:23:21.368Z"
     },
     {
       "id": "908b229b34ef0eca1c2c",
@@ -1750,7 +1903,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-25T07:00:00.000Z",
       "url": "https://openai.com/index/lowes",
-      "collectedAt": "2026-11-05T10:20:49.894Z"
+      "collectedAt": "2026-11-06T10:23:21.369Z"
     },
     {
       "id": "5e679411e8795fb41661",
@@ -1767,7 +1920,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-25T00:00:00.000Z",
       "url": "https://openai.com/index/wayfair",
-      "collectedAt": "2026-11-05T10:20:49.894Z"
+      "collectedAt": "2026-11-06T10:23:21.369Z"
     },
     {
       "id": "5a1eb82bce206d920902",
@@ -1784,7 +1937,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-25T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-05T10:20:50.348Z"
+      "collectedAt": "2026-11-06T10:23:22.061Z"
     },
     {
       "id": "20a747dfc11440658478",
@@ -1801,7 +1954,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-24T16:20:39.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-      "collectedAt": "2026-11-05T10:20:51.821Z"
+      "collectedAt": "2026-11-06T10:23:24.530Z"
     },
     {
       "id": "656525516449cb970c4b",
@@ -1818,7 +1971,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-24T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.942Z"
+      "collectedAt": "2026-11-06T10:23:22.820Z"
     },
     {
       "id": "195c546c2f499ad7a563",
@@ -1835,24 +1988,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-23T15:25:14.000Z",
       "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-      "collectedAt": "2026-11-05T10:20:51.821Z"
-    },
-    {
-      "id": "d84366078f8a35d69fd8",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-      "content": "When call volume rises, customer service operations typically scale by adding people, but this increases the cost and complexity of every interaction. [Ringg⁠(opens in a new window)](https://www.ringg.ai/), a voice and chat agent platform, saw this problem firsthand while working with large consumer businesses in India.\n\nThese companies were not only struggling to answer more calls, their customer service agents were also battling fragmented, manual systems to help customers complete tasks, from buying insurance to booking appointments.\n\nThat experience led Ringg to build an enterprise agent platform with high-efficiency models like GPT‑5.6 at its core, spanning voice, chat, WhatsApp, and the web. Migrating suitable real-time workloads from GPT‑4.1 to GPT‑5.6 reduced model costs by approximately 90% while delivering the required quality and latency.\n\n> “Model quality is only part of the equation. We also need low latency, reliable tool use, strong instruction following, and economics that work at scale. OpenAI gave us the balance we needed.”\n\n—Siddharth Tripathi, Co-founder, Ringg\n\nRingg’s agents now handle more than 7 million connected calls each month, and its customers have an average customer satisfaction (CSAT) score of 4.8.\n\n## Building an agent platform around customer outcomes\n\nFor agents to complete a customer request, it may require checking a policy, retrieving an account record, scheduling an appointment, updating a CRM, or transferring the conversation to a specialist with the relevant context intact.\n\nFor real-time interactions, Ringg uses GPT‑5.6 Luna and other models to interpret customer requests, select tools, and guide customers through multi-step workflows. Ringg’s orchestration layer executes actions across CRMs, ticketing platforms, payment systems, scheduling tools, and internal APIs, escalating cases to a human with a conversation summary when needed.\n\nRingg’s knowledge system combines structured filtering with semantic retrieval across datasets, PDFs, CSVs, and business documents, helping agents answer questions using relevant enterprise information.\n\nRingg can also divide work among specialized subagents for qualification, support, verification, scheduling, and escalation. The platform coordinates those steps while maintaining a consistent conversation with the customer across voice, chat, WhatsApp, and the web.\n\n## Routing each task to the right OpenAI model\n\nAfter evaluating OpenAI alongside alternatives across conversational quality, latency, instruction following, tool calling, multilingual performance, reliability, and cost, Ringg found that OpenAI delivered the strongest overall balance for production workloads.\n\nGPT‑5.6 and other OpenAI models also performed more consistently in following complex instructions, executing tool calls, maintaining conversational context, and operating reliably at enterprise scale.\n\nRingg routes work to a specific OpenAI model based on the needs of the task. GPT‑4.1 handles most real-time voice and chat traffic. GPT‑5.6 Luna remains in the production stack and is used when its performance, latency, or price-performance profile better suits a request. GPT‑5.6 Terra handles post-call analysis, including summaries and sentiment classification. And GPT‑5.6 Sol supports evaluation, prompt improvement, and model-as-judge workflows.\n\nWhen a customer speaks during a voice call or sends a chat, Ringg’s orchestration system combines that input with the agent’s instructions, conversation history, customer-specific data, relevant knowledge-base context, and available tools. Ringg’s routing layer then selects the appropriate model and configuration. The model’s output is passed through the orchestration system and delivered through the customer’s chosen channel.\n\nFor longer interactions, the system creates a structured summary when the context approaches approximately 80,000 tokens. The conversation can then continue with the important information preserved, without repeatedly sending the entire history.\n\n## Using production evals to improve quality and cost\n\nRingg tests models using historical conversations and simulated customer flows before production deployment. Its evaluation platform uses those results to identify weaknesses and recommend prompt improvements, creating a continuous improvement loop for its agents and configurations.\n\nOne evaluation involved Ringg’s post-call analysis workflow. The company tested GPT‑5.6 Terra against alternatives like Gemini 2.5 Flash, and Terra came out on top. Ringg moved summaries and sentiment classification to GPT‑5.6 Terra. Terra maintained high accuracy for summaries and sentiment analysis while materially improving unit economics.\n\nThe company also tests models across language and regional variations, including conversations that switch between languages or combine English with local-language phrases, common behavior in the markets it serves. GPT‑5.6 Terra outperformed Gemini 2.5 Flash, with up to 97% accuracy on common regional languages, making GPT‑5.6 a better fit for agents serving Ringg’s customers.\n\nModels that pass offline testing are introduced to a small share of production traffic before rollout expands. In production, Ringg’s router monitors latency and endpoint health across regions and shifts traffic when an endpoint becomes unavailable or crosses a latency threshold. Specialized nodes, alerts, and versioned deployments help isolate problems and limit their impact.\n\nThis approach also helps Ringg improve unit economics. Migrating certain real-time workloads from GPT‑4.1 to GPT‑5.6 Luna reduced model costs by approximately 90%.\n\n> “OpenAI has been highly responsive when we’ve needed support with model migrations. The dedicated Slack support and access to the core engineering team help us move quickly with less engineering uncertainty, ship faster, and expand what our agents can accomplish.”\n\n—Siddharth Tripathi, Co-founder, Ringg\n\n## Delivering customer results across industries\n\nFor its customers, Ringg’s agents resolve up to 65% of routine customer inquiries without any involvement from a human agent.\n\nPolicybazaar, one of India’s largest online insurance platforms, uses Ringg to connect more than 57,000 customer requests, and 67% of calls are handled without human intervention. Policybazaar’s average response time fell from 8–12 minutes to under 60 seconds, an improvement of approximately 88%.\n\nAt Practo, a global healthcare platform, Ringg’s agents help customers book healthcare appointments and complete service requests. Following deployment, Practo achieved an 85% first-call resolution rate and response times below three seconds. Operating costs declined by 70% compared with its previous human-led workflow, while Ringg now completes more than 1,000 appointment bookings each day.\n\nOnline investment platform Groww uses Ringg to resolve 72% of inbound queries related to IPOs, futures, and options entirely through self-service, with an average handling time of two minutes.\n\n## Extending agents into the browser\n\nUsing OpenAI’s computer-use capabilities, Ringg is developing browser agents for platform onboarding, Know Your Customer (KYC) processes, IT troubleshooting, on-call incident support, and claims processing.\n\nThe company is also developing a context layer that can preserve information across channels and interactions. A customer might begin a request over voice, continue it on WhatsApp, and finish it in a browser without having to repeat the same details each time.\n\n> “OpenAI’s computer-use capabilities accelerated our browser-agent roadmap. They let us combine what is happening on a user’s screen with conversational context, so agents can guide people through complex workflows in real time.”\n\n—Siddharth Tripathi, Co-founder, Ringg\n\nFor Ringg, the next generation of customer operations will be measured by completed business outcomes and automation depth, rather than call volume or headcount.",
-      "contentZh": "",
-      "titleZh": "",
-      "summaryZh": "",
-      "translationStatus": "pending",
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "url": "https://openai.com/index/ringg",
-      "collectedAt": "2026-11-05T10:20:49.895Z"
+      "collectedAt": "2026-11-06T10:23:24.530Z"
     },
     {
       "id": "d19836357705e0f3bb0f",
@@ -1869,7 +2005,24 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "collectedAt": "2026-11-05T10:20:49.895Z"
+      "collectedAt": "2026-11-06T10:23:21.370Z"
+    },
+    {
+      "id": "d84366078f8a35d69fd8",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "content": "When call volume rises, customer service operations typically scale by adding people, but this increases the cost and complexity of every interaction. [Ringg⁠(opens in a new window)](https://www.ringg.ai/), a voice and chat agent platform, saw this problem firsthand while working with large consumer businesses in India.\n\nThese companies were not only struggling to answer more calls, their customer service agents were also battling fragmented, manual systems to help customers complete tasks, from buying insurance to booking appointments.\n\nThat experience led Ringg to build an enterprise agent platform with high-efficiency models like GPT‑5.6 at its core, spanning voice, chat, WhatsApp, and the web. Migrating suitable real-time workloads from GPT‑4.1 to GPT‑5.6 reduced model costs by approximately 90% while delivering the required quality and latency.\n\n> “Model quality is only part of the equation. We also need low latency, reliable tool use, strong instruction following, and economics that work at scale. OpenAI gave us the balance we needed.”\n\n—Siddharth Tripathi, Co-founder, Ringg\n\nRingg’s agents now handle more than 7 million connected calls each month, and its customers have an average customer satisfaction (CSAT) score of 4.8.\n\n## Building an agent platform around customer outcomes\n\nFor agents to complete a customer request, it may require checking a policy, retrieving an account record, scheduling an appointment, updating a CRM, or transferring the conversation to a specialist with the relevant context intact.\n\nFor real-time interactions, Ringg uses GPT‑5.6 Luna and other models to interpret customer requests, select tools, and guide customers through multi-step workflows. Ringg’s orchestration layer executes actions across CRMs, ticketing platforms, payment systems, scheduling tools, and internal APIs, escalating cases to a human with a conversation summary when needed.\n\nRingg’s knowledge system combines structured filtering with semantic retrieval across datasets, PDFs, CSVs, and business documents, helping agents answer questions using relevant enterprise information.\n\nRingg can also divide work among specialized subagents for qualification, support, verification, scheduling, and escalation. The platform coordinates those steps while maintaining a consistent conversation with the customer across voice, chat, WhatsApp, and the web.\n\n## Routing each task to the right OpenAI model\n\nAfter evaluating OpenAI alongside alternatives across conversational quality, latency, instruction following, tool calling, multilingual performance, reliability, and cost, Ringg found that OpenAI delivered the strongest overall balance for production workloads.\n\nGPT‑5.6 and other OpenAI models also performed more consistently in following complex instructions, executing tool calls, maintaining conversational context, and operating reliably at enterprise scale.\n\nRingg routes work to a specific OpenAI model based on the needs of the task. GPT‑4.1 handles most real-time voice and chat traffic. GPT‑5.6 Luna remains in the production stack and is used when its performance, latency, or price-performance profile better suits a request. GPT‑5.6 Terra handles post-call analysis, including summaries and sentiment classification. And GPT‑5.6 Sol supports evaluation, prompt improvement, and model-as-judge workflows.\n\nWhen a customer speaks during a voice call or sends a chat, Ringg’s orchestration system combines that input with the agent’s instructions, conversation history, customer-specific data, relevant knowledge-base context, and available tools. Ringg’s routing layer then selects the appropriate model and configuration. The model’s output is passed through the orchestration system and delivered through the customer’s chosen channel.\n\nFor longer interactions, the system creates a structured summary when the context approaches approximately 80,000 tokens. The conversation can then continue with the important information preserved, without repeatedly sending the entire history.\n\n## Using production evals to improve quality and cost\n\nRingg tests models using historical conversations and simulated customer flows before production deployment. Its evaluation platform uses those results to identify weaknesses and recommend prompt improvements, creating a continuous improvement loop for its agents and configurations.\n\nOne evaluation involved Ringg’s post-call analysis workflow. The company tested GPT‑5.6 Terra against alternatives like Gemini 2.5 Flash, and Terra came out on top. Ringg moved summaries and sentiment classification to GPT‑5.6 Terra. Terra maintained high accuracy for summaries and sentiment analysis while materially improving unit economics.\n\nThe company also tests models across language and regional variations, including conversations that switch between languages or combine English with local-language phrases, common behavior in the markets it serves. GPT‑5.6 Terra outperformed Gemini 2.5 Flash, with up to 97% accuracy on common regional languages, making GPT‑5.6 a better fit for agents serving Ringg’s customers.\n\nModels that pass offline testing are introduced to a small share of production traffic before rollout expands. In production, Ringg’s router monitors latency and endpoint health across regions and shifts traffic when an endpoint becomes unavailable or crosses a latency threshold. Specialized nodes, alerts, and versioned deployments help isolate problems and limit their impact.\n\nThis approach also helps Ringg improve unit economics. Migrating certain real-time workloads from GPT‑4.1 to GPT‑5.6 Luna reduced model costs by approximately 90%.\n\n> “OpenAI has been highly responsive when we’ve needed support with model migrations. The dedicated Slack support and access to the core engineering team help us move quickly with less engineering uncertainty, ship faster, and expand what our agents can accomplish.”\n\n—Siddharth Tripathi, Co-founder, Ringg\n\n## Delivering customer results across industries\n\nFor its customers, Ringg’s agents resolve up to 65% of routine customer inquiries without any involvement from a human agent.\n\nPolicybazaar, one of India’s largest online insurance platforms, uses Ringg to connect more than 57,000 customer requests, and 67% of calls are handled without human intervention. Policybazaar’s average response time fell from 8–12 minutes to under 60 seconds, an improvement of approximately 88%.\n\nAt Practo, a global healthcare platform, Ringg’s agents help customers book healthcare appointments and complete service requests. Following deployment, Practo achieved an 85% first-call resolution rate and response times below three seconds. Operating costs declined by 70% compared with its previous human-led workflow, while Ringg now completes more than 1,000 appointment bookings each day.\n\nOnline investment platform Groww uses Ringg to resolve 72% of inbound queries related to IPOs, futures, and options entirely through self-service, with an average handling time of two minutes.\n\n## Extending agents into the browser\n\nUsing OpenAI’s computer-use capabilities, Ringg is developing browser agents for platform onboarding, Know Your Customer (KYC) processes, IT troubleshooting, on-call incident support, and claims processing.\n\nThe company is also developing a context layer that can preserve information across channels and interactions. A customer might begin a request over voice, continue it on WhatsApp, and finish it in a browser without having to repeat the same details each time.\n\n> “OpenAI’s computer-use capabilities accelerated our browser-agent roadmap. They let us combine what is happening on a user’s screen with conversational context, so agents can guide people through complex workflows in real time.”\n\n—Siddharth Tripathi, Co-founder, Ringg\n\nFor Ringg, the next generation of customer operations will be measured by completed business outcomes and automation depth, rather than call volume or headcount.",
+      "contentZh": "",
+      "titleZh": "",
+      "summaryZh": "",
+      "translationStatus": "pending",
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "url": "https://openai.com/index/ringg",
+      "collectedAt": "2026-11-06T10:23:21.370Z"
     },
     {
       "id": "98d49239d16302a79008",
@@ -1886,7 +2039,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "collectedAt": "2026-11-05T10:20:49.895Z"
+      "collectedAt": "2026-11-06T10:23:21.371Z"
     },
     {
       "id": "c7ba4d1eb147cdd66b38",
@@ -1903,7 +2056,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-23T02:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-      "collectedAt": "2026-11-05T10:20:49.895Z"
+      "collectedAt": "2026-11-06T10:23:21.371Z"
     },
     {
       "id": "b6ef8483976563d9823c",
@@ -1920,7 +2073,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-23T01:00:00.000Z",
       "url": "https://openai.com/index/airbnb-gpt-6-astra",
-      "collectedAt": "2026-11-05T10:20:49.895Z"
+      "collectedAt": "2026-11-06T10:23:21.371Z"
     },
     {
       "id": "cf8033ba83eec6a8c148",
@@ -1937,7 +2090,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-23T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.942Z"
+      "collectedAt": "2026-11-06T10:23:22.820Z"
     },
     {
       "id": "0e12b4f460d98cac8731",
@@ -1954,7 +2107,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-22T21:00:00.000Z",
       "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-      "collectedAt": "2026-11-05T10:20:49.895Z"
+      "collectedAt": "2026-11-06T10:23:21.372Z"
     },
     {
       "id": "0299d0ca3df23eb91bfb",
@@ -1971,7 +2124,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-22T18:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "collectedAt": "2026-11-05T10:20:49.895Z"
+      "collectedAt": "2026-11-06T10:23:21.372Z"
     },
     {
       "id": "4e2d2a2c5ea855512c7e",
@@ -1988,7 +2141,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-22T12:00:00.000Z",
       "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-      "collectedAt": "2026-11-05T10:20:49.895Z"
+      "collectedAt": "2026-11-06T10:23:21.373Z"
     },
     {
       "id": "25f4610d8559fb3e7ae8",
@@ -2005,7 +2158,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "url": "https://openai.com/index/priorities-principles-third-party-assessments",
-      "collectedAt": "2026-11-05T10:20:49.895Z"
+      "collectedAt": "2026-11-06T10:23:21.373Z"
     },
     {
       "id": "48cb0cab97e8610721be",
@@ -2022,7 +2175,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-05T10:20:50.349Z"
+      "collectedAt": "2026-11-06T10:23:22.062Z"
     },
     {
       "id": "4e5cbe8e0247f025a726",
@@ -2039,7 +2192,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.943Z"
+      "collectedAt": "2026-11-06T10:23:22.821Z"
     },
     {
       "id": "9b5d95c2825df000aa2b",
@@ -2056,7 +2209,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-21T12:00:00.000Z",
       "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "collectedAt": "2026-11-05T10:20:49.896Z"
+      "collectedAt": "2026-11-06T10:23:21.374Z"
     },
     {
       "id": "132e637062c60e5185cf",
@@ -2073,7 +2226,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-21T00:00:00.000Z",
       "url": "https://openai.com/index/v7",
-      "collectedAt": "2026-11-05T10:20:49.896Z"
+      "collectedAt": "2026-11-06T10:23:21.374Z"
     },
     {
       "id": "cf45b7445432b183ccd7",
@@ -2090,7 +2243,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.943Z"
+      "collectedAt": "2026-11-06T10:23:22.822Z"
     },
     {
       "id": "99698296f3d481cb3012",
@@ -2107,7 +2260,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-17T12:00:00.000Z",
       "url": "https://openai.com/index/cooley-gopublic",
-      "collectedAt": "2026-11-05T10:20:49.896Z"
+      "collectedAt": "2026-11-06T10:23:21.375Z"
     },
     {
       "id": "3db286bcd9ddd5e690c5",
@@ -2124,7 +2277,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-16T17:00:00.000Z",
       "url": "https://openai.com/index/model-misalignment-reporting-framework",
-      "collectedAt": "2026-11-05T10:20:49.897Z"
+      "collectedAt": "2026-11-06T10:23:21.378Z"
     },
     {
       "id": "11eaf0d915ce57f2e5dc",
@@ -2141,7 +2294,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-16T16:00:00.000Z",
       "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "collectedAt": "2026-11-05T10:20:49.896Z"
+      "collectedAt": "2026-11-06T10:23:21.375Z"
     },
     {
       "id": "b458adf1e7325b78ff00",
@@ -2158,7 +2311,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-16T13:00:00.000Z",
       "url": "https://openai.com/index/reimagining-advertising-with-ai",
-      "collectedAt": "2026-11-05T10:20:49.896Z"
+      "collectedAt": "2026-11-06T10:23:21.376Z"
     },
     {
       "id": "2dbb90206bf7febc30df",
@@ -2175,7 +2328,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-16T12:00:00.000Z",
       "url": "https://openai.com/index/hex-gpt-6-astra",
-      "collectedAt": "2026-11-05T10:20:49.896Z"
+      "collectedAt": "2026-11-06T10:23:21.377Z"
     },
     {
       "id": "d7974b87b16b68185695",
@@ -2192,7 +2345,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-16T12:00:00.000Z",
       "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-      "collectedAt": "2026-11-05T10:20:49.896Z"
+      "collectedAt": "2026-11-06T10:23:21.377Z"
     },
     {
       "id": "1679a9385f8da2856137",
@@ -2209,7 +2362,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-05T10:20:50.349Z"
+      "collectedAt": "2026-11-06T10:23:22.063Z"
     },
     {
       "id": "6027ab1cfd832c602065",
@@ -2226,7 +2379,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-15T17:05:57.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-      "collectedAt": "2026-11-05T10:20:51.821Z"
+      "collectedAt": "2026-11-06T10:23:24.531Z"
     },
     {
       "id": "0e9e3b47215ca2b8e52d",
@@ -2243,7 +2396,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-15T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-05T10:20:50.350Z"
+      "collectedAt": "2026-11-06T10:23:22.064Z"
     },
     {
       "id": "7b83739b7d5f1c944f9f",
@@ -2260,7 +2413,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-14T12:00:00.000Z",
       "url": "https://openai.com/index/fyxer",
-      "collectedAt": "2026-11-05T10:20:49.897Z"
+      "collectedAt": "2026-11-06T10:23:21.378Z"
     },
     {
       "id": "a4651d8dabcdcb00db87",
@@ -2277,7 +2430,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "collectedAt": "2026-11-05T10:20:49.897Z"
+      "collectedAt": "2026-11-06T10:23:21.379Z"
     },
     {
       "id": "e63da132a40e17f8c5e1",
@@ -2294,7 +2447,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.944Z"
+      "collectedAt": "2026-11-06T10:23:22.823Z"
     },
     {
       "id": "8441c5c7713114dab2dd",
@@ -2311,7 +2464,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-11T16:00:00.000Z",
       "url": "https://openai.com/index/cognition-devin-testing-with-astra",
-      "collectedAt": "2026-11-05T10:20:49.897Z"
+      "collectedAt": "2026-11-06T10:23:21.380Z"
     },
     {
       "id": "a97d00819fdcee1d0af9",
@@ -2328,7 +2481,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-11T10:00:00.000Z",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "collectedAt": "2026-11-05T10:20:49.897Z"
+      "collectedAt": "2026-11-06T10:23:21.379Z"
     },
     {
       "id": "16d6fc5541d885cd91c8",
@@ -2345,7 +2498,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-10T16:00:00.000Z",
       "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "collectedAt": "2026-11-05T10:20:49.898Z"
+      "collectedAt": "2026-11-06T10:23:21.380Z"
     },
     {
       "id": "85f5620286a75dba1ad3",
@@ -2362,7 +2515,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-10T15:00:00.000Z",
       "url": "https://openai.com/index/put-data-to-work",
-      "collectedAt": "2026-11-05T10:20:49.898Z"
+      "collectedAt": "2026-11-06T10:23:21.381Z"
     },
     {
       "id": "f2800aae894b09e0bcf0",
@@ -2379,7 +2532,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-10T07:00:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "collectedAt": "2026-11-05T10:20:49.898Z"
+      "collectedAt": "2026-11-06T10:23:21.381Z"
     },
     {
       "id": "6ca2d4bb7baad47f3b1e",
@@ -2396,7 +2549,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "collectedAt": "2026-11-05T10:20:49.898Z"
+      "collectedAt": "2026-11-06T10:23:21.382Z"
     },
     {
       "id": "02a514a4d6eb4e449b95",
@@ -2413,7 +2566,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-the-agents-api",
-      "collectedAt": "2026-11-05T10:20:49.898Z"
+      "collectedAt": "2026-11-06T10:23:21.382Z"
     },
     {
       "id": "50e12afea7a21a8f8a47",
@@ -2430,7 +2583,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-05T10:20:50.350Z"
+      "collectedAt": "2026-11-06T10:23:22.064Z"
     },
     {
       "id": "278864a90b7195a8f9eb",
@@ -2447,7 +2600,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.944Z"
+      "collectedAt": "2026-11-06T10:23:22.824Z"
     },
     {
       "id": "2f6a11a19101188b8eed",
@@ -2464,7 +2617,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-11-05T10:20:51.219Z"
+      "collectedAt": "2026-11-06T10:23:23.066Z"
     },
     {
       "id": "98d7349379f3f9e1561b",
@@ -2481,7 +2634,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-05T10:20:53.577Z"
+      "collectedAt": "2026-11-06T10:23:26.027Z"
     },
     {
       "id": "45aecbb9328300ba4629",
@@ -2498,7 +2651,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-09T11:00:00.000Z",
       "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-      "collectedAt": "2026-11-05T10:20:49.899Z"
+      "collectedAt": "2026-11-06T10:23:21.382Z"
     },
     {
       "id": "225c9acc339c587b1fac",
@@ -2515,7 +2668,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-09T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.944Z"
+      "collectedAt": "2026-11-06T10:23:22.824Z"
     },
     {
       "id": "d336adb530d2e7f0e222",
@@ -2532,7 +2685,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-08T17:00:00.000Z",
       "url": "https://openai.com/index/codex-quantum-computing-experiments",
-      "collectedAt": "2026-11-05T10:20:49.899Z"
+      "collectedAt": "2026-11-06T10:23:21.383Z"
     },
     {
       "id": "48b0669cc37302b20aee",
@@ -2549,7 +2702,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-08T11:30:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
-      "collectedAt": "2026-11-05T10:20:49.899Z"
+      "collectedAt": "2026-11-06T10:23:21.383Z"
     },
     {
       "id": "9b8a0aa3eea1f601cab9",
@@ -2566,7 +2719,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-08T10:00:00.000Z",
       "url": "https://openai.com/index/navier-stokes-solution",
-      "collectedAt": "2026-11-05T10:20:49.899Z"
+      "collectedAt": "2026-11-06T10:23:21.384Z"
     },
     {
       "id": "fc10a2c83b0e44fbdbfa",
@@ -2583,7 +2736,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-08T00:00:00.000Z",
       "url": "https://openai.com/index/1password",
-      "collectedAt": "2026-11-05T10:20:49.900Z"
+      "collectedAt": "2026-11-06T10:23:21.384Z"
     },
     {
       "id": "0f8e8b7e95228d5352a6",
@@ -2600,7 +2753,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-06T08:00:00.000Z",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "collectedAt": "2026-11-05T10:20:49.900Z"
+      "collectedAt": "2026-11-06T10:23:21.385Z"
     },
     {
       "id": "3fdba842a49bbf61f305",
@@ -2617,7 +2770,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-03T12:00:00.000Z",
       "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "collectedAt": "2026-11-05T10:20:49.900Z"
+      "collectedAt": "2026-11-06T10:23:21.385Z"
     },
     {
       "id": "67198b26c462572b168f",
@@ -2634,7 +2787,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-03T12:00:00.000Z",
       "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "collectedAt": "2026-11-05T10:20:49.900Z"
+      "collectedAt": "2026-11-06T10:23:21.386Z"
     },
     {
       "id": "499b8df2de41c3c42a77",
@@ -2651,7 +2804,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-03T11:00:00.000Z",
       "url": "https://openai.com/index/gpt-6-astra",
-      "collectedAt": "2026-11-05T10:20:49.900Z"
+      "collectedAt": "2026-11-06T10:23:21.386Z"
     },
     {
       "id": "9b8372f5dd9139bf3dfd",
@@ -2668,7 +2821,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "url": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "collectedAt": "2026-11-05T10:20:49.901Z"
+      "collectedAt": "2026-11-06T10:23:21.386Z"
     },
     {
       "id": "76e92e71feca11592be4",
@@ -2685,7 +2838,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.945Z"
+      "collectedAt": "2026-11-06T10:23:22.825Z"
     },
     {
       "id": "9ad38e9ab9838c6b598d",
@@ -2702,7 +2855,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-02T16:18:31.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-      "collectedAt": "2026-11-05T10:20:51.821Z"
+      "collectedAt": "2026-11-06T10:23:24.531Z"
     },
     {
       "id": "23cc665780e07fde7643",
@@ -2719,7 +2872,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-02T12:00:00.000Z",
       "url": "https://openai.com/index/atv-big-air-tour",
-      "collectedAt": "2026-11-05T10:20:49.901Z"
+      "collectedAt": "2026-11-06T10:23:21.386Z"
     },
     {
       "id": "5fd2975f213ab047e365",
@@ -2736,7 +2889,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-01T17:08:51.000Z",
       "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-      "collectedAt": "2026-11-05T10:20:51.821Z"
+      "collectedAt": "2026-11-06T10:23:24.531Z"
     },
     {
       "id": "0de52357b4b07f25549c",
@@ -2753,7 +2906,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-01T13:00:00.000Z",
       "url": "https://openai.com/index/path-to-astra",
-      "collectedAt": "2026-11-05T10:20:49.901Z"
+      "collectedAt": "2026-11-06T10:23:21.387Z"
     },
     {
       "id": "210c1577098c3af2295c",
@@ -2770,7 +2923,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-01T12:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "collectedAt": "2026-11-05T10:20:49.901Z"
+      "collectedAt": "2026-11-06T10:23:21.387Z"
     },
     {
       "id": "c60a9dbb33739fa8f7ff",
@@ -2787,7 +2940,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-01T01:00:00.000Z",
       "url": "https://openai.com/index/gilbert-tobin",
-      "collectedAt": "2026-11-05T10:20:49.901Z"
+      "collectedAt": "2026-11-06T10:23:21.387Z"
     },
     {
       "id": "f53efa27b0d13a2b8d75",
@@ -2804,7 +2957,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-05T10:20:50.350Z"
+      "collectedAt": "2026-11-06T10:23:22.065Z"
     },
     {
       "id": "d6caa9e8974271f4d15b",
@@ -2821,7 +2974,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.946Z"
+      "collectedAt": "2026-11-06T10:23:22.826Z"
     },
     {
       "id": "62995badc1a46202724b",
@@ -2838,7 +2991,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-31T07:00:00.000Z",
       "url": "https://openai.com/index/polimill",
-      "collectedAt": "2026-11-05T10:20:49.901Z"
+      "collectedAt": "2026-11-06T10:23:21.388Z"
     },
     {
       "id": "89958d19d1f987cb8ada",
@@ -2855,7 +3008,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-31T04:00:00.000Z",
       "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "collectedAt": "2026-11-05T10:20:49.901Z"
+      "collectedAt": "2026-11-06T10:23:21.388Z"
     },
     {
       "id": "6e697a03b79f347648db",
@@ -2872,7 +3025,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-28T06:00:00.000Z",
       "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "collectedAt": "2026-11-05T10:20:49.902Z"
+      "collectedAt": "2026-11-06T10:23:21.388Z"
     },
     {
       "id": "3b034008653d3c2739c4",
@@ -2889,7 +3042,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-27T16:11:32.000Z",
       "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-      "collectedAt": "2026-11-05T10:20:51.821Z"
+      "collectedAt": "2026-11-06T10:23:24.531Z"
     },
     {
       "id": "f3885091ef8df6aaae64",
@@ -2906,7 +3059,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-27T09:00:00.000Z",
       "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "collectedAt": "2026-11-05T10:20:49.902Z"
+      "collectedAt": "2026-11-06T10:23:21.389Z"
     },
     {
       "id": "4707ef7564f9017d5027",
@@ -2923,7 +3076,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.946Z"
+      "collectedAt": "2026-11-06T10:23:22.827Z"
     },
     {
       "id": "038305de768a112cfa08",
@@ -2940,7 +3093,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-26T17:01:00.000Z",
       "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
-      "collectedAt": "2026-11-05T10:20:51.821Z"
+      "collectedAt": "2026-11-06T10:23:24.531Z"
     },
     {
       "id": "92b51a1e3a09499b97f9",
@@ -2957,7 +3110,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-26T10:00:00.000Z",
       "url": "https://openai.com/index/learning-never-stops",
-      "collectedAt": "2026-11-05T10:20:49.902Z"
+      "collectedAt": "2026-11-06T10:23:21.389Z"
     },
     {
       "id": "df161950e809789b055b",
@@ -2974,7 +3127,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-26T10:00:00.000Z",
       "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "collectedAt": "2026-11-05T10:20:49.902Z"
+      "collectedAt": "2026-11-06T10:23:21.389Z"
     },
     {
       "id": "e8e71766793d0226c88b",
@@ -2991,7 +3144,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "collectedAt": "2026-11-05T10:20:49.902Z"
+      "collectedAt": "2026-11-06T10:23:21.390Z"
     },
     {
       "id": "42d46e03e113f1a48a9f",
@@ -3008,7 +3161,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://openai.com/index/loveholidays",
-      "collectedAt": "2026-11-05T10:20:49.902Z"
+      "collectedAt": "2026-11-06T10:23:21.390Z"
     },
     {
       "id": "0e8f06023793c35c12b2",
@@ -3025,7 +3178,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.946Z"
+      "collectedAt": "2026-11-06T10:23:22.827Z"
     },
     {
       "id": "bdff11d888b055940269",
@@ -3042,7 +3195,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-25T07:05:00.000Z",
       "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "collectedAt": "2026-11-05T10:20:49.902Z"
+      "collectedAt": "2026-11-06T10:23:21.390Z"
     },
     {
       "id": "b9dd82456710ac7ff739",
@@ -3059,7 +3212,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-25T07:00:00.000Z",
       "url": "https://openai.com/index/jalapeno-first-results",
-      "collectedAt": "2026-11-05T10:20:49.902Z"
+      "collectedAt": "2026-11-06T10:23:21.391Z"
     },
     {
       "id": "4f3d5193843c2be21102",
@@ -3076,7 +3229,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-admin-plugin",
-      "collectedAt": "2026-11-05T10:20:49.902Z"
+      "collectedAt": "2026-11-06T10:23:21.391Z"
     },
     {
       "id": "98efe21910bba76ddc89",
@@ -3093,7 +3246,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-05T10:20:50.351Z"
+      "collectedAt": "2026-11-06T10:23:22.066Z"
     },
     {
       "id": "a3e38d1146847fcc32c5",
@@ -3110,7 +3263,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-24T12:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-in-kiro",
-      "collectedAt": "2026-11-05T10:20:49.903Z"
+      "collectedAt": "2026-11-06T10:23:21.392Z"
     },
     {
       "id": "fb3550ee043ce3089dfb",
@@ -3127,7 +3280,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-05T10:20:53.577Z"
+      "collectedAt": "2026-11-06T10:23:26.028Z"
     },
     {
       "id": "2d19306ef234ea7faec5",
@@ -3144,7 +3297,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "url": "https://openai.com/index/stampli",
-      "collectedAt": "2026-11-05T10:20:49.903Z"
+      "collectedAt": "2026-11-06T10:23:21.392Z"
     },
     {
       "id": "0335ae09efe999984d8e",
@@ -3161,7 +3314,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.947Z"
+      "collectedAt": "2026-11-06T10:23:22.828Z"
     },
     {
       "id": "3dc55b55b1de08c817b2",
@@ -3178,7 +3331,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-19T19:00:00.000Z",
       "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "collectedAt": "2026-11-05T10:20:49.903Z"
+      "collectedAt": "2026-11-06T10:23:21.392Z"
     },
     {
       "id": "1e5ef4886d4750bbdc69",
@@ -3195,7 +3348,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-19T07:00:00.000Z",
       "url": "https://openai.com/index/replit",
-      "collectedAt": "2026-11-05T10:20:49.903Z"
+      "collectedAt": "2026-11-06T10:23:21.393Z"
     },
     {
       "id": "862a5272957677cbb451",
@@ -3212,7 +3365,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.948Z"
+      "collectedAt": "2026-11-06T10:23:22.829Z"
     },
     {
       "id": "dbabefb7176b8899389d",
@@ -3229,7 +3382,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-11-05T10:20:51.219Z"
+      "collectedAt": "2026-11-06T10:23:23.067Z"
     },
     {
       "id": "d02b32736bea62b3185d",
@@ -3246,7 +3399,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-18T22:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "collectedAt": "2026-11-05T10:20:49.903Z"
+      "collectedAt": "2026-11-06T10:23:21.393Z"
     },
     {
       "id": "755e4db2cccf354bd6df",
@@ -3263,7 +3416,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "collectedAt": "2026-11-05T10:20:49.903Z"
+      "collectedAt": "2026-11-06T10:23:21.393Z"
     },
     {
       "id": "60ed32685f2c13d2be9e",
@@ -3280,7 +3433,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-teens",
-      "collectedAt": "2026-11-05T10:20:49.904Z"
+      "collectedAt": "2026-11-06T10:23:21.394Z"
     },
     {
       "id": "b32d89933b3f566e892d",
@@ -3297,7 +3450,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-18T07:00:00.000Z",
       "url": "https://openai.com/index/asana",
-      "collectedAt": "2026-11-05T10:20:49.904Z"
+      "collectedAt": "2026-11-06T10:23:21.394Z"
     },
     {
       "id": "cf88f2889563730674dc",
@@ -3314,7 +3467,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "url": "https://openai.com/index/nvidia/chatgpt-work",
-      "collectedAt": "2026-11-05T10:20:49.904Z"
+      "collectedAt": "2026-11-06T10:23:21.394Z"
     },
     {
       "id": "aa9fbf89108c624b5035",
@@ -3331,7 +3484,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.948Z"
+      "collectedAt": "2026-11-06T10:23:22.829Z"
     },
     {
       "id": "628f79672cb28599f754",
@@ -3348,7 +3501,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T17:04:18.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-      "collectedAt": "2026-11-05T10:20:51.821Z"
+      "collectedAt": "2026-11-06T10:23:24.531Z"
     },
     {
       "id": "8637785710012aa19327",
@@ -3365,7 +3518,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T11:00:00.000Z",
       "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "collectedAt": "2026-11-05T10:20:49.904Z"
+      "collectedAt": "2026-11-06T10:23:21.395Z"
     },
     {
       "id": "12d8fd2a91a610822616",
@@ -3382,7 +3535,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T10:00:00.000Z",
       "url": "https://openai.com/index/previewing-ultrafast",
-      "collectedAt": "2026-11-05T10:20:49.904Z"
+      "collectedAt": "2026-11-06T10:23:21.395Z"
     },
     {
       "id": "68c4c83c983d7ad01b30",
@@ -3399,7 +3552,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-05T10:20:53.578Z"
+      "collectedAt": "2026-11-06T10:23:26.029Z"
     },
     {
       "id": "5437747d9f7a7fa2a89b",
@@ -3416,7 +3569,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-12T06:00:00.000Z",
       "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "collectedAt": "2026-11-05T10:20:49.904Z"
+      "collectedAt": "2026-11-06T10:23:21.396Z"
     },
     {
       "id": "1024017ea20ba53c7f72",
@@ -3433,24 +3586,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "url": "https://openai.com/index/ringcentral",
-      "collectedAt": "2026-11-05T10:20:49.904Z"
-    },
-    {
-      "id": "d9485ecefcc38cea5418",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Testing ads in ChatGPT",
-      "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
-      "content": "**_Update on August 11, 2026:_**_ChatGPT Ads has now launched in the United Kingdom, Mexico, Brazil, Japan, and South Korea. We’re continuing to expand to more markets this year._\n\n_**Update on May 7, 2026**_ _: In the coming weeks, we plan to expand the ads pilot in ChatGPT in the United Kingdom, Mexico, Brazil, Japan, and South Korea._\n\n_These pilots will help us understand what works well in different regions, so we can continue improving the experience as we expand._\n\n_If you’re a business and interested in advertising in ChatGPT in these new markets, visit_[_openai.com/advertisers/⁠_⁠](https://openai.com/advertisers/)_to sign up for more updates._\n\n**_Update on March 26, 2026:_**_Our ads pilot is focused on supporting broader access to ChatGPT while preserving consumer trust, usefulness, and user control. Guided by our_[_ads principles_⁠](https://openai.com/index/our-approach-to-advertising-and-expanding-access/)_, the early results are encouraging. We’re seeing no impact on consumer trust metrics, low dismissal rates of ads, and ongoing improvements in the relevance of ads as we learn from feedback. These positive signals support moving into the next phase of our pilot._\n\n_In the coming weeks, we’ll begin expanding beyond the U.S., starting with pilots in Canada, Australia, and New Zealand. We’ll roll this out thoughtfully in each market, learn from real-world usage, and adjust as we go. Our hope is to continue to expand to many more markets this year._\n\n_If you’re a business and interested in advertising in ChatGPT in these new markets, visit_[_openai.com/advertisers/_⁠](https://openai.com/advertisers/)_to sign up for more updates._\n\n_As we expand our pilot, our core principles remain the same: ChatGPT’s answers remain independent and unbiased, conversations stay private, and people keep meaningful control over their experience._\n\n_**Originally published on February 9, 2026**_\n\nToday, we’re beginning to test ads in ChatGPT in the U.S. The test will be for logged-in adult users on the Free and Go subscription tiers. Plus, Pro, Business, Enterprise, and Education tiers will not have ads. Ads do not influence the answers ChatGPT gives you, and we keep your conversations with ChatGPT private from advertisers. Our goal is for ads to support broader access to more powerful ChatGPT features while maintaining the trust people place in ChatGPT for important and personal tasks. We’re starting with a test to learn, listen, and make sure we get the experience right.\n\nWe previously shared the [principles⁠](https://openai.com/index/our-approach-to-advertising-and-expanding-access/) that guide our approach for advertising in ChatGPT. This test puts those principles into practice so we can begin learning from real-world use:\n\n## Mission alignment\n\nChatGPT is used by hundreds of millions of people for learning, work, and everyday decisions. Keeping the Free and Go tiers fast and reliable requires significant infrastructure and ongoing investment. Ads help fund that work, supporting broader access to AI through higher quality free and low cost options, and enabling us to keep improving the intelligence and capabilities we offer over time. If you prefer not to see ads, you can upgrade to our Plus or Pro plans, or opt out of ads in the Free tier in exchange for fewer daily free messages.\n\n## Answer independence\n\nAds do not influence the answers ChatGPT gives you. Answers are optimized based on what’s most helpful to you. When you see an ad, they are always clearly labeled as sponsored and visually separated from the organic answer.\n\nDuring the test, we decide which ad to show by matching ads submitted by advertisers with the topic of your conversation, your past chats, and past interactions with ads. For example, if you’re researching recipes, you may see ads for meal kits or grocery delivery. If there are multiple advertisers, we’ll select the one that is most relevant to your chat to show you first.\n\n![Image 1: Chat interface showing potluck planning tips followed by a clearly labeled sponsored listing from Heirloom Groceries featuring a La Mesa Roja Enchilada Kit with price and cook time, plus a note stating that ads do not influence ChatGPT’s answers and chats remain private.](https://images.ctfassets.net/kftzwdyauwt9/4A3jICYim83c9WUZG3vapA/0039df14fd68cebc447f689effce8e83/10.png?w=3840&q=90&fm=webp)\n\n## Conversation privacy\n\nAds are designed to respect your privacy. Advertisers do not have access to your chats, chat history, memories, or personal details. Advertisers only receive aggregate information about how their ads perform such as number of views or clicks.\n\nDuring our test, we will not show ads in accounts where the user tells us or we predict that they are under 18, and ads are not eligible to appear near sensitive or regulated topics like health, mental health or politics. We’ll expand responsibly as safeguards mature and we learn from this test.\n\nAs we evolve our advertising program over time, protecting user privacy and safety will remain central to how we design and scale, including guardrails to prevent narrow ads targeting. We will continue to be deliberate about who we allow into the advertiser program and build protections to reduce the risk of scams and other harmful or misleading ads.\n\n![Image 2: Two informational panels explaining ad privacy. The left panel, titled “What shapes the ads you see,” lists factors such as what you’re discussing, ads you hide or engage with, and your past chats and memory, noting that topics are matched to ads without sharing them with advertisers. The right panel, titled “Your chats stay private,” states that advertisers never see personal details or conversations and only receive aggregated ad views and clicks.](https://images.ctfassets.net/kftzwdyauwt9/31hfbN3TLeW6sQnfTnmvVo/26fcee76477c2882e30a1565b6171906/Group_2147261940.svg?w=3840&q=90)\n\n## Choice and control\n\nYou can control the ads you see in ChatGPT, including dismissing ads, sharing feedback, learning how and why you’re being shown a particular ad, deleting your ad data with one tap, and managing ad personalization at any time.\n\n![Image 3: Two mobile-style screens showing ad settings and history. The left screen displays “Ads controls” with options for History, Interests, deleting ads data, and toggles for personalizing ads and using past chats and memory. The right screen shows “Ads History,” listing ads viewed today with timestamps and brand names, along with a note that users can clear their history at any time.](https://images.ctfassets.net/kftzwdyauwt9/LrJfR8gAl5GVhXW9kg8Ol/82eea05cdef9a1bf9ee213931e839e99/12.png?w=3840&q=90&fm=webp)\n\n## Long-term value\n\nPeople often use ChatGPT when they’re actively exploring options, comparing ideas, or working toward a decision. In those moments, ads can help people discover relevant products or services they’ll love from businesses of all sizes. We’ll use early ad performance and feedback to keep improving relevance, while always maintaining a clear separation between ads and ChatGPT’s answers and keeping your data private.\n\nMore broadly, we see an opportunity for advertising in ChatGPT to be uniquely valuable for people. In a conversational interface, ads can be more relevant and useful, connecting people to new products and services that fit naturally with what they’re trying to do.\n\n## What’s next\n\nOur focus with this test is learning. We’re paying close attention to feedback so we can make sure ads feel useful and fit naturally into the ChatGPT experience before expanding.\n\nFor businesses, we are just beginning to explore the ways different types of organizations can participate in the ChatGPT experience in an additive way. Over time, we will evolve our advertising program to support additional formats, objectives and buying models and build new ways for businesses to interact with consumers in ChatGPT. If you’re a business and interested in advertising in ChatGPT, visit [openai.com/advertisers⁠](https://openai.com/advertisers/) to sign up for more updates.\n\nWhat will always remain true: ChatGPT’s answers remain independent and unbiased, conversations stay private, and people keep meaningful control over their experience.",
-      "contentZh": "**_2026年8月11日更新：**_ChatGPT Ads 现已在美国、墨西哥、巴西、日本和韩国上线。我们将在今年继续扩展到更多市场。\n\n**_2026年5月7日更新：**_ 未来几周，我们计划将 ChatGPT 中的广告试点扩展到英国、墨西哥、巴西、日本和韩国。\n\n这些试点将帮助我们了解不同地区的有效做法，以便在扩展过程中持续改进体验。\n\n如果您是企业，并有意在这些新市场投放 ChatGPT 广告，请访问[openai.com/advertisers/⁠](https://openai.com/advertisers/)注册以获取更多更新。\n\n**_2026年3月26日更新：**_我们的广告试点专注于在维护消费者信任、实用性和用户控制的同时，支持更广泛地访问 ChatGPT。在我们的[广告原则](https://openai.com/index/our-approach-to-advertising-and-expanding-access/)指导下，早期结果令人鼓舞。我们看到消费者信任指标未受影响，广告关闭率低，并且随着我们从反馈中学习，广告的相关性持续提升。这些积极信号支持我们进入试点的下一阶段。\n\n未来几周，我们将开始扩展到美国以外的市场，首先在加拿大、澳大利亚和新西兰启动试点。我们将在每个市场审慎推进，从实际使用中学习，并随时调整。我们希望今年能继续扩展到更多市场。\n\n如果您是企业，并有意在这些新市场投放 ChatGPT 广告，请访问[openai.com/advertisers/](https://openai.com/advertisers/)注册以获取更多更新。\n\n随着试点的扩展，我们的核心原则保持不变：ChatGPT 的回答保持独立和公正，对话保持私密，用户对其体验保持有意义的控制。\n\n**_最初发布于2026年2月9日_**\n\n今天，我们开始在美国测试 ChatGPT 中的广告。该测试面向 Free 和 Go 订阅层级中已登录的成年用户。Plus、Pro、Business、Enterprise 和 Education 层级将不会出现广告。广告不会影响 ChatGPT 为您提供的回答，我们会将您与 ChatGPT 的对话对广告商保密。我们的目标是让广告支持更广泛地访问更强大的 ChatGPT 功能，同时维护人们对 ChatGPT 在处理重要和个人事务上的信任。我们从测试开始，以学习、倾听并确保体验正确。\n\n我们此前分享了指导我们在 ChatGPT 中广告投放方法的[原则](https://openai.com/index/our-approach-to-advertising-and-expanding-access/)。本次测试将这些原则付诸实践，以便我们开始从实际使用中学习：\n\n## 使命对齐\n\nChatGPT 被数亿人用于学习、工作和日常决策。保持 Free 和 Go 层级的快速和可靠需要大量的基础设施和持续投资。广告有助于为这项工作提供资金，通过更高质量的免费和低成本选项支持更广泛地访问 AI，并使我们能够持续改进随时间提供的智能和能力。如果您不希望看到广告，可以升级到 Plus 或 Pro 计划，或者在 Free 层级中选择退出广告，以换取更少的每日免费消息数量。\n\n## 回答独立性\n\n广告不会影响 ChatGPT 为您提供的回答。回答基于对您最有帮助的内容进行优化。当您看到广告时，它们始终被明确标记为赞助内容，并与自然回答在视觉上区分开。\n\n在测试期间，我们通过将广告商提交的广告与您的对话主题、过往聊天记录以及过往与广告的互动进行匹配来决定展示哪些广告。例如，如果您正在研究食谱，您可能会看到餐包或杂货配送的广告。如果有多个广告商，我们将选择与您的聊天最相关的一个首先展示给您。\n\n![图片1：聊天界面显示聚餐计划建议，随后是来自 Heirloom Groceries 的明确标记的赞助列表，展示 La Mesa Roja 辣酱玉米卷饼套装，包含价格和烹饪时间，并附注说明广告不影响 ChatGPT 的回答且聊天保持私密。](https://images.ctfassets.net/kftzwdyauwt9/4A3jICYim83c9WUZG3vapA/0039df14fd68cebc447f689effce8e83/10.png?w=3840&q=90&fm=webp)\n\n## 对话隐私\n\n广告的设计尊重您的隐私。广告商无法访问您的聊天内容、聊天历史、记忆或个人详细信息。广告商仅接收关于其广告表现的汇总信息，例如展示次数或点击次数。\n\n在测试期间，我们不会在用户告知我们或我们预测其未满18岁的账户中展示广告，并且广告不会出现在健康、心理健康或政治等敏感或受监管主题附近。随着保障措施的成熟以及我们从测试中学习，我们将负责任地扩展。\n\n随着我们广告项目的长期发展，保护用户隐私和安全仍将是我们设计和扩展的核心，包括防止窄众广告定向的护栏。我们将继续审慎选择允许加入广告商计划的对象，并建立保护措施以降低诈骗和其他有害或误导性广告的风险。\n\n![图片2：两个信息面板解释广告隐私。左侧面板标题为“影响您所见广告的因素”，列出了诸如您正在讨论的内容、您隐藏或互动的广告、以及您的过往聊天和记忆等因素，并注明主题与广告匹配但不会与广告商共享。右侧面板标题为“您的聊天保持私密”，说明广告商永远不会看到个人详细信息或对话，仅接收汇总的广告展示和点击数据。](https://images.ctfassets.net/kftzwdyauwt9/31hfbN3TLeW6sQnfTnmvVo/26fcee76477c2882e30a1565b6171906/Group_2147261940.svg?w=3840&q=90)\n\n## 选择与控制\n\n您可以控制您在 ChatGPT 中看到的广告，包括关闭广告、分享反馈、了解您看到特定广告的方式和原因、一键删除您的广告数据，以及随时管理广告个性化设置。\n\n![图片3：两个移动风格屏幕显示广告设置和历史记录。左侧屏幕显示“广告控制”，包含历史记录、兴趣、删除广告数据选项，以及个性化广告和使用过往聊天与记忆的开关。右侧屏幕显示“广告历史”，列出今天查看的广告，包含时间戳和品牌名称，并附注说明用户可以随时清除其历史记录。](https://images.ctfassets.net/kftzwdyauwt9/LrJfR8gAl5GVhXW9kg8Ol/82eea05cdef9a1bf9ee213931e839e99/12.png?w=3840&q=90&fm=webp)\n\n## 长期价值\n\n人们在使用ChatGPT时，往往正处于积极探索选项、比较想法或努力做出决策的过程中。在这些时刻，广告可以帮助人们发现来自各种规模企业的相关产品或服务，这些正是他们可能会喜欢的。我们将根据早期的广告表现和反馈，持续提升广告的相关性，同时始终保持广告与ChatGPT回答之间的清晰界限，并保护您的数据隐私。\n\n更广泛地说，我们看到了广告在ChatGPT中为人们带来独特价值的潜力。在对话式界面中，广告可以更具相关性和实用性，将人们与他们正在尝试做的事情自然契合的新产品和服务连接起来。\n\n## 下一步计划\n\n我们此次测试的重点在于学习。我们密切关注反馈，以确保广告在扩展之前能够显得有用，并自然融入ChatGPT的体验中。\n\n对于企业而言，我们刚刚开始探索不同类型组织如何以增值的方式参与ChatGPT体验。随着时间的推移，我们将发展广告计划，以支持更多格式、目标和购买模式，并为企业与ChatGPT中的消费者互动开辟新途径。如果您是企业，并且对在ChatGPT中投放广告感兴趣，请访问[openai.com/advertisers⁠](https://openai.com/advertisers/)注册以获取更多更新。\n\n始终不变的是：ChatGPT的回答保持独立和公正，对话内容保持私密，人们对其体验拥有有意义的控制权。",
-      "titleZh": "在ChatGPT中测试广告",
-      "summaryZh": "OpenAI开始在ChatGPT中测试广告，以支持免费访问，广告有明确标识、答案独立性、强大的隐私保护和用户控制。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-08-11T10:00:00.000Z",
-      "url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "collectedAt": "2026-11-05T10:20:49.904Z"
+      "collectedAt": "2026-11-06T10:23:21.396Z"
     },
     {
       "id": "8825eb211c3d1692966b",
@@ -3467,7 +3603,24 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-      "collectedAt": "2026-11-05T10:20:49.905Z"
+      "collectedAt": "2026-11-06T10:23:21.396Z"
+    },
+    {
+      "id": "d9485ecefcc38cea5418",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Testing ads in ChatGPT",
+      "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+      "content": "**_Update on August 11, 2026:_**_ChatGPT Ads has now launched in the United Kingdom, Mexico, Brazil, Japan, and South Korea. We’re continuing to expand to more markets this year._\n\n_**Update on May 7, 2026**_ _: In the coming weeks, we plan to expand the ads pilot in ChatGPT in the United Kingdom, Mexico, Brazil, Japan, and South Korea._\n\n_These pilots will help us understand what works well in different regions, so we can continue improving the experience as we expand._\n\n_If you’re a business and interested in advertising in ChatGPT in these new markets, visit_[_openai.com/advertisers/⁠_⁠](https://openai.com/advertisers/)_to sign up for more updates._\n\n**_Update on March 26, 2026:_**_Our ads pilot is focused on supporting broader access to ChatGPT while preserving consumer trust, usefulness, and user control. Guided by our_[_ads principles_⁠](https://openai.com/index/our-approach-to-advertising-and-expanding-access/)_, the early results are encouraging. We’re seeing no impact on consumer trust metrics, low dismissal rates of ads, and ongoing improvements in the relevance of ads as we learn from feedback. These positive signals support moving into the next phase of our pilot._\n\n_In the coming weeks, we’ll begin expanding beyond the U.S., starting with pilots in Canada, Australia, and New Zealand. We’ll roll this out thoughtfully in each market, learn from real-world usage, and adjust as we go. Our hope is to continue to expand to many more markets this year._\n\n_If you’re a business and interested in advertising in ChatGPT in these new markets, visit_[_openai.com/advertisers/_⁠](https://openai.com/advertisers/)_to sign up for more updates._\n\n_As we expand our pilot, our core principles remain the same: ChatGPT’s answers remain independent and unbiased, conversations stay private, and people keep meaningful control over their experience._\n\n_**Originally published on February 9, 2026**_\n\nToday, we’re beginning to test ads in ChatGPT in the U.S. The test will be for logged-in adult users on the Free and Go subscription tiers. Plus, Pro, Business, Enterprise, and Education tiers will not have ads. Ads do not influence the answers ChatGPT gives you, and we keep your conversations with ChatGPT private from advertisers. Our goal is for ads to support broader access to more powerful ChatGPT features while maintaining the trust people place in ChatGPT for important and personal tasks. We’re starting with a test to learn, listen, and make sure we get the experience right.\n\nWe previously shared the [principles⁠](https://openai.com/index/our-approach-to-advertising-and-expanding-access/) that guide our approach for advertising in ChatGPT. This test puts those principles into practice so we can begin learning from real-world use:\n\n## Mission alignment\n\nChatGPT is used by hundreds of millions of people for learning, work, and everyday decisions. Keeping the Free and Go tiers fast and reliable requires significant infrastructure and ongoing investment. Ads help fund that work, supporting broader access to AI through higher quality free and low cost options, and enabling us to keep improving the intelligence and capabilities we offer over time. If you prefer not to see ads, you can upgrade to our Plus or Pro plans, or opt out of ads in the Free tier in exchange for fewer daily free messages.\n\n## Answer independence\n\nAds do not influence the answers ChatGPT gives you. Answers are optimized based on what’s most helpful to you. When you see an ad, they are always clearly labeled as sponsored and visually separated from the organic answer.\n\nDuring the test, we decide which ad to show by matching ads submitted by advertisers with the topic of your conversation, your past chats, and past interactions with ads. For example, if you’re researching recipes, you may see ads for meal kits or grocery delivery. If there are multiple advertisers, we’ll select the one that is most relevant to your chat to show you first.\n\n![Image 1: Chat interface showing potluck planning tips followed by a clearly labeled sponsored listing from Heirloom Groceries featuring a La Mesa Roja Enchilada Kit with price and cook time, plus a note stating that ads do not influence ChatGPT’s answers and chats remain private.](https://images.ctfassets.net/kftzwdyauwt9/4A3jICYim83c9WUZG3vapA/0039df14fd68cebc447f689effce8e83/10.png?w=3840&q=90&fm=webp)\n\n## Conversation privacy\n\nAds are designed to respect your privacy. Advertisers do not have access to your chats, chat history, memories, or personal details. Advertisers only receive aggregate information about how their ads perform such as number of views or clicks.\n\nDuring our test, we will not show ads in accounts where the user tells us or we predict that they are under 18, and ads are not eligible to appear near sensitive or regulated topics like health, mental health or politics. We’ll expand responsibly as safeguards mature and we learn from this test.\n\nAs we evolve our advertising program over time, protecting user privacy and safety will remain central to how we design and scale, including guardrails to prevent narrow ads targeting. We will continue to be deliberate about who we allow into the advertiser program and build protections to reduce the risk of scams and other harmful or misleading ads.\n\n![Image 2: Two informational panels explaining ad privacy. The left panel, titled “What shapes the ads you see,” lists factors such as what you’re discussing, ads you hide or engage with, and your past chats and memory, noting that topics are matched to ads without sharing them with advertisers. The right panel, titled “Your chats stay private,” states that advertisers never see personal details or conversations and only receive aggregated ad views and clicks.](https://images.ctfassets.net/kftzwdyauwt9/31hfbN3TLeW6sQnfTnmvVo/26fcee76477c2882e30a1565b6171906/Group_2147261940.svg?w=3840&q=90)\n\n## Choice and control\n\nYou can control the ads you see in ChatGPT, including dismissing ads, sharing feedback, learning how and why you’re being shown a particular ad, deleting your ad data with one tap, and managing ad personalization at any time.\n\n![Image 3: Two mobile-style screens showing ad settings and history. The left screen displays “Ads controls” with options for History, Interests, deleting ads data, and toggles for personalizing ads and using past chats and memory. The right screen shows “Ads History,” listing ads viewed today with timestamps and brand names, along with a note that users can clear their history at any time.](https://images.ctfassets.net/kftzwdyauwt9/LrJfR8gAl5GVhXW9kg8Ol/82eea05cdef9a1bf9ee213931e839e99/12.png?w=3840&q=90&fm=webp)\n\n## Long-term value\n\nPeople often use ChatGPT when they’re actively exploring options, comparing ideas, or working toward a decision. In those moments, ads can help people discover relevant products or services they’ll love from businesses of all sizes. We’ll use early ad performance and feedback to keep improving relevance, while always maintaining a clear separation between ads and ChatGPT’s answers and keeping your data private.\n\nMore broadly, we see an opportunity for advertising in ChatGPT to be uniquely valuable for people. In a conversational interface, ads can be more relevant and useful, connecting people to new products and services that fit naturally with what they’re trying to do.\n\n## What’s next\n\nOur focus with this test is learning. We’re paying close attention to feedback so we can make sure ads feel useful and fit naturally into the ChatGPT experience before expanding.\n\nFor businesses, we are just beginning to explore the ways different types of organizations can participate in the ChatGPT experience in an additive way. Over time, we will evolve our advertising program to support additional formats, objectives and buying models and build new ways for businesses to interact with consumers in ChatGPT. If you’re a business and interested in advertising in ChatGPT, visit [openai.com/advertisers⁠](https://openai.com/advertisers/) to sign up for more updates.\n\nWhat will always remain true: ChatGPT’s answers remain independent and unbiased, conversations stay private, and people keep meaningful control over their experience.",
+      "contentZh": "**_2026年8月11日更新：**_ChatGPT Ads 现已在美国、墨西哥、巴西、日本和韩国上线。我们将在今年继续扩展到更多市场。\n\n**_2026年5月7日更新：**_ 未来几周，我们计划将 ChatGPT 中的广告试点扩展到英国、墨西哥、巴西、日本和韩国。\n\n这些试点将帮助我们了解不同地区的有效做法，以便在扩展过程中持续改进体验。\n\n如果您是企业，并有意在这些新市场投放 ChatGPT 广告，请访问[openai.com/advertisers/⁠](https://openai.com/advertisers/)注册以获取更多更新。\n\n**_2026年3月26日更新：**_我们的广告试点专注于在维护消费者信任、实用性和用户控制的同时，支持更广泛地访问 ChatGPT。在我们的[广告原则](https://openai.com/index/our-approach-to-advertising-and-expanding-access/)指导下，早期结果令人鼓舞。我们看到消费者信任指标未受影响，广告关闭率低，并且随着我们从反馈中学习，广告的相关性持续提升。这些积极信号支持我们进入试点的下一阶段。\n\n未来几周，我们将开始扩展到美国以外的市场，首先在加拿大、澳大利亚和新西兰启动试点。我们将在每个市场审慎推进，从实际使用中学习，并随时调整。我们希望今年能继续扩展到更多市场。\n\n如果您是企业，并有意在这些新市场投放 ChatGPT 广告，请访问[openai.com/advertisers/](https://openai.com/advertisers/)注册以获取更多更新。\n\n随着试点的扩展，我们的核心原则保持不变：ChatGPT 的回答保持独立和公正，对话保持私密，用户对其体验保持有意义的控制。\n\n**_最初发布于2026年2月9日_**\n\n今天，我们开始在美国测试 ChatGPT 中的广告。该测试面向 Free 和 Go 订阅层级中已登录的成年用户。Plus、Pro、Business、Enterprise 和 Education 层级将不会出现广告。广告不会影响 ChatGPT 为您提供的回答，我们会将您与 ChatGPT 的对话对广告商保密。我们的目标是让广告支持更广泛地访问更强大的 ChatGPT 功能，同时维护人们对 ChatGPT 在处理重要和个人事务上的信任。我们从测试开始，以学习、倾听并确保体验正确。\n\n我们此前分享了指导我们在 ChatGPT 中广告投放方法的[原则](https://openai.com/index/our-approach-to-advertising-and-expanding-access/)。本次测试将这些原则付诸实践，以便我们开始从实际使用中学习：\n\n## 使命对齐\n\nChatGPT 被数亿人用于学习、工作和日常决策。保持 Free 和 Go 层级的快速和可靠需要大量的基础设施和持续投资。广告有助于为这项工作提供资金，通过更高质量的免费和低成本选项支持更广泛地访问 AI，并使我们能够持续改进随时间提供的智能和能力。如果您不希望看到广告，可以升级到 Plus 或 Pro 计划，或者在 Free 层级中选择退出广告，以换取更少的每日免费消息数量。\n\n## 回答独立性\n\n广告不会影响 ChatGPT 为您提供的回答。回答基于对您最有帮助的内容进行优化。当您看到广告时，它们始终被明确标记为赞助内容，并与自然回答在视觉上区分开。\n\n在测试期间，我们通过将广告商提交的广告与您的对话主题、过往聊天记录以及过往与广告的互动进行匹配来决定展示哪些广告。例如，如果您正在研究食谱，您可能会看到餐包或杂货配送的广告。如果有多个广告商，我们将选择与您的聊天最相关的一个首先展示给您。\n\n![图片1：聊天界面显示聚餐计划建议，随后是来自 Heirloom Groceries 的明确标记的赞助列表，展示 La Mesa Roja 辣酱玉米卷饼套装，包含价格和烹饪时间，并附注说明广告不影响 ChatGPT 的回答且聊天保持私密。](https://images.ctfassets.net/kftzwdyauwt9/4A3jICYim83c9WUZG3vapA/0039df14fd68cebc447f689effce8e83/10.png?w=3840&q=90&fm=webp)\n\n## 对话隐私\n\n广告的设计尊重您的隐私。广告商无法访问您的聊天内容、聊天历史、记忆或个人详细信息。广告商仅接收关于其广告表现的汇总信息，例如展示次数或点击次数。\n\n在测试期间，我们不会在用户告知我们或我们预测其未满18岁的账户中展示广告，并且广告不会出现在健康、心理健康或政治等敏感或受监管主题附近。随着保障措施的成熟以及我们从测试中学习，我们将负责任地扩展。\n\n随着我们广告项目的长期发展，保护用户隐私和安全仍将是我们设计和扩展的核心，包括防止窄众广告定向的护栏。我们将继续审慎选择允许加入广告商计划的对象，并建立保护措施以降低诈骗和其他有害或误导性广告的风险。\n\n![图片2：两个信息面板解释广告隐私。左侧面板标题为“影响您所见广告的因素”，列出了诸如您正在讨论的内容、您隐藏或互动的广告、以及您的过往聊天和记忆等因素，并注明主题与广告匹配但不会与广告商共享。右侧面板标题为“您的聊天保持私密”，说明广告商永远不会看到个人详细信息或对话，仅接收汇总的广告展示和点击数据。](https://images.ctfassets.net/kftzwdyauwt9/31hfbN3TLeW6sQnfTnmvVo/26fcee76477c2882e30a1565b6171906/Group_2147261940.svg?w=3840&q=90)\n\n## 选择与控制\n\n您可以控制您在 ChatGPT 中看到的广告，包括关闭广告、分享反馈、了解您看到特定广告的方式和原因、一键删除您的广告数据，以及随时管理广告个性化设置。\n\n![图片3：两个移动风格屏幕显示广告设置和历史记录。左侧屏幕显示“广告控制”，包含历史记录、兴趣、删除广告数据选项，以及个性化广告和使用过往聊天与记忆的开关。右侧屏幕显示“广告历史”，列出今天查看的广告，包含时间戳和品牌名称，并附注说明用户可以随时清除其历史记录。](https://images.ctfassets.net/kftzwdyauwt9/LrJfR8gAl5GVhXW9kg8Ol/82eea05cdef9a1bf9ee213931e839e99/12.png?w=3840&q=90&fm=webp)\n\n## 长期价值\n\n人们在使用ChatGPT时，往往正处于积极探索选项、比较想法或努力做出决策的过程中。在这些时刻，广告可以帮助人们发现来自各种规模企业的相关产品或服务，这些正是他们可能会喜欢的。我们将根据早期的广告表现和反馈，持续提升广告的相关性，同时始终保持广告与ChatGPT回答之间的清晰界限，并保护您的数据隐私。\n\n更广泛地说，我们看到了广告在ChatGPT中为人们带来独特价值的潜力。在对话式界面中，广告可以更具相关性和实用性，将人们与他们正在尝试做的事情自然契合的新产品和服务连接起来。\n\n## 下一步计划\n\n我们此次测试的重点在于学习。我们密切关注反馈，以确保广告在扩展之前能够显得有用，并自然融入ChatGPT的体验中。\n\n对于企业而言，我们刚刚开始探索不同类型组织如何以增值的方式参与ChatGPT体验。随着时间的推移，我们将发展广告计划，以支持更多格式、目标和购买模式，并为企业与ChatGPT中的消费者互动开辟新途径。如果您是企业，并且对在ChatGPT中投放广告感兴趣，请访问[openai.com/advertisers⁠](https://openai.com/advertisers/)注册以获取更多更新。\n\n始终不变的是：ChatGPT的回答保持独立和公正，对话内容保持私密，人们对其体验拥有有意义的控制权。",
+      "titleZh": "在ChatGPT中测试广告",
+      "summaryZh": "OpenAI开始在ChatGPT中测试广告，以支持免费访问，广告有明确标识、答案独立性、强大的隐私保护和用户控制。",
+      "translationStatus": "translated",
+      "publishedAt": "2026-08-11T10:00:00.000Z",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "collectedAt": "2026-11-06T10:23:21.397Z"
     },
     {
       "id": "1900d0fe225de710b8d9",
@@ -3484,7 +3637,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.948Z"
+      "collectedAt": "2026-11-06T10:23:22.829Z"
     },
     {
       "id": "f50ed5f93da49347ecb6",
@@ -3501,7 +3654,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T12:00:00.000Z",
       "url": "https://openai.com/index/model-ml",
-      "collectedAt": "2026-11-05T10:20:49.905Z"
+      "collectedAt": "2026-11-06T10:23:21.397Z"
     },
     {
       "id": "288f6994afc6cc6de385",
@@ -3518,7 +3671,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T10:00:00.000Z",
       "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
-      "collectedAt": "2026-11-05T10:20:49.905Z"
+      "collectedAt": "2026-11-06T10:23:21.398Z"
     },
     {
       "id": "734c538c439aa3199cf2",
@@ -3535,7 +3688,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T10:00:00.000Z",
       "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "collectedAt": "2026-11-05T10:20:49.905Z"
+      "collectedAt": "2026-11-06T10:23:21.398Z"
     },
     {
       "id": "8eb1e6a0a260fe518fb3",
@@ -3552,7 +3705,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
-      "collectedAt": "2026-11-05T10:20:49.905Z"
+      "collectedAt": "2026-11-06T10:23:21.398Z"
     },
     {
       "id": "2c74e7c8cea6a2ece6de",
@@ -3569,7 +3722,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://openai.com/index/zapier",
-      "collectedAt": "2026-11-05T10:20:49.905Z"
+      "collectedAt": "2026-11-06T10:23:21.399Z"
     },
     {
       "id": "02e8effaacedb8dbc2e1",
@@ -3586,7 +3739,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://openai.com/index/premium-seats-chatgpt-business",
-      "collectedAt": "2026-11-05T10:20:49.905Z"
+      "collectedAt": "2026-11-06T10:23:21.399Z"
     },
     {
       "id": "ea78a3a7551716d6c36f",
@@ -3603,7 +3756,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-05T10:20:50.948Z"
+      "collectedAt": "2026-11-06T10:23:22.830Z"
     },
     {
       "id": "af15e83e5c304730063b",
@@ -3620,7 +3773,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-05T10:20:53.578Z"
+      "collectedAt": "2026-11-06T10:23:26.029Z"
     },
     {
       "id": "118693cb868e1641c9c1",
@@ -3637,7 +3790,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-04-24T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-05T10:20:53.578Z"
+      "collectedAt": "2026-11-06T10:23:26.030Z"
     },
     {
       "id": "aeb9a0b6e961ddd9394e",
@@ -3654,7 +3807,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-12-01T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-05T10:20:53.579Z"
+      "collectedAt": "2026-11-06T10:23:26.030Z"
     }
   ]
 }
