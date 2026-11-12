@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-11T10:21:24.554Z",
+  "updatedAt": "2026-11-12T10:39:23.123Z",
   "sources": [
     {
       "id": "openai-news",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "count": 883
+      "count": 884
     },
     {
       "id": "claude-apps",
@@ -42,7 +42,7 @@
       "id": "google-ai-news",
       "url": "https://blog.google/technology/ai/rss/",
       "status": "ok",
-      "count": 5
+      "count": 6
     },
     {
       "id": "deepseek-api",
@@ -52,6 +52,40 @@
     }
   ],
   "entries": [
+    {
+      "id": "c6c92673d541185e54df",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "content": "Holiday Extras customer story video.\n\n[Holiday Extras⁠(opens in a new window)](https://www.holidayextras.com/) helps customers search, book and manage trips. For CEO Matthew Pack, becoming an AI-based travel technology business means changing how the whole organisation works: giving the people who understand customers and operations the ability to improve them directly.\n\nCompany-wide ChatGPT Enterprise access established the foundation. Codex extended it into building software, from customer-facing apps to internal systems. Pack builds with Codex himself, using that experience to understand what colleagues need and raise his expectations of what the business can achieve.\n\n> “This isn’t about one or two people anymore. It’s about taking the entire team on the journey.”\n\n—Matthew Pack, CEO, Holiday Extras\n\n## Inside the rollout: rebuilding the app and the way it is made\n\nHoliday Extras had spent years developing its [mobile apps⁠(opens in a new window)](https://www.holidayextras.com/our-apps/). Major changes to its main app centred on an annual release. With Codex, it challenged itself to rethink the experience and how it was built.\n\nWithin two weeks, the team had a fully working rebuild, achieving development progress that previously would have taken over six months. Liam Thompson, VP of AI Innovation and formerly Head of Design, worked with engineers to translate his understanding of customers into software. Small, documented packages created reusable foundations, while engineers focused on architecture, APIs, security and development workflows.\n\nThe rebuilt app offered a more personal experience informed by customers’ bookings, trips and history. Codex enabled iOS and Android features to be developed together, bringing improvements to both platforms without Android following behind.\n\n> “It’s not a question of can I build it anymore. It’s how I would build it.”\n\n—Liam Thompson, VP of AI Innovation, Holiday Extras\n\n## Results at a glance: better bookings and faster responses\n\n*   Higher conversion: open-to-book conversion on the main app increased 32.5% following the rebuild.\n\n*   Fewer errors: the main app’s error rate fell from 19% to 9%.\n\n*   More frequent improvements: the main app moved from an annual major release to weekly releases in the first month after the rebuild, each containing multiple new features.\n\n*   Faster iteration: Countdown moved from adding a feature roughly every six months to multiple additions a week.\n\n_Conversion and error-rate results compare the previous and rebuilt main app across different periods._\n\nFaster development also gives customers more influence. When a Countdown customer complained about a missing list view, an agent prepared a fix. Liam Thompson approved it, the update was submitted and the customer changed their one-star review to five stars.\n\nThe same emphasis on acting on customer insight extends into operations. David Lee, Director of Innovation and Growth, describes an automated system that turns airport-transfer customer chats into actionable tickets, helping the team identify problems across its supplier network. Customer insight becomes work the team can act on.\n\n> “So, you can build things more quickly. You can test them more quickly, and you can learn from them because it can understand the data.”\n\n—Matthew Pack, CEO, Holiday Extras\n\n## Putting business expertise to work\n\nMatthew Pack describes giving everyone permission to try AI, then actively encouraging them to use it. That permission comes with guardrails. Employees have access and encouragement to experiment; engineers build the packages, security controls and workflows that make that experimentation practical.\n\nDavid Lee sees the effect in an experienced accountant who rebuilt finance systems around his understanding of the business and feedback from colleagues. The opportunity reaches beyond learning to code: people can apply years of operational knowledge directly to the tools they use. Leadership’s role is to make that possible, support experimentation and help successful ideas spread.\n\n## Why OpenAI: a partner in how the business develops\n\nHoliday Extras values Codex’s ability to explore ideas, reason through complex problems, propose a plan and deliver independently. Liam Thompson describes being able to question an approach and receive suggestions throughout the work.\n\nThe wider partnership connects building with everyday work. ChatGPT Enterprise supports employees across the business, while OpenAI models power the app’s personalised experience. dots adds coordination and insight: Thompson recalls his dot proactively preparing a performance report after an app launch. David Lee values model quality and efficiency alongside the relationship behind the products.\n\n> “I love how OpenAI thinks differently. I love how you are open to feedback as well. We have a fantastic two-way relationship.”\n\n—David Lee, Director of Innovation and Growth, Holiday Extras\n\n## What’s next: expanding what the business can pursue\n\nPack’s ambition is for more of Holiday Extras’ systems to be administered through AI, with employees directing the work and shaping the outcomes. The app rebuild demonstrates the potential: better booking performance, fewer errors and capacity to keep improving.\n\nThat gives Holiday Extras a new basis for deciding which opportunities to pursue across its products and markets. As more people can act on their expertise, Pack is asking the leadership team to reconsider the scale of its ambitions.\n\n> “Our dreams are not hard enough, clearly. We need to go back and rethink what we’re capable of doing.”\n\n—Matthew Pack, CEO, Holiday Extras\n\n## Get OpenAI for Business updates\n\nProduct updates, practical guides, upcoming events, and more.",
+      "contentZh": "",
+      "titleZh": "",
+      "summaryZh": "",
+      "translationStatus": "pending",
+      "publishedAt": "2026-11-12T09:30:00.000Z",
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "collectedAt": "2026-11-12T10:39:10.707Z"
+    },
+    {
+      "id": "8256d925e8e259c73ebd",
+      "sourceId": "google-ai-news",
+      "company": "Google",
+      "product": "Gemini",
+      "kind": "news",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "content": "Nov 11, 2026\n\n|\n\nIntroducing the Gemini Decisions API, powered by our new Gemini Decision 1 model. Evaluate up to 1,000 yes/no, choice, and rubric-scoring questions in a fast, single pass across text, images, audio, video, and PDFs.\n\n* * *\n\nMin Choi\n\nProduct Manager, Google DeepMind\n\nFelix Yu\n\nPrincipal Scientist, Google DeepMind\n\n* * *\n\n[Audio 3](https://storage.googleapis.com/gweb-uniblog-publish-prod/media/tts_audio_86902_umbriel_2026_11_11_18_16_33.mp3)\n\nListen to article\n\n[[duration]] minutes\n\nThis content is generated by Google AI. Generative AI is experimental\n\nToday, we’re introducing the Gemini Decisions API, a new endpoint for fast, closed-set decisions powered by our new Gemini Decision 1 model (gemini-decision-1), available through the [Gemini API](https://aistudio.google.com/docs/decisions-api) in [Google AI Studio](https://aistudio.google.com/apps/bundled/gemini-decisions-api-playground?fullscreenApplet=true).\n\nThe Decisions API gives you purpose-built primitives for bounded choices like tool selection, policy checks, model routing, and context grading. You can pass one multimodal input across text, images, audio, video, and PDFs (up to 256K tokens) along with up to 1,000 independent questions. Rather than generating answer text token by token, Gemini Decision 1 scores your candidate options in a single forward pass, returning probabilities and confidence scores in 150-250 ms end-to-end latency at $0.10 per 1M input tokens with zero output tokens billed.\n\n![Image 1: Comparison of Gemini Decision and other APIs against various benchmarks](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/decisions-architecture_f0NFXU9.width-1200.format-webp.webp)\n\n## Strong performance and calibration\n\nOn benchmarks spanning agent routing, reasoning, ranking, and multimodal understanding, Gemini Decision 1 leads across the suite, with the lowest calibration error.\n\n![Image 2: Comparison of the Decisions API and other APIs to benchmark](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-decision__benchmarks__tab.width-1200.format-webp_3LrengT.webp)\n\nGemini Decision 1 scores options without token-by-token decoding, keeping median latency 50-100 ms of model compute (150-250 ms end-to-end), across multimodal inputs and contexts up to 16K tokens, remaining nearly flat from 1 to 100 questions per request. With zero output tokens billed, Gemini Decision 1 with the Decisions API is nearly 5x cheaper across the shared benchmark suite than Gemini 3.5 Flash-Lite with the Interactions API.\n\n## Native multimodal evaluation across three decision types in one pass\n\nBuilt on Gemini’s native multimodal architecture, Gemini Decision 1 can process text, images, audio, video, and PDFs directly in a single forward pass. You can combine modalities in one shared input, such as pairing a call recording with account metadata or a scanned PDF claim with damage photos, and tune resolution on image and video inputs to control visual detail and token cost.\n\nYou can evaluate multiple questions against that shared input in a single request, mixing yes/no checks, multiple choice, and rubric scores. Every answer includes a confidence score (from 0 to 1) so your code can route ambiguous cases to a fallback or human reviewer:\n\n*   **noul (Yes/No):** Estimates the probability that a yes/no condition holds, with optional true and false description criteria.\n*   **choice (Multiple Choice):** Selects from 2 to 255 choices, returning the winner and normalized probabilities for every candidate.\n*   **score (Ordered Rubric):** Grades inputs across an ordered rubric (starting at 0), returning a continuous weighted score and per-level probabilities.\n\nThe `input` field uses the same `Content` block format as the [Interactions API](https://aistudio.google.com/docs/interactions-overview). Here is how to check a photo of a breakroom counter, together with a text note, against all three question types in one request:\n\n```\nfrom google import genai\r\n\r\nclient = genai.Client(http_options={\"api_version\": \"v1beta\"})\r\n\r\nresult = client.decisions.create(\r\n    model=\"gemini-decision-1\",\r\n    input=[{\r\n            \"type\": \"image\",\r\n            \"uri\": \"https://storage.googleapis.com/generativeai-downloads/images/spill.jpg\",\r\n            \"mime_type\": \"image/jpeg\",\r\n        },\r\n        {\r\n            \"type\": \"text\",\r\n            \"text\": \"Breakroom counter check before the 9 AM client meeting.\",\r\n        },\r\n    ],\r\n    questions={\r\n        \"has_spill\": {\r\n            \"type\": \"noul\",\r\n            \"instructions\": \"Is there an uncleaned liquid spill on the counter?\",\r\n        },\r\n        \"next_action\": {\r\n            \"type\": \"choice\",\r\n            \"instructions\": \"Which cleanup action fits the scene?\",\r\n            \"criteria\": {\r\n                \"wipe_with_cloth\": \"Small counter spill with a cloth or towel already nearby.\",\r\n                \"dispatch_janitorial\": \"Large floor hazard, broken glass, or active leak.\",\r\n                \"ready_for_meeting\": \"Counter is clean and ready.\",\r\n            },\r\n        },\r\n        \"severity\": {\r\n            \"type\": \"score\",\r\n            \"instructions\": \"Rate the severity of the counter mess.\",\r\n            \"criteria\": [\r\n                \"Clean and ready.\",\r\n                \"Minor localized spill.\",\r\n                \"Major spill or safety hazard.\",\r\n            ],\r\n        },\r\n    },\r\n)\n```\n\n![Image 3: Gemini detected a spill with a next_action wipe_with_cloth](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/decisions-hero-hud_l8rnHOK.width-1200.format-webp.webp)\n\n## How teams are building with the Decisions API\n\nTeams across Google are already using the Decisions API as a low-latency control plane, shipping features simply by defining options rather than training custom classifiers or waiting on generative calls:\n\n*   **Dynamic model routing in Gemini Notebook:** Gemini Notebook uses the Decisions API as a real-time router to instantly direct incoming queries to the optimal model tier and thinking level for each request. The Decisions API classifies intent in milliseconds to serve everyday queries with up to 40% lower latency while reserving deep reasoning models for complex tasks.\n*   **Rapid design iteration in Stitch:** The new [rapid canvas experiment in Stitch](https://stitch.withgoogle.com/rapid) uses the Decisions API to generate playable wireframes of a product flow in seconds and to apply edits made by voice or tap almost instantly. When the flow feels right, one click hands the screens off to the full Stitch experience for deeper design polish.\n*   **Emoji selection in CC:** CC from Google Labs uses the Decisions API to pick the right emoji reaction from a palette of more than 200 options in a fraction of a second, so reactions appear instantly without adding latency.\n*   **Safety layer for MCP tools in Search**: Google Search uses the Decision API to detect adversarial behavior and content against adversarial evals with high efficacy within the latency envelope.\n\nStitch Rapid uses the Decisions API to design an entire product flow in seconds (1x speed).\n\n## Start building today\n\nGemini Decision 1 is priced at $0.10 per 1M input tokens and $0 for output tokens, with an API no-cost tier you can use in [Google AI Studio](https://aistudio.google.com/apps/bundled/gemini-decisions-api-playground?fullscreenApplet=true) for prototyping. Your shared `input` is billed once per request no matter how many questions you evaluate (each question adds only its own instruction and criteria tokens). There are no output-token charges, variable thinking-token bills, or separate audio transcription and OCR costs.\n\nYou can start building today by grabbing an API key in [Google AI Studio](https://aistudio.google.com/api-keys), trying our [Doorstep Parcels](https://aistudio.google.com/apps/bundled/doorstep-parcels-qa?fullscreenApplet=true), [Speed Sketch](https://aistudio.google.com/apps/bundled/speed-sketch?fullscreenApplet=true), and [Find the Zoo Keeper](https://aistudio.google.com/apps/bundled/find-the-zoo-keeper?fullscreenApplet=true) demo apps, and following the Python, JavaScript, and REST guides in the [Decisions API documentation](https://aistudio.google.com/docs/decisions-api).\n\nEcosystem integrations are rolling out across [OpenRouter](https://openrouter.ai/google/gemini-decision-1), [LangChain](https://docs.langchain.com/oss/python/integrations/providers/google), [Vercel](https://ai-sdk.dev/providers/ai-sdk-providers/google), [LiteLLM](https://docs.litellm.ai/docs/providers/gemini), [Pydantic AI](https://pydantic.dev/docs/ai/models/google/), [Pipecat](https://docs.pipecat.ai/api-reference/server/classifiers/google), [LiveKit](https://docs.livekit.io/agents/integrations/google/), and [OpenCode](https://opencode.ai/) alongside the `google-genai` SDKs, with support [coming soon](https://forms.gle/NFt1W6pL1gCY9FGM8) to Gemini in Google Cloud.\n\n## Get the latest news from Google in your inbox\n\nSign up for our newsletters with product updates, event information, special offers, and more.\n\nYour information will be used in accordance with [Google's privacy policy.](https://policies.google.com/privacy) You may opt out at any time.",
+      "contentZh": "",
+      "titleZh": "",
+      "summaryZh": "",
+      "translationStatus": "pending",
+      "publishedAt": "2026-11-11T18:00:00.000Z",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "collectedAt": "2026-11-12T10:39:14.961Z"
+    },
     {
       "id": "d0c0b7e4e350883223d1",
       "sourceId": "openai-news",
@@ -67,7 +101,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-11T08:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-plus-for-veterans",
-      "collectedAt": "2026-11-11T10:20:45.239Z"
+      "collectedAt": "2026-11-12T10:39:10.709Z"
     },
     {
       "id": "f2971b62e614776194c4",
@@ -84,7 +118,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-10T19:00:00.000Z",
       "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
-      "collectedAt": "2026-11-11T10:20:48.262Z"
+      "collectedAt": "2026-11-12T10:39:14.962Z"
     },
     {
       "id": "cf69537b137372cce4ee",
@@ -101,7 +135,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-10T16:03:47.000Z",
       "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-      "collectedAt": "2026-11-11T10:20:47.874Z"
+      "collectedAt": "2026-11-12T10:39:14.556Z"
     },
     {
       "id": "b561ead9b12ffe2a59d2",
@@ -118,7 +152,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-10T14:00:00.000Z",
       "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
-      "collectedAt": "2026-11-11T10:20:48.263Z"
+      "collectedAt": "2026-11-12T10:39:14.963Z"
     },
     {
       "id": "32267f6fb227227dd871",
@@ -135,7 +169,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-10T13:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
-      "collectedAt": "2026-11-11T10:20:48.263Z"
+      "collectedAt": "2026-11-12T10:39:14.963Z"
     },
     {
       "id": "01be4009896888301ebc",
@@ -152,7 +186,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-10T12:00:00.000Z",
       "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-      "collectedAt": "2026-11-11T10:20:45.240Z"
+      "collectedAt": "2026-11-12T10:39:10.711Z"
     },
     {
       "id": "6279ffc95ff3eaf22bb3",
@@ -169,7 +203,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-10T10:00:00.000Z",
       "url": "https://openai.com/index/introducing-businesses-chatgpt",
-      "collectedAt": "2026-11-11T10:20:45.241Z"
+      "collectedAt": "2026-11-12T10:39:10.711Z"
     },
     {
       "id": "b3cce5b9299983ce34fe",
@@ -186,7 +220,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-10T08:00:00.000Z",
       "url": "https://openai.com/index/singapore-airlines-travel-work",
-      "collectedAt": "2026-11-11T10:20:45.243Z"
+      "collectedAt": "2026-11-12T10:39:10.713Z"
     },
     {
       "id": "c23c696ec040a40e4074",
@@ -203,7 +237,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-10T00:00:00.000Z",
       "url": "https://openai.com/index/cogent-security",
-      "collectedAt": "2026-11-11T10:20:45.243Z"
+      "collectedAt": "2026-11-12T10:39:10.714Z"
     },
     {
       "id": "343805d488ec12694882",
@@ -220,7 +254,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-09T19:51:47.000Z",
       "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
-      "collectedAt": "2026-11-11T10:20:47.874Z"
+      "collectedAt": "2026-11-12T10:39:14.556Z"
     },
     {
       "id": "a156b8580e9e9540bab0",
@@ -237,7 +271,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-09T19:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-      "collectedAt": "2026-11-11T10:20:45.244Z"
+      "collectedAt": "2026-11-12T10:39:10.715Z"
     },
     {
       "id": "7440484a6a903eadbe55",
@@ -254,7 +288,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-09T13:00:00.000Z",
       "url": "https://openai.com/index/control-room",
-      "collectedAt": "2026-11-11T10:20:45.244Z"
+      "collectedAt": "2026-11-12T10:39:10.716Z"
     },
     {
       "id": "b003757fbd33185dc87c",
@@ -271,7 +305,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-09T08:00:00.000Z",
       "url": "https://openai.com/index/coderabbit-codex-daybreak",
-      "collectedAt": "2026-11-11T10:20:45.245Z"
+      "collectedAt": "2026-11-12T10:39:10.717Z"
     },
     {
       "id": "1a6dc37442d600d7536f",
@@ -288,7 +322,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-09T08:00:00.000Z",
       "url": "https://openai.com/index/kuken",
-      "collectedAt": "2026-11-11T10:20:45.246Z"
+      "collectedAt": "2026-11-12T10:39:10.718Z"
     },
     {
       "id": "a88aef5bbd3b48312d71",
@@ -305,7 +339,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-09T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.671Z"
+      "collectedAt": "2026-11-12T10:39:12.564Z"
     },
     {
       "id": "4073886389aaa6fb87fc",
@@ -322,7 +356,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-06T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-11T10:20:46.020Z"
+      "collectedAt": "2026-11-12T10:39:11.715Z"
     },
     {
       "id": "1b990a96225405b47868",
@@ -339,7 +373,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-05T20:00:00.000Z",
       "url": "https://openai.com/index/cultfit-builds-with-codex",
-      "collectedAt": "2026-11-11T10:20:45.248Z"
+      "collectedAt": "2026-11-12T10:39:10.720Z"
     },
     {
       "id": "d1596b6657890bbc71f7",
@@ -356,7 +390,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-05T17:05:16.000Z",
       "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
-      "collectedAt": "2026-11-11T10:20:47.874Z"
+      "collectedAt": "2026-11-12T10:39:14.556Z"
     },
     {
       "id": "73524ffb13240b069fde",
@@ -373,7 +407,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-05T17:00:00.000Z",
       "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-      "collectedAt": "2026-11-11T10:20:45.247Z"
+      "collectedAt": "2026-11-12T10:39:10.720Z"
     },
     {
       "id": "9faae3e01a16e7011b9a",
@@ -390,7 +424,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-05T17:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "collectedAt": "2026-11-11T10:20:48.263Z"
+      "collectedAt": "2026-11-12T10:39:14.963Z"
     },
     {
       "id": "19917a744f398f405b66",
@@ -407,7 +441,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-05T09:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-6-cyber",
-      "collectedAt": "2026-11-11T10:20:45.248Z"
+      "collectedAt": "2026-11-12T10:39:10.721Z"
     },
     {
       "id": "873e8e108ed7b5063a1c",
@@ -424,7 +458,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-05T08:00:00.000Z",
       "url": "https://openai.com/index/merge-builds-with-openai",
-      "collectedAt": "2026-11-11T10:20:45.249Z"
+      "collectedAt": "2026-11-12T10:39:10.721Z"
     },
     {
       "id": "8965987cffe62ff69ffe",
@@ -441,7 +475,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-05T00:45:15.000Z",
       "url": "https://openai.com/ads/customers/flipsnack",
-      "collectedAt": "2026-11-11T10:20:45.250Z"
+      "collectedAt": "2026-11-12T10:39:10.722Z"
     },
     {
       "id": "832e8327fa44562a632f",
@@ -458,7 +492,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-05T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-11T10:20:46.021Z"
+      "collectedAt": "2026-11-12T10:39:11.716Z"
     },
     {
       "id": "837b6abe06f00c47953c",
@@ -475,7 +509,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-05T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.672Z"
+      "collectedAt": "2026-11-12T10:39:12.564Z"
     },
     {
       "id": "4de8b27be9e0b374feca",
@@ -492,7 +526,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-04T14:30:00.000Z",
       "url": "https://openai.com/index/openai-to-acquire-pierre",
-      "collectedAt": "2026-11-11T10:20:45.251Z"
+      "collectedAt": "2026-11-12T10:39:10.723Z"
     },
     {
       "id": "3e8cb3e76220121ce9d2",
@@ -509,7 +543,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-04T07:00:00.000Z",
       "url": "https://openai.com/index/daybreak-red-aws-govcloud",
-      "collectedAt": "2026-11-11T10:20:45.251Z"
+      "collectedAt": "2026-11-12T10:39:10.723Z"
     },
     {
       "id": "c874291f59b4b2e4c676",
@@ -526,7 +560,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-04T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-images-2-6",
-      "collectedAt": "2026-11-11T10:20:45.251Z"
+      "collectedAt": "2026-11-12T10:39:10.723Z"
     },
     {
       "id": "c53c56c593280d52e6bc",
@@ -543,7 +577,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-04T00:00:00.000Z",
       "url": "https://openai.com/index/devrev-enterprise-self-service",
-      "collectedAt": "2026-11-11T10:20:45.252Z"
+      "collectedAt": "2026-11-12T10:39:10.724Z"
     },
     {
       "id": "47c5f65358ae4d253d36",
@@ -560,7 +594,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-03T12:00:00.000Z",
       "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-      "collectedAt": "2026-11-11T10:20:45.252Z"
+      "collectedAt": "2026-11-12T10:39:10.724Z"
     },
     {
       "id": "949c7b5db36a2e2daf42",
@@ -577,7 +611,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-03T08:00:00.000Z",
       "url": "https://openai.com/index/cisco-cyber",
-      "collectedAt": "2026-11-11T10:20:45.252Z"
+      "collectedAt": "2026-11-12T10:39:10.725Z"
     },
     {
       "id": "4633daa6f18f86c54eb3",
@@ -594,7 +628,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-03T08:00:00.000Z",
       "url": "https://openai.com/index/heimstaden",
-      "collectedAt": "2026-11-11T10:20:45.252Z"
+      "collectedAt": "2026-11-12T10:39:10.725Z"
     },
     {
       "id": "92bdd093b6a518bec6ad",
@@ -611,7 +645,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-03T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.672Z"
+      "collectedAt": "2026-11-12T10:39:12.565Z"
     },
     {
       "id": "6f440249a277a8fbbe16",
@@ -628,7 +662,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-02T15:30:00.000Z",
       "url": "https://openai.com/index/scaling-git-at-openai",
-      "collectedAt": "2026-11-11T10:20:45.253Z"
+      "collectedAt": "2026-11-12T10:39:10.726Z"
     },
     {
       "id": "9ed808a8187abb803291",
@@ -645,7 +679,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-02T09:00:00.000Z",
       "url": "https://openai.com/index/lifeval",
-      "collectedAt": "2026-11-11T10:20:45.253Z"
+      "collectedAt": "2026-11-12T10:39:10.727Z"
     },
     {
       "id": "44665529391c2ff9191f",
@@ -662,7 +696,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-02T00:00:00.000Z",
       "url": "https://openai.com/index/qodo-codex-plugin",
-      "collectedAt": "2026-11-11T10:20:45.253Z"
+      "collectedAt": "2026-11-12T10:39:10.727Z"
     },
     {
       "id": "d175ac2cc4f761a12b94",
@@ -679,7 +713,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-11-02T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.673Z"
+      "collectedAt": "2026-11-12T10:39:12.565Z"
     },
     {
       "id": "6a84a600fee99150321d",
@@ -696,7 +730,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-30T09:00:00.000Z",
       "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-      "collectedAt": "2026-11-11T10:20:45.254Z"
+      "collectedAt": "2026-11-12T10:39:10.728Z"
     },
     {
       "id": "b0f21a805013f03c7dca",
@@ -713,7 +747,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-30T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.673Z"
+      "collectedAt": "2026-11-12T10:39:12.570Z"
     },
     {
       "id": "c4fc9ca3ccc3cbb3f72d",
@@ -730,7 +764,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-29T17:00:00.000Z",
       "url": "https://openai.com/index/updated-model-spec",
-      "collectedAt": "2026-11-11T10:20:45.255Z"
+      "collectedAt": "2026-11-12T10:39:10.729Z"
     },
     {
       "id": "18cef611588a1193dd4a",
@@ -747,7 +781,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-29T09:00:00.000Z",
       "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "collectedAt": "2026-11-11T10:20:45.255Z"
+      "collectedAt": "2026-11-12T10:39:10.729Z"
     },
     {
       "id": "fc05e6230607d9f27299",
@@ -764,7 +798,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-29T00:00:00.000Z",
       "url": "https://openai.com/index/credit-saison",
-      "collectedAt": "2026-11-11T10:20:45.256Z"
+      "collectedAt": "2026-11-12T10:39:10.730Z"
     },
     {
       "id": "9587d6355203807dd506",
@@ -781,7 +815,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-29T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.674Z"
+      "collectedAt": "2026-11-12T10:39:12.570Z"
     },
     {
       "id": "b3912c20867cd3902d08",
@@ -798,7 +832,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-28T19:40:49.000Z",
       "url": "https://openai.com/ads/customers/evernote",
-      "collectedAt": "2026-11-11T10:20:45.256Z"
+      "collectedAt": "2026-11-12T10:39:10.730Z"
     },
     {
       "id": "ddcd17d7121c57be0600",
@@ -815,7 +849,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-28T17:00:58.000Z",
       "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "collectedAt": "2026-11-11T10:20:47.875Z"
+      "collectedAt": "2026-11-12T10:39:14.557Z"
     },
     {
       "id": "24b6bd430275323c0d5b",
@@ -832,7 +866,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-28T13:15:00.000Z",
       "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "collectedAt": "2026-11-11T10:20:45.256Z"
+      "collectedAt": "2026-11-12T10:39:10.731Z"
     },
     {
       "id": "d3623346a5ba4773e870",
@@ -849,7 +883,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-28T09:30:00.000Z",
       "url": "https://openai.com/index/legora",
-      "collectedAt": "2026-11-11T10:20:45.256Z"
+      "collectedAt": "2026-11-12T10:39:10.731Z"
     },
     {
       "id": "7d3a7824e5cdde1c9603",
@@ -866,7 +900,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-28T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.674Z"
+      "collectedAt": "2026-11-12T10:39:12.571Z"
     },
     {
       "id": "0193ff3cd44006bdf062",
@@ -883,7 +917,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-27T15:00:00.000Z",
       "url": "https://openai.com/index/retell-ai",
-      "collectedAt": "2026-11-11T10:20:45.257Z"
+      "collectedAt": "2026-11-12T10:39:10.731Z"
     },
     {
       "id": "c6116b17c346c7c7342b",
@@ -900,7 +934,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-27T07:00:00.000Z",
       "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "collectedAt": "2026-11-11T10:20:45.257Z"
+      "collectedAt": "2026-11-12T10:39:10.732Z"
     },
     {
       "id": "a000ebaf269c8ae5d638",
@@ -917,7 +951,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-26T22:00:00.000Z",
       "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "collectedAt": "2026-11-11T10:20:45.257Z"
+      "collectedAt": "2026-11-12T10:39:10.732Z"
     },
     {
       "id": "50873b3f4c8bbb10f0ed",
@@ -934,7 +968,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-26T18:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-6-1-terra",
-      "collectedAt": "2026-11-11T10:20:45.257Z"
+      "collectedAt": "2026-11-12T10:39:10.733Z"
     },
     {
       "id": "32f1798b195a8eeda065",
@@ -951,7 +985,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-26T14:30:00.000Z",
       "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "collectedAt": "2026-11-11T10:20:45.257Z"
+      "collectedAt": "2026-11-12T10:39:10.733Z"
     },
     {
       "id": "a78767db11daafd34d6e",
@@ -968,7 +1002,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-26T13:45:00.000Z",
       "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "collectedAt": "2026-11-11T10:20:45.258Z"
+      "collectedAt": "2026-11-12T10:39:10.733Z"
     },
     {
       "id": "fcbae959cfded2c76bf5",
@@ -985,7 +1019,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-26T10:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
-      "collectedAt": "2026-11-11T10:20:45.258Z"
+      "collectedAt": "2026-11-12T10:39:10.734Z"
     },
     {
       "id": "d40d5e0ca15ab25db000",
@@ -1002,7 +1036,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-26T07:00:00.000Z",
       "url": "https://openai.com/index/openai-cut-incident-investigation",
-      "collectedAt": "2026-11-11T10:20:45.258Z"
+      "collectedAt": "2026-11-12T10:39:10.734Z"
     },
     {
       "id": "9fc10476b2c18ee0001b",
@@ -1019,7 +1053,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "collectedAt": "2026-11-11T10:20:45.258Z"
+      "collectedAt": "2026-11-12T10:39:10.735Z"
     },
     {
       "id": "fcd67a8854a80133b3f5",
@@ -1036,7 +1070,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-23T10:00:00.000Z",
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "collectedAt": "2026-11-11T10:20:45.259Z"
+      "collectedAt": "2026-11-12T10:39:10.735Z"
     },
     {
       "id": "de8f360d7618ca283160",
@@ -1053,7 +1087,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-23T00:00:00.000Z",
       "url": "https://openai.com/index/anima",
-      "collectedAt": "2026-11-11T10:20:45.259Z"
+      "collectedAt": "2026-11-12T10:39:10.735Z"
     },
     {
       "id": "12faaea26af29e3628b9",
@@ -1070,7 +1104,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-23T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.675Z"
+      "collectedAt": "2026-11-12T10:39:12.571Z"
     },
     {
       "id": "b40a489d3dca13c566ea",
@@ -1087,7 +1121,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-22T19:00:00.000Z",
       "url": "https://openai.com/index/decisions-api",
-      "collectedAt": "2026-11-11T10:20:45.259Z"
+      "collectedAt": "2026-11-12T10:39:10.736Z"
     },
     {
       "id": "e0ac835f8bbbb3d1f9a8",
@@ -1104,7 +1138,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-22T00:00:00.000Z",
       "url": "https://openai.com/index/uber-chatgpt-work-rollout",
-      "collectedAt": "2026-11-11T10:20:45.259Z"
+      "collectedAt": "2026-11-12T10:39:10.736Z"
     },
     {
       "id": "ca1eb8e9f0d5ad4b65c6",
@@ -1121,7 +1155,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.675Z"
+      "collectedAt": "2026-11-12T10:39:12.572Z"
     },
     {
       "id": "a7f4cc0f7267a2cd445c",
@@ -1138,7 +1172,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-21T13:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-      "collectedAt": "2026-11-11T10:20:45.260Z"
+      "collectedAt": "2026-11-12T10:39:10.738Z"
     },
     {
       "id": "e26725705d6b7e7f5c32",
@@ -1155,7 +1189,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-21T12:00:00.000Z",
       "url": "https://openai.com/index/openai-models-google-cloud",
-      "collectedAt": "2026-11-11T10:20:45.260Z"
+      "collectedAt": "2026-11-12T10:39:10.737Z"
     },
     {
       "id": "92ca159e84584b28e39e",
@@ -1172,7 +1206,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-21T07:00:00.000Z",
       "url": "https://openai.com/index/building-chatgpt-ad-stack",
-      "collectedAt": "2026-11-11T10:20:45.260Z"
+      "collectedAt": "2026-11-12T10:39:10.739Z"
     },
     {
       "id": "f99f7ec39c9e42b8cdb5",
@@ -1189,7 +1223,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "url": "https://openai.com/index/cloudflare-cyber",
-      "collectedAt": "2026-11-11T10:20:45.260Z"
+      "collectedAt": "2026-11-12T10:39:10.738Z"
     },
     {
       "id": "f96d8d9d61bf99f94f98",
@@ -1206,7 +1240,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-11T10:20:46.021Z"
+      "collectedAt": "2026-11-12T10:39:11.718Z"
     },
     {
       "id": "0ce4f81341f84770cb28",
@@ -1223,7 +1257,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.676Z"
+      "collectedAt": "2026-11-12T10:39:12.574Z"
     },
     {
       "id": "c4b1ed46c0fe160229ee",
@@ -1240,7 +1274,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-20T10:00:00.000Z",
       "url": "https://openai.com/index/ted-taylor-restaurant",
-      "collectedAt": "2026-11-11T10:20:45.261Z"
+      "collectedAt": "2026-11-12T10:39:10.739Z"
     },
     {
       "id": "a880df1b302f86a910fe",
@@ -1257,7 +1291,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-20T07:00:00.000Z",
       "url": "https://openai.com/index/terminal-x",
-      "collectedAt": "2026-11-11T10:20:45.261Z"
+      "collectedAt": "2026-11-12T10:39:10.740Z"
     },
     {
       "id": "16ee5437764d50779581",
@@ -1274,7 +1308,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-20T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.676Z"
+      "collectedAt": "2026-11-12T10:39:12.575Z"
     },
     {
       "id": "b330f85b4b03f521aa49",
@@ -1291,7 +1325,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-19T12:00:00.000Z",
       "url": "https://openai.com/index/low-resource-programming-languages",
-      "collectedAt": "2026-11-11T10:20:45.262Z"
+      "collectedAt": "2026-11-12T10:39:10.741Z"
     },
     {
       "id": "0ac6bba12ed4c8cbdc20",
@@ -1308,7 +1342,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-10-17T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-11T10:20:49.373Z"
+      "collectedAt": "2026-11-12T10:39:16.086Z"
     },
     {
       "id": "741083893d951a305411",
@@ -1325,24 +1359,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-16T00:00:00.000Z",
       "url": "https://openai.com/index/localiza-generative-ai",
-      "collectedAt": "2026-11-11T10:20:45.262Z"
-    },
-    {
-      "id": "64b4b57c169ea93d3501",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-      "content": "People and AI agents need context to get work done, but it’s usually scattered across systems, from Slack to Google Docs. Finding it and understanding how it all fits together can be a challenge.\n\nThat’s why [Stack Overflow⁠(opens in a new window)](https://stackoverflow.co/) is building a knowledge intelligence platform that unifies those sources and turns raw context into verified knowledge available wherever people and agents work.\n\nOpenAI models like GPT‑6 Astra and GPT‑6 Sol power the platform’s AI, with tasks routing to different models based on the reasoning required and cost. Codex helps the company’s engineers build the products, while a ChatGPT plugin makes their newer agentic product, Stack Overflow for Agents, easier to discover and use.\n\n> “We built a ChatGPT plugin for Stack Overflow for Agents, and our registrations tripled overnight.”\n\n—Alexandra Lato, VP of Product, Stack Overflow\n\n## Two engineers ship a net-new product in a few weeks with Codex\n\nStack Overflow for Agents, which extends Stack’s intelligence layer to agents, began with a hypothesis and two engineers using Codex. The engineers gave Codex a development environment and a plan, and then worked with it to build the product. Within a few weeks, Alex says, they had a full-fledged product.\n\n“So it really made their team feel bigger,” Alex says. “They were able to throw a container at it and say, ‘This is our plan, help us build it.’”\n\n## Developing connectors in days, not weeks, with Codex\n\nStack Internal, Stack Overflow’s enterprise product, needs to connect to all the systems where organizations keep their knowledge. Building this capability requires more human involvement than the two-engineer effort behind Stack Overflow for Agents, but Codex is accelerating this work, too.\n\nAlex describes using Codex to pursue a much shorter path to market for the enterprise product: three months rather than a year. Building connectors is one concrete example.\n\n> “On average, it takes us 3 to 6 weeks to build one connector. With Codex, we were able to build it within 4 days.”\n\n—Alexandra Lato, VP of Product, Stack Overflow\n\nMore recently, the team built a connector in a single day. By accelerating connectors, Codex helps Stack Overflow bring enterprise products to market faster.\n\n## Increasing agent creation and signups with a ChatGPT plugin\n\nOnce Stack Overflow for Agents was ready for distribution, the team needed a way to get it into people’s workflows. It built a ChatGPT plugin so users could discover and set up the product in ChatGPT, with fewer steps than a traditional Model Context Protocol (MCP) setup.\n\n> “Once you have a plugin, it becomes a frictionless setup with ChatGPT.”\n\n—Alexandra Lato, VP of Product, Stack Overflow\n\nAlex says the plugin tripled registrations and accelerated agent creation: “I think we were up to 10X last time I checked.”\n\n## Reducing configuration work with the Decisions API\n\nStack Overflow manages its own model routing and configuration, but Alex hopes to explore using the Decisions API to reduce some of that work and put more engineering capacity into the product.\n\n“If we’re able to automate that through OpenAI directly, that saves us a ton of time and money, allows us to focus more on the actual product we’re building rather than the guardrails around it,” Alex says.\n\n## Expanding across the full knowledge lifecycle\n\nStack Overflow is also working on expanding its knowledge product to enable sharing of what people learn. To date, its focus has been pulling information in. Now, Alex is closing the loop so knowledge gained in a one-to-one session with a developer or someone outside engineering can help others, too.\n\n“As I’m learning, how do I make sure that the rest of my organization is learning with me?”, said Alex. “I’m really looking forward to building a product that allows for that full knowledge life cycle.”",
-      "contentZh": "",
-      "titleZh": "",
-      "summaryZh": "",
-      "translationStatus": "pending",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "collectedAt": "2026-11-11T10:20:45.266Z"
+      "collectedAt": "2026-11-12T10:39:10.742Z"
     },
     {
       "id": "29c23cec52be23e1fea0",
@@ -1359,7 +1376,24 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-16T00:00:00.000Z",
       "url": "https://openai.com/index/benefit-street-partners",
-      "collectedAt": "2026-11-11T10:20:45.266Z"
+      "collectedAt": "2026-11-12T10:39:10.747Z"
+    },
+    {
+      "id": "64b4b57c169ea93d3501",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "content": "People and AI agents need context to get work done, but it’s usually scattered across systems, from Slack to Google Docs. Finding it and understanding how it all fits together can be a challenge.\n\nThat’s why [Stack Overflow⁠(opens in a new window)](https://stackoverflow.co/) is building a knowledge intelligence platform that unifies those sources and turns raw context into verified knowledge available wherever people and agents work.\n\nOpenAI models like GPT‑6 Astra and GPT‑6 Sol power the platform’s AI, with tasks routing to different models based on the reasoning required and cost. Codex helps the company’s engineers build the products, while a ChatGPT plugin makes their newer agentic product, Stack Overflow for Agents, easier to discover and use.\n\n> “We built a ChatGPT plugin for Stack Overflow for Agents, and our registrations tripled overnight.”\n\n—Alexandra Lato, VP of Product, Stack Overflow\n\n## Two engineers ship a net-new product in a few weeks with Codex\n\nStack Overflow for Agents, which extends Stack’s intelligence layer to agents, began with a hypothesis and two engineers using Codex. The engineers gave Codex a development environment and a plan, and then worked with it to build the product. Within a few weeks, Alex says, they had a full-fledged product.\n\n“So it really made their team feel bigger,” Alex says. “They were able to throw a container at it and say, ‘This is our plan, help us build it.’”\n\n## Developing connectors in days, not weeks, with Codex\n\nStack Internal, Stack Overflow’s enterprise product, needs to connect to all the systems where organizations keep their knowledge. Building this capability requires more human involvement than the two-engineer effort behind Stack Overflow for Agents, but Codex is accelerating this work, too.\n\nAlex describes using Codex to pursue a much shorter path to market for the enterprise product: three months rather than a year. Building connectors is one concrete example.\n\n> “On average, it takes us 3 to 6 weeks to build one connector. With Codex, we were able to build it within 4 days.”\n\n—Alexandra Lato, VP of Product, Stack Overflow\n\nMore recently, the team built a connector in a single day. By accelerating connectors, Codex helps Stack Overflow bring enterprise products to market faster.\n\n## Increasing agent creation and signups with a ChatGPT plugin\n\nOnce Stack Overflow for Agents was ready for distribution, the team needed a way to get it into people’s workflows. It built a ChatGPT plugin so users could discover and set up the product in ChatGPT, with fewer steps than a traditional Model Context Protocol (MCP) setup.\n\n> “Once you have a plugin, it becomes a frictionless setup with ChatGPT.”\n\n—Alexandra Lato, VP of Product, Stack Overflow\n\nAlex says the plugin tripled registrations and accelerated agent creation: “I think we were up to 10X last time I checked.”\n\n## Reducing configuration work with the Decisions API\n\nStack Overflow manages its own model routing and configuration, but Alex hopes to explore using the Decisions API to reduce some of that work and put more engineering capacity into the product.\n\n“If we’re able to automate that through OpenAI directly, that saves us a ton of time and money, allows us to focus more on the actual product we’re building rather than the guardrails around it,” Alex says.\n\n## Expanding across the full knowledge lifecycle\n\nStack Overflow is also working on expanding its knowledge product to enable sharing of what people learn. To date, its focus has been pulling information in. Now, Alex is closing the loop so knowledge gained in a one-to-one session with a developer or someone outside engineering can help others, too.\n\n“As I’m learning, how do I make sure that the rest of my organization is learning with me?”, said Alex. “I’m really looking forward to building a product that allows for that full knowledge life cycle.”",
+      "contentZh": "",
+      "titleZh": "",
+      "summaryZh": "",
+      "translationStatus": "pending",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "collectedAt": "2026-11-12T10:39:10.748Z"
     },
     {
       "id": "4ed6df5c15d558fd63cd",
@@ -1376,7 +1410,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-15T19:00:00.000Z",
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "collectedAt": "2026-11-11T10:20:45.267Z"
+      "collectedAt": "2026-11-12T10:39:10.748Z"
     },
     {
       "id": "18610e08c678bc8aded1",
@@ -1393,7 +1427,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-15T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.677Z"
+      "collectedAt": "2026-11-12T10:39:12.575Z"
     },
     {
       "id": "ae07909e220d84ba5298",
@@ -1410,7 +1444,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-14T12:00:00.000Z",
       "url": "https://openai.com/index/amp-beyond-coding",
-      "collectedAt": "2026-11-11T10:20:45.267Z"
+      "collectedAt": "2026-11-12T10:39:10.749Z"
     },
     {
       "id": "5af941d3347cd0b31e08",
@@ -1427,7 +1461,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-14T07:00:00.000Z",
       "url": "https://openai.com/index/third-moment-research",
-      "collectedAt": "2026-11-11T10:20:45.268Z"
+      "collectedAt": "2026-11-12T10:39:10.749Z"
     },
     {
       "id": "6725a25b1257a6d7abcf",
@@ -1444,7 +1478,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-14T02:00:14.000Z",
       "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-      "collectedAt": "2026-11-11T10:20:47.875Z"
+      "collectedAt": "2026-11-12T10:39:14.557Z"
     },
     {
       "id": "d6c85c4d2f3339abada7",
@@ -1461,7 +1495,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-14T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.677Z"
+      "collectedAt": "2026-11-12T10:39:12.576Z"
     },
     {
       "id": "ca02af101726c5e29829",
@@ -1478,7 +1512,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-13T19:43:07.000Z",
       "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-      "collectedAt": "2026-11-11T10:20:47.875Z"
+      "collectedAt": "2026-11-12T10:39:14.557Z"
     },
     {
       "id": "79730454c4a0d9bd4cd0",
@@ -1495,7 +1529,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-13T16:01:58.000Z",
       "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-      "collectedAt": "2026-11-11T10:20:47.875Z"
+      "collectedAt": "2026-11-12T10:39:14.558Z"
     },
     {
       "id": "812075165a6f703bcf0c",
@@ -1512,7 +1546,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-13T16:01:52.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-      "collectedAt": "2026-11-11T10:20:47.875Z"
+      "collectedAt": "2026-11-12T10:39:14.558Z"
     },
     {
       "id": "bd0c7d7636bac2d8b368",
@@ -1529,7 +1563,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-13T16:00:00.000Z",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "collectedAt": "2026-11-11T10:20:48.264Z"
+      "collectedAt": "2026-11-12T10:39:14.964Z"
     },
     {
       "id": "88d109f9ffb73d1e9149",
@@ -1546,7 +1580,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-13T12:00:00.000Z",
       "url": "https://openai.com/index/higgsfield-longer-videos-voice",
-      "collectedAt": "2026-11-11T10:20:45.268Z"
+      "collectedAt": "2026-11-12T10:39:10.750Z"
     },
     {
       "id": "c3e57db0842e8aa78965",
@@ -1563,7 +1597,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-13T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-11-11T10:20:46.994Z"
+      "collectedAt": "2026-11-12T10:39:12.979Z"
     },
     {
       "id": "6e4f5b7a123143776f19",
@@ -1580,7 +1614,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-09T07:00:00.000Z",
       "url": "https://openai.com/index/asana-browser-agent",
-      "collectedAt": "2026-11-11T10:20:45.269Z"
+      "collectedAt": "2026-11-12T10:39:10.750Z"
     },
     {
       "id": "42e888a7cc19b4d85cd0",
@@ -1597,7 +1631,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-09T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.678Z"
+      "collectedAt": "2026-11-12T10:39:12.576Z"
     },
     {
       "id": "ea6e3024027050fefc4a",
@@ -1614,7 +1648,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-08T16:00:00.000Z",
       "url": "https://openai.com/index/oracle",
-      "collectedAt": "2026-11-11T10:20:45.269Z"
+      "collectedAt": "2026-11-12T10:39:10.751Z"
     },
     {
       "id": "5e179cf9fc5230516601",
@@ -1631,7 +1665,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-08T12:00:00.000Z",
       "url": "https://openai.com/index/pollo-ai",
-      "collectedAt": "2026-11-11T10:20:45.269Z"
+      "collectedAt": "2026-11-12T10:39:10.751Z"
     },
     {
       "id": "f45224b70875029b06cb",
@@ -1648,7 +1682,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-08T12:00:00.000Z",
       "url": "https://openai.com/index/legalon-halves-codex-costs",
-      "collectedAt": "2026-11-11T10:20:45.270Z"
+      "collectedAt": "2026-11-12T10:39:10.751Z"
     },
     {
       "id": "b00b251fbd09fd510cf8",
@@ -1665,7 +1699,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-08T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.678Z"
+      "collectedAt": "2026-11-12T10:39:12.576Z"
     },
     {
       "id": "053572bc3d224707807d",
@@ -1682,7 +1716,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-07T12:00:00.000Z",
       "url": "https://openai.com/index/teens-learn-and-plan",
-      "collectedAt": "2026-11-11T10:20:45.270Z"
+      "collectedAt": "2026-11-12T10:39:10.752Z"
     },
     {
       "id": "e570b3aeb15445d9fd65",
@@ -1699,7 +1733,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-07T07:00:00.000Z",
       "url": "https://openai.com/index/radisson",
-      "collectedAt": "2026-11-11T10:20:45.270Z"
+      "collectedAt": "2026-11-12T10:39:10.752Z"
     },
     {
       "id": "44e7004c56ab653cde6e",
@@ -1716,7 +1750,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-07T00:00:00.000Z",
       "url": "https://openai.com/index/gpt-6-for-everyone",
-      "collectedAt": "2026-11-11T10:20:45.271Z"
+      "collectedAt": "2026-11-12T10:39:10.752Z"
     },
     {
       "id": "ecef651792823cfe8680",
@@ -1733,7 +1767,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-07T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-11T10:20:46.022Z"
+      "collectedAt": "2026-11-12T10:39:11.718Z"
     },
     {
       "id": "02a4f216cde7ea519cea",
@@ -1750,7 +1784,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-07T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.679Z"
+      "collectedAt": "2026-11-12T10:39:12.578Z"
     },
     {
       "id": "bb24fa22c53afbb99a4c",
@@ -1767,7 +1801,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-06T19:57:04.000Z",
       "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-      "collectedAt": "2026-11-11T10:20:47.875Z"
+      "collectedAt": "2026-11-12T10:39:14.558Z"
     },
     {
       "id": "2fb1d1aa61471ba7fc18",
@@ -1784,7 +1818,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-06T16:00:00.000Z",
       "url": "https://openai.com/index/atlassian-partnership",
-      "collectedAt": "2026-11-11T10:20:45.271Z"
+      "collectedAt": "2026-11-12T10:39:10.753Z"
     },
     {
       "id": "d08e77e6d7627ad2dedc",
@@ -1801,7 +1835,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-06T12:00:00.000Z",
       "url": "https://openai.com/index/jump-trading",
-      "collectedAt": "2026-11-11T10:20:45.271Z"
+      "collectedAt": "2026-11-12T10:39:10.753Z"
     },
     {
       "id": "f468f3b992b29140bb8c",
@@ -1818,7 +1852,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-06T12:00:00.000Z",
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "collectedAt": "2026-11-11T10:20:45.271Z"
+      "collectedAt": "2026-11-12T10:39:10.753Z"
     },
     {
       "id": "bdb33ded96b07020b0fa",
@@ -1835,7 +1869,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-06T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.680Z"
+      "collectedAt": "2026-11-12T10:39:12.579Z"
     },
     {
       "id": "aa83e0567f81baa77a53",
@@ -1852,7 +1886,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-05T10:00:00.000Z",
       "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-      "collectedAt": "2026-11-11T10:20:45.272Z"
+      "collectedAt": "2026-11-12T10:39:10.754Z"
     },
     {
       "id": "59441074197a9d52b588",
@@ -1869,7 +1903,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-05T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.680Z"
+      "collectedAt": "2026-11-12T10:39:12.579Z"
     },
     {
       "id": "384626120891883ee8e2",
@@ -1886,7 +1920,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-02T16:15:00.000Z",
       "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "collectedAt": "2026-11-11T10:20:45.272Z"
+      "collectedAt": "2026-11-12T10:39:10.754Z"
     },
     {
       "id": "b4075fea819f5adf3283",
@@ -1903,7 +1937,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-02T00:00:00.000Z",
       "url": "https://openai.com/index/chatham-financial",
-      "collectedAt": "2026-11-11T10:20:45.272Z"
+      "collectedAt": "2026-11-12T10:39:10.754Z"
     },
     {
       "id": "f1ee3e7d0793c6d93b3a",
@@ -1920,7 +1954,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-01T16:00:00.000Z",
       "url": "https://openai.com/index/albertsons-reimagining-retail",
-      "collectedAt": "2026-11-11T10:20:45.272Z"
+      "collectedAt": "2026-11-12T10:39:10.755Z"
     },
     {
       "id": "13ae9b523ea82b817626",
@@ -1937,7 +1971,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-01T00:00:00.000Z",
       "url": "https://openai.com/index/the-den-family-social",
-      "collectedAt": "2026-11-11T10:20:45.272Z"
+      "collectedAt": "2026-11-12T10:39:10.755Z"
     },
     {
       "id": "7a981bb6a8fec202e200",
@@ -1954,7 +1988,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-10-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.680Z"
+      "collectedAt": "2026-11-12T10:39:12.580Z"
     },
     {
       "id": "29505882ef55b3b17452",
@@ -1971,7 +2005,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-30T20:01:45.000Z",
       "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-      "collectedAt": "2026-11-11T10:20:47.875Z"
+      "collectedAt": "2026-11-12T10:39:14.558Z"
     },
     {
       "id": "7b79633fb1d94ee1fafd",
@@ -1988,7 +2022,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-30T10:30:00.000Z",
       "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "collectedAt": "2026-11-11T10:20:45.272Z"
+      "collectedAt": "2026-11-12T10:39:10.755Z"
     },
     {
       "id": "7a44f16e721d71f3a40a",
@@ -2005,7 +2039,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.681Z"
+      "collectedAt": "2026-11-12T10:39:12.580Z"
     },
     {
       "id": "14a93593dd29d9cce2e2",
@@ -2022,7 +2056,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-11-11T10:20:46.995Z"
+      "collectedAt": "2026-11-12T10:39:12.980Z"
     },
     {
       "id": "dec3c56087ecf835f793",
@@ -2039,7 +2073,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-29T17:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "collectedAt": "2026-11-11T10:20:45.273Z"
+      "collectedAt": "2026-11-12T10:39:10.756Z"
     },
     {
       "id": "b1be4275e9b1957a480b",
@@ -2056,7 +2090,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-29T10:00:00.000Z",
       "url": "https://openai.com/index/devday-2026-recap",
-      "collectedAt": "2026-11-11T10:20:45.273Z"
+      "collectedAt": "2026-11-12T10:39:10.756Z"
     },
     {
       "id": "8aba59a84f4991b7e02f",
@@ -2073,24 +2107,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-29T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-dots",
-      "collectedAt": "2026-11-11T10:20:45.273Z"
-    },
-    {
-      "id": "fb33ffedd2ef1f33358e",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-      "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
-      "content": "[Basis⁠(opens in a new window)](https://www.getbasis.ai/) builds AI agents to automate much of the manual work that accountants do each day, helping them shift their time from repetitive tasks to strategic work. The company’s research focuses on agents that can reliably complete long tasks, and with GPT‑6 Astra, it’s seeing a stronger understanding of what accountants want to accomplish.\n\n> “GPT-6 Astra does a better job of really understanding the intent of the user and the problem.”\n\n—Mitch Troyanovsky, Co-founder, Basis\n\n## Completing a 50-tab tax workbook in half the time\n\nBasis compared GPT‑6 Astra and GPT‑5.6 Sol on a complicated tax workbook with 50 tabs. The task was to complete the workbook accurately and reliably, and GPT‑6 Astra was markedly faster.\n\n> “GPT-6 Astra is able to complete that workbook in half the time that GPT-5.6 Sol is able to.”\n\n—Mitch Troyanovsky, Co-founder, Basis\n\nBasis also noted that GPT‑6 Astra makes better decisions at the start of a task, helping Basis’s agents take a more direct path through the work with less time spent correcting mistakes. Troyanovsky says that also makes the model more efficient in its use of tokens.\n\n## Matching reasoning effort to the task\n\nBasis also has GPT‑6 Astra adjust how much reasoning it uses as a task progresses, dialing up computation when a step is difficult, and using less when a step is easier. The model can make these adjustments while keeping its cache intact. Troyanovsky says this helps reduce cost and response time, making long-running tasks more economical for Basis and its customers.\n\n## Building confidence in real-world use\n\nBasis saw about a 20% improvement in its internal evaluation scores with GPT‑6 Astra, driven by better understanding of user intent, including when to ask questions, flag assumptions, and follow instructions.\n\nBasis evaluates how its agents work and their final answers, including whether they follow templates, consult primary sources for tax questions, and check their own work. GPT‑6 Astra can infer these expectations from a broader context, with fewer explicit instructions.\n\nThat reduces the need for Basis to write rules for individual situations and gives the team more confidence that its agents can handle situations beyond those covered in internal tests.",
-      "contentZh": "",
-      "titleZh": "",
-      "summaryZh": "",
-      "translationStatus": "pending",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "collectedAt": "2026-11-11T10:20:45.273Z"
+      "collectedAt": "2026-11-12T10:39:10.756Z"
     },
     {
       "id": "3d0c36ffbad6ec0487a6",
@@ -2107,7 +2124,24 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "url": "https://openai.com/form/codex-originals",
-      "collectedAt": "2026-11-11T10:20:45.273Z"
+      "collectedAt": "2026-11-12T10:39:10.757Z"
+    },
+    {
+      "id": "fb33ffedd2ef1f33358e",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+      "content": "[Basis⁠(opens in a new window)](https://www.getbasis.ai/) builds AI agents to automate much of the manual work that accountants do each day, helping them shift their time from repetitive tasks to strategic work. The company’s research focuses on agents that can reliably complete long tasks, and with GPT‑6 Astra, it’s seeing a stronger understanding of what accountants want to accomplish.\n\n> “GPT-6 Astra does a better job of really understanding the intent of the user and the problem.”\n\n—Mitch Troyanovsky, Co-founder, Basis\n\n## Completing a 50-tab tax workbook in half the time\n\nBasis compared GPT‑6 Astra and GPT‑5.6 Sol on a complicated tax workbook with 50 tabs. The task was to complete the workbook accurately and reliably, and GPT‑6 Astra was markedly faster.\n\n> “GPT-6 Astra is able to complete that workbook in half the time that GPT-5.6 Sol is able to.”\n\n—Mitch Troyanovsky, Co-founder, Basis\n\nBasis also noted that GPT‑6 Astra makes better decisions at the start of a task, helping Basis’s agents take a more direct path through the work with less time spent correcting mistakes. Troyanovsky says that also makes the model more efficient in its use of tokens.\n\n## Matching reasoning effort to the task\n\nBasis also has GPT‑6 Astra adjust how much reasoning it uses as a task progresses, dialing up computation when a step is difficult, and using less when a step is easier. The model can make these adjustments while keeping its cache intact. Troyanovsky says this helps reduce cost and response time, making long-running tasks more economical for Basis and its customers.\n\n## Building confidence in real-world use\n\nBasis saw about a 20% improvement in its internal evaluation scores with GPT‑6 Astra, driven by better understanding of user intent, including when to ask questions, flag assumptions, and follow instructions.\n\nBasis evaluates how its agents work and their final answers, including whether they follow templates, consult primary sources for tax questions, and check their own work. GPT‑6 Astra can infer these expectations from a broader context, with fewer explicit instructions.\n\nThat reduces the need for Basis to write rules for individual situations and gives the team more confidence that its agents can handle situations beyond those covered in internal tests.",
+      "contentZh": "",
+      "titleZh": "",
+      "summaryZh": "",
+      "translationStatus": "pending",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "collectedAt": "2026-11-12T10:39:10.757Z"
     },
     {
       "id": "b4c25d5187dd3628a6ae",
@@ -2124,7 +2158,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-11T10:20:46.022Z"
+      "collectedAt": "2026-11-12T10:39:11.719Z"
     },
     {
       "id": "fc6af36a46b4e2940d27",
@@ -2141,7 +2175,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.681Z"
+      "collectedAt": "2026-11-12T10:39:12.581Z"
     },
     {
       "id": "958634143951a5262875",
@@ -2158,7 +2192,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-25T19:00:00.000Z",
       "url": "https://openai.com/index/proaction",
-      "collectedAt": "2026-11-11T10:20:45.273Z"
+      "collectedAt": "2026-11-12T10:39:10.757Z"
     },
     {
       "id": "908b229b34ef0eca1c2c",
@@ -2175,7 +2209,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-25T07:00:00.000Z",
       "url": "https://openai.com/index/lowes",
-      "collectedAt": "2026-11-11T10:20:45.274Z"
+      "collectedAt": "2026-11-12T10:39:10.758Z"
     },
     {
       "id": "5e679411e8795fb41661",
@@ -2192,7 +2226,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-25T00:00:00.000Z",
       "url": "https://openai.com/index/wayfair",
-      "collectedAt": "2026-11-11T10:20:45.274Z"
+      "collectedAt": "2026-11-12T10:39:10.758Z"
     },
     {
       "id": "5a1eb82bce206d920902",
@@ -2209,7 +2243,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-25T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-11T10:20:46.023Z"
+      "collectedAt": "2026-11-12T10:39:11.720Z"
     },
     {
       "id": "20a747dfc11440658478",
@@ -2226,7 +2260,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-24T16:20:39.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-      "collectedAt": "2026-11-11T10:20:47.875Z"
+      "collectedAt": "2026-11-12T10:39:14.559Z"
     },
     {
       "id": "656525516449cb970c4b",
@@ -2243,7 +2277,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-24T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.682Z"
+      "collectedAt": "2026-11-12T10:39:12.581Z"
     },
     {
       "id": "195c546c2f499ad7a563",
@@ -2260,24 +2294,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-23T15:25:14.000Z",
       "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-      "collectedAt": "2026-11-11T10:20:47.875Z"
-    },
-    {
-      "id": "98d49239d16302a79008",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "How invideo improves color grading 3x with GPT‑6 Astra",
-      "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
-      "content": "Editing videos is one creative and technical decision after another. Editors have to shape the story, place sound effects, build transitions, adjust color, and more. [Invideo⁠(opens in a new window)](https://invideo.io/) is an agentic video editor designed to handle that work while keeping the human editor in control.\n\nWith GPT‑6 Astra, invideo sees greater capability to plan and execute complex edits and place changes at the correct points in the timeline.\n\n> “How Astra can plan a particular edit on a frame-level accuracy is quite stunning.”\n\n—Sanket Shah, CEO, invideo\n\n## Planning complex edits and staying on brief\n\nThe AI agent must translate the editor’s direction into a sequence of steps, choose the right tools, execute the work, and verify the result. Sanket says GPT‑6 Astra can plan these operations in fewer reasoning steps than the models it previously tested: “Astra is using far fewer reasoning sets and thus output tokens to complete complex work.”\n\nInvideo also observed that Astra can carry out several instructions without losing the editor’s original objective as the task grows longer and more complex.\n\n## Choosing the right approach and adapting to change\n\nGPT‑6 Astra is especially effective when it comes to color work, where the agent must choose from overlapping approaches such as correction, grading, regeneration, LUTs, and isolation. For example, changing a background while preserving a person’s skin tone requires the agent to isolate and track the person across frames before applying color elsewhere.\n\n“Earlier, we saw very high failure rates for color-grading and color-correction tasks. With Astra, the success rate improved about three times,” said Sanket.\n\n## Creating custom effects that remain fully editable\n\nGPT‑6 Astra also helps invideo turn descriptions and visual references into custom effects. The agent can code an effect tailored to the footage, place it on the timeline, and add controls that let the editor refine it. In one day, a few Invideo editors used the model to create about 50 effects.\n\nWith the invideo agent using GPT‑6 Astra, creative professionals retain control of the story, their taste, and the final cut without losing hours to the tedious planning and frame-by-frame work.",
-      "contentZh": "",
-      "titleZh": "",
-      "summaryZh": "",
-      "translationStatus": "pending",
-      "publishedAt": "2026-09-23T12:00:00.000Z",
-      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "collectedAt": "2026-11-11T10:20:45.275Z"
+      "collectedAt": "2026-11-12T10:39:14.559Z"
     },
     {
       "id": "d84366078f8a35d69fd8",
@@ -2294,7 +2311,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "url": "https://openai.com/index/ringg",
-      "collectedAt": "2026-11-11T10:20:45.276Z"
+      "collectedAt": "2026-11-12T10:39:10.759Z"
     },
     {
       "id": "d19836357705e0f3bb0f",
@@ -2311,7 +2328,24 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "collectedAt": "2026-11-11T10:20:45.276Z"
+      "collectedAt": "2026-11-12T10:39:10.759Z"
+    },
+    {
+      "id": "98d49239d16302a79008",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+      "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+      "content": "Editing videos is one creative and technical decision after another. Editors have to shape the story, place sound effects, build transitions, adjust color, and more. [Invideo⁠(opens in a new window)](https://invideo.io/) is an agentic video editor designed to handle that work while keeping the human editor in control.\n\nWith GPT‑6 Astra, invideo sees greater capability to plan and execute complex edits and place changes at the correct points in the timeline.\n\n> “How Astra can plan a particular edit on a frame-level accuracy is quite stunning.”\n\n—Sanket Shah, CEO, invideo\n\n## Planning complex edits and staying on brief\n\nThe AI agent must translate the editor’s direction into a sequence of steps, choose the right tools, execute the work, and verify the result. Sanket says GPT‑6 Astra can plan these operations in fewer reasoning steps than the models it previously tested: “Astra is using far fewer reasoning sets and thus output tokens to complete complex work.”\n\nInvideo also observed that Astra can carry out several instructions without losing the editor’s original objective as the task grows longer and more complex.\n\n## Choosing the right approach and adapting to change\n\nGPT‑6 Astra is especially effective when it comes to color work, where the agent must choose from overlapping approaches such as correction, grading, regeneration, LUTs, and isolation. For example, changing a background while preserving a person’s skin tone requires the agent to isolate and track the person across frames before applying color elsewhere.\n\n“Earlier, we saw very high failure rates for color-grading and color-correction tasks. With Astra, the success rate improved about three times,” said Sanket.\n\n## Creating custom effects that remain fully editable\n\nGPT‑6 Astra also helps invideo turn descriptions and visual references into custom effects. The agent can code an effect tailored to the footage, place it on the timeline, and add controls that let the editor refine it. In one day, a few Invideo editors used the model to create about 50 effects.\n\nWith the invideo agent using GPT‑6 Astra, creative professionals retain control of the story, their taste, and the final cut without losing hours to the tedious planning and frame-by-frame work.",
+      "contentZh": "",
+      "titleZh": "",
+      "summaryZh": "",
+      "translationStatus": "pending",
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "collectedAt": "2026-11-12T10:39:10.760Z"
     },
     {
       "id": "c7ba4d1eb147cdd66b38",
@@ -2328,7 +2362,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-23T02:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-      "collectedAt": "2026-11-11T10:20:45.276Z"
+      "collectedAt": "2026-11-12T10:39:10.760Z"
     },
     {
       "id": "b6ef8483976563d9823c",
@@ -2345,7 +2379,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-23T01:00:00.000Z",
       "url": "https://openai.com/index/airbnb-gpt-6-astra",
-      "collectedAt": "2026-11-11T10:20:45.277Z"
+      "collectedAt": "2026-11-12T10:39:10.761Z"
     },
     {
       "id": "cf8033ba83eec6a8c148",
@@ -2362,7 +2396,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-23T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.682Z"
+      "collectedAt": "2026-11-12T10:39:12.582Z"
     },
     {
       "id": "0e12b4f460d98cac8731",
@@ -2379,7 +2413,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-22T21:00:00.000Z",
       "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-      "collectedAt": "2026-11-11T10:20:45.277Z"
+      "collectedAt": "2026-11-12T10:39:10.761Z"
     },
     {
       "id": "0299d0ca3df23eb91bfb",
@@ -2396,7 +2430,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-22T18:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "collectedAt": "2026-11-11T10:20:45.277Z"
+      "collectedAt": "2026-11-12T10:39:10.762Z"
     },
     {
       "id": "4e2d2a2c5ea855512c7e",
@@ -2413,7 +2447,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-22T12:00:00.000Z",
       "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-      "collectedAt": "2026-11-11T10:20:45.277Z"
+      "collectedAt": "2026-11-12T10:39:10.762Z"
     },
     {
       "id": "25f4610d8559fb3e7ae8",
@@ -2430,7 +2464,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "url": "https://openai.com/index/priorities-principles-third-party-assessments",
-      "collectedAt": "2026-11-11T10:20:45.278Z"
+      "collectedAt": "2026-11-12T10:39:10.763Z"
     },
     {
       "id": "48cb0cab97e8610721be",
@@ -2447,7 +2481,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-11T10:20:46.023Z"
+      "collectedAt": "2026-11-12T10:39:11.720Z"
     },
     {
       "id": "4e5cbe8e0247f025a726",
@@ -2464,7 +2498,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.683Z"
+      "collectedAt": "2026-11-12T10:39:12.582Z"
     },
     {
       "id": "9b5d95c2825df000aa2b",
@@ -2481,7 +2515,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-21T12:00:00.000Z",
       "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "collectedAt": "2026-11-11T10:20:45.278Z"
+      "collectedAt": "2026-11-12T10:39:10.763Z"
     },
     {
       "id": "132e637062c60e5185cf",
@@ -2498,7 +2532,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-21T00:00:00.000Z",
       "url": "https://openai.com/index/v7",
-      "collectedAt": "2026-11-11T10:20:45.278Z"
+      "collectedAt": "2026-11-12T10:39:10.764Z"
     },
     {
       "id": "cf45b7445432b183ccd7",
@@ -2515,7 +2549,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.683Z"
+      "collectedAt": "2026-11-12T10:39:12.583Z"
     },
     {
       "id": "99698296f3d481cb3012",
@@ -2532,7 +2566,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-17T12:00:00.000Z",
       "url": "https://openai.com/index/cooley-gopublic",
-      "collectedAt": "2026-11-11T10:20:45.278Z"
+      "collectedAt": "2026-11-12T10:39:10.765Z"
     },
     {
       "id": "3db286bcd9ddd5e690c5",
@@ -2549,7 +2583,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-16T17:00:00.000Z",
       "url": "https://openai.com/index/model-misalignment-reporting-framework",
-      "collectedAt": "2026-11-11T10:20:45.281Z"
+      "collectedAt": "2026-11-12T10:39:10.766Z"
     },
     {
       "id": "11eaf0d915ce57f2e5dc",
@@ -2566,7 +2600,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-16T16:00:00.000Z",
       "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "collectedAt": "2026-11-11T10:20:45.280Z"
+      "collectedAt": "2026-11-12T10:39:10.765Z"
     },
     {
       "id": "b458adf1e7325b78ff00",
@@ -2583,7 +2617,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-16T13:00:00.000Z",
       "url": "https://openai.com/index/reimagining-advertising-with-ai",
-      "collectedAt": "2026-11-11T10:20:45.280Z"
+      "collectedAt": "2026-11-12T10:39:10.765Z"
     },
     {
       "id": "2dbb90206bf7febc30df",
@@ -2600,7 +2634,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-16T12:00:00.000Z",
       "url": "https://openai.com/index/hex-gpt-6-astra",
-      "collectedAt": "2026-11-11T10:20:45.280Z"
+      "collectedAt": "2026-11-12T10:39:10.765Z"
     },
     {
       "id": "d7974b87b16b68185695",
@@ -2617,7 +2651,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-16T12:00:00.000Z",
       "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-      "collectedAt": "2026-11-11T10:20:45.280Z"
+      "collectedAt": "2026-11-12T10:39:10.766Z"
     },
     {
       "id": "1679a9385f8da2856137",
@@ -2634,7 +2668,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-11T10:20:46.024Z"
+      "collectedAt": "2026-11-12T10:39:11.722Z"
     },
     {
       "id": "6027ab1cfd832c602065",
@@ -2651,7 +2685,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-15T17:05:57.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-      "collectedAt": "2026-11-11T10:20:47.875Z"
+      "collectedAt": "2026-11-12T10:39:14.559Z"
     },
     {
       "id": "0e9e3b47215ca2b8e52d",
@@ -2668,7 +2702,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-15T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-11T10:20:46.024Z"
+      "collectedAt": "2026-11-12T10:39:11.723Z"
     },
     {
       "id": "7b83739b7d5f1c944f9f",
@@ -2685,7 +2719,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-14T12:00:00.000Z",
       "url": "https://openai.com/index/fyxer",
-      "collectedAt": "2026-11-11T10:20:45.281Z"
+      "collectedAt": "2026-11-12T10:39:10.766Z"
     },
     {
       "id": "a4651d8dabcdcb00db87",
@@ -2702,7 +2736,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "collectedAt": "2026-11-11T10:20:45.282Z"
+      "collectedAt": "2026-11-12T10:39:10.767Z"
     },
     {
       "id": "e63da132a40e17f8c5e1",
@@ -2719,7 +2753,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-14T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.684Z"
+      "collectedAt": "2026-11-12T10:39:12.583Z"
     },
     {
       "id": "8441c5c7713114dab2dd",
@@ -2736,7 +2770,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-11T16:00:00.000Z",
       "url": "https://openai.com/index/cognition-devin-testing-with-astra",
-      "collectedAt": "2026-11-11T10:20:45.282Z"
+      "collectedAt": "2026-11-12T10:39:10.768Z"
     },
     {
       "id": "a97d00819fdcee1d0af9",
@@ -2753,7 +2787,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-11T10:00:00.000Z",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "collectedAt": "2026-11-11T10:20:45.282Z"
+      "collectedAt": "2026-11-12T10:39:10.767Z"
     },
     {
       "id": "16d6fc5541d885cd91c8",
@@ -2770,7 +2804,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-10T16:00:00.000Z",
       "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "collectedAt": "2026-11-11T10:20:45.282Z"
+      "collectedAt": "2026-11-12T10:39:10.768Z"
     },
     {
       "id": "85f5620286a75dba1ad3",
@@ -2787,7 +2821,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-10T15:00:00.000Z",
       "url": "https://openai.com/index/put-data-to-work",
-      "collectedAt": "2026-11-11T10:20:45.283Z"
+      "collectedAt": "2026-11-12T10:39:10.768Z"
     },
     {
       "id": "f2800aae894b09e0bcf0",
@@ -2804,24 +2838,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-10T07:00:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "collectedAt": "2026-11-11T10:20:45.283Z"
-    },
-    {
-      "id": "02a514a4d6eb4e449b95",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Introducing the Agents API",
-      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-      "content": "As we’ve scaled Codex and ChatGPT for Work to millions of people around the world, we’ve learned what it takes to make long-running agents work well in practice. Useful agents need a powerful harness that manages context, uses tools efficiently, and coordinates subagents. They also need infrastructure that keeps them running reliably for days, with environments where they can work with files, run code, and save intermediate results.\n\nToday, we’re introducing the [Agents API⁠(opens in a new window)](https://developers.openai.com/api/docs/guides/agents-api/overview) in public beta, bringing that same harness and infrastructure that powers Codex to developers through a simple, flexible API.\n\n## Build cloud agents with a single API call\n\nWith the Agents API, you can create a production-ready agent in a single API call by specifying the task, model, tools, and environment:\n\nOpenAI hosts and maintains the harness. You choose the agent’s compute environment: in an OpenAI-managed sandbox, on your own infrastructure, or with one of our sandbox partners. The Agents API gives you a strong foundation for building agents on top of our optimized agent harness and infrastructure, so you can focus on the tools, knowledge, and workflows that make your agent unique.\n\nAgents API powers your agents with the same harness and infrastructure behind Codex.\n\n## What our customers are saying about Agents API\n\n1 of 8\n\n## Choose your agent environment\n\nDifferent workloads need different compute, storage, and deployment options. The Agents API lets you choose a sandbox that fits your application.\n\nWe’re [partnering with ecosystem providers⁠(opens in a new window)](https://developers.openai.com/api/docs/guides/agents-api/environments/self-hosted#sandbox-providers), including Blaxel, Cloudflare, Daytona, DigitalOcean, E2B, Modal, Oracle, Runloop, and Vercel, to provide first-class integrations for a range of needs:\n\n*   Fully managed environments or deployments within your VPC\n*   Specific file and secret storage mechanisms\n*   Different CPU, GPU, and memory configurations, with performance, cold-start, and cost profiles to match your company’s workflow.\n\nThe Agents API offers first-class integrations with popular ecosystem providers.\n\n## OpenAI hosted sandboxes\n\nFor developers who want to get started quickly and scale efficiently, we’re also introducing the [OpenAI hosted sandbox⁠(opens in a new window)](https://developers.openai.com/api/docs/guides/agents-api/environments/openai-hosted). This leverages the same sandboxing infrastructure that powers Codex and ChatGPT.\n\nOpenAI provisions and manages the sandbox, giving your agent a secure and performant environment to run code, work with files, and produce artifacts. These sandboxes can be flexibly configured with your files, packages, skills and plugins to give the agent what it needs to complete the task.\n\n## Build with an evolving Codex harness\n\nTaking advantage of new model capabilities often means reworking your harness, taking valuable time away from improving your application. The Agents API provides versioned access to these capabilities with each model launch. We maintain and continuously improve the harness alongside our models, helping your agents get better performance from every upgrade. For example, recent improvements to the harness include:\n\n### Keep agents working across long sessions\n\nTo support models working for hours, we’ve built context management that helps agents carry relevant information across longer sessions. The Agents API [automatically compacts⁠(opens in a new window)](https://developers.openai.com/api/docs/guides/compaction) earlier context as a session approaches its context limit, preserving information the agent needs to continue. Developers can build workflows that span multiple context windows without implementing their own compaction logic.\n\n### Help agents efficiently use more tools\n\nThe Agents API helps agents find the right tools and use them efficiently. [Tool search⁠(opens in a new window)](https://developers.openai.com/api/docs/guides/tools-tool-search) loads relevant tool definitions as needed, helping reduce token usage and cost while preserving the model’s cache. Once tools are available, [programmatic tool calling⁠(opens in a new window)](https://developers.openai.com/api/docs/guides/tools-programmatic-tool-calling) lets agents run calls in parallel, chain related operations, and filter or combine results in code so they can work through large volumes of data while bringing only the relevant results back into context. The Agents API supports MCP, custom functions, and built-in tools like web search.\n\n### Let agents parallelize work with subagents\n\nWith [multi-agent support⁠(opens in a new window)](https://developers.openai.com/api/docs/guides/agents-api/multi-agent), the Agents API can break complex tasks into independent pieces and delegate them to subagents that work in parallel. Each subagent maintains its own context, helping it stay focused on its assignment, while the main agent coordinates their work and brings the results together. This can speed up research, analysis, and coding tasks that benefit from parallel work, without requiring you to build your own orchestration.\n\n## An open-source foundation\n\nThe Agents API is powered by the open-source Codex harness, giving developers visibility into the core logic that coordinates model calls, tools, and context. With the Agents API, OpenAI operates and maintains that harness while developers can inspect and learn from its [public codebase⁠(opens in a new window)](https://github.com/openai/codex).\n\n## Start building\n\nAgents API is available in public beta today to all developers. There are no additional fees for using the Agents API – you simply pay for the tokens and tools your agents use, as outlined on our [pricing page⁠(opens in a new window)](https://developers.openai.com/api/docs/pricing).\n\nDuring the public beta, we’ll iterate quickly based on your feedback as we work toward general availability. Let us know what’s working, where you’re running into friction, and what you need to build and run your agents in production.",
-      "contentZh": "",
-      "titleZh": "",
-      "summaryZh": "",
-      "translationStatus": "pending",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "url": "https://openai.com/index/introducing-the-agents-api",
-      "collectedAt": "2026-11-11T10:20:45.283Z"
+      "collectedAt": "2026-11-12T10:39:10.769Z"
     },
     {
       "id": "6ca2d4bb7baad47f3b1e",
@@ -2838,7 +2855,24 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "collectedAt": "2026-11-11T10:20:45.283Z"
+      "collectedAt": "2026-11-12T10:39:10.769Z"
+    },
+    {
+      "id": "02a514a4d6eb4e449b95",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Introducing the Agents API",
+      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+      "content": "As we’ve scaled Codex and ChatGPT for Work to millions of people around the world, we’ve learned what it takes to make long-running agents work well in practice. Useful agents need a powerful harness that manages context, uses tools efficiently, and coordinates subagents. They also need infrastructure that keeps them running reliably for days, with environments where they can work with files, run code, and save intermediate results.\n\nToday, we’re introducing the [Agents API⁠(opens in a new window)](https://developers.openai.com/api/docs/guides/agents-api/overview) in public beta, bringing that same harness and infrastructure that powers Codex to developers through a simple, flexible API.\n\n## Build cloud agents with a single API call\n\nWith the Agents API, you can create a production-ready agent in a single API call by specifying the task, model, tools, and environment:\n\nOpenAI hosts and maintains the harness. You choose the agent’s compute environment: in an OpenAI-managed sandbox, on your own infrastructure, or with one of our sandbox partners. The Agents API gives you a strong foundation for building agents on top of our optimized agent harness and infrastructure, so you can focus on the tools, knowledge, and workflows that make your agent unique.\n\nAgents API powers your agents with the same harness and infrastructure behind Codex.\n\n## What our customers are saying about Agents API\n\n1 of 8\n\n## Choose your agent environment\n\nDifferent workloads need different compute, storage, and deployment options. The Agents API lets you choose a sandbox that fits your application.\n\nWe’re [partnering with ecosystem providers⁠(opens in a new window)](https://developers.openai.com/api/docs/guides/agents-api/environments/self-hosted#sandbox-providers), including Blaxel, Cloudflare, Daytona, DigitalOcean, E2B, Modal, Oracle, Runloop, and Vercel, to provide first-class integrations for a range of needs:\n\n*   Fully managed environments or deployments within your VPC\n*   Specific file and secret storage mechanisms\n*   Different CPU, GPU, and memory configurations, with performance, cold-start, and cost profiles to match your company’s workflow.\n\nThe Agents API offers first-class integrations with popular ecosystem providers.\n\n## OpenAI hosted sandboxes\n\nFor developers who want to get started quickly and scale efficiently, we’re also introducing the [OpenAI hosted sandbox⁠(opens in a new window)](https://developers.openai.com/api/docs/guides/agents-api/environments/openai-hosted). This leverages the same sandboxing infrastructure that powers Codex and ChatGPT.\n\nOpenAI provisions and manages the sandbox, giving your agent a secure and performant environment to run code, work with files, and produce artifacts. These sandboxes can be flexibly configured with your files, packages, skills and plugins to give the agent what it needs to complete the task.\n\n## Build with an evolving Codex harness\n\nTaking advantage of new model capabilities often means reworking your harness, taking valuable time away from improving your application. The Agents API provides versioned access to these capabilities with each model launch. We maintain and continuously improve the harness alongside our models, helping your agents get better performance from every upgrade. For example, recent improvements to the harness include:\n\n### Keep agents working across long sessions\n\nTo support models working for hours, we’ve built context management that helps agents carry relevant information across longer sessions. The Agents API [automatically compacts⁠(opens in a new window)](https://developers.openai.com/api/docs/guides/compaction) earlier context as a session approaches its context limit, preserving information the agent needs to continue. Developers can build workflows that span multiple context windows without implementing their own compaction logic.\n\n### Help agents efficiently use more tools\n\nThe Agents API helps agents find the right tools and use them efficiently. [Tool search⁠(opens in a new window)](https://developers.openai.com/api/docs/guides/tools-tool-search) loads relevant tool definitions as needed, helping reduce token usage and cost while preserving the model’s cache. Once tools are available, [programmatic tool calling⁠(opens in a new window)](https://developers.openai.com/api/docs/guides/tools-programmatic-tool-calling) lets agents run calls in parallel, chain related operations, and filter or combine results in code so they can work through large volumes of data while bringing only the relevant results back into context. The Agents API supports MCP, custom functions, and built-in tools like web search.\n\n### Let agents parallelize work with subagents\n\nWith [multi-agent support⁠(opens in a new window)](https://developers.openai.com/api/docs/guides/agents-api/multi-agent), the Agents API can break complex tasks into independent pieces and delegate them to subagents that work in parallel. Each subagent maintains its own context, helping it stay focused on its assignment, while the main agent coordinates their work and brings the results together. This can speed up research, analysis, and coding tasks that benefit from parallel work, without requiring you to build your own orchestration.\n\n## An open-source foundation\n\nThe Agents API is powered by the open-source Codex harness, giving developers visibility into the core logic that coordinates model calls, tools, and context. With the Agents API, OpenAI operates and maintains that harness while developers can inspect and learn from its [public codebase⁠(opens in a new window)](https://github.com/openai/codex).\n\n## Start building\n\nAgents API is available in public beta today to all developers. There are no additional fees for using the Agents API – you simply pay for the tokens and tools your agents use, as outlined on our [pricing page⁠(opens in a new window)](https://developers.openai.com/api/docs/pricing).\n\nDuring the public beta, we’ll iterate quickly based on your feedback as we work toward general availability. Let us know what’s working, where you’re running into friction, and what you need to build and run your agents in production.",
+      "contentZh": "",
+      "titleZh": "",
+      "summaryZh": "",
+      "translationStatus": "pending",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "collectedAt": "2026-11-12T10:39:10.770Z"
     },
     {
       "id": "50e12afea7a21a8f8a47",
@@ -2855,7 +2889,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-11T10:20:46.024Z"
+      "collectedAt": "2026-11-12T10:39:11.723Z"
     },
     {
       "id": "278864a90b7195a8f9eb",
@@ -2872,7 +2906,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.684Z"
+      "collectedAt": "2026-11-12T10:39:12.584Z"
     },
     {
       "id": "2f6a11a19101188b8eed",
@@ -2889,7 +2923,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-11-11T10:20:46.995Z"
+      "collectedAt": "2026-11-12T10:39:12.980Z"
     },
     {
       "id": "98d7349379f3f9e1561b",
@@ -2906,7 +2940,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-11T10:20:49.375Z"
+      "collectedAt": "2026-11-12T10:39:16.087Z"
     },
     {
       "id": "45aecbb9328300ba4629",
@@ -2923,7 +2957,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-09T11:00:00.000Z",
       "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-      "collectedAt": "2026-11-11T10:20:45.283Z"
+      "collectedAt": "2026-11-12T10:39:10.770Z"
     },
     {
       "id": "225c9acc339c587b1fac",
@@ -2940,7 +2974,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-09T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.685Z"
+      "collectedAt": "2026-11-12T10:39:12.584Z"
     },
     {
       "id": "d336adb530d2e7f0e222",
@@ -2957,7 +2991,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-08T17:00:00.000Z",
       "url": "https://openai.com/index/codex-quantum-computing-experiments",
-      "collectedAt": "2026-11-11T10:20:45.284Z"
+      "collectedAt": "2026-11-12T10:39:10.770Z"
     },
     {
       "id": "48b0669cc37302b20aee",
@@ -2974,7 +3008,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-08T11:30:00.000Z",
       "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
-      "collectedAt": "2026-11-11T10:20:45.284Z"
+      "collectedAt": "2026-11-12T10:39:10.771Z"
     },
     {
       "id": "9b8a0aa3eea1f601cab9",
@@ -2991,7 +3025,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-08T10:00:00.000Z",
       "url": "https://openai.com/index/navier-stokes-solution",
-      "collectedAt": "2026-11-11T10:20:45.284Z"
+      "collectedAt": "2026-11-12T10:39:10.771Z"
     },
     {
       "id": "fc10a2c83b0e44fbdbfa",
@@ -3008,7 +3042,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-08T00:00:00.000Z",
       "url": "https://openai.com/index/1password",
-      "collectedAt": "2026-11-11T10:20:45.284Z"
+      "collectedAt": "2026-11-12T10:39:10.772Z"
     },
     {
       "id": "0f8e8b7e95228d5352a6",
@@ -3025,7 +3059,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-06T08:00:00.000Z",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "collectedAt": "2026-11-11T10:20:45.284Z"
+      "collectedAt": "2026-11-12T10:39:10.772Z"
     },
     {
       "id": "3fdba842a49bbf61f305",
@@ -3042,7 +3076,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-03T12:00:00.000Z",
       "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "collectedAt": "2026-11-11T10:20:45.285Z"
+      "collectedAt": "2026-11-12T10:39:10.772Z"
     },
     {
       "id": "67198b26c462572b168f",
@@ -3059,7 +3093,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-03T12:00:00.000Z",
       "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "collectedAt": "2026-11-11T10:20:45.285Z"
+      "collectedAt": "2026-11-12T10:39:10.773Z"
     },
     {
       "id": "499b8df2de41c3c42a77",
@@ -3076,7 +3110,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-03T11:00:00.000Z",
       "url": "https://openai.com/index/gpt-6-astra",
-      "collectedAt": "2026-11-11T10:20:45.285Z"
+      "collectedAt": "2026-11-12T10:39:10.773Z"
     },
     {
       "id": "9b8372f5dd9139bf3dfd",
@@ -3093,7 +3127,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "url": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "collectedAt": "2026-11-11T10:20:45.285Z"
+      "collectedAt": "2026-11-12T10:39:10.773Z"
     },
     {
       "id": "76e92e71feca11592be4",
@@ -3110,7 +3144,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.685Z"
+      "collectedAt": "2026-11-12T10:39:12.585Z"
     },
     {
       "id": "9ad38e9ab9838c6b598d",
@@ -3127,7 +3161,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-02T16:18:31.000Z",
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-      "collectedAt": "2026-11-11T10:20:47.875Z"
+      "collectedAt": "2026-11-12T10:39:14.560Z"
     },
     {
       "id": "23cc665780e07fde7643",
@@ -3144,7 +3178,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-02T12:00:00.000Z",
       "url": "https://openai.com/index/atv-big-air-tour",
-      "collectedAt": "2026-11-11T10:20:45.285Z"
+      "collectedAt": "2026-11-12T10:39:10.773Z"
     },
     {
       "id": "5fd2975f213ab047e365",
@@ -3161,7 +3195,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-01T17:08:51.000Z",
       "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-      "collectedAt": "2026-11-11T10:20:47.875Z"
+      "collectedAt": "2026-11-12T10:39:14.560Z"
     },
     {
       "id": "0de52357b4b07f25549c",
@@ -3178,7 +3212,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-01T13:00:00.000Z",
       "url": "https://openai.com/index/path-to-astra",
-      "collectedAt": "2026-11-11T10:20:45.285Z"
+      "collectedAt": "2026-11-12T10:39:10.774Z"
     },
     {
       "id": "210c1577098c3af2295c",
@@ -3195,7 +3229,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-01T12:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "collectedAt": "2026-11-11T10:20:45.286Z"
+      "collectedAt": "2026-11-12T10:39:10.774Z"
     },
     {
       "id": "c60a9dbb33739fa8f7ff",
@@ -3212,7 +3246,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-01T01:00:00.000Z",
       "url": "https://openai.com/index/gilbert-tobin",
-      "collectedAt": "2026-11-11T10:20:45.286Z"
+      "collectedAt": "2026-11-12T10:39:10.774Z"
     },
     {
       "id": "f53efa27b0d13a2b8d75",
@@ -3229,24 +3263,24 @@
       "translationStatus": "pending",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-11T10:20:46.025Z"
+      "collectedAt": "2026-11-12T10:39:11.724Z"
     },
     {
-      "id": "d6caa9e8974271f4d15b",
+      "id": "572389d7a48d287c2737",
       "sourceId": "claude-platform",
       "company": "Anthropic",
       "product": "Claude",
       "kind": "api",
-      "title": "We’ve launched Claude Fable 5.1 (claude-fable-5-1), the successor to Claude Fable 5 for long-running agentic coding, knowledge work, and research, alongside Claude Mythos 5.1 (clau",
-      "summary": "We’ve launched Claude Fable 5.1 (claude-fable-5-1), the successor to Claude Fable 5 for long-running agentic coding, knowledge work, and research, alongside Claude Mythos 5.1 (claude-mythos-5-1) for Project Glasswing participants. Both models support a 1M token context window by default, 128k max output tokens, and always-on adaptive thinking, at $10 / $50 USD per MTok, the same as Claude Fable 5, with cache reads cut to $0.25 USD per MTok. Claude Fable 5.1 is available on the Claude API, Claude in Amazon Bedrock, Claude Platform on AWS, Claude on Google Cloud, and Claude in Microsoft Foundry. See What’s new in Claude Fable 5.1 for capabilities, API changes, and migration guidance. Prompt cache reads on Claude Fable 5.1 and Claude Mythos 5.1 cost $0.25 USD per million tokens: 0.025x the base input price, compared with 0.1x on other models. Cache writes are unchanged. See Prompt caching pricing. On Claude Fable 5.1 and Claude Mythos 5.1, tool_choice types any and tool aren’t supported and return a 400 error. auto and none are unchanged. To guarantee schema-conformant tool inputs, use strict tool use or structured outputs. Thinking blocks produced by Claude Fable 5.1 and Claude Mythos 5.1 are preserved only for the model that produced them or a newer one: earlier models can’t read them, and the API drops one replayed to an earlier model. Claude Fable 5.1 accepts thinking blocks from Claude Opus 5, Claude Fable 5, Claude Mythos 5, and earlier Claude models. On Claude Fable 5.1, the API also checks that nothing before a block has changed: for new accounts created on or after August 31, 2026, replaying one after the system prompt, tools, or an earlier message changed returns a 400 error. With the thinking-binding-controls-2026-08-01 beta header, dropped blocks are reported in an input_transformations response field, and thinking.block_binding.prefix_mismatch_behavior chooses between rejecting and dropping blocks whose history changed. See Preserved thinking. Per-message effort changes are in beta on Claude Fable 5.1, Claude Mythos 5.1, and Claude Opus 5 on the Claude API. Add a role: \"system\" message with output_config.effort inside messages to change effort for later turns while preserving the prompt cache. Include the mid-conversation-output-config-2026-07-01 beta header in your requests. See Per-message effort. Turn-scoped system messages are in beta (mid-conversation-system-clear-at-2026-08-21 header). Set clear_at: \"next_user_message\" on a mid-conversation role: \"system\" message and it renders for the current turn only, then stays in the history at no token cost. Per-turn reminders don’t accumulate and don’t invalidate the prompt cache or later thinking blocks. thinking.display accepts a third value, \"updates\", in beta (thinking-display-updates-2026-08-18 header). Reasoning comes back with an empty thinking field, as under \"omitted\", and the short progress updates that Claude Fable 5.1, Claude Mythos 5.1, and Claude Fable 5 write between tool calls come back as text, at most one thinking block before a tool call. See Progress updates between tool calls. Text generated by Claude Fable 5.1 and Claude Mythos 5.1 carries Anthropic’s text watermark, and supported image, video, and audio files that Claude produces through the code execution tool carry C2PA Content Credentials when you retrieve them through the Files API on the Claude API. Marking requires no changes to your requests or response handling. Like Claude Fable 5, both models require 30-day data retention and aren’t available under zero data retention unless expressly authorized by Anthropic. See Model-specific data retention requirements. The guides for the Claude Enterprise endpoints of the Admin API (user management and spend limits), the Claude Enterprise Analytics API, and the Compliance API now show the anthropic-version header; send it on every request to these endpoints, as in the rest of the Claude API. See API versions.",
-      "content": "We’ve launched Claude Fable 5.1 (claude-fable-5-1), the successor to Claude Fable 5 for long-running agentic coding, knowledge work, and research, alongside Claude Mythos 5.1 (claude-mythos-5-1) for Project Glasswing participants. Both models support a 1M token context window by default, 128k max output tokens, and always-on adaptive thinking, at $10 / $50 USD per MTok, the same as Claude Fable 5, with cache reads cut to $0.25 USD per MTok. Claude Fable 5.1 is available on the Claude API, Claude in Amazon Bedrock, Claude Platform on AWS, Claude on Google Cloud, and Claude in Microsoft Foundry. See What’s new in Claude Fable 5.1 for capabilities, API changes, and migration guidance. Prompt cache reads on Claude Fable 5.1 and Claude Mythos 5.1 cost $0.25 USD per million tokens: 0.025x the base input price, compared with 0.1x on other models. Cache writes are unchanged. See Prompt caching pricing. On Claude Fable 5.1 and Claude Mythos 5.1, tool_choice types any and tool aren’t supported and return a 400 error. auto and none are unchanged. To guarantee schema-conformant tool inputs, use strict tool use or structured outputs. Thinking blocks produced by Claude Fable 5.1 and Claude Mythos 5.1 are preserved only for the model that produced them or a newer one: earlier models can’t read them, and the API drops one replayed to an earlier model. Claude Fable 5.1 accepts thinking blocks from Claude Opus 5, Claude Fable 5, Claude Mythos 5, and earlier Claude models. On Claude Fable 5.1, the API also checks that nothing before a block has changed: for new accounts created on or after August 31, 2026, replaying one after the system prompt, tools, or an earlier message changed returns a 400 error. With the thinking-binding-controls-2026-08-01 beta header, dropped blocks are reported in an input_transformations response field, and thinking.block_binding.prefix_mismatch_behavior chooses between rejecting and dropping blocks whose history changed. See Preserved thinking. Per-message effort changes are in beta on Claude Fable 5.1, Claude Mythos 5.1, and Claude Opus 5 on the Claude API. Add a role: \"system\" message with output_config.effort inside messages to change effort for later turns while preserving the prompt cache. Include the mid-conversation-output-config-2026-07-01 beta header in your requests. See Per-message effort. Turn-scoped system messages are in beta (mid-conversation-system-clear-at-2026-08-21 header). Set clear_at: \"next_user_message\" on a mid-conversation role: \"system\" message and it renders for the current turn only, then stays in the history at no token cost. Per-turn reminders don’t accumulate and don’t invalidate the prompt cache or later thinking blocks. thinking.display accepts a third value, \"updates\", in beta (thinking-display-updates-2026-08-18 header). Reasoning comes back with an empty thinking field, as under \"omitted\", and the short progress updates that Claude Fable 5.1, Claude Mythos 5.1, and Claude Fable 5 write between tool calls come back as text, at most one thinking block before a tool call. See Progress updates between tool calls. Text generated by Claude Fable 5.1 and Claude Mythos 5.1 carries Anthropic’s text watermark, and supported image, video, and audio files that Claude produces through the code execution tool carry C2PA Content Credentials when you retrieve them through the Files API on the Claude API. Marking requires no changes to your requests or response handling. Like Claude Fable 5, both models require 30-day data retention and aren’t available under zero data retention unless expressly authorized by Anthropic. See Model-specific data retention requirements. The guides for the Claude Enterprise endpoints of the Admin API (user management and spend limits), the Claude Enterprise Analytics API, and the Compliance API now show the anthropic-version header; send it on every request to these endpoints, as in the rest of the Claude API. See API versions.",
+      "title": "We’ve launched Claude Fable 5.1 (claude-fable-5-1), the successor to Claude Fable 5 for long-running agentic coding, knowledge work, and research.",
+      "summary": "We’ve launched Claude Fable 5.1 (claude-fable-5-1), the successor to Claude Fable 5 for long-running agentic coding, knowledge work, and research. For Project Glasswing participants, we’ve also launched Claude Mythos 5.1 (claude-mythos-5-1). Both models support a 1M token context window by default, 128k max output tokens, and always-on adaptive thinking. They cost $10 / $50 USD per MTok, the same as Claude Fable 5, with cache reads cut to $0.25 USD per MTok. Claude Fable 5.1 is available on the Claude API, Claude in Amazon Bedrock, and Claude Platform on AWS. It’s also on Claude Models on Google Cloud (Google managed) and Claude in Microsoft Foundry. See Claude Fable 5.1 for specifications. Prompt cache reads on Claude Fable 5.1 and Claude Mythos 5.1 cost $0.25 USD per million tokens: 0.025x the base input price, compared with 0.1x on other models. Cache writes are unchanged. See Prompt caching pricing. On Claude Fable 5.1 and Claude Mythos 5.1, tool_choice types any and tool aren’t supported and return a 400 error. auto and none are unchanged. To guarantee schema-conformant tool inputs, use strict tool use or structured outputs. Thinking blocks produced by Claude Fable 5.1 and Claude Mythos 5.1 are preserved only for the model that produced them or a newer one: earlier models can’t read them, and the API drops one replayed to an earlier model. Claude Fable 5.1 accepts thinking blocks from Claude Opus 5, Claude Fable 5, Claude Mythos 5, and earlier Claude models. On Claude Fable 5.1, the API also checks that nothing before a block has changed: for new accounts created on or after August 31, 2026, replaying one after the system prompt, tools, or an earlier message changed returns a 400 error. With the thinking-binding-controls-2026-08-01 beta header, dropped blocks are reported in an input_transformations response field, and thinking.block_binding.prefix_mismatch_behavior chooses between rejecting and dropping blocks whose history changed. See Preserved thinking. Per-message effort changes are in beta on Claude Fable 5.1, Claude Mythos 5.1, and Claude Opus 5 on the Claude API. Add a role: \"system\" message with output_config.effort inside messages to change effort for later turns while preserving the prompt cache. Include the mid-conversation-output-config-2026-07-01 beta header in your requests. See Per-message effort. Turn-scoped system messages are in beta (mid-conversation-system-clear-at-2026-08-21 header). Set clear_at: \"next_user_message\" on a mid-conversation role: \"system\" message and it renders for the current turn only, then stays in the history at no token cost. Per-turn reminders don’t accumulate and don’t invalidate the prompt cache or later thinking blocks. thinking.display accepts a third value, \"updates\", in beta (thinking-display-updates-2026-08-18 header). Reasoning comes back with an empty thinking field, as under \"omitted\", and the short progress updates that Claude Fable 5.1, Claude Mythos 5.1, and Claude Fable 5 write between tool calls come back as text, at most one thinking block before a tool call. See Progress updates between tool calls. Text generated by Claude Fable 5.1 and Claude Mythos 5.1 carries Anthropic’s text watermark, and supported image, video, and audio files that Claude produces through the code execution tool carry C2PA Content Credentials when you retrieve them through the Files API on the Claude API. Marking requires no changes to your requests or response handling. Like Claude Fable 5, both models require 30-day data retention and aren’t available under zero data retention unless expressly authorized by Anthropic. See Model-specific data retention requirements. The guides for the Claude Enterprise endpoints of the Admin API (user management and spend limits), the Claude Enterprise Analytics API, and the Compliance API now show the anthropic-version header; send it on every request to these endpoints, as in the rest of the Claude API. See API versions.",
+      "content": "We’ve launched Claude Fable 5.1 (claude-fable-5-1), the successor to Claude Fable 5 for long-running agentic coding, knowledge work, and research. For Project Glasswing participants, we’ve also launched Claude Mythos 5.1 (claude-mythos-5-1). Both models support a 1M token context window by default, 128k max output tokens, and always-on adaptive thinking. They cost $10 / $50 USD per MTok, the same as Claude Fable 5, with cache reads cut to $0.25 USD per MTok. Claude Fable 5.1 is available on the Claude API, Claude in Amazon Bedrock, and Claude Platform on AWS. It’s also on Claude Models on Google Cloud (Google managed) and Claude in Microsoft Foundry. See Claude Fable 5.1 for specifications. Prompt cache reads on Claude Fable 5.1 and Claude Mythos 5.1 cost $0.25 USD per million tokens: 0.025x the base input price, compared with 0.1x on other models. Cache writes are unchanged. See Prompt caching pricing. On Claude Fable 5.1 and Claude Mythos 5.1, tool_choice types any and tool aren’t supported and return a 400 error. auto and none are unchanged. To guarantee schema-conformant tool inputs, use strict tool use or structured outputs. Thinking blocks produced by Claude Fable 5.1 and Claude Mythos 5.1 are preserved only for the model that produced them or a newer one: earlier models can’t read them, and the API drops one replayed to an earlier model. Claude Fable 5.1 accepts thinking blocks from Claude Opus 5, Claude Fable 5, Claude Mythos 5, and earlier Claude models. On Claude Fable 5.1, the API also checks that nothing before a block has changed: for new accounts created on or after August 31, 2026, replaying one after the system prompt, tools, or an earlier message changed returns a 400 error. With the thinking-binding-controls-2026-08-01 beta header, dropped blocks are reported in an input_transformations response field, and thinking.block_binding.prefix_mismatch_behavior chooses between rejecting and dropping blocks whose history changed. See Preserved thinking. Per-message effort changes are in beta on Claude Fable 5.1, Claude Mythos 5.1, and Claude Opus 5 on the Claude API. Add a role: \"system\" message with output_config.effort inside messages to change effort for later turns while preserving the prompt cache. Include the mid-conversation-output-config-2026-07-01 beta header in your requests. See Per-message effort. Turn-scoped system messages are in beta (mid-conversation-system-clear-at-2026-08-21 header). Set clear_at: \"next_user_message\" on a mid-conversation role: \"system\" message and it renders for the current turn only, then stays in the history at no token cost. Per-turn reminders don’t accumulate and don’t invalidate the prompt cache or later thinking blocks. thinking.display accepts a third value, \"updates\", in beta (thinking-display-updates-2026-08-18 header). Reasoning comes back with an empty thinking field, as under \"omitted\", and the short progress updates that Claude Fable 5.1, Claude Mythos 5.1, and Claude Fable 5 write between tool calls come back as text, at most one thinking block before a tool call. See Progress updates between tool calls. Text generated by Claude Fable 5.1 and Claude Mythos 5.1 carries Anthropic’s text watermark, and supported image, video, and audio files that Claude produces through the code execution tool carry C2PA Content Credentials when you retrieve them through the Files API on the Claude API. Marking requires no changes to your requests or response handling. Like Claude Fable 5, both models require 30-day data retention and aren’t available under zero data retention unless expressly authorized by Anthropic. See Model-specific data retention requirements. The guides for the Claude Enterprise endpoints of the Admin API (user management and spend limits), the Claude Enterprise Analytics API, and the Compliance API now show the anthropic-version header; send it on every request to these endpoints, as in the rest of the Claude API. See API versions.",
       "contentZh": "",
       "titleZh": "",
       "summaryZh": "",
       "translationStatus": "pending",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.686Z"
+      "collectedAt": "2026-11-12T10:39:12.585Z"
     },
     {
       "id": "62995badc1a46202724b",
@@ -3263,7 +3297,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-31T07:00:00.000Z",
       "url": "https://openai.com/index/polimill",
-      "collectedAt": "2026-11-11T10:20:45.286Z"
+      "collectedAt": "2026-11-12T10:39:10.775Z"
     },
     {
       "id": "89958d19d1f987cb8ada",
@@ -3280,7 +3314,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-31T04:00:00.000Z",
       "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "collectedAt": "2026-11-11T10:20:45.286Z"
+      "collectedAt": "2026-11-12T10:39:10.775Z"
     },
     {
       "id": "6e697a03b79f347648db",
@@ -3297,7 +3331,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-28T06:00:00.000Z",
       "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "collectedAt": "2026-11-11T10:20:45.286Z"
+      "collectedAt": "2026-11-12T10:39:10.776Z"
     },
     {
       "id": "3b034008653d3c2739c4",
@@ -3314,7 +3348,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-27T16:11:32.000Z",
       "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-      "collectedAt": "2026-11-11T10:20:47.876Z"
+      "collectedAt": "2026-11-12T10:39:14.560Z"
     },
     {
       "id": "f3885091ef8df6aaae64",
@@ -3331,7 +3365,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-27T09:00:00.000Z",
       "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "collectedAt": "2026-11-11T10:20:45.286Z"
+      "collectedAt": "2026-11-12T10:39:10.776Z"
     },
     {
       "id": "4707ef7564f9017d5027",
@@ -3348,7 +3382,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.687Z"
+      "collectedAt": "2026-11-12T10:39:12.586Z"
     },
     {
       "id": "038305de768a112cfa08",
@@ -3365,24 +3399,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-26T17:01:00.000Z",
       "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
-      "collectedAt": "2026-11-11T10:20:47.876Z"
-    },
-    {
-      "id": "df161950e809789b055b",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-      "content": "When we introduced ChatGPT for Teachers in 2025 to nearly 150,000 teachers and staff, our goal was to give educators a secure place to explore AI, understand where it is useful, and help shape how it should be used in education. Today, we are expanding this work to 55 additional school systems across 20 states, bringing [ChatGPT for Teachers](https://openai.com/index/chatgpt-for-teachers/) to over 100,000 more educators and staff.\n\nThe new cohort of district partnerships includes 1 in 5 of America’s 20 largest public school districts and some of the country’s most diverse school systems. With this new cohort, OpenAI is now working with more than 100 K–12 organizations across 30 states to provide free access and training to over 300,000 educators and staff.\n\nAlongside this, we’re also announcing a data privacy agreement spanning 16 states, a first for the industry, that provides a common framework for districts to evaluate ChatGPT for Teachers against their student data privacy requirements, helping make responsible AI adoption simpler and more consistent across school systems.\n\nOur work continues to be guided by the belief that AI should support learning, not shortcut it, and educators should remain in control of how AI shapes classroom experiences. In this spirit, ChatGPT for Teachers continues to be available to administrators, faculty, and educators only. ChatGPT for Teachers remains a free tool for verified U.S. K–12 educators through June 2028.\n\n_Responsible adoption at national scale: ChatGPT for Teachers district partners across the country_\n\n## Building trust into district adoption\n\nFor school systems, responsible AI adoption also requires clear privacy protections and a way for district leaders to understand and manage how tools are used.\n\nOpenAI is also expanding the privacy infrastructure that helps districts adopt AI responsibly. We’re introducing a 16-state National Data Privacy Agreement through the [Student Data Privacy Consortium⁠(opens in a new window)](https://privacy.a4l.org/) framework, giving districts in participating states a recognized path to evaluate and adopt ChatGPT for Teachers without negotiating separate agreements district by district. This is designed to meet districts and states within the privacy process they already use, adapting to state and local requirements, and making responsible adoption easier.\n\nToday, our signed General Offers cover 16 states: Illinois, Iowa, Maine, Massachusetts, Missouri, Nebraska, New Hampshire, New Jersey, New York, Ohio, Rhode Island, Tennessee, Texas, Vermont, Virginia, and Washington. California is also covered by a separate agreement.\n\nFor school systems, responsible AI adoption depends not only on access, but on governance, privacy, procurement, and trust. This work builds on statewide agreements OpenAI has already signed and reflects a broader commitment to meeting districts where they are, with the legal and privacy protections their communities require.\n\nChatGPT for Teachers was designed with education-grade privacy, security, and administrative controls. Data shared in a ChatGPT for Teachers workspace is not used to train our models by default, and school and district leaders [can bring educators into a managed workspace⁠(opens in a new window)](https://help.openai.com/en/articles/12844995-chatgpt-for-teachers) with role-based controls designed to support schools’ FERPA requirements.\n\nAs AI evolves from answering questions to helping carry out increasingly complex, multi-step workflows, access to tools like ChatGPT alone won’t be enough. Through our shared implementation model, OpenAI is working alongside districts to provide hands-on training, support for district leaders, peer learning across school systems, and ongoing guidance to help educators build the skills and confidence to take advantage of these capabilities. Through this close collaboration, feedback from districts helps OpenAI understand what educators and administrators need next.\n\nThis structure is a glimpse at what responsible AI adoption can look like at scale when teachers experiment in a secure workspace, districts implement AI with appropriate oversight and expert guidance, and educators and leaders share what works across classrooms, schools, and communities.\n\n“Education has always helped young people prepare for the world they’re going to inherit. In the age of AI, students need educators and schools that help them build judgment, confidence, and agency with these tools,” said Leah Belsky, Vice President of Education, OpenAI. “By partnering with educators, our goal is to give teachers time, training, and a community to learn from one another, and they help us build alongside the people who know students best.”\n\nLynwood Unified was one of the first districts to join OpenAI’s first K–12 cohort. Their vision is clear: treat AI as an equity issue, prioritize privacy, and give educators the support to explore it responsibly. Through initial training and ongoing space to experiment and learn with peers, faculty are growing more confident and using AI to enhance their teaching. That experience also helps educators develop an informed point of view so they can guide students when questions about AI arise.\n\n1 of 5\n\n## Giving teachers the agentic tools and support to lead\n\nAcross our work with educators, we’re seeing that the most immediate value often starts with time: helping teachers adapt lessons, draft family communications, prepare substitute materials, and move through recurring administrative work faster, so they can spend more attention on students. In a [privacy-preserving OpenAI analysis⁠(opens in a new window)](https://cdn.openai.com/pdf/learning-never-stops-back-to-school-report-august-2026.pdf) from January 1 to July 16, educators sent more than 1.9 million messages related to time-saving tasks, including 900,000 about report cards and progress reports, 800,000 about lesson planning, and more than 100,000 each about substitute plans and teacher-evaluation materials.\n\nTools like the [K-12 Educator plugin](https://openai.com/index/learn-teach-chatgpt-work-codex/) support work like lesson planning, adapting materials, analyzing information, and creating classroom resources, while giving school and district leaders administrative controls and education-grade privacy and security protections.\n\nWe’re also continuing training through OpenAI Academy, our work with districts, and the National Academy for AI Instruction with the American Federation of Teachers, a five-year initiative designed to equip 400,000 K–12 educators with practical AI skills.\n\n![Image 1: Educators participating in an AI Skills Jam, with hands raised around workshop tables](https://images.ctfassets.net/kftzwdyauwt9/2VJXzaOyi5V0CyxRaIDvqx/bbae8fddf5c4347c91475b4103130fc2/image1.jpg?w=3840&q=90&fm=webp)\n\nEducators participate in an AI Skills Jam.\n\nThis summer, more than 1,600 teachers, administrators, and district leaders are participating in hands-on [AI Skills Jams](https://openai.com/index/k-12-educators-practical-skills/) hosted by OpenAI Academy and in partnership with the Walton Family Foundation. Teachers are working alongside peers and OpenAI mentors on challenges they already know well—from adapting a lesson for different learners and communicating with families to navigating district guidance and reducing administrative work.\n\nThose sessions are already showing what teacher-led adoption can look like in practice. In Fairfax, an elementary music teacher brought her curriculum, grading policies, district regulations, and teaching approach into ChatGPT to create a planning resource she could use throughout the school year. A fourth-grade teacher in Jonesboro used ChatGPT to turn lengthy lesson plans into focused 30- to 40-minute lessons centered on the day’s required standards. Chicago educators described using ChatGPT to simulate science experiments, support student animation projects, and analyze more than 200 novels for gaps in representation. In San Bernardino, a principal used it to tackle a complex scheduling task she said could otherwise have taken hours or days.\n\nAcross the first Skills Jams, 93% of participants said they left with something they could use again, and 96% said they planned to apply what they learned within 30 days. Just as importantly, educators told us that some of their best ideas came from seeing how colleagues approached the same tools differently.\n\nAI in education works best when teachers lead. Our goal is to give them the tools, trust, training, and voice to do exactly that.\n\nNew district partnerships include: Abilene Independent School District (TX), Adlai E. Stevenson High School District 125 (IL), Baltimore City Public Schools (MD), Boise School District (ID), Clarkstown Central School District (NY), El Dorado County Office of Education (CA), Epic Charter Schools (OK), Flagler Schools (FL), Fort Worth Independent School District (TX), Frisco Independent School District (TX), Humble Independent School District (TX), Kern High School District (CA), Killeen Independent School District (TX), Laramie County School District 1 (WY), Lewisville Independent School District (TX), Los Angeles County Office of Education (CA), Needham Public Schools (MA), New Trier Township High School District 203 (IL), Northside Independent School District (TX), Oakland Schools (MI), Orange County Department of Education (CA), Orange County Public Schools (FL), Pocantico Hills Central School District (NY), Rye Country Day School (NY), Santa Cruz County Office of Education (CA), Sarasota County Schools (FL), St. Vrain Valley Schools (CO), Township High School District 211 (IL), Ventura Unified School District (CA), Virginia Beach City Public Schools (VA), Westminster Public Schools (CO)",
-      "contentZh": "",
-      "titleZh": "",
-      "summaryZh": "",
-      "translationStatus": "pending",
-      "publishedAt": "2026-08-26T10:00:00.000Z",
-      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "collectedAt": "2026-11-11T10:20:45.287Z"
+      "collectedAt": "2026-11-12T10:39:14.561Z"
     },
     {
       "id": "92b51a1e3a09499b97f9",
@@ -3399,7 +3416,24 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-26T10:00:00.000Z",
       "url": "https://openai.com/index/learning-never-stops",
-      "collectedAt": "2026-11-11T10:20:45.287Z"
+      "collectedAt": "2026-11-12T10:39:10.776Z"
+    },
+    {
+      "id": "df161950e809789b055b",
+      "sourceId": "openai-news",
+      "company": "OpenAI",
+      "product": "GPT",
+      "kind": "news",
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+      "content": "When we introduced ChatGPT for Teachers in 2025 to nearly 150,000 teachers and staff, our goal was to give educators a secure place to explore AI, understand where it is useful, and help shape how it should be used in education. Today, we are expanding this work to 55 additional school systems across 20 states, bringing [ChatGPT for Teachers](https://openai.com/index/chatgpt-for-teachers/) to over 100,000 more educators and staff.\n\nThe new cohort of district partnerships includes 1 in 5 of America’s 20 largest public school districts and some of the country’s most diverse school systems. With this new cohort, OpenAI is now working with more than 100 K–12 organizations across 30 states to provide free access and training to over 300,000 educators and staff.\n\nAlongside this, we’re also announcing a data privacy agreement spanning 16 states, a first for the industry, that provides a common framework for districts to evaluate ChatGPT for Teachers against their student data privacy requirements, helping make responsible AI adoption simpler and more consistent across school systems.\n\nOur work continues to be guided by the belief that AI should support learning, not shortcut it, and educators should remain in control of how AI shapes classroom experiences. In this spirit, ChatGPT for Teachers continues to be available to administrators, faculty, and educators only. ChatGPT for Teachers remains a free tool for verified U.S. K–12 educators through June 2028.\n\n_Responsible adoption at national scale: ChatGPT for Teachers district partners across the country_\n\n## Building trust into district adoption\n\nFor school systems, responsible AI adoption also requires clear privacy protections and a way for district leaders to understand and manage how tools are used.\n\nOpenAI is also expanding the privacy infrastructure that helps districts adopt AI responsibly. We’re introducing a 16-state National Data Privacy Agreement through the [Student Data Privacy Consortium⁠(opens in a new window)](https://privacy.a4l.org/) framework, giving districts in participating states a recognized path to evaluate and adopt ChatGPT for Teachers without negotiating separate agreements district by district. This is designed to meet districts and states within the privacy process they already use, adapting to state and local requirements, and making responsible adoption easier.\n\nToday, our signed General Offers cover 16 states: Illinois, Iowa, Maine, Massachusetts, Missouri, Nebraska, New Hampshire, New Jersey, New York, Ohio, Rhode Island, Tennessee, Texas, Vermont, Virginia, and Washington. California is also covered by a separate agreement.\n\nFor school systems, responsible AI adoption depends not only on access, but on governance, privacy, procurement, and trust. This work builds on statewide agreements OpenAI has already signed and reflects a broader commitment to meeting districts where they are, with the legal and privacy protections their communities require.\n\nChatGPT for Teachers was designed with education-grade privacy, security, and administrative controls. Data shared in a ChatGPT for Teachers workspace is not used to train our models by default, and school and district leaders [can bring educators into a managed workspace⁠(opens in a new window)](https://help.openai.com/en/articles/12844995-chatgpt-for-teachers) with role-based controls designed to support schools’ FERPA requirements.\n\nAs AI evolves from answering questions to helping carry out increasingly complex, multi-step workflows, access to tools like ChatGPT alone won’t be enough. Through our shared implementation model, OpenAI is working alongside districts to provide hands-on training, support for district leaders, peer learning across school systems, and ongoing guidance to help educators build the skills and confidence to take advantage of these capabilities. Through this close collaboration, feedback from districts helps OpenAI understand what educators and administrators need next.\n\nThis structure is a glimpse at what responsible AI adoption can look like at scale when teachers experiment in a secure workspace, districts implement AI with appropriate oversight and expert guidance, and educators and leaders share what works across classrooms, schools, and communities.\n\n“Education has always helped young people prepare for the world they’re going to inherit. In the age of AI, students need educators and schools that help them build judgment, confidence, and agency with these tools,” said Leah Belsky, Vice President of Education, OpenAI. “By partnering with educators, our goal is to give teachers time, training, and a community to learn from one another, and they help us build alongside the people who know students best.”\n\nLynwood Unified was one of the first districts to join OpenAI’s first K–12 cohort. Their vision is clear: treat AI as an equity issue, prioritize privacy, and give educators the support to explore it responsibly. Through initial training and ongoing space to experiment and learn with peers, faculty are growing more confident and using AI to enhance their teaching. That experience also helps educators develop an informed point of view so they can guide students when questions about AI arise.\n\n1 of 5\n\n## Giving teachers the agentic tools and support to lead\n\nAcross our work with educators, we’re seeing that the most immediate value often starts with time: helping teachers adapt lessons, draft family communications, prepare substitute materials, and move through recurring administrative work faster, so they can spend more attention on students. In a [privacy-preserving OpenAI analysis⁠(opens in a new window)](https://cdn.openai.com/pdf/learning-never-stops-back-to-school-report-august-2026.pdf) from January 1 to July 16, educators sent more than 1.9 million messages related to time-saving tasks, including 900,000 about report cards and progress reports, 800,000 about lesson planning, and more than 100,000 each about substitute plans and teacher-evaluation materials.\n\nTools like the [K-12 Educator plugin](https://openai.com/index/learn-teach-chatgpt-work-codex/) support work like lesson planning, adapting materials, analyzing information, and creating classroom resources, while giving school and district leaders administrative controls and education-grade privacy and security protections.\n\nWe’re also continuing training through OpenAI Academy, our work with districts, and the National Academy for AI Instruction with the American Federation of Teachers, a five-year initiative designed to equip 400,000 K–12 educators with practical AI skills.\n\n![Image 1: Educators participating in an AI Skills Jam, with hands raised around workshop tables](https://images.ctfassets.net/kftzwdyauwt9/2VJXzaOyi5V0CyxRaIDvqx/bbae8fddf5c4347c91475b4103130fc2/image1.jpg?w=3840&q=90&fm=webp)\n\nEducators participate in an AI Skills Jam.\n\nThis summer, more than 1,600 teachers, administrators, and district leaders are participating in hands-on [AI Skills Jams](https://openai.com/index/k-12-educators-practical-skills/) hosted by OpenAI Academy and in partnership with the Walton Family Foundation. Teachers are working alongside peers and OpenAI mentors on challenges they already know well—from adapting a lesson for different learners and communicating with families to navigating district guidance and reducing administrative work.\n\nThose sessions are already showing what teacher-led adoption can look like in practice. In Fairfax, an elementary music teacher brought her curriculum, grading policies, district regulations, and teaching approach into ChatGPT to create a planning resource she could use throughout the school year. A fourth-grade teacher in Jonesboro used ChatGPT to turn lengthy lesson plans into focused 30- to 40-minute lessons centered on the day’s required standards. Chicago educators described using ChatGPT to simulate science experiments, support student animation projects, and analyze more than 200 novels for gaps in representation. In San Bernardino, a principal used it to tackle a complex scheduling task she said could otherwise have taken hours or days.\n\nAcross the first Skills Jams, 93% of participants said they left with something they could use again, and 96% said they planned to apply what they learned within 30 days. Just as importantly, educators told us that some of their best ideas came from seeing how colleagues approached the same tools differently.\n\nAI in education works best when teachers lead. Our goal is to give them the tools, trust, training, and voice to do exactly that.\n\nNew district partnerships include: Abilene Independent School District (TX), Adlai E. Stevenson High School District 125 (IL), Baltimore City Public Schools (MD), Boise School District (ID), Clarkstown Central School District (NY), El Dorado County Office of Education (CA), Epic Charter Schools (OK), Flagler Schools (FL), Fort Worth Independent School District (TX), Frisco Independent School District (TX), Humble Independent School District (TX), Kern High School District (CA), Killeen Independent School District (TX), Laramie County School District 1 (WY), Lewisville Independent School District (TX), Los Angeles County Office of Education (CA), Needham Public Schools (MA), New Trier Township High School District 203 (IL), Northside Independent School District (TX), Oakland Schools (MI), Orange County Department of Education (CA), Orange County Public Schools (FL), Pocantico Hills Central School District (NY), Rye Country Day School (NY), Santa Cruz County Office of Education (CA), Sarasota County Schools (FL), St. Vrain Valley Schools (CO), Township High School District 211 (IL), Ventura Unified School District (CA), Virginia Beach City Public Schools (VA), Westminster Public Schools (CO)",
+      "contentZh": "",
+      "titleZh": "",
+      "summaryZh": "",
+      "translationStatus": "pending",
+      "publishedAt": "2026-08-26T10:00:00.000Z",
+      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "collectedAt": "2026-11-12T10:39:10.777Z"
     },
     {
       "id": "e8e71766793d0226c88b",
@@ -3416,7 +3450,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "collectedAt": "2026-11-11T10:20:45.287Z"
+      "collectedAt": "2026-11-12T10:39:10.777Z"
     },
     {
       "id": "42d46e03e113f1a48a9f",
@@ -3433,7 +3467,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://openai.com/index/loveholidays",
-      "collectedAt": "2026-11-11T10:20:45.287Z"
+      "collectedAt": "2026-11-12T10:39:10.777Z"
     },
     {
       "id": "0e8f06023793c35c12b2",
@@ -3450,7 +3484,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.688Z"
+      "collectedAt": "2026-11-12T10:39:12.586Z"
     },
     {
       "id": "bdff11d888b055940269",
@@ -3467,7 +3501,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-25T07:05:00.000Z",
       "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "collectedAt": "2026-11-11T10:20:45.287Z"
+      "collectedAt": "2026-11-12T10:39:10.777Z"
     },
     {
       "id": "b9dd82456710ac7ff739",
@@ -3484,7 +3518,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-25T07:00:00.000Z",
       "url": "https://openai.com/index/jalapeno-first-results",
-      "collectedAt": "2026-11-11T10:20:45.287Z"
+      "collectedAt": "2026-11-12T10:39:10.778Z"
     },
     {
       "id": "4f3d5193843c2be21102",
@@ -3501,7 +3535,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "url": "https://openai.com/index/introducing-admin-plugin",
-      "collectedAt": "2026-11-11T10:20:45.288Z"
+      "collectedAt": "2026-11-12T10:39:10.778Z"
     },
     {
       "id": "98efe21910bba76ddc89",
@@ -3518,7 +3552,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
-      "collectedAt": "2026-11-11T10:20:46.025Z"
+      "collectedAt": "2026-11-12T10:39:11.725Z"
     },
     {
       "id": "a3e38d1146847fcc32c5",
@@ -3535,7 +3569,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-24T12:00:00.000Z",
       "url": "https://openai.com/index/gpt-5-6-in-kiro",
-      "collectedAt": "2026-11-11T10:20:45.288Z"
+      "collectedAt": "2026-11-12T10:39:10.779Z"
     },
     {
       "id": "fb3550ee043ce3089dfb",
@@ -3552,7 +3586,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-11T10:20:49.376Z"
+      "collectedAt": "2026-11-12T10:39:16.089Z"
     },
     {
       "id": "2d19306ef234ea7faec5",
@@ -3569,7 +3603,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "url": "https://openai.com/index/stampli",
-      "collectedAt": "2026-11-11T10:20:45.288Z"
+      "collectedAt": "2026-11-12T10:39:10.779Z"
     },
     {
       "id": "0335ae09efe999984d8e",
@@ -3586,7 +3620,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.688Z"
+      "collectedAt": "2026-11-12T10:39:12.587Z"
     },
     {
       "id": "3dc55b55b1de08c817b2",
@@ -3603,7 +3637,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-19T19:00:00.000Z",
       "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "collectedAt": "2026-11-11T10:20:45.288Z"
+      "collectedAt": "2026-11-12T10:39:10.780Z"
     },
     {
       "id": "1e5ef4886d4750bbdc69",
@@ -3620,7 +3654,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-19T07:00:00.000Z",
       "url": "https://openai.com/index/replit",
-      "collectedAt": "2026-11-11T10:20:45.288Z"
+      "collectedAt": "2026-11-12T10:39:10.780Z"
     },
     {
       "id": "862a5272957677cbb451",
@@ -3637,7 +3671,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.689Z"
+      "collectedAt": "2026-11-12T10:39:12.587Z"
     },
     {
       "id": "dbabefb7176b8899389d",
@@ -3654,7 +3688,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "url": "https://gemini.google/us/release-notes/?hl=en",
-      "collectedAt": "2026-11-11T10:20:46.995Z"
+      "collectedAt": "2026-11-12T10:39:12.980Z"
     },
     {
       "id": "d02b32736bea62b3185d",
@@ -3671,7 +3705,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-18T22:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "collectedAt": "2026-11-11T10:20:45.288Z"
+      "collectedAt": "2026-11-12T10:39:10.781Z"
     },
     {
       "id": "755e4db2cccf354bd6df",
@@ -3688,7 +3722,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "collectedAt": "2026-11-11T10:20:45.289Z"
+      "collectedAt": "2026-11-12T10:39:10.782Z"
     },
     {
       "id": "60ed32685f2c13d2be9e",
@@ -3705,7 +3739,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-18T11:00:00.000Z",
       "url": "https://openai.com/index/chatgpt-for-teens",
-      "collectedAt": "2026-11-11T10:20:45.289Z"
+      "collectedAt": "2026-11-12T10:39:10.782Z"
     },
     {
       "id": "b32d89933b3f566e892d",
@@ -3722,7 +3756,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-18T07:00:00.000Z",
       "url": "https://openai.com/index/asana",
-      "collectedAt": "2026-11-11T10:20:45.289Z"
+      "collectedAt": "2026-11-12T10:39:10.783Z"
     },
     {
       "id": "cf88f2889563730674dc",
@@ -3739,7 +3773,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "url": "https://openai.com/index/nvidia/chatgpt-work",
-      "collectedAt": "2026-11-11T10:20:45.289Z"
+      "collectedAt": "2026-11-12T10:39:10.782Z"
     },
     {
       "id": "aa9fbf89108c624b5035",
@@ -3756,41 +3790,7 @@
       "translationStatus": "pending",
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "collectedAt": "2026-11-11T10:20:46.689Z"
-    },
-    {
-      "id": "628f79672cb28599f754",
-      "sourceId": "deepmind-news",
-      "company": "Google DeepMind",
-      "product": "Gemini",
-      "kind": "news",
-      "title": "Introducing Gemini 3.7 Flash",
-      "summary": "",
-      "content": "Aug 13, 2026\n\n|\n\nOur most intelligent workhorse model yet for coding and agents.\n\n* * *\n\n* * *\n\n![Image 1: Spark icon next to the text \"Gemini 3.7 Flash\", all on a light blue backgorund](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash.width-200.format-webp.webp)\n\n[Audio 3](https://storage.googleapis.com/gweb-uniblog-publish-prod/media/tts_audio_85959_umbriel_2026_08_13_21_10_43.mp3)\n\nListen to article\n\n[[duration]] minutes\n\nThis content is generated by Google AI. Generative AI is experimental\n\nToday, we’re building on the progress of our widely used Flash series by introducing Gemini 3.7 Flash, our most intelligent workhorse model yet for coding and agents.\n\nThis release comes just three weeks after [Gemini 3.6 Flash](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/), and is a direct result of developer feedback and algorithmic innovations that we look forward to bringing to future models. 3.7 Flash delivers substantial improvements across software engineering, knowledge work, and web development workflows — with an introductory price of half the original 3.6 Flash cost per million tokens.\n\n## Better intelligence for complex workflows\n\n![Image 2: a chart showing production code quality](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__frontier.width-100.format-webp.webp)\n\n![Image 3: a chart showing long-horizon software engineering](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__deepswe-.width-100.format-webp.webp)\n\n![Image 4: a chart showing web development](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__codearen.width-100.format-webp.webp)\n\n![Image 5: a chart showing Expert PDF document comprehension](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__gdp-pdf_.width-100.format-webp.webp)\n\n![Image 6: a chart showing enterprise workflow automation](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__automati.width-100.format-webp.webp)\n\n3.7 Flash shows strong gains over 3.6 Flash in coding tasks like debugging and issue resolution. It also achieves higher first-pass code accuracy and has improved performance in generating production-ready code as seen in [FrontierCode 1.1 Main](https://cognition.com/frontiercode) (43.6% vs 34.4%) and [DeepSWE v1.1](https://deepswe.datacurve.ai/) (65.3% vs 49.0%).\n\nIn web development, 3.7 Flash generates more functional layouts and feature-complete apps in fewer prompts. For UI generation, the model shows high design adherence and parity based on a reference input, whether it’s a screenshot, an image, or a full design system. It outperforms 3.6 Flash on Arena.ai’s [WebDev Arena](https://arena.ai/leaderboard/code/webdev) with an Elo score of 1588 vs 1538.\n\nFor knowledge-dense fields like finance, law, and biosciences, 3.7 Flash delivers improved reasoning and accuracy. It significantly outperforms 3.6 Flash on the GDP.pdf benchmark (34.0% vs 22.0%), an eval for testing a model’s ability to process complex documents. It also surpasses 3.6 Flash in [AutomationBench](https://zapier.com/blog/introducing-automationbench/), demonstrating it can more effectively complete real-world business workflows (30.4% vs 17.0%).\n\n## Better developer experience and price\n\nGemini 3.7 Flash delivers a noticeably improved developer experience over 3.6 Flash. It better adapts to roadblocks, clarifies intent when needed, and follows instructions with greater fidelity. It thinks more diligently, putting in more effort into multi-step planning and tool calls. A more disciplined execution means less manual oversight and fewer retries across engineering workflows.\n\n3.7 Flash is available through the end of the year at an introductory price [1](https://deepmind.google/blog/introducing-gemini-3-7-flash/#footnote-1) of $0.75/1M input tokens and $3.75/1M output tokens. This price combined with the enhanced model performance enables developers and customers to scale production-ready agents cost effectively.\n\n![Image 7: an image of a performance to cost comparison chart](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__perform.width-1200.format-webp.webp)\n\nEarly customer feedback is highlighting 3.7 Flash’s performance and precision, achieving results that are significantly better than 3.6 Flash at a low cost.\n\n![Image 8: Quote from Box](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__bo.width-100.format-webp.webp)\n\n![Image 9: Quote from Browser Use](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__br.width-100.format-webp.webp)\n\n![Image 10: Quote from Cartwheel](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__ca.width-100.format-webp_dYz0MOf.webp)\n\n![Image 11: quote from databricks](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__da.width-100.format-webp.webp)\n\n![Image 12: Quote from emergent](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__em.width-100.format-webp.webp)\n\n![Image 13: Quote from Harvey](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__ha.width-100.format-webp_NtGWF6a.webp)\n\n![Image 14: Quote from Hebbia](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__he.width-100.format-webp_H9baWpR.webp)\n\n![Image 15: Quote from LangChain](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__la.width-100.format-webp_7qAt1Kr.webp)\n\n![Image 16: Quote from Nunu.ai](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__nu.width-100.format-webp_DyOGCzR.webp)\n\n![Image 17: Quote from Open Code](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__op.width-100.format-webp_wy8PPtG.webp)\n\n![Image 18: Quote from Pydantic](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__py.width-100.format-webp.webp)\n\n![Image 19: Quote from Stanford Department of Biology](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__st.width-100.format-webp_AzDrTOJ.webp)\n\n## Improving Gemini Spark with 3.7 Flash\n\nGemini Spark, available to Google AI Pro and Ultra subscribers in over [160 countries](https://support.google.com/gemini/answer/17094507?hl=en&co=GENIE.Platform%3DAndroid&sjid=2353166824601345951-NA#:~:text=Available%20wherever%20Gemini%20Apps%20are%20supported%2C%20except%20in%20the%20European%20Economic%20Area%2C%20Nigeria%2C%20Switzerland%2C%20and%20the%20United%20Kingdom), will be using Gemini 3.7 Flash starting today. We launched Spark at I/O as your personal AI agent that runs 24/7, taking action on your behalf while under your direction. This model update makes Spark more efficient for knowledge work with improved tool use for Google Workspace apps, delivering improved accuracy and output quality for complex, multi-skill workflows.\n\nWith 3.7 Flash, Gemini Spark can turn ideas into action more efficiently by consolidating files, drafting emails, and updating status documents.\n\n## Built with safety in mind\n\nWe continually work to improve the coverage and robustness of [Frontier Safety safeguards](https://deepmind.google/frontier-safety/). Gemini 3.7 Flash is shipping with updated safeguards against misuse in the domains of Chemical, Biological, Radiological, and Nuclear (CBRN) and cyber offense, while enabling beneficial use cases, in accordance with [our approach to bioresilience](https://deepmind.google/blog/our-approach-to-bioresilience/) and our [cyber program](https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/).\n\nFor more information, see the 3.7 Flash [model card](https://deepmind.google/models/model-cards/gemini-3-7-flash).\n\n## Try it today\n\n*   **Developers**: Explore agent-first workflows in [Google Antigravity](https://antigravity.google/) or start building today in the Gemini API via [Google AI Studio](https://ai.dev/prompts/new_chat?model=gemini-3.7-flash) and [Android Studio](https://developer.android.com/studio). Get started with our [developer guide](https://ai.google.dev/gemini-api/docs/latest-model).\n*   **Enterprises**: Access 3.7 Flash in [Gemini Enterprise Agent Platform](https://console.cloud.google.com/agent-platform/publishers/google/model-garden/gemini-3.7-flash) and the [Gemini Enterprise](https://cloud.google.com/gemini-enterprise?e=48754805) app.\n*   **Individuals**: Available via Spark, your 24/7 personal agent in the Gemini app for Google AI Pro and Ultra subscribers in [supported countries](https://support.google.com/gemini/answer/17094507?hl=en&co=GENIE.Platform%3DAndroid&sjid=2353166824601345951-NA#:~:text=Available%20wherever%20Gemini%20Apps%20are%20supported%2C%20except%20in%20the%20European%20Economic%20Area%2C%20Nigeria%2C%20Switzerland%2C%20and%20the%20United%20Kingdom).\n\n## Detailed benchmarks\n\n![Image 20: a chart displaying AI model benchmarks](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__benchma.width-1200.format-webp.webp)\n\n## Get the latest news from Google in your inbox\n\nSign up for our newsletters with product updates, event information, special offers, and more.\n\nYour information will be used in accordance with [Google's privacy policy.](https://policies.google.com/privacy) You may opt out at any time.",
-      "contentZh": "2026年8月13日\n\n|\n\n我们迄今为止最智能的编码与智能体主力模型。\n\n* * *\n\n* * *\n\n![图片1：浅蓝色背景上，Spark图标旁为“Gemini 3.7 Flash”文字](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash.width-200.format-webp.webp)\n\n[音频3](https://storage.googleapis.com/gweb-uniblog-publish-prod/media/tts_audio_85959_umbriel_2026_08_13_21_10_43.mp3)\n\n收听文章\n\n[[时长]]分钟\n\n此内容由Google AI生成。生成式AI处于实验阶段。\n\n今天，我们在广受欢迎的Flash系列进展基础上，推出Gemini 3.7 Flash——这是我们迄今为止最智能的编码与智能体主力模型。\n\n此次发布距[Gemini 3.6 Flash](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/)仅三周，是开发者反馈和算法创新的直接成果，我们期待将这些创新应用于未来模型。3.7 Flash在软件工程、知识工作和网页开发工作流方面带来了显著改进——入门价格仅为原始3.6 Flash每百万token成本的一半。\n\n## 复杂工作流更出色的智能\n\n![图片2：生产代码质量图表](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__frontier.width-100.format-webp.webp)\n\n![图片3：长周期软件工程图表](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__deepswe-.width-100.format-webp.webp)\n\n![图片4：网页开发图表](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__codearen.width-100.format-webp.webp)\n\n![图片5：专家级PDF文档理解图表](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__gdp-pdf_.width-100.format-webp.webp)\n\n![图片6：企业工作流自动化图表](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__automati.width-100.format-webp.webp)\n\n3.7 Flash在调试和问题解决等编码任务上较3.6 Flash有显著提升。它还在首次通过代码准确性上取得更高成绩，并在生成生产就绪代码方面表现更佳，如[FrontierCode 1.1 Main](https://cognition.com/frontiercode)（43.6%对比34.4%）和[DeepSWE v1.1](https://deepswe.datacurve.ai/)（65.3%对比49.0%）所示。\n\n在网页开发方面，3.7 Flash能以更少的提示生成更实用的布局和功能完整的应用。在UI生成方面，该模型展现出高度的设计遵循度，并能基于参考输入（无论是截图、图像还是完整设计系统）实现同等效果。它在Arena.ai的[WebDev Arena](https://arena.ai/leaderboard/code/webdev)上以1588对比1538的Elo评分超越3.6 Flash。\n\n在金融、法律和生物科学等知识密集型领域，3.7 Flash提供了改进的推理能力和准确性。它在GDP.pdf基准测试（34.0%对比22.0%）上显著超越3.6 Flash，该评估用于测试模型处理复杂文档的能力。它还在[AutomationBench](https://zapier.com/blog/introducing-automationbench/)上超越3.6 Flash，表明它能更有效地完成真实业务工作流（30.4%对比17.0%）。\n\n## 更出色的开发者体验与价格\n\nGemini 3.7 Flash相较3.6 Flash带来了明显改进的开发者体验。它能更好地适应障碍，在需要时澄清意图，并以更高的保真度遵循指令。它思考更严谨，在多步骤规划和工具调用上投入更多精力。更规范的执行意味着在工程工作流中减少人工监督和重试次数。\n\n3.7 Flash在年底前以入门价格[1](https://deepmind.google/blog/introducing-gemini-3-7-flash/#footnote-1)提供：每100万输入token $0.75，每100万输出token $3.75。这一价格结合增强的模型性能，使开发者和客户能够经济高效地扩展生产就绪智能体。\n\n![图片7：性能与成本对比图](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__perform.width-1200.format-webp.webp)\n\n早期客户反馈凸显了3.7 Flash的性能和精准度，以低成本实现了显著优于3.6 Flash的结果。\n\n![图片8：Box的引用](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__bo.width-100.format-webp.webp)\n\n![图片9：Browser Use的引用](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__br.width-100.format-webp.webp)\n\n![图片10：Cartwheel的引用](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__ca.width-100.format-webp_dYz0MOf.webp)\n\n![图片11：databricks的引用](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__da.width-100.format-webp.webp)\n\n![图片12：emergent的引用](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__em.width-100.format-webp.webp)\n\n![图片13：Harvey的引用](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__ha.width-100.format-webp_NtGWF6a.webp)\n\n![图片14：Hebbia的引用](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__he.width-100.format-webp_H9baWpR.webp)\n\n![图片15：LangChain的引用](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__la.width-100.format-webp_7qAt1Kr.webp)\n\n![图片16：Nunu.ai的引用](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__nu.width-100.format-webp_DyOGCzR.webp)\n\n![图片17：Open Code的引用](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__op.width-100.format-webp_wy8PPtG.webp)\n\n![图片18：Pydantic的引用](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__py.width-100.format-webp.webp)\n\n![图片19：斯坦福大学生物学系的引用](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__testimonial__st.width-100.format-webp_AzDrTOJ.webp)\n\n## 使用3.7 Flash改进Gemini Spark\n\nGemini Spark现已在超过[160个国家](https://support.google.com/gemini/answer/17094507?hl=en&co=GENIE.Platform%3DAndroid&sjid=2353166824601345951-NA#:~:text=Available%20wherever%20Gemini%20Apps%20are%20supported%2C%20except%20in%20the%20European%20Economic%20Area%2C%20Nigeria%2C%20Switzerland%2C%20and%20the%20United%20Kingdom)面向Google AI Pro和Ultra订阅用户开放，自今日起将采用Gemini 3.7 Flash。我们在I/O大会上推出了Spark，作为您的个人AI代理，全天候运行，在您的指导下代表您采取行动。此次模型更新使Spark在知识工作方面更加高效，改进了对Google Workspace应用的工具使用能力，为复杂、多技能工作流程提供了更高的准确性和输出质量。\n\n借助3.7 Flash，Gemini Spark可以通过整合文件、起草电子邮件和更新状态文档，更高效地将想法转化为行动。\n\n## 以安全为核心构建\n\n我们持续努力改进[前沿安全防护](https://deepmind.google/frontier-safety/)的覆盖范围和稳健性。Gemini 3.7 Flash随附更新的防护措施，针对化学、生物、放射性和核（CBRN）及网络攻击领域的滥用风险进行防范，同时根据[我们的生物韧性方法](https://deepmind.google/blog/our-approach-to-bioresilience/)和[网络计划](https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/)，支持有益的使用场景。\n\n更多信息，请参阅3.7 Flash[模型卡](https://deepmind.google/models/model-cards/gemini-3-7-flash)。\n\n## 立即试用\n\n*   **开发者**：在[Google Antigravity](https://antigravity.google/)中探索代理优先的工作流程，或通过[Google AI Studio](https://ai.dev/prompts/new_chat?model=gemini-3.7-flash)和[Android Studio](https://developer.android.com/studio)在Gemini API中立即开始构建。从我们的[开发者指南](https://ai.google.dev/gemini-api/docs/latest-model)入手。\n*   **企业**：在[Gemini Enterprise Agent Platform](https://console.cloud.google.com/agent-platform/publishers/google/model-garden/gemini-3.7-flash)和[Gemini Enterprise](https://cloud.google.com/gemini-enterprise?e=48754805)应用中访问3.7 Flash。\n*   **个人用户**：可通过Spark使用，即Gemini应用中的全天候个人代理，适用于[支持国家/地区](https://support.google.com/gemini/answer/17094507?hl=en&co=GENIE.Platform%3DAndroid&sjid=2353166824601345951-NA#:~:text=Available%20wherever%20Gemini%20Apps%20are%20supported%2C%20except%20in%20the%20European%20Economic%20Area%2C%20Nigeria%2C%20Switzerland%2C%20and%20the%20United%20Kingdom)的Google AI Pro和Ultra订阅用户。\n\n## 详细基准测试\n\n![图片20：显示AI模型基准测试的图表](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__benchma.width-1200.format-webp.webp)\n\n## 在收件箱中获取Google最新资讯\n\n订阅我们的新闻通讯，获取产品更新、活动信息、特别优惠等更多内容。\n\n您的信息将根据[Google隐私政策](https://policies.google.com/privacy)使用。您可以随时退出订阅。",
-      "titleZh": "推出 Gemini 3.7 Flash",
-      "summaryZh": "",
-      "translationStatus": "translated",
-      "publishedAt": "2026-08-13T17:04:18.000Z",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-      "collectedAt": "2026-11-11T10:20:47.876Z"
-    },
-    {
-      "id": "8637785710012aa19327",
-      "sourceId": "openai-news",
-      "company": "OpenAI",
-      "product": "GPT",
-      "kind": "news",
-      "title": "The builder’s guide to GPT‑5.6",
-      "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
-      "content": "## GPT‑5.6 sets a new standard for price-performance\n\nThe GPT‑5.6 model family makes frontier-level agent performance dramatically more affordable, while also advancing the frontier of what is possible.\n\nIn this guide, we show how startups are using smarter model selection and new API controls that help with reasoning continuity, multi-agent orchestration, and programmatic tool calling to build faster, more capable agents at a fraction of the cost.\n\n## A better out-of-the-box experience\n\nSince GPT‑5, each model generation has sought to tackle longer-horizon tasks with fewer tokens. GPT‑5.6 continues that trajectory: stronger agent performance, lower costs, with minimal changes to the underlying harness.\n\nThe improvements in top-line cost efficiency are compounded with increased accuracy at lower reasoning efforts. For example, on Agents’ Last Exam, GPT‑5.6 Sol at “low” reasoning outperformed GPT‑5.5 at “high” reasoning when the harness was kept constant. We’ve seen similar success stories in production testing where startups report seeing significant cost improvements across a range of workflows by reducing the reasoning effort from the prior defaults.\n\n## Model Selection\n\nHistorically, upgrading to a flagship model at the highest reasoning available has been the best option for long-horizon use cases. This has been in large part due to these models being significantly more capable than cost-optimized models at handling longer contexts and tool calling. This has changed with the 5.6-family: with more test-time compute, Luna and Terra can often perform similar to GPT‑5.4 and 5.5 while being significantly cheaper.\n\n1 of 3\n\nConsider tasks in BrowseComp: a search-based benchmark that tests a model’s ability to search for obscure facts. Three months ago, GPT‑5.5 (Extra High) scored 84.36% on this benchmark for a total cost of $33.27. At launch, GPT‑5.6 Luna (Extra High) delivers essentially the same performance, scoring 84.04% at a cost of $1.33. We’ve since reduced prices further. [Read more](https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/) on our latest price cuts.\n\nThe smaller 5.6-family models are a strong fit for high-volume workloads, latency-sensitive interactions, and repeated steps within agentic workflows. For example, if you’re operating a legal-tech startup that parses handwritten memos prior to agentic analysis, instead of using a frontier model for the entire use case, you can now use Terra or Luna for extraction and register significant cost savings.\n\n## Evolving the Responses API to architect more efficient agents\n\nIn addition to making GPT‑5.6 more performant out of the box, we also shipped new primitives to the Responses API to unlock further gains. We trained GPT‑5.6 end-to-end with three complementary architectural interventions that enable agents to operate more efficiently:\n\n1.   **Reuse work already performed:** by allowing [reasoning to be persisted⁠(opens in a new window)](https://developers.openai.com/api/docs/guides/reasoning#preserve-reasoning-across-calls) across model turns and using [native compaction⁠(opens in a new window)](https://developers.openai.com/api/docs/guides/compaction) to compress long-running conversations, the model can maintain coherence in its work across longer task horizons without getting confused or having to reconstruct prior context.\n2.   **Parallel decomposition where appropriate:** using [native multi-agent orchestration⁠(opens in a new window)](https://developers.openai.com/api/docs/guides/responses-multi-agent) allows coordinating multiple agents across parallel workstreams to finish complex tasks faster.\n3.   **Move deterministic work into code:** using [programmatic tool calling⁠(opens in a new window)](https://developers.openai.com/api/docs/guides/tools-programmatic-tool-calling) to filter, aggregate, and orchestrate tool outputs outside the model’s context window, reserving model tokens for judgment and reducing cost, latency, and context rot.\n\nUsed together, the difference can be dramatic. For example, on ARC-AGI-3, GPT‑5.6 Sol scored 13.3% with the standard harness. After enabling retained reasoning and compaction, however, the score jumped to 38.3%—while using roughly 6× fewer output tokens. No changes to the model, but nearly three times the performance. You can read more on our [ARC-AGI-3 harness investigation](https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/) here.\n\n## Programmatic Tool Calling\n\nAgentic workflows often involve two kinds of work:\n\n1.   Tasks that require judgment\n2.   Work that mostly requires moving, filtering, and combining data\n\nWhen an agent retrieves 100 filings, filters them by date, and identifies relevant transactions, the model shouldn’t have to reason over every intermediate result in its context window. Programmatic Tool Calling lets GPT‑5.6 write JavaScript to orchestrate tools, run independent calls in parallel, and process their outputs outside the context window. The model is left to focus on what requires intelligence: applying judgment.\n\n## Multi-agent\n\nOn complex, parallelizable tasks, distributing actions and reasoning across multiple agent workstreams enables faster task completion as well as higher intelligence. In these setups, the primary agent is responsible for orchestrating the subagents and delegating tasks to them. The subagents pursue their objectives in parallel and finally pass back their output to the primary agent for final synthesis. Teams can start leveraging multi-agent natively by [enabling multi-agent⁠(opens in a new window)](https://developers.openai.com/api/docs/guides/responses-multi-agent) in the Responses API. This is also how the ultra capability setting in ChatGPT works.\n\nAlthough GPT‑5.6 has a strong sense of the appropriate number of subagents and when to spawn them, multi-agent behavior is very steerable. Instructing the model on when to invoke subagents can increase the likelihood of spawning agents only in situations where the additional token expenditures would result in better performance.\n\n## Prompt Caching\n\nAcross the entire family of models, the prompt cache TTL has been extended to a minimum of 30 minutes and cache breakpoints can now be set deterministically within a model’s context window. This has enabled startups to significantly improve their cache hit rate.\n\nIn addition to setting cache breakpoints, continuing to use an appropriate [prompt_cache_key⁠(opens in a new window)](https://developers.openai.com/api/docs/guides/prompt-caching#improve-cache-hit-rates-with-a-prompt-cache-key) increases the likelihood of requests landing on the same inference engine as one that previously served the same prefix, thereby reducing latency.\n\n## Conclusion\n\nWhat stands out across these examples is how much the economics of building agents have changed.\n\nUse cases that once required a frontier model at every step can now achieve comparable or better results at a fraction of the cost by using smaller models, tuning reasoning effort, and making efficient architectural choices.\n\nWe're excited to see what you all build!",
-      "contentZh": "## GPT‑5.6 树立性价比新标杆\n\nGPT‑5.6 模型系列让前沿级智能体性能变得大幅更实惠，同时也在推进可能性的边界。\n\n在本指南中，我们展示了初创企业如何利用更智能的模型选择以及新的 API 控制项（这些控制项有助于推理连续性、多智能体编排和程序化工具调用），以极低的成本构建更快、能力更强的智能体。\n\n## 更出色的开箱即用体验\n\n自 GPT‑5 以来，每一代模型都致力于用更少的 token 处理更长周期的任务。GPT‑5.6 延续了这一轨迹：更强的智能体性能、更低的成本，且底层框架几乎无需改动。\n\n顶层成本效率的提升与更低推理强度下准确率的提高相辅相成。例如，在 Agents' Last Exam 基准测试中，当框架保持不变时，GPT‑5.6 Sol 在“低”推理强度下的表现超过了 GPT‑5.5 在“高”推理强度下的表现。我们在生产环境测试中也看到了类似的成功案例，初创企业报告称，通过将推理强度从之前的默认值降低，在一系列工作流程中实现了显著的成本改善。\n\n## 模型选择\n\n从历史上看，升级到旗舰模型并使用最高可用推理强度一直是长周期用例的最佳选择。这在很大程度上是因为这些模型在处理更长上下文和工具调用方面明显优于成本优化型模型。这一情况随着 5.6 系列的出现而改变：借助更多的测试时计算，Luna 和 Terra 通常可以达到与 GPT‑5.4 和 5.5 相近的表现，同时成本大幅降低。\n\n第 1 页，共 3 页\n\n以 BrowseComp 中的任务为例：这是一个基于搜索的基准测试，用于检验模型搜索冷门事实的能力。三个月前，GPT‑5.5（Extra High）在该基准测试中得分 84.36%，总成本为 33.27 美元。发布时，GPT‑5.6 Luna（Extra High）实现了基本相同的性能，得分 84.04%，成本仅为 1.33 美元。此后我们进一步降低了价格。请[阅读更多](https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/)了解我们最新的降价信息。\n\n5.6 系列中较小的模型非常适合高吞吐量工作负载、延迟敏感型交互以及智能体工作流中的重复步骤。例如，如果你经营一家法律科技初创公司，在智能体分析之前需要解析手写备忘录，那么现在可以使用 Terra 或 Luna 进行提取，而不是在整个用例中使用前沿模型，从而节省大量成本。\n\n## 演进 Responses API 以构建更高效的智能体\n\n除了让 GPT‑5.6 开箱即用地表现更佳之外，我们还为 Responses API 增加了新的原语以释放更多增益。我们通过三项互补的架构干预对 GPT‑5.6 进行了端到端训练，使智能体能够更高效地运行：\n\n1.  **复用已完成的工作：** 通过允许[推理在模型轮次之间持久化⁠（在新窗口中打开）](https://developers.openai.com/api/docs/guides/reasoning#preserve-reasoning-across-calls)，并使用[原生压缩⁠（在新窗口中打开）](https://developers.openai.com/api/docs/guides/compaction)来压缩长时间运行的对话，模型可以在更长的任务周期内保持工作的连贯性，而不会混淆或需要重建先前的上下文。\n2.  **在适当情况下进行并行分解：** 使用[原生多智能体编排⁠（在新窗口中打开）](https://developers.openai.com/api/docs/guides/responses-multi-agent)，可以跨并行工作流协调多个智能体，从而更快地完成复杂任务。\n3.  **将确定性工作转移到代码中：** 使用[程序化工具调用⁠（在新窗口中打开）](https://developers.openai.com/api/docs/guides/tools-programmatic-tool-calling)在模型的上下文窗口之外过滤、聚合和编排工具输出，将模型 token 保留用于判断，从而降低成本和延迟，并减少上下文退化。\n\n组合使用时，效果可能非常显著。例如，在 ARC-AGI-3 上，GPT‑5.6 Sol 使用标准框架得分为 13.3%。然而，在启用保留推理和压缩后，得分跃升至 38.3%——同时使用的输出 token 减少了约 6 倍。模型没有变化，但性能几乎提升了三倍。你可以在此处阅读更多关于我们的 [ARC-AGI-3 框架调查](https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/)的内容。\n\n## 程序化工具调用\n\n智能体工作流通常涉及两类工作：\n\n1.  需要判断力的任务\n2.  主要涉及移动、过滤和组合数据的工作\n\n当智能体检索 100 份文件、按日期过滤并识别相关交易时，模型不应在其上下文窗口中对每个中间结果进行推理。程序化工具调用让 GPT‑5.6 能够编写 JavaScript 来编排工具、并行运行独立调用，并在上下文窗口之外处理其输出。模型得以专注于需要智能的部分：运用判断力。\n\n## 多智能体\n\n在复杂的可并行化任务上，将操作和推理分布到多个智能体工作流中，可以实现更快的任务完成速度和更高的智能水平。在这些设置中，主智能体负责编排子智能体并向它们委派任务。子智能体并行追求各自的目标，最后将输出传回主智能体进行最终综合。团队可以通过在 Responses API 中[启用多智能体⁠（在新窗口中打开）](https://developers.openai.com/api/docs/guides/responses-multi-agent)来原生地利用多智能体功能。这也是 ChatGPT 中超能力设置的工作方式。\n\n尽管 GPT‑5.6 对合适的子智能体数量以及何时生成它们有很强的判断力，但多智能体行为是高度可引导的。指示模型何时调用子智能体，可以增加仅在额外 token 支出能带来更好性能的情况下才生成智能体的可能性。\n\n## 提示缓存\n\n在整个模型系列中，提示缓存 TTL 已延长至至少 30 分钟，并且现在可以在模型的上下文窗口内确定性地设置缓存断点。这使得初创企业能够显著提高缓存命中率。\n\n除了设置缓存断点之外，继续使用合适的 [prompt_cache_key⁠（在新窗口中打开）](https://developers.openai.com/api/docs/guides/prompt-caching#improve-cache-hit-rates-with-a-prompt-cache-key) 可以增加请求落在与之前服务相同前缀的同一推理引擎上的可能性，从而降低延迟。\n\n## 结论\n\n这些示例中突出的一点是，构建智能体的经济性已经发生了多么巨大的变化。\n\n曾经每一步都需要前沿模型的用例，如今通过使用更小的模型、调整推理力度以及做出高效的架构选择，就能以极低的成本获得相当甚至更好的结果。\n\n我们很期待看到大家的创作！",
-      "titleZh": "GPT-5.6 构建者指南",
-      "summaryZh": "了解初创公司如何利用 GPT-5.6 通过更智能的模型选择和新的 Responses API 功能，构建更快、更具成本效益的 AI 代理。",
-      "translationStatus": "translated",
-      "publishedAt": "2026-08-13T11:00:00.000Z",
-      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "collectedAt": "2026-11-11T10:20:45.289Z"
+      "collectedAt": "2026-11-12T10:39:12.588Z"
     },
     {
       "id": "68c4c83c983d7ad01b30",
@@ -3807,7 +3807,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-11T10:20:49.377Z"
+      "collectedAt": "2026-11-12T10:39:16.090Z"
     },
     {
       "id": "af15e83e5c304730063b",
@@ -3824,7 +3824,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-07-31T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-11T10:20:49.378Z"
+      "collectedAt": "2026-11-12T10:39:16.090Z"
     },
     {
       "id": "118693cb868e1641c9c1",
@@ -3841,7 +3841,7 @@
       "translationStatus": "translated",
       "publishedAt": "2026-04-24T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-11T10:20:49.378Z"
+      "collectedAt": "2026-11-12T10:39:16.091Z"
     },
     {
       "id": "aeb9a0b6e961ddd9394e",
@@ -3858,7 +3858,7 @@
       "translationStatus": "translated",
       "publishedAt": "2025-12-01T00:00:00.000Z",
       "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "collectedAt": "2026-11-11T10:20:49.379Z"
+      "collectedAt": "2026-11-12T10:39:16.091Z"
     }
   ]
 }
